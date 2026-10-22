@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "task": "CLOUD-PRODUCTION-01",
-  "pr": null,
+  "pr": 103,
   "source_commit": "6ca72efb1cbdb38cf83ae91c097d192a35403ccd",
   "build_id": "adee7889f8a9",
   "seed": "cloud-review-01",
@@ -382,5 +382,6 @@
     "index.html": "22fc4922f00b0850701c6dc18122c4b9bc2de22b0e38a9bd2c26584a843e7679",
     "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
     "nginx-playtest.conf.example": "6b25eb4d1c74ebb025ff4d903d329f126ab3ecffcd8fe10ed35823f6b836b7c1"
-  }
+  },
+  "pr_url": "https://github.com/zhipijun1996/gunman-rush/pull/103"
 }
