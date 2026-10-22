@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "status": "staged",
+  "publication": "unverified: push and successful Pages deployment plus public byte verification required",
+  "task": "PLAYER-PRESENTATION-01",
+  "source_commit": "4ed0de042db44902c6d8544d9217b617f7dc3271",
+  "comparison_sha256": "21175e861ba04ff868d62ae77c200c6f15e84827cc074e1421382dbb00528bd4",
+  "source_url": "https://github.com/zhipijun1996/gunman-rush/tree/4ed0de042db44902c6d8544d9217b617f7dc3271",
+  "url": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/4ed0de042db44902c6d8544d9217b617f7dc3271/21175e861ba0/",
+  "urls": {
+    "report.json": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/4ed0de042db44902c6d8544d9217b617f7dc3271/21175e861ba0/report.json",
+    "comparison.mp4": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/4ed0de042db44902c6d8544d9217b617f7dc3271/21175e861ba0/comparison.mp4",
+    "before.mp4": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/4ed0de042db44902c6d8544d9217b617f7dc3271/21175e861ba0/before.mp4",
+    "before.json": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/4ed0de042db44902c6d8544d9217b617f7dc3271/21175e861ba0/before.json",
+    "after.mp4": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/4ed0de042db44902c6d8544d9217b617f7dc3271/21175e861ba0/after.mp4",
+    "after.json": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/4ed0de042db44902c6d8544d9217b617f7dc3271/21175e861ba0/after.json"
+  },
+  "files": {
+    "report.json": "71c4b943580a19227533688674379839efe3b96e1ae22fa06075ab7f7d17b3a5",
+    "comparison.mp4": "21175e861ba04ff868d62ae77c200c6f15e84827cc074e1421382dbb00528bd4",
+    "before.mp4": "dcd830d08b88b67e507ddc74fb787a8a8d764b2b050318aa260324f15e497ae9",
+    "before.json": "ecc0bfab42386dfb9aef04f31da0dc7cd51983a5badc86fac488ead18cfd32f7",
+    "after.mp4": "107e6d325f654e04dbebdb7e239b7350915f2abd34257eb990907315ec20bc4d",
+    "after.json": "16e8c51556a6e4e60845ba48d07e371c031f36509c9e41a67584325f714154ed"
+  },
+  "media_probe": {
+    "before": {
+      "duration_seconds": 13.133333,
+      "fps": "60/1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "audio_sample_rate": 48000,
+      "audio_channels": 2
+    },
+    "after": {
+      "duration_seconds": 13.133333,
+      "fps": "60/1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "audio_sample_rate": 48000,
+      "audio_channels": 2
+    },
+    "comparison": {
+      "duration_seconds": 26.287696,
+      "fps": "60/1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "audio_sample_rate": 48000,
+      "audio_channels": 2
+    }
+  },
+  "scope": "Actual original Home spawn/terraces,192wu safe drop twice,real Router walk/jump/drop and mouse motion. Visual leaf and inherited audio service task substitution only. User/device/full workline unverified.",
+  "baseline": "Same task dev consumer with candidate disabled: inherited original renderer and formal gameplay",
+  "comparison_differences": [
+    "Task idle/fall/dust plus accepted motion audio and high-drop screen shader/visual recovery ON; old renderer/legacy audio OFF. Camera/input canvas unchanged."
+  ],
+  "user_acceptance": "unverified",
+  "device_acceptance": "unverified"
+}
