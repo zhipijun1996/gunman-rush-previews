@@ -1,0 +1,79 @@
+{
+  "task": "FINE-SPACE-05",
+  "kind": "observational_review_not_playable_preview",
+  "image_source_commit": "5ce3cd3d8771d6e44d00cc600b0a73ddb1e6b0a8",
+  "movie_source_commit": "efd784349efa31502cb428b14bde10ea517bdd9a",
+  "web_build_id": "524396d0cd10",
+  "web_publication": "blocked_site_900MiB_cap_and_createRepository_integration_permission",
+  "files": {
+    "before_forest.png": {
+      "bytes": 736144,
+      "sha256": "38f990b59a64044e32e025a754500f3b4de82894f7d9fff79308b3c08ef0a85f"
+    },
+    "home_east.png": {
+      "bytes": 649980,
+      "sha256": "69500b54bfcdf908c0d5d35ea5d7ded8129352750f6c8ebb6e4bb5b0fbd57733"
+    },
+    "forest.png": {
+      "bytes": 818159,
+      "sha256": "0cf231fc055a639e3178022e9ddedf473a060b06c15c643e4ae905f326a09518"
+    },
+    "s2_m1_high.png": {
+      "bytes": 652473,
+      "sha256": "8d0055be0bb0668e55b53cdf53bbbf75021ab090975518e84dcfad30ab8ea975"
+    },
+    "capture.json": {
+      "bytes": 346204,
+      "sha256": "839d1cac5863b6c34ca946aa3011fa7ee72ecc4d86e367f501561e6733587c9e"
+    },
+    "s0_m1_low.png": {
+      "bytes": 619212,
+      "sha256": "ee3c6cc37f9fcbcbff32555500046495d056f2b8168bda0dd9078d115d44b333"
+    },
+    "s0_m1_high.png": {
+      "bytes": 635339,
+      "sha256": "5447bae0dc75b8cdd0c6eabf172289bb1580428b03c2df025d4105e5b06872f4"
+    },
+    "before_home.png": {
+      "bytes": 571183,
+      "sha256": "e0c0ebeb9ef598842bbe8570a039e91b6862634ba59f1c9bda0d967cf8c8a977"
+    },
+    "fine_space_05.mp4": {
+      "bytes": 16045872,
+      "sha256": "80301f729eb1e8b33d8fb3e928fc9f7501ef11fde98945c5e8b909ec3f003b33"
+    },
+    "index.html": {
+      "bytes": 3286,
+      "sha256": "520880e4254e52a69d75f5bbc516ee971bff59e04a3941e5024f75a9af542691"
+    },
+    "home.png": {
+      "bytes": 673272,
+      "sha256": "638bd3f62effe970ea30e3a5dc76192e696698b7467c951fbde34de6244a254e"
+    },
+    "s0_m2_bell.png": {
+      "bytes": 641644,
+      "sha256": "75a62c8d07e433655746ca806debe2c243631266e6903924fc99f6ecb465f5e1"
+    },
+    "before_plains.png": {
+      "bytes": 556398,
+      "sha256": "c2a2a1f3e5b84356fe33425bf0b5fa1abc8dfbd812fe83f1f26973633f941cb0"
+    },
+    "s0_m1_spawn.png": {
+      "bytes": 623139,
+      "sha256": "85d10d29f91c2c58921dcf0282336c818672515ac9ed199528bd1a8574d80d39"
+    },
+    "movie_trace.json": {
+      "bytes": 32474,
+      "sha256": "3ba45999d3608604c2c639dd9b5bc615b85d46b625a2a2c5771966c644e4e88d"
+    },
+    "s0_m2_high.png": {
+      "bytes": 646536,
+      "sha256": "6fcc87b335c7b5ee0c5ad1592652a30fbbf619765a7942253c27c83da26b1bd9"
+    },
+    "media-probe.json": {
+      "bytes": 507,
+      "sha256": "fcce835f72a5e740367794fac0a02bb813f2d10e69832b956c51b266af94a0b9"
+    }
+  },
+  "scope": "real engine video and positioned PNGs; browser gameplay/whole art/player/device acceptance separate"
+}
