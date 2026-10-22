@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "status": "staged",
+  "publication": "unverified: push and successful Pages deployment plus public byte verification required",
+  "task": "DEMO-UI-01",
+  "source_commit": "511ddd113ec3c5388eb940a448d2985d27585d0b",
+  "comparison_sha256": "93b03ef086fc9a310b9e16c273170236c7e944a207f6270bdb4b0d67369964c3",
+  "source_url": "https://github.com/zhipijun1996/gunman-rush/tree/511ddd113ec3c5388eb940a448d2985d27585d0b",
+  "url": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/DEMO-UI-01/511ddd113ec3c5388eb940a448d2985d27585d0b/93b03ef086fc/",
+  "urls": {
+    "report.json": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/DEMO-UI-01/511ddd113ec3c5388eb940a448d2985d27585d0b/93b03ef086fc/report.json",
+    "comparison.mp4": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/DEMO-UI-01/511ddd113ec3c5388eb940a448d2985d27585d0b/93b03ef086fc/comparison.mp4",
+    "before.mp4": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/DEMO-UI-01/511ddd113ec3c5388eb940a448d2985d27585d0b/93b03ef086fc/before.mp4",
+    "before.json": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/DEMO-UI-01/511ddd113ec3c5388eb940a448d2985d27585d0b/93b03ef086fc/before.json",
+    "after.mp4": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/DEMO-UI-01/511ddd113ec3c5388eb940a448d2985d27585d0b/93b03ef086fc/after.mp4",
+    "after.json": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/DEMO-UI-01/511ddd113ec3c5388eb940a448d2985d27585d0b/93b03ef086fc/after.json"
+  },
+  "files": {
+    "report.json": "2b8e76439027908e98ca5e314c993c85de72bbc39d40cbc1ee54e81c4ff0d37c",
+    "comparison.mp4": "93b03ef086fc9a310b9e16c273170236c7e944a207f6270bdb4b0d67369964c3",
+    "before.mp4": "5b289d777b30e39a6d12d8260a25a96d7edc97a238f9a88f97f779ffd670373f",
+    "before.json": "a61f32f9fbc573066081703c01b250bc083fcbf6f0b3516c5811a13dfde693a0",
+    "after.mp4": "fc037d10c264cd26db1664b1e33bc27b26b89af27da1a78600d931ef5627ae08",
+    "after.json": "a61f32f9fbc573066081703c01b250bc083fcbf6f0b3516c5811a13dfde693a0"
+  },
+  "media_probe": {
+    "before": {
+      "duration_seconds": 15.133333,
+      "fps": "60/1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "audio_sample_rate": 48000,
+      "audio_channels": 2
+    },
+    "after": {
+      "duration_seconds": 15.133333,
+      "fps": "60/1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "audio_sample_rate": 48000,
+      "audio_channels": 2
+    },
+    "comparison": {
+      "duration_seconds": 30.287696,
+      "fps": "60/1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "audio_sample_rate": 48000,
+      "audio_channels": 2
+    }
+  },
+  "scope": "Real Godot title/menu/HUD/map comparison; official-policy scripted injury/heal fixtures, real jump/aim/release shot. No natural combat-route/hardware performance claim.",
+  "baseline": "Actual origin/main e9ab0e0743466b8983e34cc7de17bab1abf9d53a worktree; identical driver and fixed seed. Reused exact prior baseline movie/trace from film-v2: baseline source and driver SHA unchanged; no relabeling.",
+  "comparison_differences": [
+    "Native pointer coordinates follow actual controls and differ by layout; camera and gameplay code are unchanged.",
+    "Before and after source SHAs differ. Injury/heal are explicit UI fixtures through official APIs."
+  ],
+  "user_acceptance": "unverified",
+  "device_acceptance": "unverified"
+}
