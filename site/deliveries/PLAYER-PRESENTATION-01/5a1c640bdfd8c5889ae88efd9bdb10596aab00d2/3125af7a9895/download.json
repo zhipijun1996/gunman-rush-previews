@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "status": "staged",
+  "publication": "unverified: push and successful Pages deployment plus public byte verification required",
+  "task": "PLAYER-PRESENTATION-01",
+  "source_commit": "5a1c640bdfd8c5889ae88efd9bdb10596aab00d2",
+  "comparison_sha256": "3125af7a9895fefdeb62f2cd425e471145925bf2853487e27a7429f2a7d19c5f",
+  "source_url": "https://github.com/zhipijun1996/gunman-rush/tree/5a1c640bdfd8c5889ae88efd9bdb10596aab00d2",
+  "url": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/5a1c640bdfd8c5889ae88efd9bdb10596aab00d2/3125af7a9895/",
+  "urls": {
+    "report.json": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/5a1c640bdfd8c5889ae88efd9bdb10596aab00d2/3125af7a9895/report.json",
+    "comparison.mp4": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/5a1c640bdfd8c5889ae88efd9bdb10596aab00d2/3125af7a9895/comparison.mp4",
+    "before.mp4": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/5a1c640bdfd8c5889ae88efd9bdb10596aab00d2/3125af7a9895/before.mp4",
+    "before.json": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/5a1c640bdfd8c5889ae88efd9bdb10596aab00d2/3125af7a9895/before.json",
+    "after.mp4": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/5a1c640bdfd8c5889ae88efd9bdb10596aab00d2/3125af7a9895/after.mp4",
+    "after.json": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/5a1c640bdfd8c5889ae88efd9bdb10596aab00d2/3125af7a9895/after.json"
+  },
+  "files": {
+    "report.json": "03e2f8ae6ba9711c3010affd3d6cf05b7fc6cd69ff6fb3163732a018acf4b29d",
+    "comparison.mp4": "3125af7a9895fefdeb62f2cd425e471145925bf2853487e27a7429f2a7d19c5f",
+    "before.mp4": "aad9439e643654397c859b0402febbcef0cdd19a099b4469d80b97e2ed5d0c07",
+    "before.json": "ac776a73f1b9e1d521fe543af6fd7e4b91db17c68f0ff4c10b3b0ce1d3b641ec",
+    "after.mp4": "b4834163a2acf8938341589cedd7efaaf96d1552d5e01e7c43bc2041be4a9435",
+    "after.json": "f499bc6302c3e925dc0966c7b6f5c374e6386dfc0e464b875222f52008de22b5"
+  },
+  "media_probe": {
+    "before": {
+      "duration_seconds": 16.766667,
+      "fps": "60/1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "audio_sample_rate": 48000,
+      "audio_channels": 2
+    },
+    "after": {
+      "duration_seconds": 16.766667,
+      "fps": "60/1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "audio_sample_rate": 48000,
+      "audio_channels": 2
+    },
+    "comparison": {
+      "duration_seconds": 33.554362,
+      "fps": "60/1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "audio_sample_rate": 48000,
+      "audio_channels": 2
+    }
+  },
+  "scope": "Actual original Home hero and geometry plus explicit added stationary training targets;real Router walk/fire/context,9 normal weapon modes. Movement candidate unchanged. No actor placement,resource/HP/tuning/grant changes;not formal weapon grants/encounter/user/device acceptance.",
+  "baseline": "Same hero/movement/targets;weapon feedback OFF delegates original shot/contact and original projectile presentation",
+  "comparison_differences": [
+    "Only task weapon projectile leaf/accepted contact and thin beam/mine/blast accents/owned weapon sound layers toggle;original Runtime phase sounds remain in both. Same movement/body/camera/targets/physics."
+  ],
+  "user_acceptance": "unverified",
+  "device_acceptance": "unverified"
+}
