@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "status": "staged",
+  "publication": "unverified: push and successful Pages deployment plus public byte verification required",
+  "task": "PLAYER-PRESENTATION-01",
+  "source_commit": "5ff0c7aea4fcfb51713363b0b8ec4d4b5f56a22a",
+  "comparison_sha256": "04c0b5c79427b4679b9a6193ae083ea296f0271635f39fa2bd5919c08f42ae52",
+  "source_url": "https://github.com/zhipijun1996/gunman-rush/tree/5ff0c7aea4fcfb51713363b0b8ec4d4b5f56a22a",
+  "url": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/5ff0c7aea4fcfb51713363b0b8ec4d4b5f56a22a/04c0b5c79427/",
+  "urls": {
+    "report.json": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/5ff0c7aea4fcfb51713363b0b8ec4d4b5f56a22a/04c0b5c79427/report.json",
+    "comparison.mp4": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/5ff0c7aea4fcfb51713363b0b8ec4d4b5f56a22a/04c0b5c79427/comparison.mp4",
+    "before.mp4": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/5ff0c7aea4fcfb51713363b0b8ec4d4b5f56a22a/04c0b5c79427/before.mp4",
+    "before.json": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/5ff0c7aea4fcfb51713363b0b8ec4d4b5f56a22a/04c0b5c79427/before.json",
+    "after.mp4": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/5ff0c7aea4fcfb51713363b0b8ec4d4b5f56a22a/04c0b5c79427/after.mp4",
+    "after.json": "https://zhipijun1996.github.io/gunman-rush-previews/deliveries/PLAYER-PRESENTATION-01/5ff0c7aea4fcfb51713363b0b8ec4d4b5f56a22a/04c0b5c79427/after.json"
+  },
+  "files": {
+    "report.json": "1e517e60e785d9f36458d65f7dd87398d2abd46d3e1eadaa1c374ee2aa049800",
+    "comparison.mp4": "04c0b5c79427b4679b9a6193ae083ea296f0271635f39fa2bd5919c08f42ae52",
+    "before.mp4": "78a553316d35568a79daea54b25fe7f34a30f5500b10bc14bf5d018ef9ecf562",
+    "before.json": "f490cb0f3f69192001c231bfc99d348f2ef834baaf17d57c449e591f7064ff91",
+    "after.mp4": "7d412924b0a3f8bc3195e7eb77543268ded24604576893f66ed67861957239be",
+    "after.json": "4678b3819835e94d9d87f4a9acc06b19d6aa2b611f581d24444bff77ac57953e"
+  },
+  "media_probe": {
+    "before": {
+      "duration_seconds": 10.25,
+      "fps": "60/1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "audio_sample_rate": 48000,
+      "audio_channels": 2
+    },
+    "after": {
+      "duration_seconds": 10.25,
+      "fps": "60/1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "audio_sample_rate": 48000,
+      "audio_channels": 2
+    },
+    "comparison": {
+      "duration_seconds": 20.521333,
+      "fps": "60/1",
+      "resolution": [
+        1280,
+        720
+      ],
+      "audio_sample_rate": 48000,
+      "audio_channels": 2
+    }
+  },
+  "scope": "Actual DemoApp Plains player visual leaf substitution only. Original world/camera/AI/input/Motor/resources/muzzle. Synthetic Router schedule. Not Home/new weapons/full lifecycle/user/device acceptance.",
+  "baseline": "Same task dev consumer with candidate disabled: inherited original renderer and formal gameplay",
+  "comparison_differences": [
+    "Only task candidate body drawing/gait phase and accepted jump/landing dust enabled after; new generated idle/fall trial, old run art retained."
+  ],
+  "user_acceptance": "unverified",
+  "device_acceptance": "unverified"
+}
