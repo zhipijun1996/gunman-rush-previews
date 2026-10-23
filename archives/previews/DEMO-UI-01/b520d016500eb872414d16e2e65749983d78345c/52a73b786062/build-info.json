@@ -1,0 +1,1 @@
+{"build_id": "52a73b786062", "pack": "index.52a73b786062.pck", "engine_id": "d20938d2db49", "cache_schema": 2, "loader_id": "e7a91afa3090", "pack_bytes": 141867124, "download_bytes": 144137876, "chunk_bytes": 524288, "wasm_bytes": 37902138, "wasm_gzip_bytes": 10027646, "jump": "tap/hold", "playtest": "web", "source_commit": "b520d016500eb872414d16e2e65749983d78345c"}

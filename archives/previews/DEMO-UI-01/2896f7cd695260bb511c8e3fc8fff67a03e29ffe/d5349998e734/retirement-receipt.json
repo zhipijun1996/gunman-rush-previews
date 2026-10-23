@@ -1,0 +1,7 @@
+{
+  "status": "unpublished_candidate_archived",
+  "source_commit": "2896f7cd695260bb511c8e3fc8fff67a03e29ffe",
+  "build_id": "d5349998e734",
+  "archive": "archives/previews/DEMO-UI-01/2896f7cd695260bb511c8e3fc8fff67a03e29ffe/d5349998e734",
+  "reason": "First real Web GUI exposed initial settings scroll bug. Never published; replaced by source511ddd1. All original transport bytes and metadata preserved; exact PCK reconstructable from chunks."
+}
