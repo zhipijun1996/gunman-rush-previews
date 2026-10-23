@@ -1,0 +1,6 @@
+{
+  "scope": "Add missing report-linked environment evidence; all previously published files remain unchanged",
+  "file": "results/environment.json",
+  "sha256": "a2edfae0a309f2f376dedf0b007851cff9663b2d6d4cdeac407b6621bb78126f",
+  "source": "also present unchanged in the already published source-and-data ZIP"
+}
