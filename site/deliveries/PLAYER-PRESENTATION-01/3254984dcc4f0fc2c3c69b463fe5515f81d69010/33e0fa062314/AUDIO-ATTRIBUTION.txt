@@ -1,0 +1,1 @@
+Adapted Freedoom game PCM, BSD-3-Clause, upstream3ac019628d70b812ffb722f7f2365771b76a9d29;fulllicense/credits alongside. Source https://github.com/zhipijun1996/gunman-rush/tree/3254984dcc4f0fc2c3c69b463fe5515f81d69010
