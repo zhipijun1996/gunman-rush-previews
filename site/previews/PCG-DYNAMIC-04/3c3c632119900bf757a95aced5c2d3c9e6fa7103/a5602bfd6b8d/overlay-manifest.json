@@ -10,7 +10,7 @@
     "bytes": 562432,
     "sha256": "a5602bfd6b8d64d4f31b963abf1c9c84f73a5162e49ffda42446d9e924186c6f",
     "entries": 10,
-    "pack": "overlay.a5602bfd6b8d.pck"
+    "pack": "index.a5602bfd6b8d.pck"
   },
   "main_scene": "res://main_v3.tscn",
   "engine": {

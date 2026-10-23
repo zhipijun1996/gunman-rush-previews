@@ -97,6 +97,6 @@ Map Notes 下一步应增加版本化 RegionSpec 引用、已实现机关选择�
 优先工作是独立多种子覆盖、低成本替代解规划、学习者/熟练玩家两档容错与人工盲测，再接质量多样性档案和 Macro/Map 节奏。高难不应单靠缩小误差窗口；苦痛之路级设计还需要可读性、机制递进、恢复点与整段节奏的人工评价。
 
 
-[试玩](index.html) · [原生录像](modules.mp4) · [完整源码与原始实验数据](https://github.com/zhipijun1996/gunman-rush-previews/releases/download/pcg-dynamic-04/pcg-dynamic-04-source-and-data.zip)
+[试玩](index.html) · [原生录像](modules.mp4) · [完整源码与原始实验数据](https://raw.githubusercontent.com/zhipijun1996/gunman-rush-previews/1c01f9af95620dcdd28c313b5e77aafa664019d4/artifacts/PCG-DYNAMIC-04/3c3c632119900bf757a95aced5c2d3c9e6fa7103/pcg-dynamic-04-source-and-data.zip)
 
 完整数据 SHA256：`3a06e8e7785ba6259df4f9ece1846fff88a859376db7f808eb30b42916d77014`。包含失败批次、正式输入输出、轨迹、执行源哈希和逐文件账本。资产从固定游戏源恢复，遵循原许可证。
