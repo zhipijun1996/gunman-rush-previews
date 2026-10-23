@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "retired-development-preview",
+  "task": "FOUR-LINE-INTEGRATION-01",
+  "source_commit": "fbb417cb4d4d4d8d2500d7c4bed11cebf681dd46",
+  "build_id": "7f88f353bfb4",
+  "reason": "900MiB capacity requires replacing combined F with current HUD corrected a074 development preview; old identity remains exact and recoverable",
+  "original_url": "https://zhipijun1996.github.io/gunman-rush-previews/previews/FOUR-LINE-INTEGRATION-01/fbb417cb4d4d4d8d2500d7c4bed11cebf681dd46/7f88f353bfb4/",
+  "replacement_url": "https://zhipijun1996.github.io/gunman-rush-previews/previews/FOUR-LINE-INTEGRATION-01/a074a709ffa64c1382d73d2dab6dcff673222728/d38c8a407473/",
+  "replacement_source_commit": "a074a709ffa64c1382d73d2dab6dcff673222728",
+  "replacement_build_id": "d38c8a407473",
+  "baseline_host_commit": "7aec8b43f378ffdb4aa0246ece1da08e8f41cb6b",
+  "archive_directory": "archives/previews/FOUR-LINE-INTEGRATION-01/fbb417cb4d4d4d8d2500d7c4bed11cebf681dd46/7f88f353bfb4",
+  "pack_verification": {
+    "scope": "exact PCK reconstruction for static Pages transport",
+    "source_commit": "fbb417cb4d4d4d8d2500d7c4bed11cebf681dd46",
+    "build_id": "7f88f353bfb4",
+    "pack": "index.7f88f353bfb4.pck",
+    "pack_bytes": 184478012,
+    "pack_sha256": "7f88f353bfb42ba4008a07a9cddf0df8b43ea5ef5812ee899d43142f39d0daa7",
+    "reconstructed": false,
+    "failed": 0
+  },
+  "restore_commands": [
+    "git archive <HOST_COMMIT_CONTAINING_THIS_RECORD>:archives/previews/FOUR-LINE-INTEGRATION-01/fbb417cb4d4d4d8d2500d7c4bed11cebf681dd46/7f88f353bfb4 | tar -x -C <EMPTY_RESTORE_DIRECTORY>",
+    "python3 -c \"import sys; from pathlib import Path; sys.path.insert(0,\"_tools\"); from style_exploration_delivery import reconstruct_pack; print(reconstruct_pack(Path(\"<RESTORE_DIRECTORY>\")))\""
+  ],
+  "all_media_reviews_and_other_lines": "unchanged"
+}
