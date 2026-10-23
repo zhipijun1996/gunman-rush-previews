@@ -1,1 +1,0 @@
-Audio adapted from Freedoom, BSD-3-Clause, upstream commit3ac019628d70b812ffb722f7f2365771b76a9d29. Full license and contributor credits provided alongside. Sound editing source/provenance: https://github.com/zhipijun1996/gunman-rush/tree/fc55deee38fd6530bd14586d8fb5ecbf0af59026/assets/player_presentation_01/weapon_audio_v2
