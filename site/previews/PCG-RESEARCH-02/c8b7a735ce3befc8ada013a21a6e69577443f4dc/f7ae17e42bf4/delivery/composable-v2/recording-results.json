@@ -1,0 +1,162 @@
+{
+  "schema": "pcg/recording-comparison/v2",
+  "all_segments_identical": true,
+  "segments": [
+    {
+      "capabilities": [
+        "move",
+        "jump",
+        "shot_recoil",
+        "double_jump"
+      ],
+      "combo_index": 3.0,
+      "events": {
+        "air_jump": 1,
+        "anchor_jump": 0,
+        "hook_cast": 0,
+        "hook_contact": 0,
+        "jump": 1,
+        "shot": 1,
+        "wall_jump": 0
+      },
+      "frame": 55,
+      "id": "c-c3-w0-v0-w160-refined",
+      "replay": "recorded real Router inputs",
+      "safe": true,
+      "settled_goal": true,
+      "stable_frames": 6,
+      "status": "稳定抵达出口 / Exit reached and stable · 预生成候选"
+    },
+    {
+      "capabilities": [
+        "move",
+        "jump",
+        "grapple"
+      ],
+      "combo_index": 4.0,
+      "events": {
+        "air_jump": 0,
+        "anchor_jump": 0,
+        "hook_cast": 2,
+        "hook_contact": 2,
+        "jump": 0,
+        "shot": 0,
+        "wall_jump": 0
+      },
+      "frame": 111,
+      "id": "c-c4-w0-v0-w160",
+      "replay": "recorded real Router inputs",
+      "safe": true,
+      "settled_goal": true,
+      "stable_frames": 6,
+      "status": "稳定抵达出口 / Exit reached and stable · 预生成候选"
+    },
+    {
+      "capabilities": [
+        "move",
+        "jump",
+        "shot_recoil",
+        "double_jump",
+        "grapple"
+      ],
+      "combo_index": 7.0,
+      "events": {
+        "air_jump": 1,
+        "anchor_jump": 0,
+        "hook_cast": 1,
+        "hook_contact": 1,
+        "jump": 1,
+        "shot": 1,
+        "wall_jump": 0
+      },
+      "frame": 102,
+      "id": "c-c7-w0-v0-w160",
+      "replay": "recorded real Router inputs",
+      "safe": true,
+      "settled_goal": true,
+      "stable_frames": 6,
+      "status": "稳定抵达出口 / Exit reached and stable · 预生成候选"
+    },
+    {
+      "capabilities": [
+        "move",
+        "jump",
+        "shot_recoil",
+        "double_jump",
+        "wall_climb"
+      ],
+      "combo_index": 11.0,
+      "events": {
+        "air_jump": 1,
+        "anchor_jump": 0,
+        "hook_cast": 0,
+        "hook_contact": 0,
+        "jump": 2,
+        "shot": 1,
+        "wall_jump": 1
+      },
+      "frame": 80,
+      "id": "c-c11-w0-v0-w160",
+      "replay": "recorded real Router inputs",
+      "safe": true,
+      "settled_goal": true,
+      "stable_frames": 6,
+      "status": "稳定抵达出口 / Exit reached and stable · 预生成候选"
+    },
+    {
+      "capabilities": [
+        "move",
+        "jump",
+        "double_jump",
+        "grapple",
+        "wall_climb"
+      ],
+      "combo_index": 14.0,
+      "events": {
+        "air_jump": 1,
+        "anchor_jump": 0,
+        "hook_cast": 1,
+        "hook_contact": 1,
+        "jump": 2,
+        "shot": 0,
+        "wall_jump": 1
+      },
+      "frame": 113,
+      "id": "c-c14-w0-v0-w160",
+      "replay": "recorded real Router inputs",
+      "safe": true,
+      "settled_goal": true,
+      "stable_frames": 6,
+      "status": "稳定抵达出口 / Exit reached and stable · 预生成候选"
+    },
+    {
+      "capabilities": [
+        "move",
+        "jump",
+        "shot_recoil",
+        "double_jump",
+        "grapple",
+        "wall_climb"
+      ],
+      "combo_index": 15.0,
+      "events": {
+        "air_jump": 1,
+        "anchor_jump": 0,
+        "hook_cast": 1,
+        "hook_contact": 1,
+        "jump": 2,
+        "shot": 1,
+        "wall_jump": 1
+      },
+      "frame": 116,
+      "id": "c-c15-w1-v0-w160",
+      "replay": "recorded real Router inputs",
+      "safe": true,
+      "settled_goal": true,
+      "stable_frames": 6,
+      "status": "稳定抵达出口 / Exit reached and stable · 预生成候选"
+    }
+  ],
+  "all_safe_and_stable": true,
+  "qualification": "Clean recorded inputs; does not establish robustness or human fun; combo4 marked low tolerance."
+}

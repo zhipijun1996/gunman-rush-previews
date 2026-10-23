@@ -1,0 +1,22 @@
+{
+  "schema": "disordered-clock/research-export/v2",
+  "source_commit": "c8b7a735ce3befc8ada013a21a6e69577443f4dc",
+  "game_source_commit": "12f6cb006d7119598e3235f4ca4f7323e4c9d092",
+  "build_id": "f7ae17e42bf4",
+  "pack": "index.f7ae17e42bf4.pck",
+  "pack_bytes": 68213164,
+  "scope": "independent research; offline generation and real-input replays; human fun/device/production integration unverified",
+  "physics_hz": 60,
+  "shared_engine": {
+    "index.js": {
+      "url": "/gunman-rush-previews/previews/PCG-RESEARCH-01/7c7b42e46e33c895d51741c1ca5d26a516568a27/8f8ded8ce59a/index.js",
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba",
+      "bytes": 279815
+    },
+    "index.wasm": {
+      "url": "/gunman-rush-previews/previews/PCG-RESEARCH-01/7c7b42e46e33c895d51741c1ca5d26a516568a27/8f8ded8ce59a/index.wasm",
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+      "bytes": 39514754
+    }
+  }
+}

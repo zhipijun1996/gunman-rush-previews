@@ -1,0 +1,993 @@
+{
+  "schema": "gunman-rush-level-sketch/v1",
+  "id": "c-c11-w0-v0-w160",
+  "title": "12 反冲 → 蹬墙 → 空跳",
+  "description": "能力组合生成研究候选；需真人试玩；修改几何或能力后验证收据失效。",
+  "constraints": "保留完整身体净空及真实资源恢复；能力必要性尚无完备证明。",
+  "objects": [
+    {
+      "id": "c-c11-w0-v0-w160-0",
+      "type": "terrain",
+      "x": 100,
+      "y": 440,
+      "w": 260,
+      "h": 60,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c11-w0-v0-w160-1",
+      "type": "terrain",
+      "x": 415,
+      "y": 172,
+      "w": 32,
+      "h": 650,
+      "rotation": 0,
+      "label": "",
+      "note": "可攀墙"
+    },
+    {
+      "id": "c-c11-w0-v0-w160-2",
+      "type": "terrain",
+      "x": 116.0,
+      "y": 140,
+      "w": 160,
+      "h": 72,
+      "rotation": 0,
+      "label": "",
+      "note": "单向落台"
+    },
+    {
+      "id": "c-c11-w0-v0-w160-3",
+      "type": "hazard",
+      "x": 360,
+      "y": 602,
+      "w": 80,
+      "h": 24,
+      "rotation": 0,
+      "label": "",
+      "note": "研究危险包络；未连接正式荆棘伤害消费者"
+    },
+    {
+      "id": "c-c11-w0-v0-w160-4",
+      "type": "entry",
+      "x": 288,
+      "y": 404,
+      "w": 24,
+      "h": 36,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c11-w0-v0-w160-5",
+      "type": "exit",
+      "x": 140.0,
+      "y": 98,
+      "w": 112,
+      "h": 48,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c11-w0-v0-w160-6",
+      "type": "route",
+      "x": 220,
+      "y": 2,
+      "w": 0,
+      "h": 0,
+      "rotation": 0,
+      "label": "",
+      "note": "",
+      "points": [
+        {
+          "x": 304.3333358764648,
+          "y": 421.925262451172,
+          "action": "落地"
+        },
+        {
+          "x": 317.3333358764648,
+          "y": 421.92529296875,
+          "action": "落地"
+        },
+        {
+          "x": 330.33334350585903,
+          "y": 421.92529296875,
+          "action": "落地"
+        },
+        {
+          "x": 343.333351135254,
+          "y": 421.92529296875,
+          "action": "落地"
+        },
+        {
+          "x": 352.752059936523,
+          "y": 413.217010498047,
+          "action": "shot"
+        },
+        {
+          "x": 357.836898803711,
+          "y": 404.509643554688,
+          "action": "空中"
+        },
+        {
+          "x": 373.091415405273,
+          "y": 378.387542724609,
+          "action": "空中"
+        },
+        {
+          "x": 388.345932006836,
+          "y": 352.265441894531,
+          "action": "空中"
+        },
+        {
+          "x": 399.046524047852,
+          "y": 348.782501220703,
+          "action": "空中"
+        },
+        {
+          "x": 402.99267578125,
+          "y": 348.782501220703,
+          "action": "traversal"
+        },
+        {
+          "x": 402.925155639648,
+          "y": 348.783752441406,
+          "action": "空中"
+        },
+        {
+          "x": 402.92514038085903,
+          "y": 349.298767089844,
+          "action": "空中"
+        },
+        {
+          "x": 397.25834655761696,
+          "y": 334.536865234375,
+          "action": "traversal, wall_jump"
+        },
+        {
+          "x": 391.591674804688,
+          "y": 319.814636230469,
+          "action": "空中"
+        },
+        {
+          "x": 374.591659545898,
+          "y": 279.981323242188,
+          "action": "空中"
+        },
+        {
+          "x": 357.59164428710903,
+          "y": 246.647979736328,
+          "action": "空中"
+        },
+        {
+          "x": 353.258316040039,
+          "y": 236.981307983398,
+          "action": "traversal"
+        },
+        {
+          "x": 344.591651916504,
+          "y": 219.814636230469,
+          "action": "空中"
+        },
+        {
+          "x": 331.59164428710903,
+          "y": 199.481292724609,
+          "action": "空中"
+        },
+        {
+          "x": 318.5916366577148,
+          "y": 185.64794921875,
+          "action": "空中"
+        },
+        {
+          "x": 305.5916290283203,
+          "y": 178.314605712891,
+          "action": "空中"
+        },
+        {
+          "x": 292.5916213989258,
+          "y": 177.481262207031,
+          "action": "空中"
+        },
+        {
+          "x": 283.9249534606934,
+          "y": 169.380157470703,
+          "action": "jump, air_jump"
+        },
+        {
+          "x": 279.5916213989258,
+          "y": 160.112380981445,
+          "action": "空中"
+        },
+        {
+          "x": 266.591625213623,
+          "y": 132.309051513672,
+          "action": "空中"
+        },
+        {
+          "x": 253.5916290283203,
+          "y": 104.650161743164,
+          "action": "空中"
+        },
+        {
+          "x": 240.5916271209717,
+          "y": 81.6134948730469,
+          "action": "空中"
+        },
+        {
+          "x": 227.59162616729736,
+          "y": 85.9468231201172,
+          "action": "空中"
+        },
+        {
+          "x": 214.5916247367859,
+          "y": 96.780158996582,
+          "action": "空中"
+        },
+        {
+          "x": 201.5916233062744,
+          "y": 114.113494873047,
+          "action": "空中"
+        },
+        {
+          "x": 201.5916233062744,
+          "y": 121.971893310547,
+          "action": "落地"
+        },
+        {
+          "x": 201.5916233062744,
+          "y": 121.971893310547,
+          "action": "落地"
+        },
+        {
+          "x": 201.5916233062744,
+          "y": 121.971893310547,
+          "action": "落地"
+        }
+      ],
+      "duration": 1.3333333333333333,
+      "mode": "once"
+    }
+  ],
+  "canvas": {
+    "width": 1600,
+    "height": 922,
+    "units": "world",
+    "positionPrecision": "exact"
+  },
+  "capabilityRequirements": {
+    "version": 1,
+    "status": "unspecified",
+    "allOf": [],
+    "anyOfGroups": [],
+    "note": "能力快照不是最低能力条件，见researchEvidence"
+  },
+  "difficulty": {
+    "version": 1,
+    "scale": "gunman-rush/module-difficulty/v1",
+    "score": null,
+    "note": "待真人校准"
+  },
+  "intent": {
+    "operation": "new_module"
+  },
+  "updatedAt": "2026-10-23T00:00:00Z",
+  "source": {
+    "repository": "https://github.com/zhipijun1996/gunman-rush",
+    "commit": "12f6cb006d7119598e3235f4ca4f7323e4c9d092",
+    "path": "pcg-research/composable",
+    "moduleId": "c-c11-w0-v0-w160",
+    "editorTranslation": {
+      "x": 220,
+      "y": 2
+    },
+    "researchOnly": true
+  },
+  "researchEvidence": {
+    "witnessCapabilities": [
+      "double_jump",
+      "jump",
+      "move",
+      "shot_recoil",
+      "wall_climb"
+    ],
+    "actionWord": [
+      "recoil",
+      "wall_contact",
+      "wall_jump",
+      "air_jump"
+    ],
+    "quality": {
+      "id": "c-c11-w0-v0-w160",
+      "combo": 11,
+      "word": [
+        "recoil",
+        "wall_jump",
+        "air_jump"
+      ],
+      "capabilities": [
+        "double_jump",
+        "jump",
+        "move",
+        "shot_recoil",
+        "wall_climb"
+      ],
+      "original_shortcuts": 0,
+      "refined": false,
+      "remaining_shortcuts": 0,
+      "scores": {
+        "feedback/clean": {
+          "success": 1,
+          "trials": 1
+        },
+        "feedback/mild": {
+          "success": 20,
+          "trials": 20
+        },
+        "feedback/moderate": {
+          "success": 20,
+          "trials": 20
+        },
+        "fixed/clean": {
+          "success": 1,
+          "trials": 1
+        },
+        "fixed/mild": {
+          "success": 11,
+          "trials": 20
+        },
+        "fixed/moderate": {
+          "success": 10,
+          "trials": 20
+        }
+      }
+    },
+    "inputProgram": {
+      "schema": "pcg/candidate-module/v2",
+      "id": "c-c11-w0-v0-w160",
+      "capabilities": [
+        "double_jump",
+        "jump",
+        "move",
+        "shot_recoil",
+        "wall_climb"
+      ],
+      "capability_contract": {
+        "schema": "pcg/capability-snapshot/v2",
+        "ids": [
+          "double_jump",
+          "jump",
+          "move",
+          "shot_recoil",
+          "wall_climb"
+        ],
+        "registry_version": 2,
+        "registry_sha256": "723571e6d31a1803edfa1586c668fdac6268465e28e607ec405687747b9d09cd",
+        "physics_source": "12f6cb006d7119598e3235f4ca4f7323e4c9d092"
+      },
+      "seed": 1030102,
+      "word": [
+        "recoil",
+        "wall_contact",
+        "wall_jump",
+        "air_jump"
+      ],
+      "platforms": [
+        [
+          -120,
+          438,
+          260,
+          60
+        ],
+        [
+          195,
+          170,
+          32,
+          650
+        ],
+        [
+          -104.0,
+          138,
+          160,
+          72
+        ]
+      ],
+      "hazards": [
+        [
+          140,
+          600,
+          80,
+          24
+        ]
+      ],
+      "wall_platform_indices": [
+        1
+      ],
+      "hooks": [],
+      "spawn": [
+        80,
+        420
+      ],
+      "goal": [
+        -80.0,
+        96,
+        112,
+        48
+      ],
+      "max_frames": 92,
+      "trace_all": false,
+      "settle_frames": 6,
+      "synthesis": {
+        "method": "typed_action_graph+real_motion",
+        "authored_modules": 0,
+        "landing_width": 160,
+        "clearance": 44,
+        "landing_probe_frame": 73,
+        "landing_center": [
+          -24,
+          120
+        ],
+        "policy": "state_gates+router_feedback"
+      },
+      "combo_index": 11,
+      "one_way_platform_indices": [
+        2
+      ],
+      "actions": [
+        {
+          "frame": 11,
+          "type": "shoot_release",
+          "direction": [
+            -0.504280984401703,
+            0.863539636135101
+          ]
+        },
+        {
+          "frame": 29,
+          "type": "jump",
+          "direction": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 38,
+          "type": "jump_release",
+          "direction": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 53,
+          "type": "jump",
+          "direction": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 64,
+          "type": "jump_release",
+          "direction": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "axes": [
+        {
+          "frame": 0,
+          "value": 1.0
+        },
+        {
+          "frame": 30,
+          "value": -1.0
+        },
+        {
+          "frame": 73,
+          "value": 0.0
+        }
+      ],
+      "recorded_frames": [
+        {
+          "frame": 0,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 1,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 2,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 3,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 4,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 5,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 6,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 7,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 8,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 9,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 10,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 11,
+          "axis": 1.0,
+          "requested": [
+            {
+              "direction": [
+                -0.504280984401703,
+                0.863539636135101
+              ],
+              "plan_index": 1,
+              "type": "shoot_release"
+            }
+          ]
+        },
+        {
+          "frame": 12,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 13,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 14,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 15,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 16,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 17,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 18,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 19,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 20,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 21,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 22,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 23,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 24,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 25,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 26,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 27,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 28,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 29,
+          "axis": 1.0,
+          "requested": [
+            {
+              "direction": [
+                0.0,
+                0.0
+              ],
+              "plan_index": 3,
+              "type": "jump"
+            }
+          ]
+        },
+        {
+          "frame": 30,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 31,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 32,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 33,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 34,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 35,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 36,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 37,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 38,
+          "axis": -1.0,
+          "requested": [
+            {
+              "direction": [
+                0.0,
+                0.0
+              ],
+              "plan_index": 5,
+              "type": "jump_release"
+            }
+          ]
+        },
+        {
+          "frame": 39,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 40,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 41,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 42,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 43,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 44,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 45,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 46,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 47,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 48,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 49,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 50,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 51,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 52,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 53,
+          "axis": -1.0,
+          "requested": [
+            {
+              "direction": [
+                0.0,
+                0.0
+              ],
+              "plan_index": 6,
+              "type": "jump"
+            }
+          ]
+        },
+        {
+          "frame": 54,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 55,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 56,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 57,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 58,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 59,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 60,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 61,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 62,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 63,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 64,
+          "axis": -1.0,
+          "requested": [
+            {
+              "direction": [
+                0.0,
+                0.0
+              ],
+              "plan_index": 7,
+              "type": "jump_release"
+            }
+          ]
+        },
+        {
+          "frame": 65,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 66,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 67,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 68,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 69,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 70,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 71,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 72,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 73,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 74,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 75,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 76,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 77,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 78,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 79,
+          "axis": 0.0,
+          "requested": []
+        }
+      ],
+      "title": "12 反冲 → 蹬墙 → 空跳",
+      "review_warnings": [],
+      "review_status": "awaiting_human_playtest",
+      "quality_evidence": {
+        "id": "c-c11-w0-v0-w160",
+        "combo": 11,
+        "word": [
+          "recoil",
+          "wall_jump",
+          "air_jump"
+        ],
+        "capabilities": [
+          "double_jump",
+          "jump",
+          "move",
+          "shot_recoil",
+          "wall_climb"
+        ],
+        "original_shortcuts": 0,
+        "refined": false,
+        "remaining_shortcuts": 0,
+        "scores": {
+          "feedback/clean": {
+            "success": 1,
+            "trials": 1
+          },
+          "feedback/mild": {
+            "success": 20,
+            "trials": 20
+          },
+          "feedback/moderate": {
+            "success": 20,
+            "trials": 20
+          },
+          "fixed/clean": {
+            "success": 1,
+            "trials": 1
+          },
+          "fixed/mild": {
+            "success": 11,
+            "trials": 20
+          },
+          "fixed/moderate": {
+            "success": 10,
+            "trials": 20
+          }
+        }
+      }
+    },
+    "validationScope": "real Motor + static whole-body sweeps; no human or production-consumer approval"
+  }
+}

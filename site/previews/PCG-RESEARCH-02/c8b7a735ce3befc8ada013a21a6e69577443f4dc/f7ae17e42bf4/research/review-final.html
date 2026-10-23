@@ -1,0 +1,372 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>body{max-width:1080px;margin:30px auto;padding:0 20px;font:16px/1.8 system-ui;color:#183144}img,video{max-width:100%}table{border-collapse:collapse;display:block;overflow:auto}td,th{border:1px solid #b6c8d0;padding:6px}pre{background:#eef2f5;padding:14px;overflow:auto}a{color:#12649d}</style><h1>独立复核：冻结 Holdout 与交付轨迹</h1>
+<p>审查者 <code>/root/architecture_audit</code>，2026-10-23。只读源码、JSON、执行收据与日志；本轮未运行Godot，未修改生成器/数据。此报告接续<a href="review.html">第一轮审查</a>，原校准失败和旧审查保持原范围。</p>
+<h2>最终判定</h2>
+<p><strong>ACCEPT，仅限初步工程验证</strong>：固定真实运动组件的独立诊断场景中，动作采样→反推落台/净空Cell→真实输入重播链已执行；最终六个试玩条目全部安全到达且末帧站稳，三条连续反冲实际各发生三次射击；钩索有真实contact；多路线同一几何的两组输入都到共同出口，高路在最终轨迹实际访问奖励区域。</p>
+<p><strong>REJECT，若声称已经实现稳定高质量动作创造、完整A/B/C公平算法比较、Runtime性能达标或趣味性完成</strong>：本次只使用两个预写动作词及其参数/短语组合；没有通用动作规划器、新语法学习、正式危险伤害/奖励交易、玩家盲测、真机或Runtime在线生成性能证据。长期推荐混合C应标为文献与工程推断，不能说本实验验证C优胜。</p>
+<h2>1. 源码真实性与执行账本</h2>
+<p>独立比对诊断项目与本次审计保留的开发提交原字节，以下九项完全一致：PlayerMotor、PlayerController、TraversalAbility、JumpAbility、InputRouter、ActionResources、ShotEnergyPolicy、player_tuning.json、traversal.tres。基础一跳一发、落地/真实钩索恢复未被替换；runner只在fixture出生设置位置，连续词之间没有传送或重置资源。正式App消费者与诊断fixture仍是不同验证范围；手动physics_tick不覆盖AirFocus真实时钟。</p>
+<table>
+<thead>
+<tr>
+<th>数据集</th>
+<th>原始物理case数复核</th>
+<th>执行收据</th>
+<th>额外核对</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>holdout-v1</td>
+<td>64轨迹probe + 529候选 = 593</td>
+<td>19批，全部exit0；日志各有完成标记，未见ERROR/SCRIPT ERROR</td>
+<td>每批输入与输出ID逐项对应；全部ticks等于frames长度</td>
+</tr>
+<tr>
+<td>deliverables</td>
+<td>528扰动/原样重播 + 60消融 + 3连续链 + 6分叉前缀 + 6汇合 + 6最终重播 = 609</td>
+<td>6批，全部exit0；日志各有完成标记，未见ERROR/SCRIPT ERROR</td>
+<td>每批ID与帧数匹配；robustness表与原始结果的ok/reason逐项相符</td>
+</tr>
+</tbody>
+</table>
+<p>593/609是模拟执行次数，不是不同Module数量，也不是独立统计样本数。</p>
+<h2>2. Holdout汇总可复算，但不能进行普遍算法排名</h2>
+<p>32个动作种子复用3代；优化运行本身只有一次，不是32次独立优化重复。下表从各原始输入/输出重算，与summary完全一致：</p>
+<table>
+<thead>
+<tr>
+<th>类型/策略</th>
+<th style="text-align: right;">请求预算</th>
+<th style="text-align: right;">实际物化重播</th>
+<th style="text-align: right;">成功</th>
+<th style="text-align: right;">请求成功率</th>
+<th style="text-align: right;">已物化重播成功率</th>
+<th style="text-align: right;">16wu量化平台几何不同数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>recoil A</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">87</td>
+<td style="text-align: right;">90.63%</td>
+<td style="text-align: right;">90.63%</td>
+<td style="text-align: right;">81</td>
+</tr>
+<tr>
+<td>recoil B</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">71</td>
+<td style="text-align: right;">73.96%</td>
+<td style="text-align: right;">73.96%</td>
+<td style="text-align: right;">68</td>
+</tr>
+<tr>
+<td>recoil C</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">70</td>
+<td style="text-align: right;">72.92%</td>
+<td style="text-align: right;">73.68%</td>
+<td style="text-align: right;">67</td>
+</tr>
+<tr>
+<td>grapple A</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">78</td>
+<td style="text-align: right;">81.25%</td>
+<td style="text-align: right;">92.86%</td>
+<td style="text-align: right;">73</td>
+</tr>
+<tr>
+<td>grapple B</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">70</td>
+<td style="text-align: right;">72.92%</td>
+<td style="text-align: right;">83.33%</td>
+<td style="text-align: right;">65</td>
+</tr>
+<tr>
+<td>grapple C</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">62.50%</td>
+<td style="text-align: right;">81.08%</td>
+<td style="text-align: right;">56</td>
+</tr>
+</tbody>
+</table>
+<p>A总体165/192、B141/192、C130/192。可以说“这次受限实现中A产出更多成功见证”；不能把它推广为A优于完整FI-MAP-Elites或混合技术路线。A总体摊销候选用时/成功数较低，但grapple中B为0.0398秒/成功、A为0.0413秒/成功，故不能说A所有指标均更快。</p>
+<p>这些时间不含分配给各策略的共享运动采样，也不含人类评价、浏览器Runtime预算和部署加载。父进程峰值138000KiB；holdout子进程最大峰值160808KiB，deliverables最大峰值320680KiB。<code>RUSAGE_CHILDREN.ru_maxrss</code>是已退出子进程的最大峰值，不是总进程树瞬时内存；不要将父子峰值相加冒充实测并发总峰值。</p>
+<h3>C存在已确证的非同约束比较问题</h3>
+<p>C只解落台横坐标。CP变量界为 <code>[round(endx-width+24),round(endx-24)]</code>，实际上要求落点两侧各24wu余量；A/B直接居中，没有相同限制。变异又允许width=40，CP此时变量域必为空（40&lt;48），A/B的24wu身体仍可落在40wu台上。</p>
+<p>本次B实际评估而C未评估的11个请求<strong>全部width=40</strong>：recoil g1/j10；grapple g1/j6、7、9、12、22、24及g2/j5、11、21、28。C全部实际不同完整case都属于B子集：recoil 90⊆91，grapple71⊆81；去身份/策略/synthesis元数据后布局与动作完全相同。</p>
+<p>因此C低产出不能归因于约束求解路线本身：当前额外边距/域限制足以解释差值。此项不能称严格“相同条件下的公平benchmark”，可称具明确限制的实现消融。CP没有在该数据上创造不同布局或提高覆盖，这是可核实的负结果。</p>
+<p>B当前已修正“全不可行时不能从失败档案选择父代”的问题；仍只迁移父代width/clearance到固定动作probe，不继承完整动作/挂点/地形基因；失败以max_x评分，没有分解约束违反向量。B应继续称双档案参数搜索，而非原论文复现。</p>
+<h2>3. 扰动样本：24个标签实际只有8个不同物理Module</h2>
+<p>选择器按每种kind/strategy取第0代前4个成功几何。独立剥离id、strategy、synthesis后，A/B/C四个recoil case完全相同，四个grapple case也完全相同。实际为<strong>8个物理Module、24个策略标签</strong>。</p>
+<p>不同策略标签使用不同扰动随机种子，因此19/40、20/40、23/40等差值是同一几何上的噪声采样差异，不能解释为算法稳健性差异。可将相同case合并作描述统计：</p>
+<table>
+<thead>
+<tr>
+<th>类别</th>
+<th style="text-align: right;">原样重播</th>
+<th style="text-align: right;">±1帧/±2°</th>
+<th style="text-align: right;">±3帧/±6°</th>
+<th style="text-align: right;">实际不同Module</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>recoil</td>
+<td style="text-align: right;">24/24</td>
+<td style="text-align: right;">62/120（51.67%）</td>
+<td style="text-align: right;">34/120（28.33%）</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr>
+<td>grapple</td>
+<td style="text-align: right;">24/24</td>
+<td style="text-align: right;">89/120（74.17%）</td>
+<td style="text-align: right;">50/120（41.67%）</td>
+<td style="text-align: right;">4</td>
+</tr>
+</tbody>
+</table>
+<p>原样每Module重复6次相同输入；轻/中扰动每Module各30次。recoil轻扰动各模块分别20/30、5/30、12/30、25/30，明显不均；不能仅凭总体均值说稳定。精确脚本可行不代表玩家操作容错良好。扰动没有覆盖移动轴启停、设备反应延迟、敌人或动态相位。</p>
+<h2>4. 最终六条目逐帧复核</h2>
+<p>下表数值从最终 <code>delivery-replay.output.json</code> 读取并与Module定义核对，均<code>ok=true</code>、末帧grounded=true、vx=vy=0、身体中心在共同/各自goal区、shot_charges=1、jumps_used=0。</p>
+<table>
+<thead>
+<tr>
+<th>条目</th>
+<th style="text-align: right;">帧数</th>
+<th>真实射击/钩索/跳跃</th>
+<th style="text-align: right;">负轴帧数</th>
+<th>额外证据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>continuous-recoil-0</td>
+<td style="text-align: right;">229</td>
+<td>3 / 0 / 3</td>
+<td style="text-align: right;">11</td>
+<td>实际射击帧15、92、168</td>
+</tr>
+<tr>
+<td>continuous-recoil-1</td>
+<td style="text-align: right;">236</td>
+<td>3 / 0 / 3</td>
+<td style="text-align: right;">12</td>
+<td>实际射击帧21、97、176</td>
+</tr>
+<tr>
+<td>continuous-recoil-2</td>
+<td style="text-align: right;">231</td>
+<td>3 / 0 / 3</td>
+<td style="text-align: right;">12</td>
+<td>实际射击帧21、100、175</td>
+</tr>
+<tr>
+<td>module-grapple-724030-C_hybrid-g0-j0</td>
+<td style="text-align: right;">112</td>
+<td>1 / 1 / 2</td>
+<td style="text-align: right;">2</td>
+<td>hook_contact第20帧；射击第62帧</td>
+</tr>
+<tr>
+<td>multiroute-0-reward</td>
+<td style="text-align: right;">227</td>
+<td>1 / 1 / 3</td>
+<td style="text-align: right;">2</td>
+<td>hook_contact第20帧；奖励区第88帧开始grounded访问，然后到共同goal</td>
+</tr>
+<tr>
+<td>multiroute-0-main</td>
+<td style="text-align: right;">170</td>
+<td>0 / 0 / 0</td>
+<td style="text-align: right;">0</td>
+<td>同一几何直接走低处到共同goal</td>
+</tr>
+</tbody>
+</table>
+<p>负轴帧均观察到最小vx=-260，确有向左修正；但尚未证明反向修正是唯一通关策略。三连续链使用四个基础成功动作词中的三个做滑动/循环组合，证明连续实际操作与恢复，不证明三种新动作语法被发明。</p>
+<p>高低路线的platforms、hazards、hooks、spawn逐项完全相同，goal也一致。因这两条目共用一份几何，最终应称<strong>六个试玩条目/五个几何场景</strong>。奖励只是区域访问，未执行正式游戏奖励交易。高路线更难、奖励无法普通跳跃绕取等结论仍需替代策略搜索和人工试玩。</p>
+<p>第一轮发现的最终reward_region未复核问题已改善：当前评价器对汇合轨迹与最终轨迹都重新计算grounded访问，实际最终数据为true。不过最终<code>good</code>过滤仍只用runner.ok，没有把reward访问/末态作为强制门；本批数据已满足，可以接受此批事实，未来不可依赖该代码对所有输出都保证同一合同。</p>
+<h2>5. 仍然保留的拒绝边界</h2>
+<ul>
+<li>“零/低重复率”仅为16wu量化平台坐标完全重复率。描述符只有第一发角度与空中帧比例；grapple档案只有1格，不能称玩法多样性已解决。</li>
+<li>“消融全部失败”只指固定原输入删动作；steering消融全部轴清零，不能证明空中方向控制必需。没有搜索替代路线，未证明机制必要性。</li>
+<li>三类实验已具工程样本，但荆棘狭窄空间的压力/可读性、困难奖励路线的真实风险差异、动作设计感和重玩价值仍未通过人工评价。</li>
+<li>Godot桌面批量case速度不等于Runtime运行预算。未实现Runtime语法/求解/缓存/超时回退整链，未测试Web在线生成耗时。</li>
+<li>没有人类试玩评分、实体设备或正式地区接入证据；不得将工程完成改写为用户研究目标全部达成。</li>
+</ul>
+<h2>6. 冻结审查字节</h2>
+<table>
+<thead>
+<tr>
+<th>文件</th>
+<th>SHA-256</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>prototype/trajectory_synth.py</td>
+<td><code>059cc7fbf4ecfca4da98ea81b2ec72286636514e43270023d62d6990bf79cbd0</code></td>
+</tr>
+<tr>
+<td>prototype/experiment.py</td>
+<td><code>76a6d1fa7f82eb900bee6c4459d0decf8d556e453afea21bb2cde14f433d95b2</code></td>
+</tr>
+<tr>
+<td>prototype/evaluate_deliverables.py</td>
+<td><code>746285d0ee43ee200d0c3eae79a02cbbfcda327a1a22cad5f93becb53f7b3ac3</code></td>
+</tr>
+<tr>
+<td>prototype/godot/runner.gd</td>
+<td><code>74bc25730717e92180a95ab40db05793a12fe78e1ebdf8a6a3907de5097f1a64</code></td>
+</tr>
+<tr>
+<td>results/holdout-v1/summary.json</td>
+<td><code>6ee90bed2b47b56600c34e3c7486a7055e5b33f305e88a2fe730168ba2f6875b</code></td>
+</tr>
+<tr>
+<td>results/deliverables/summary.json</td>
+<td><code>4d89ffe2393e46f60f24fa2c5fa23bf39024ebbbe21c244fe8f0efd2e1c1ebf0</code></td>
+</tr>
+<tr>
+<td>results/deliverables/modules.json</td>
+<td><code>b6e79e1cd2fff53bae0fb86b879d2389407a01b1a5a74d7f9a9c413ee7692fdc</code></td>
+</tr>
+</tbody>
+</table>
+<p>本轮未签Web、录像、视觉或手感；这些需各自真实产物/浏览器证据。报告若保持上述限定，可以作为有可复查负结果的研究原型交付。</p>
+<h2>方法修订检查点：V2尚待复核</h2>
+<p>父agent在收到独审后决定统一A/B/C的<code>width&gt;=48</code>、居中<code>left&gt;=165</code>及相同边距域，保留holdout-v1为已发现公平性问题的原型对照；将用相同种子重跑holdout-v2，再单独保存v2交付评价。<strong>这是方法修订重跑，不是新的独立holdout。</strong> 本报告上文数值和源码SHA只签V1；尚未读取V2执行数据，不能预先签公平性缺陷已修复。既有六个试玩条目来自V1第0代、宽度均至少48，影片/Web若复用须继续标明该实际来源，不能把版本号改签成V2物理产物。</p>
+<h2>V2方法修订的实际复核（本章更新当前比较结论）</h2>
+<p>随后只读检查已完成的 <code>holdout-v2</code> / <code>deliverables-v2</code>；未运行Godot。共享domain检查现位于所有策略共同入口：<code>width&gt;=48</code>、居中<code>landing_left&gt;=165</code>。逐项检查518个实际物化候选均满足。B/C在两种kind、三代的所有输入去身份/策略/synthesis元数据后<strong>逐项完全相同</strong>，确认V1约束域不一致已在本轮样本中修复。该项可以签“共同约束域实现修正并重跑”，仍不能签完整论文复现或通用公平性证明。</p>
+<p>重算V2原始数据：64 probes + 518候选=582物理case；19批执行均exit0。下表与summary逐项一致：</p>
+<table>
+<thead>
+<tr>
+<th>类别/策略</th>
+<th style="text-align: right;">预算</th>
+<th style="text-align: right;">物化</th>
+<th style="text-align: right;">成功</th>
+<th style="text-align: right;">请求成功率</th>
+<th style="text-align: right;">候选重播成功率</th>
+<th style="text-align: right;">量化平台几何不同数</th>
+<th style="text-align: right;">秒/成功，未分摊共享采样</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>recoil A</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">87</td>
+<td style="text-align: right;">90.63%</td>
+<td style="text-align: right;">90.63%</td>
+<td style="text-align: right;">81</td>
+<td style="text-align: right;">0.0296</td>
+</tr>
+<tr>
+<td>recoil B</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">70</td>
+<td style="text-align: right;">72.92%</td>
+<td style="text-align: right;">73.68%</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">0.0355</td>
+</tr>
+<tr>
+<td>recoil C</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">70</td>
+<td style="text-align: right;">72.92%</td>
+<td style="text-align: right;">73.68%</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">0.0426</td>
+</tr>
+<tr>
+<td>grapple A</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">78</td>
+<td style="text-align: right;">81.25%</td>
+<td style="text-align: right;">92.86%</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">0.0397</td>
+</tr>
+<tr>
+<td>grapple B</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">62.50%</td>
+<td style="text-align: right;">81.08%</td>
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">0.0448</td>
+</tr>
+<tr>
+<td>grapple C</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">62.50%</td>
+<td style="text-align: right;">81.08%</td>
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">0.0521</td>
+</tr>
+</tbody>
+</table>
+<p>V2受限实现中，A产出更多成功见证且本次两类的摊销候选时间均较低；B=C没有物理质量差异，C只有额外求解开销。解释是当前小参数搜索/描述符/目标没有带来收益，不能外推约束规划或质量多样性搜索本身无效。长期C仍需更有表达力的动作/几何表示、有效违反约束反馈、多维行为及稳健质量目标后重新实验。</p>
+<p><code>deliverables-v2</code>同样609case、6批exit0；所有输入输出ID和ticks与frames匹配。V2 <code>modules.json</code>与V1完全相同字节，六条最终重播的<strong>全部frames也与V1逐项相同</strong>；高路reward访问true、六条目末态站稳/零速度/在goal均再次确认。由此可以接受相同试玩内容的复用，并清楚记录早期视频/Web来源与后续V2同字节复核。扰动24标签/8物理Module的混淆仍存在，继续只使用合并后描述统计，不排名A/B/C稳健性。3链、5几何场景、6条目等计数口径不变。</p>
+<p>V2是同种子、同运动采样和修改过筛选器的方法修订重跑；<strong>不是一份新的独立泛化holdout</strong>。此前V1所有原始失败和独审拒绝应保留，不能用V2数值覆盖或重新标为公平。</p>
+<table>
+<thead>
+<tr>
+<th>V2冻结文件</th>
+<th>SHA-256</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>prototype/trajectory_synth.py</td>
+<td><code>c05325142b2add6fb969f10794a1e5ac9710a7e190796630c49bee60b80da1a4</code></td>
+</tr>
+<tr>
+<td>prototype/experiment.py</td>
+<td><code>76a6d1fa7f82eb900bee6c4459d0decf8d556e453afea21bb2cde14f433d95b2</code></td>
+</tr>
+<tr>
+<td>prototype/evaluate_deliverables.py</td>
+<td><code>67ef2b4c1baeb1be4713bf93884c6501b319fc1f7e3ed4b78f6fc0a0607ef2f6</code></td>
+</tr>
+<tr>
+<td>prototype/godot/runner.gd</td>
+<td><code>74bc25730717e92180a95ab40db05793a12fe78e1ebdf8a6a3907de5097f1a64</code></td>
+</tr>
+<tr>
+<td>results/holdout-v2/summary.json</td>
+<td><code>97a43327d28fdacb978696f444fe8fe113ce63c8baeea0971478d563cc0dfec9</code></td>
+</tr>
+<tr>
+<td>results/deliverables-v2/summary.json</td>
+<td><code>a26f760bf368b026558e7cd1277f89867ca5cd3be07d51c5f7db9a321280b149</code></td>
+</tr>
+<tr>
+<td>results/deliverables-v2/modules.json</td>
+<td><code>b6e79e1cd2fff53bae0fb86b879d2389407a01b1a5a74d7f9a9c413ee7692fdc</code></td>
+</tr>
+</tbody>
+</table>
+<p>最终仍为<strong>初步工程验证接受，稳定高质量/Runtime/人类趣味完成声明拒绝</strong>。</p></html>

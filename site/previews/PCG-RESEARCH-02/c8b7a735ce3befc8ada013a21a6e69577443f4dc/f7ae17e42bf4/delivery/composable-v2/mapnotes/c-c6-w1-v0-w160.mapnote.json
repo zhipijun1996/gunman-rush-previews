@@ -1,0 +1,1095 @@
+{
+  "schema": "gunman-rush-level-sketch/v1",
+  "id": "c-c6-w1-v0-w160",
+  "title": "07 弹点 → 空跳",
+  "description": "能力组合生成研究候选；需真人试玩；修改几何或能力后验证收据失效。",
+  "constraints": "保留完整身体净空及真实资源恢复；能力必要性尚无完备证明。",
+  "objects": [
+    {
+      "id": "c-c6-w1-v0-w160-0",
+      "type": "terrain",
+      "x": 100,
+      "y": 419,
+      "w": 260,
+      "h": 60,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c6-w1-v0-w160-1",
+      "type": "terrain",
+      "x": 492.0,
+      "y": 287,
+      "w": 160,
+      "h": 72,
+      "rotation": 0,
+      "label": "",
+      "note": "单向落台"
+    },
+    {
+      "id": "c-c6-w1-v0-w160-2",
+      "type": "terrain",
+      "x": 402,
+      "y": 140,
+      "w": 28,
+      "h": 32,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c6-w1-v0-w160-3",
+      "type": "terrain",
+      "x": 414,
+      "y": 495,
+      "w": 28,
+      "h": 32,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c6-w1-v0-w160-4",
+      "type": "hazard",
+      "x": 360,
+      "y": 593,
+      "w": 292.0,
+      "h": 24,
+      "rotation": 0,
+      "label": "",
+      "note": "研究危险包络；未连接正式荆棘伤害消费者"
+    },
+    {
+      "id": "c-c6-w1-v0-w160-5",
+      "type": "hazard",
+      "x": 402,
+      "y": 166,
+      "w": 28,
+      "h": 12,
+      "rotation": 0,
+      "label": "",
+      "note": "研究危险包络；未连接正式荆棘伤害消费者"
+    },
+    {
+      "id": "c-c6-w1-v0-w160-6",
+      "type": "hazard",
+      "x": 414,
+      "y": 489,
+      "w": 28,
+      "h": 12,
+      "rotation": 0,
+      "label": "",
+      "note": "研究危险包络；未连接正式荆棘伤害消费者"
+    },
+    {
+      "id": "c-c6-w1-v0-w160-7",
+      "type": "hookBounce",
+      "x": 411,
+      "y": 198,
+      "w": 38,
+      "h": 38,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c6-w1-v0-w160-8",
+      "type": "entry",
+      "x": 288,
+      "y": 383,
+      "w": 24,
+      "h": 36,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c6-w1-v0-w160-9",
+      "type": "exit",
+      "x": 516.0,
+      "y": 245,
+      "w": 112,
+      "h": 48,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c6-w1-v0-w160-10",
+      "type": "route",
+      "x": 220,
+      "y": -19,
+      "w": 0,
+      "h": 0,
+      "rotation": 0,
+      "label": "",
+      "note": "",
+      "points": [
+        {
+          "x": 304.3333358764648,
+          "y": 400.925262451172,
+          "action": "落地"
+        },
+        {
+          "x": 317.3333358764648,
+          "y": 400.92529296875,
+          "action": "落地"
+        },
+        {
+          "x": 330.33334350585903,
+          "y": 400.92529296875,
+          "action": "落地"
+        },
+        {
+          "x": 343.333351135254,
+          "y": 400.92529296875,
+          "action": "落地"
+        },
+        {
+          "x": 356.33334350585903,
+          "y": 400.92529296875,
+          "action": "落地"
+        },
+        {
+          "x": 365.0,
+          "y": 400.92529296875,
+          "action": "traversal"
+        },
+        {
+          "x": 369.33332824706997,
+          "y": 400.92529296875,
+          "action": "落地"
+        },
+        {
+          "x": 382.333312988281,
+          "y": 403.091979980469,
+          "action": "traversal"
+        },
+        {
+          "x": 395.33329772949196,
+          "y": 411.758636474609,
+          "action": "空中"
+        },
+        {
+          "x": 408.333282470703,
+          "y": 426.92529296875,
+          "action": "空中"
+        },
+        {
+          "x": 412.666610717773,
+          "y": 433.42529296875,
+          "action": "hook_contact, traversal"
+        },
+        {
+          "x": 415.08537292480503,
+          "y": 395.168334960938,
+          "action": "空中"
+        },
+        {
+          "x": 418.713516235352,
+          "y": 337.782897949219,
+          "action": "空中"
+        },
+        {
+          "x": 422.341659545898,
+          "y": 280.3974609375,
+          "action": "空中"
+        },
+        {
+          "x": 423.75004577636696,
+          "y": 258.121307373047,
+          "action": "traversal"
+        },
+        {
+          "x": 423.75004577636696,
+          "y": 258.121307373047,
+          "action": "空中"
+        },
+        {
+          "x": 423.75004577636696,
+          "y": 258.121307373047,
+          "action": "空中"
+        },
+        {
+          "x": 419.75004577636696,
+          "y": 254.121307373047,
+          "action": "traversal"
+        },
+        {
+          "x": 407.75004577636696,
+          "y": 242.121307373047,
+          "action": "空中"
+        },
+        {
+          "x": 404.083374023438,
+          "y": 234.121307373047,
+          "action": "空中"
+        },
+        {
+          "x": 408.41670227050804,
+          "y": 234.121307373047,
+          "action": "traversal"
+        },
+        {
+          "x": 417.083358764648,
+          "y": 234.121307373047,
+          "action": "空中"
+        },
+        {
+          "x": 430.08334350585903,
+          "y": 234.290145874023,
+          "action": "空中"
+        },
+        {
+          "x": 443.08332824706997,
+          "y": 236.465881347656,
+          "action": "空中"
+        },
+        {
+          "x": 456.083312988281,
+          "y": 243.68521118164102,
+          "action": "空中"
+        },
+        {
+          "x": 469.08329772949196,
+          "y": 257.335205078125,
+          "action": "空中"
+        },
+        {
+          "x": 482.083312988281,
+          "y": 277.485229492188,
+          "action": "空中"
+        },
+        {
+          "x": 495.083343505859,
+          "y": 304.135223388672,
+          "action": "空中"
+        },
+        {
+          "x": 499.416687011719,
+          "y": 294.867431640625,
+          "action": "jump, air_jump"
+        },
+        {
+          "x": 508.083374023438,
+          "y": 276.331848144531,
+          "action": "空中"
+        },
+        {
+          "x": 521.0834045410161,
+          "y": 248.52847290039102,
+          "action": "空中"
+        },
+        {
+          "x": 534.083435058594,
+          "y": 230.859573364258,
+          "action": "空中"
+        },
+        {
+          "x": 547.083465576172,
+          "y": 237.359588623047,
+          "action": "空中"
+        },
+        {
+          "x": 560.08349609375,
+          "y": 250.359588623047,
+          "action": "空中"
+        },
+        {
+          "x": 568.750183105469,
+          "y": 268.985015869141,
+          "action": "落地"
+        },
+        {
+          "x": 568.750183105469,
+          "y": 268.985015869141,
+          "action": "落地"
+        },
+        {
+          "x": 568.750183105469,
+          "y": 268.985015869141,
+          "action": "落地"
+        }
+      ],
+      "duration": 1.55,
+      "mode": "once"
+    }
+  ],
+  "canvas": {
+    "width": 1600,
+    "height": 900,
+    "units": "world",
+    "positionPrecision": "exact"
+  },
+  "capabilityRequirements": {
+    "version": 1,
+    "status": "unspecified",
+    "allOf": [],
+    "anyOfGroups": [],
+    "note": "能力快照不是最低能力条件，见researchEvidence"
+  },
+  "difficulty": {
+    "version": 1,
+    "scale": "gunman-rush/module-difficulty/v1",
+    "score": null,
+    "note": "待真人校准"
+  },
+  "intent": {
+    "operation": "new_module"
+  },
+  "updatedAt": "2026-10-23T00:00:00Z",
+  "source": {
+    "repository": "https://github.com/zhipijun1996/gunman-rush",
+    "commit": "12f6cb006d7119598e3235f4ca4f7323e4c9d092",
+    "path": "pcg-research/composable",
+    "moduleId": "c-c6-w1-v0-w160",
+    "editorTranslation": {
+      "x": 220,
+      "y": -19
+    },
+    "researchOnly": true
+  },
+  "researchEvidence": {
+    "witnessCapabilities": [
+      "double_jump",
+      "grapple",
+      "jump",
+      "move"
+    ],
+    "actionWord": [
+      "hook_bounce",
+      "air_jump"
+    ],
+    "quality": {
+      "id": "c-c6-w1-v0-w160",
+      "combo": 6,
+      "word": [
+        "hook_bounce",
+        "air_jump"
+      ],
+      "capabilities": [
+        "double_jump",
+        "grapple",
+        "jump",
+        "move"
+      ],
+      "original_shortcuts": 0,
+      "refined": false,
+      "remaining_shortcuts": 0,
+      "scores": {
+        "feedback/clean": {
+          "success": 1,
+          "trials": 1
+        },
+        "feedback/mild": {
+          "success": 20,
+          "trials": 20
+        },
+        "feedback/moderate": {
+          "success": 16,
+          "trials": 20
+        },
+        "fixed/clean": {
+          "success": 1,
+          "trials": 1
+        },
+        "fixed/mild": {
+          "success": 19,
+          "trials": 20
+        },
+        "fixed/moderate": {
+          "success": 14,
+          "trials": 20
+        }
+      }
+    },
+    "inputProgram": {
+      "schema": "pcg/candidate-module/v2",
+      "id": "c-c6-w1-v0-w160",
+      "capabilities": [
+        "double_jump",
+        "grapple",
+        "jump",
+        "move"
+      ],
+      "capability_contract": {
+        "schema": "pcg/capability-snapshot/v2",
+        "ids": [
+          "double_jump",
+          "grapple",
+          "jump",
+          "move"
+        ],
+        "registry_version": 2,
+        "registry_sha256": "723571e6d31a1803edfa1586c668fdac6268465e28e607ec405687747b9d09cd",
+        "physics_source": "12f6cb006d7119598e3235f4ca4f7323e4c9d092"
+      },
+      "seed": 980202,
+      "word": [
+        "hook_bounce",
+        "air_jump"
+      ],
+      "platforms": [
+        [
+          -120,
+          438,
+          260,
+          60
+        ],
+        [
+          272.0,
+          306,
+          160,
+          72
+        ],
+        [
+          182,
+          159,
+          28,
+          32
+        ],
+        [
+          194,
+          514,
+          28,
+          32
+        ]
+      ],
+      "hazards": [
+        [
+          140,
+          612,
+          292.0,
+          24
+        ],
+        [
+          182,
+          185,
+          28,
+          12
+        ],
+        [
+          194,
+          508,
+          28,
+          12
+        ]
+      ],
+      "wall_platform_indices": [],
+      "hooks": [
+        {
+          "x": 210,
+          "y": 236,
+          "kind": "bounce"
+        }
+      ],
+      "spawn": [
+        80,
+        420
+      ],
+      "goal": [
+        296.0,
+        264,
+        112,
+        48
+      ],
+      "max_frames": 105,
+      "trace_all": false,
+      "settle_frames": 6,
+      "synthesis": {
+        "method": "typed_action_graph+real_motion",
+        "authored_modules": 0,
+        "landing_width": 160,
+        "clearance": 44,
+        "landing_probe_frame": 87,
+        "landing_center": [
+          352,
+          288
+        ],
+        "policy": "state_gates+router_feedback"
+      },
+      "combo_index": 6,
+      "one_way_platform_indices": [
+        1
+      ],
+      "actions": [
+        {
+          "frame": 14,
+          "type": "grapple",
+          "direction": [
+            0.363083750009537,
+            -0.931756556034088
+          ]
+        },
+        {
+          "frame": 70,
+          "type": "jump",
+          "direction": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 78,
+          "type": "jump_release",
+          "direction": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "axes": [
+        {
+          "frame": 0,
+          "value": 1.0
+        },
+        {
+          "frame": 87,
+          "value": 0.0
+        }
+      ],
+      "recorded_frames": [
+        {
+          "frame": 0,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 1,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 2,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 3,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 4,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 5,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 6,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 7,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 8,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 9,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 10,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 11,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 12,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 13,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 14,
+          "axis": 1.0,
+          "requested": [
+            {
+              "direction": [
+                0.363083750009537,
+                -0.931756556034088
+              ],
+              "plan_index": 1,
+              "type": "grapple"
+            }
+          ]
+        },
+        {
+          "frame": 15,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 16,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 17,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 18,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 19,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 20,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 21,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 22,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 23,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 24,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 25,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 26,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 27,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 28,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 29,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 30,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 31,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 32,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 33,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 34,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 35,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 36,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 37,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 38,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 39,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 40,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 41,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 42,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 43,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 44,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 45,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 46,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 47,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 48,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 49,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 50,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 51,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 52,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 53,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 54,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 55,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 56,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 57,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 58,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 59,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 60,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 61,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 62,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 63,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 64,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 65,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 66,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 67,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 68,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 69,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 70,
+          "axis": 1.0,
+          "requested": [
+            {
+              "direction": [
+                0.0,
+                0.0
+              ],
+              "plan_index": 3,
+              "type": "jump"
+            }
+          ]
+        },
+        {
+          "frame": 71,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 72,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 73,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 74,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 75,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 76,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 77,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 78,
+          "axis": 1.0,
+          "requested": [
+            {
+              "direction": [
+                0.0,
+                0.0
+              ],
+              "plan_index": 4,
+              "type": "jump_release"
+            }
+          ]
+        },
+        {
+          "frame": 79,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 80,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 81,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 82,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 83,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 84,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 85,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 86,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 87,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 88,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 89,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 90,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 91,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 92,
+          "axis": 0.0,
+          "requested": []
+        }
+      ],
+      "title": "07 弹点 → 空跳",
+      "review_warnings": [],
+      "review_status": "awaiting_human_playtest",
+      "quality_evidence": {
+        "id": "c-c6-w1-v0-w160",
+        "combo": 6,
+        "word": [
+          "hook_bounce",
+          "air_jump"
+        ],
+        "capabilities": [
+          "double_jump",
+          "grapple",
+          "jump",
+          "move"
+        ],
+        "original_shortcuts": 0,
+        "refined": false,
+        "remaining_shortcuts": 0,
+        "scores": {
+          "feedback/clean": {
+            "success": 1,
+            "trials": 1
+          },
+          "feedback/mild": {
+            "success": 20,
+            "trials": 20
+          },
+          "feedback/moderate": {
+            "success": 16,
+            "trials": 20
+          },
+          "fixed/clean": {
+            "success": 1,
+            "trials": 1
+          },
+          "fixed/mild": {
+            "success": 19,
+            "trials": 20
+          },
+          "fixed/moderate": {
+            "success": 14,
+            "trials": 20
+          }
+        }
+      }
+    },
+    "validationScope": "real Motor + static whole-body sweeps; no human or production-consumer approval"
+  }
+}

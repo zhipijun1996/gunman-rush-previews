@@ -1,0 +1,1796 @@
+{
+  "schema": "gunman-rush-level-sketch/v1",
+  "id": "c-c12-w11-v0-w160-refined",
+  "title": "20 起跳 → 挂点 → 弹点 → 蹬墙【已发现较少动作/能力的替代解】",
+  "description": "能力组合生成研究候选；需真人试玩；修改几何或能力后验证收据失效。",
+  "constraints": "保留完整身体净空及真实资源恢复；能力必要性尚无完备证明。",
+  "objects": [
+    {
+      "id": "c-c12-w11-v0-w160-refined-0",
+      "type": "terrain",
+      "x": 100,
+      "y": 608,
+      "w": 260,
+      "h": 60,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c12-w11-v0-w160-refined-1",
+      "type": "terrain",
+      "x": 705,
+      "y": 140,
+      "w": 32,
+      "h": 650,
+      "rotation": 0,
+      "label": "",
+      "note": "可攀墙"
+    },
+    {
+      "id": "c-c12-w11-v0-w160-refined-2",
+      "type": "terrain",
+      "x": 460.0,
+      "y": 552,
+      "w": 160,
+      "h": 72,
+      "rotation": 0,
+      "label": "",
+      "note": "单向落台"
+    },
+    {
+      "id": "c-c12-w11-v0-w160-refined-3",
+      "type": "terrain",
+      "x": 395,
+      "y": 634,
+      "w": 28,
+      "h": 32,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c12-w11-v0-w160-refined-4",
+      "type": "hazard",
+      "x": 360,
+      "y": 824,
+      "w": 260.0,
+      "h": 24,
+      "rotation": 0,
+      "label": "",
+      "note": "研究危险包络；未连接正式荆棘伤害消费者"
+    },
+    {
+      "id": "c-c12-w11-v0-w160-refined-5",
+      "type": "hazard",
+      "x": 395,
+      "y": 628,
+      "w": 28,
+      "h": 12,
+      "rotation": 0,
+      "label": "",
+      "note": "研究危险包络；未连接正式荆棘伤害消费者"
+    },
+    {
+      "id": "c-c12-w11-v0-w160-refined-6",
+      "type": "hazard",
+      "x": 396,
+      "y": 346,
+      "w": 16,
+      "h": 24,
+      "rotation": 0,
+      "label": "",
+      "note": "研究危险包络；未连接正式荆棘伤害消费者"
+    },
+    {
+      "id": "c-c12-w11-v0-w160-refined-7",
+      "type": "hazard",
+      "x": 500,
+      "y": 506,
+      "w": 16,
+      "h": 24,
+      "rotation": 0,
+      "label": "",
+      "note": "研究危险包络；未连接正式荆棘伤害消费者"
+    },
+    {
+      "id": "c-c12-w11-v0-w160-refined-8",
+      "type": "hookHang",
+      "x": 411,
+      "y": 370,
+      "w": 38,
+      "h": 38,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c12-w11-v0-w160-refined-9",
+      "type": "hookBounce",
+      "x": 541,
+      "y": 298,
+      "w": 38,
+      "h": 38,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c12-w11-v0-w160-refined-10",
+      "type": "entry",
+      "x": 288,
+      "y": 572,
+      "w": 24,
+      "h": 36,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c12-w11-v0-w160-refined-11",
+      "type": "exit",
+      "x": 484.0,
+      "y": 510,
+      "w": 112,
+      "h": 48,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c12-w11-v0-w160-refined-12",
+      "type": "route",
+      "x": 220,
+      "y": 170,
+      "w": 0,
+      "h": 0,
+      "rotation": 0,
+      "label": "",
+      "note": "",
+      "points": [
+        {
+          "x": 304.3333358764648,
+          "y": 589.925262451172,
+          "action": "落地"
+        },
+        {
+          "x": 317.3333358764648,
+          "y": 589.92529296875,
+          "action": "落地"
+        },
+        {
+          "x": 326.000450134277,
+          "y": 579.546447753906,
+          "action": "jump, ground_jump"
+        },
+        {
+          "x": 330.333786010742,
+          "y": 569.168670654297,
+          "action": "空中"
+        },
+        {
+          "x": 343.333793640137,
+          "y": 538.035339355469,
+          "action": "空中"
+        },
+        {
+          "x": 356.33378601074196,
+          "y": 507.046447753906,
+          "action": "空中"
+        },
+        {
+          "x": 369.333770751953,
+          "y": 480.679779052734,
+          "action": "空中"
+        },
+        {
+          "x": 382.333755493164,
+          "y": 475.502014160156,
+          "action": "空中"
+        },
+        {
+          "x": 395.333740234375,
+          "y": 484.168670654297,
+          "action": "空中"
+        },
+        {
+          "x": 408.333724975586,
+          "y": 499.335327148438,
+          "action": "空中"
+        },
+        {
+          "x": 421.333709716797,
+          "y": 521.002014160156,
+          "action": "空中"
+        },
+        {
+          "x": 434.33369445800804,
+          "y": 549.168670654297,
+          "action": "traversal"
+        },
+        {
+          "x": 447.333679199219,
+          "y": 583.835327148438,
+          "action": "空中"
+        },
+        {
+          "x": 451.667007446289,
+          "y": 596.835327148438,
+          "action": "traversal"
+        },
+        {
+          "x": 460.33366394043003,
+          "y": 623.502014160156,
+          "action": "空中"
+        },
+        {
+          "x": 473.33364868164097,
+          "y": 663.5020446777339,
+          "action": "hook_contact, traversal"
+        },
+        {
+          "x": 463.96835327148403,
+          "y": 606.769836425781,
+          "action": "空中"
+        },
+        {
+          "x": 454.603057861328,
+          "y": 550.037628173828,
+          "action": "空中"
+        },
+        {
+          "x": 445.23774719238304,
+          "y": 493.305419921875,
+          "action": "空中"
+        },
+        {
+          "x": 435.872421264648,
+          "y": 436.573211669922,
+          "action": "空中"
+        },
+        {
+          "x": 434.886260986328,
+          "y": 430.599395751953,
+          "action": "traversal"
+        },
+        {
+          "x": 434.886260986328,
+          "y": 430.599395751953,
+          "action": "空中"
+        },
+        {
+          "x": 434.886260986328,
+          "y": 430.599395751953,
+          "action": "空中"
+        },
+        {
+          "x": 434.886260986328,
+          "y": 430.599395751953,
+          "action": "空中"
+        },
+        {
+          "x": 439.219589233398,
+          "y": 431.321624755859,
+          "action": "traversal, traversal"
+        },
+        {
+          "x": 447.886245727539,
+          "y": 434.932739257812,
+          "action": "空中"
+        },
+        {
+          "x": 456.55290222168003,
+          "y": 441.432739257812,
+          "action": "traversal"
+        },
+        {
+          "x": 460.88623046875,
+          "y": 445.766082763672,
+          "action": "空中"
+        },
+        {
+          "x": 473.886215209961,
+          "y": 463.099395751953,
+          "action": "空中"
+        },
+        {
+          "x": 482.552886962891,
+          "y": 478.266082763672,
+          "action": "hook_contact, traversal"
+        },
+        {
+          "x": 490.351745605469,
+          "y": 460.757843017578,
+          "action": "空中"
+        },
+        {
+          "x": 513.748352050781,
+          "y": 408.23310852050804,
+          "action": "空中"
+        },
+        {
+          "x": 537.144958496094,
+          "y": 355.708374023438,
+          "action": "空中"
+        },
+        {
+          "x": 538.6949157714839,
+          "y": 352.228759765625,
+          "action": "traversal"
+        },
+        {
+          "x": 538.6949157714839,
+          "y": 352.228759765625,
+          "action": "空中"
+        },
+        {
+          "x": 538.6949157714839,
+          "y": 352.228759765625,
+          "action": "空中"
+        },
+        {
+          "x": 534.6949157714839,
+          "y": 348.228759765625,
+          "action": "traversal"
+        },
+        {
+          "x": 530.6949157714839,
+          "y": 344.228759765625,
+          "action": "空中"
+        },
+        {
+          "x": 518.6949157714839,
+          "y": 332.228759765625,
+          "action": "空中"
+        },
+        {
+          "x": 523.361602783203,
+          "y": 328.228759765625,
+          "action": "traversal"
+        },
+        {
+          "x": 536.361633300781,
+          "y": 328.229995727539,
+          "action": "空中"
+        },
+        {
+          "x": 549.3616638183589,
+          "y": 328.74502563476597,
+          "action": "空中"
+        },
+        {
+          "x": 562.361694335938,
+          "y": 332.29670715331997,
+          "action": "空中"
+        },
+        {
+          "x": 575.3617248535161,
+          "y": 341.62043762206997,
+          "action": "空中"
+        },
+        {
+          "x": 588.361755371094,
+          "y": 357.43710327148403,
+          "action": "空中"
+        },
+        {
+          "x": 601.361785888672,
+          "y": 379.753784179688,
+          "action": "空中"
+        },
+        {
+          "x": 614.36181640625,
+          "y": 408.570449829102,
+          "action": "空中"
+        },
+        {
+          "x": 627.361846923828,
+          "y": 443.887115478516,
+          "action": "空中"
+        },
+        {
+          "x": 640.361877441406,
+          "y": 483.770477294922,
+          "action": "空中"
+        },
+        {
+          "x": 653.3619079589839,
+          "y": 523.7705078125,
+          "action": "空中"
+        },
+        {
+          "x": 666.361938476562,
+          "y": 563.770538330078,
+          "action": "空中"
+        },
+        {
+          "x": 679.3619689941411,
+          "y": 603.770568847656,
+          "action": "空中"
+        },
+        {
+          "x": 692.361999511719,
+          "y": 643.7705993652339,
+          "action": "空中"
+        },
+        {
+          "x": 692.925170898438,
+          "y": 658.353942871094,
+          "action": "traversal"
+        },
+        {
+          "x": 692.925170898438,
+          "y": 659.603942871094,
+          "action": "空中"
+        },
+        {
+          "x": 692.925170898438,
+          "y": 663.353942871094,
+          "action": "空中"
+        },
+        {
+          "x": 687.258361816406,
+          "y": 647.909118652344,
+          "action": "traversal, wall_jump"
+        },
+        {
+          "x": 675.925048828125,
+          "y": 619.186889648438,
+          "action": "空中"
+        },
+        {
+          "x": 658.925079345703,
+          "y": 581.520233154297,
+          "action": "空中"
+        },
+        {
+          "x": 643.258422851562,
+          "y": 550.353576660156,
+          "action": "traversal"
+        },
+        {
+          "x": 630.2583923339839,
+          "y": 525.686889648438,
+          "action": "空中"
+        },
+        {
+          "x": 617.258361816406,
+          "y": 507.520202636719,
+          "action": "空中"
+        },
+        {
+          "x": 604.258331298828,
+          "y": 495.853546142578,
+          "action": "空中"
+        },
+        {
+          "x": 591.25830078125,
+          "y": 490.686859130859,
+          "action": "空中"
+        },
+        {
+          "x": 578.258270263672,
+          "y": 492.020172119141,
+          "action": "空中"
+        },
+        {
+          "x": 565.258239746094,
+          "y": 499.853515625,
+          "action": "空中"
+        },
+        {
+          "x": 552.2582092285161,
+          "y": 514.186828613281,
+          "action": "空中"
+        },
+        {
+          "x": 543.591522216797,
+          "y": 533.95703125,
+          "action": "落地"
+        },
+        {
+          "x": 543.591522216797,
+          "y": 533.95703125,
+          "action": "落地"
+        },
+        {
+          "x": 543.591522216797,
+          "y": 533.95703125,
+          "action": "落地"
+        }
+      ],
+      "duration": 2.95,
+      "mode": "once"
+    }
+  ],
+  "canvas": {
+    "width": 1600,
+    "height": 900,
+    "units": "world",
+    "positionPrecision": "exact"
+  },
+  "capabilityRequirements": {
+    "version": 1,
+    "status": "unspecified",
+    "allOf": [],
+    "anyOfGroups": [],
+    "note": "能力快照不是最低能力条件，见researchEvidence"
+  },
+  "difficulty": {
+    "version": 1,
+    "scale": "gunman-rush/module-difficulty/v1",
+    "score": null,
+    "note": "待真人校准"
+  },
+  "intent": {
+    "operation": "new_module"
+  },
+  "updatedAt": "2026-10-23T00:00:00Z",
+  "source": {
+    "repository": "https://github.com/zhipijun1996/gunman-rush",
+    "commit": "12f6cb006d7119598e3235f4ca4f7323e4c9d092",
+    "path": "pcg-research/composable",
+    "moduleId": "c-c12-w11-v0-w160-refined",
+    "editorTranslation": {
+      "x": 220,
+      "y": 170
+    },
+    "researchOnly": true
+  },
+  "researchEvidence": {
+    "witnessCapabilities": [
+      "grapple",
+      "jump",
+      "move",
+      "wall_climb"
+    ],
+    "actionWord": [
+      "ground_jump",
+      "hook_hang",
+      "hook_bounce",
+      "wall_contact",
+      "wall_jump"
+    ],
+    "quality": {
+      "id": "c-c12-w11-v0-w160-refined",
+      "combo": 12,
+      "word": [
+        "ground_jump",
+        "hook_hang",
+        "hook_bounce",
+        "wall_jump"
+      ],
+      "capabilities": [
+        "grapple",
+        "jump",
+        "move",
+        "wall_climb"
+      ],
+      "original_shortcuts": 4,
+      "refined": true,
+      "remaining_shortcuts": 2,
+      "scores": {
+        "feedback/clean": {
+          "success": 1,
+          "trials": 1
+        },
+        "feedback/mild": {
+          "success": 20,
+          "trials": 20
+        },
+        "feedback/moderate": {
+          "success": 15,
+          "trials": 20
+        },
+        "fixed/clean": {
+          "success": 1,
+          "trials": 1
+        },
+        "fixed/mild": {
+          "success": 15,
+          "trials": 20
+        },
+        "fixed/moderate": {
+          "success": 6,
+          "trials": 20
+        }
+      }
+    },
+    "inputProgram": {
+      "schema": "pcg/candidate-module/v2",
+      "id": "c-c12-w11-v0-w160-refined",
+      "capabilities": [
+        "grapple",
+        "jump",
+        "move",
+        "wall_climb"
+      ],
+      "capability_contract": {
+        "schema": "pcg/capability-snapshot/v2",
+        "ids": [
+          "grapple",
+          "jump",
+          "move",
+          "wall_climb"
+        ],
+        "registry_version": 2,
+        "registry_sha256": "723571e6d31a1803edfa1586c668fdac6268465e28e607ec405687747b9d09cd",
+        "physics_source": "12f6cb006d7119598e3235f4ca4f7323e4c9d092"
+      },
+      "seed": 1041202,
+      "word": [
+        "ground_jump",
+        "hook_hang",
+        "hook_bounce",
+        "wall_contact",
+        "wall_jump"
+      ],
+      "platforms": [
+        [
+          -120,
+          438,
+          260,
+          60
+        ],
+        [
+          485,
+          -30,
+          32,
+          650
+        ],
+        [
+          240.0,
+          382,
+          160,
+          72
+        ],
+        [
+          175,
+          464,
+          28,
+          32
+        ]
+      ],
+      "hazards": [
+        [
+          140,
+          654,
+          260.0,
+          24
+        ],
+        [
+          175,
+          458,
+          28,
+          12
+        ],
+        [
+          176,
+          176,
+          16,
+          24
+        ],
+        [
+          280,
+          336,
+          16,
+          24
+        ]
+      ],
+      "wall_platform_indices": [
+        1
+      ],
+      "hooks": [
+        {
+          "x": 210,
+          "y": 219,
+          "kind": "hang"
+        },
+        {
+          "x": 340,
+          "y": 147,
+          "kind": "bounce"
+        }
+      ],
+      "spawn": [
+        80,
+        420
+      ],
+      "goal": [
+        264.0,
+        340,
+        112,
+        48
+      ],
+      "max_frames": 189,
+      "trace_all": false,
+      "settle_frames": 6,
+      "synthesis": {
+        "method": "typed_action_graph+real_motion",
+        "authored_modules": 0,
+        "landing_width": 160,
+        "clearance": 44,
+        "landing_probe_frame": 171,
+        "landing_center": [
+          320,
+          364
+        ],
+        "policy": "state_gates+router_feedback",
+        "counterexample_cells": [
+          [
+            176,
+            176,
+            16,
+            24
+          ],
+          [
+            280,
+            336,
+            16,
+            24
+          ]
+        ]
+      },
+      "combo_index": 12,
+      "one_way_platform_indices": [
+        2
+      ],
+      "actions": [
+        {
+          "frame": 5,
+          "type": "jump",
+          "direction": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 17,
+          "type": "jump_release",
+          "direction": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 30,
+          "type": "grapple",
+          "direction": [
+            -2.54211545325234e-06,
+            -1.0
+          ]
+        },
+        {
+          "frame": 61,
+          "type": "grapple",
+          "direction": [
+            0.758180439472198,
+            -0.652044773101807
+          ]
+        },
+        {
+          "frame": 139,
+          "type": "jump",
+          "direction": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 148,
+          "type": "jump_release",
+          "direction": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "axes": [
+        {
+          "frame": 0,
+          "value": 1.0
+        },
+        {
+          "frame": 140,
+          "value": -1.0
+        },
+        {
+          "frame": 171,
+          "value": 0.0
+        }
+      ],
+      "recorded_frames": [
+        {
+          "frame": 0,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 1,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 2,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 3,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 4,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 5,
+          "axis": 1.0,
+          "requested": [
+            {
+              "direction": [
+                0.0,
+                0.0
+              ],
+              "plan_index": 1,
+              "type": "jump"
+            }
+          ]
+        },
+        {
+          "frame": 6,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 7,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 8,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 9,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 10,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 11,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 12,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 13,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 14,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 15,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 16,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 17,
+          "axis": 1.0,
+          "requested": [
+            {
+              "direction": [
+                0.0,
+                0.0
+              ],
+              "plan_index": 2,
+              "type": "jump_release"
+            }
+          ]
+        },
+        {
+          "frame": 18,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 19,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 20,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 21,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 22,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 23,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 24,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 25,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 26,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 27,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 28,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 29,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 30,
+          "axis": 1.0,
+          "requested": [
+            {
+              "direction": [
+                -2.54211545325234e-06,
+                -1.0
+              ],
+              "plan_index": 3,
+              "type": "grapple"
+            }
+          ]
+        },
+        {
+          "frame": 31,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 32,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 33,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 34,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 35,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 36,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 37,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 38,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 39,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 40,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 41,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 42,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 43,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 44,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 45,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 46,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 47,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 48,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 49,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 50,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 51,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 52,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 53,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 54,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 55,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 56,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 57,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 58,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 59,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 60,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 61,
+          "axis": 1.0,
+          "requested": [
+            {
+              "direction": [
+                0.758180439472198,
+                -0.652044773101807
+              ],
+              "plan_index": 5,
+              "type": "grapple"
+            }
+          ]
+        },
+        {
+          "frame": 62,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 63,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 64,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 65,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 66,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 67,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 68,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 69,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 70,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 71,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 72,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 73,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 74,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 75,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 76,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 77,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 78,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 79,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 80,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 81,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 82,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 83,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 84,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 85,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 86,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 87,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 88,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 89,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 90,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 91,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 92,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 93,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 94,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 95,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 96,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 97,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 98,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 99,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 100,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 101,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 102,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 103,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 104,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 105,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 106,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 107,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 108,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 109,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 110,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 111,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 112,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 113,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 114,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 115,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 116,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 117,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 118,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 119,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 120,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 121,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 122,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 123,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 124,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 125,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 126,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 127,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 128,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 129,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 130,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 131,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 132,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 133,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 134,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 135,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 136,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 137,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 138,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 139,
+          "axis": 1.0,
+          "requested": [
+            {
+              "direction": [
+                0.0,
+                0.0
+              ],
+              "plan_index": 8,
+              "type": "jump"
+            }
+          ]
+        },
+        {
+          "frame": 140,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 141,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 142,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 143,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 144,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 145,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 146,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 147,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 148,
+          "axis": -1.0,
+          "requested": [
+            {
+              "direction": [
+                0.0,
+                0.0
+              ],
+              "plan_index": 10,
+              "type": "jump_release"
+            }
+          ]
+        },
+        {
+          "frame": 149,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 150,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 151,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 152,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 153,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 154,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 155,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 156,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 157,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 158,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 159,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 160,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 161,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 162,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 163,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 164,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 165,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 166,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 167,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 168,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 169,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 170,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 171,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 172,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 173,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 174,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 175,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 176,
+          "axis": 0.0,
+          "requested": []
+        }
+      ],
+      "title": "20 起跳 → 挂点 → 弹点 → 蹬墙【已发现较少动作/能力的替代解】",
+      "review_warnings": [
+        "已发现较少动作/能力的替代解"
+      ],
+      "review_status": "awaiting_human_playtest",
+      "quality_evidence": {
+        "id": "c-c12-w11-v0-w160-refined",
+        "combo": 12,
+        "word": [
+          "ground_jump",
+          "hook_hang",
+          "hook_bounce",
+          "wall_jump"
+        ],
+        "capabilities": [
+          "grapple",
+          "jump",
+          "move",
+          "wall_climb"
+        ],
+        "original_shortcuts": 4,
+        "refined": true,
+        "remaining_shortcuts": 2,
+        "scores": {
+          "feedback/clean": {
+            "success": 1,
+            "trials": 1
+          },
+          "feedback/mild": {
+            "success": 20,
+            "trials": 20
+          },
+          "feedback/moderate": {
+            "success": 15,
+            "trials": 20
+          },
+          "fixed/clean": {
+            "success": 1,
+            "trials": 1
+          },
+          "fixed/mild": {
+            "success": 15,
+            "trials": 20
+          },
+          "fixed/moderate": {
+            "success": 6,
+            "trials": 20
+          }
+        }
+      }
+    },
+    "validationScope": "real Motor + static whole-body sweeps; no human or production-consumer approval"
+  }
+}

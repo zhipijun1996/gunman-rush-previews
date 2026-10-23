@@ -1,0 +1,1728 @@
+{
+  "url": "http://127.0.0.1:8036",
+  "records": [
+    {
+      "action": "loaded",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 19,
+        "grounded": true,
+        "id": "c-c0-w0-v1-w160-refined",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 0,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "manual_D",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 46,
+        "grounded": true,
+        "id": "c-c0-w0-v1-w160-refined",
+        "mode": "manual",
+        "position": [
+          123.333351135254,
+          419.92529296875
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 0,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "manual_Space",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 1,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 61,
+        "grounded": false,
+        "id": "c-c0-w0-v1-w160-refined",
+        "mode": "manual",
+        "position": [
+          123.333351135254,
+          377.879608154297
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 0,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          303.333343505859
+        ]
+      }
+    },
+    {
+      "action": "disabled_shoot",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 1,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 68,
+        "grounded": true,
+        "id": "c-c0-w0-v1-w160-refined",
+        "mode": "manual",
+        "position": [
+          123.333351135254,
+          419.968811035156
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 0,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "manual_R",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 4,
+        "grounded": true,
+        "id": "c-c0-w0-v1-w160-refined",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 0,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "select_1",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 0,
+        "grounded": false,
+        "id": "c-c1-w0-v0-w160",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 1,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "manual_shoot",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 1,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 8,
+        "grounded": false,
+        "id": "c-c1-w0-v0-w160",
+        "mode": "manual",
+        "position": [
+          20.2675514221191,
+          410.318572998047
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 1,
+        "shot_charges": 0,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          -597.20654296875,
+          -96.7955017089844
+        ]
+      }
+    },
+    {
+      "action": "mouse_retry",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 2,
+        "grounded": true,
+        "id": "c-c1-w0-v0-w160",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 1,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "select_0",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 1,
+        "grounded": true,
+        "id": "c-c0-w0-v1-w160-refined",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 0,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "replay_0",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 1,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": true,
+        "frame": 46,
+        "grounded": true,
+        "id": "c-c0-w0-v1-w160-refined",
+        "mode": "replay",
+        "position": [
+          249.00032043457,
+          515.950622558594
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 0,
+        "shot_charges": 1,
+        "stable_frames": 6,
+        "status": "稳定抵达出口 / Exit reached and stable · 预生成候选",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "select_1",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 1,
+        "grounded": true,
+        "id": "c-c1-w0-v0-w160",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 1,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "replay_1",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 1,
+          "shot": 1,
+          "wall_jump": 0
+        },
+        "finished": true,
+        "frame": 61,
+        "grounded": true,
+        "id": "c-c1-w0-v0-w160",
+        "mode": "replay",
+        "position": [
+          368.669006347656,
+          319.999389648438
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 1,
+        "shot_charges": 1,
+        "stable_frames": 6,
+        "status": "稳定抵达出口 / Exit reached and stable · 预生成候选",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "select_2",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "double_jump"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 0,
+        "grounded": false,
+        "id": "c-c2-w0-v1-w160-refined",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 2,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "replay_2",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "double_jump"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 1,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 2,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": true,
+        "frame": 63,
+        "grounded": true,
+        "id": "c-c2-w0-v1-w160-refined",
+        "mode": "replay",
+        "position": [
+          322.667144775391,
+          363.971313476562
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 2,
+        "shot_charges": 1,
+        "stable_frames": 6,
+        "status": "稳定抵达出口 / Exit reached and stable · 预生成候选",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "select_3",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil",
+          "double_jump"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 0,
+        "grounded": false,
+        "id": "c-c3-w0-v0-w160-refined",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 3,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "replay_3",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil",
+          "double_jump"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 1,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 1,
+          "shot": 1,
+          "wall_jump": 0
+        },
+        "finished": true,
+        "frame": 55,
+        "grounded": true,
+        "id": "c-c3-w0-v0-w160-refined",
+        "mode": "replay",
+        "position": [
+          329.501617431641,
+          323.970397949219
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 3,
+        "shot_charges": 1,
+        "stable_frames": 6,
+        "status": "稳定抵达出口 / Exit reached and stable · 预生成候选",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "select_4",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "grapple"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 0,
+        "grounded": false,
+        "id": "c-c4-w0-v0-w160",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 4,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "replay_4",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "grapple"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 2,
+          "hook_contact": 2,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": true,
+        "frame": 111,
+        "grounded": true,
+        "id": "c-c4-w0-v0-w160",
+        "mode": "replay",
+        "position": [
+          387.114013671875,
+          191.958847045898
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 4,
+        "shot_charges": 1,
+        "stable_frames": 6,
+        "status": "稳定抵达出口 / Exit reached and stable · 预生成候选",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "select_5",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil",
+          "grapple"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 0,
+        "grounded": false,
+        "id": "c-c5-w0-v0-w160-refined",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 5,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "replay_5",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil",
+          "grapple"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 1,
+          "hook_contact": 1,
+          "jump": 0,
+          "shot": 1,
+          "wall_jump": 0
+        },
+        "finished": true,
+        "frame": 77,
+        "grounded": true,
+        "id": "c-c5-w0-v0-w160-refined",
+        "mode": "replay",
+        "position": [
+          414.23388671875,
+          231.980743408203
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 5,
+        "shot_charges": 1,
+        "stable_frames": 6,
+        "status": "稳定抵达出口 / Exit reached and stable · 预生成候选",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "select_6",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "double_jump",
+          "grapple"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 0,
+        "grounded": false,
+        "id": "c-c6-w1-v0-w160",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 6,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "replay_6",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "double_jump",
+          "grapple"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 1,
+          "anchor_jump": 0,
+          "hook_cast": 1,
+          "hook_contact": 1,
+          "jump": 1,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": true,
+        "frame": 93,
+        "grounded": true,
+        "id": "c-c6-w1-v0-w160",
+        "mode": "replay",
+        "position": [
+          348.750183105469,
+          287.985015869141
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 6,
+        "shot_charges": 1,
+        "stable_frames": 6,
+        "status": "稳定抵达出口 / Exit reached and stable · 预生成候选",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "select_7",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil",
+          "double_jump",
+          "grapple"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 1,
+        "grounded": true,
+        "id": "c-c7-w0-v0-w160",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 7,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "replay_7",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil",
+          "double_jump",
+          "grapple"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 1,
+          "anchor_jump": 0,
+          "hook_cast": 1,
+          "hook_contact": 1,
+          "jump": 1,
+          "shot": 1,
+          "wall_jump": 0
+        },
+        "finished": true,
+        "frame": 102,
+        "grounded": true,
+        "id": "c-c7-w0-v0-w160",
+        "mode": "replay",
+        "position": [
+          499.275024414062,
+          175.992233276367
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 7,
+        "shot_charges": 1,
+        "stable_frames": 6,
+        "status": "稳定抵达出口 / Exit reached and stable · 预生成候选",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "select_8",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "wall_climb"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 1,
+        "grounded": true,
+        "id": "c-c8-w0-v0-w160",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 8,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "replay_8",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "wall_climb"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 1,
+          "shot": 0,
+          "wall_jump": 1
+        },
+        "finished": true,
+        "frame": 66,
+        "grounded": true,
+        "id": "c-c8-w0-v0-w160",
+        "mode": "replay",
+        "position": [
+          33.5916290283203,
+          315.98974609375
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 8,
+        "shot_charges": 1,
+        "stable_frames": 6,
+        "status": "稳定抵达出口 / Exit reached and stable · 预生成候选",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "select_9",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil",
+          "wall_climb"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 0,
+        "grounded": false,
+        "id": "c-c9-w1-v0-w160-refined",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 9,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "replay_9",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil",
+          "wall_climb"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 1,
+          "shot": 1,
+          "wall_jump": 1
+        },
+        "finished": true,
+        "frame": 68,
+        "grounded": true,
+        "id": "c-c9-w1-v0-w160-refined",
+        "mode": "replay",
+        "position": [
+          33.5916442871094,
+          259.982452392578
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 9,
+        "shot_charges": 1,
+        "stable_frames": 6,
+        "status": "稳定抵达出口 / Exit reached and stable · 预生成候选",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "select_10",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "double_jump",
+          "wall_climb"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 0,
+        "grounded": false,
+        "id": "c-c10-w1-v0-w160",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 10,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "replay_10",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "double_jump",
+          "wall_climb"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 1,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 2,
+          "shot": 0,
+          "wall_jump": 1
+        },
+        "finished": true,
+        "frame": 74,
+        "grounded": true,
+        "id": "c-c10-w1-v0-w160",
+        "mode": "replay",
+        "position": [
+          -5.40837526321411,
+          227.97282409668
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 10,
+        "shot_charges": 1,
+        "stable_frames": 6,
+        "status": "稳定抵达出口 / Exit reached and stable · 预生成候选",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "select_11",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil",
+          "double_jump",
+          "wall_climb"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 0,
+        "grounded": false,
+        "id": "c-c11-w0-v0-w160",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 11,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "replay_11",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil",
+          "double_jump",
+          "wall_climb"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 1,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 2,
+          "shot": 1,
+          "wall_jump": 1
+        },
+        "finished": true,
+        "frame": 80,
+        "grounded": true,
+        "id": "c-c11-w0-v0-w160",
+        "mode": "replay",
+        "position": [
+          -18.4083766937256,
+          119.971893310547
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 11,
+        "shot_charges": 1,
+        "stable_frames": 6,
+        "status": "稳定抵达出口 / Exit reached and stable · 预生成候选",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "select_12",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "grapple",
+          "wall_climb"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 1,
+        "grounded": true,
+        "id": "c-c12-w0-v0-w160",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 12,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "replay_12",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "grapple",
+          "wall_climb"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 1,
+          "hook_contact": 1,
+          "jump": 1,
+          "shot": 0,
+          "wall_jump": 1
+        },
+        "finished": true,
+        "frame": 97,
+        "grounded": true,
+        "id": "c-c12-w0-v0-w160",
+        "mode": "replay",
+        "position": [
+          -28.2298183441162,
+          295.955108642578
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 12,
+        "shot_charges": 1,
+        "stable_frames": 6,
+        "status": "稳定抵达出口 / Exit reached and stable · 预生成候选",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "select_13",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil",
+          "grapple",
+          "wall_climb"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 1,
+        "grounded": true,
+        "id": "c-c13-w0-v0-w160-refined",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 13,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "replay_13",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil",
+          "grapple",
+          "wall_climb"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 1,
+          "hook_contact": 1,
+          "jump": 1,
+          "shot": 1,
+          "wall_jump": 1
+        },
+        "finished": true,
+        "frame": 104,
+        "grounded": true,
+        "id": "c-c13-w0-v0-w160-refined",
+        "mode": "replay",
+        "position": [
+          -126.320594787598,
+          191.987228393555
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 13,
+        "shot_charges": 1,
+        "stable_frames": 6,
+        "status": "稳定抵达出口 / Exit reached and stable · 预生成候选",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "select_14",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "double_jump",
+          "grapple",
+          "wall_climb"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 0,
+        "grounded": false,
+        "id": "c-c14-w0-v0-w160",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 14,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "replay_14",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "double_jump",
+          "grapple",
+          "wall_climb"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 1,
+          "anchor_jump": 0,
+          "hook_cast": 1,
+          "hook_contact": 1,
+          "jump": 2,
+          "shot": 0,
+          "wall_jump": 1
+        },
+        "finished": true,
+        "frame": 113,
+        "grounded": true,
+        "id": "c-c14-w0-v0-w160",
+        "mode": "replay",
+        "position": [
+          -85.0331344604492,
+          243.979339599609
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 14,
+        "shot_charges": 1,
+        "stable_frames": 6,
+        "status": "稳定抵达出口 / Exit reached and stable · 预生成候选",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "select_15",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil",
+          "double_jump",
+          "grapple",
+          "wall_climb"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 1,
+        "grounded": true,
+        "id": "c-c15-w1-v0-w160",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 15,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "action": "failure",
+      "error": "Page.wait_for_function: Timeout 10000ms exceeded.",
+      "state": {
+        "candidate_generation": "offline/pre-generated",
+        "capabilities": [
+          "move",
+          "jump",
+          "shot_recoil",
+          "double_jump",
+          "grapple",
+          "wall_climb"
+        ],
+        "case_count": 20,
+        "events": {
+          "air_jump": 0,
+          "anchor_jump": 0,
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0,
+          "wall_jump": 0
+        },
+        "finished": false,
+        "frame": 605,
+        "grounded": true,
+        "id": "c-c15-w1-v0-w160",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "replay": "recorded real Router inputs",
+        "reward_visited": false,
+        "safe": true,
+        "selected": 15,
+        "shot_charges": 1,
+        "stable_frames": 0,
+        "status": "A/D 移动 · 空格跳 · 左键松开反冲 · E / 右键松开钩索 · R 重试",
+        "traversal": "free",
+        "velocity": [
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "type": "log",
+      "text": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org"
+    },
+    {
+      "type": "log",
+      "text": "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL"
+    },
+    {
+      "type": "log",
+      "text": "Build configuration: Emscripten 4.0.20, single-threaded, no GDExtension support."
+    }
+  ],
+  "errors": []
+}

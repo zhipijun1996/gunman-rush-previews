@@ -1,0 +1,669 @@
+{
+  "schema": "gunman-rush-level-sketch/v1",
+  "id": "c-c0-w0-v1-w160-refined",
+  "title": "01 起跳",
+  "description": "能力组合生成研究候选；需真人试玩；修改几何或能力后验证收据失效。",
+  "constraints": "保留完整身体净空及真实资源恢复；能力必要性尚无完备证明。",
+  "objects": [
+    {
+      "id": "c-c0-w0-v1-w160-refined-0",
+      "type": "terrain",
+      "x": 100,
+      "y": 140,
+      "w": 260,
+      "h": 60,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c0-w0-v1-w160-refined-1",
+      "type": "terrain",
+      "x": 392.0,
+      "y": 236,
+      "w": 160,
+      "h": 72,
+      "rotation": 0,
+      "label": "",
+      "note": "单向落台"
+    },
+    {
+      "id": "c-c0-w0-v1-w160-refined-2",
+      "type": "hazard",
+      "x": 360,
+      "y": 376,
+      "w": 192.0,
+      "h": 24,
+      "rotation": 0,
+      "label": "",
+      "note": "研究危险包络；未连接正式荆棘伤害消费者"
+    },
+    {
+      "id": "c-c0-w0-v1-w160-refined-3",
+      "type": "hazard",
+      "x": 360,
+      "y": 110,
+      "w": 16,
+      "h": 24,
+      "rotation": 0,
+      "label": "",
+      "note": "研究危险包络；未连接正式荆棘伤害消费者"
+    },
+    {
+      "id": "c-c0-w0-v1-w160-refined-4",
+      "type": "entry",
+      "x": 288,
+      "y": 104,
+      "w": 24,
+      "h": 36,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c0-w0-v1-w160-refined-5",
+      "type": "exit",
+      "x": 416.0,
+      "y": 194,
+      "w": 112,
+      "h": 48,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c0-w0-v1-w160-refined-6",
+      "type": "route",
+      "x": 220,
+      "y": -298,
+      "w": 0,
+      "h": 0,
+      "rotation": 0,
+      "label": "",
+      "note": "",
+      "points": [
+        {
+          "x": 304.3333358764648,
+          "y": 121.92526245117199,
+          "action": "落地"
+        },
+        {
+          "x": 317.3333358764648,
+          "y": 121.92529296875,
+          "action": "落地"
+        },
+        {
+          "x": 326.000450134277,
+          "y": 111.54644775390602,
+          "action": "jump, ground_jump"
+        },
+        {
+          "x": 330.333786010742,
+          "y": 101.16867065429699,
+          "action": "空中"
+        },
+        {
+          "x": 343.333793640137,
+          "y": 70.03533935546898,
+          "action": "空中"
+        },
+        {
+          "x": 356.33378601074196,
+          "y": 39.04644775390602,
+          "action": "空中"
+        },
+        {
+          "x": 369.333770751953,
+          "y": 12.679779052733977,
+          "action": "空中"
+        },
+        {
+          "x": 382.333755493164,
+          "y": 17.013122558593977,
+          "action": "空中"
+        },
+        {
+          "x": 395.333740234375,
+          "y": 27.84646606445301,
+          "action": "空中"
+        },
+        {
+          "x": 408.333724975586,
+          "y": 45.17977905273398,
+          "action": "空中"
+        },
+        {
+          "x": 421.333709716797,
+          "y": 69.01312255859398,
+          "action": "空中"
+        },
+        {
+          "x": 434.33369445800804,
+          "y": 99.34646606445301,
+          "action": "空中"
+        },
+        {
+          "x": 447.333679199219,
+          "y": 136.17977905273398,
+          "action": "空中"
+        },
+        {
+          "x": 460.33366394043003,
+          "y": 176.179809570312,
+          "action": "空中"
+        },
+        {
+          "x": 469.00032043456997,
+          "y": 216.17980957031205,
+          "action": "空中"
+        },
+        {
+          "x": 469.00032043456997,
+          "y": 217.95062255859398,
+          "action": "落地"
+        },
+        {
+          "x": 469.00032043456997,
+          "y": 217.95062255859398,
+          "action": "落地"
+        }
+      ],
+      "duration": 0.7666666666666667,
+      "mode": "once"
+    }
+  ],
+  "canvas": {
+    "width": 1600,
+    "height": 900,
+    "units": "world",
+    "positionPrecision": "exact"
+  },
+  "capabilityRequirements": {
+    "version": 1,
+    "status": "unspecified",
+    "allOf": [],
+    "anyOfGroups": [],
+    "note": "能力快照不是最低能力条件，见researchEvidence"
+  },
+  "difficulty": {
+    "version": 1,
+    "scale": "gunman-rush/module-difficulty/v1",
+    "score": null,
+    "note": "待真人校准"
+  },
+  "intent": {
+    "operation": "new_module"
+  },
+  "updatedAt": "2026-10-23T00:00:00Z",
+  "source": {
+    "repository": "https://github.com/zhipijun1996/gunman-rush",
+    "commit": "12f6cb006d7119598e3235f4ca4f7323e4c9d092",
+    "path": "pcg-research/composable",
+    "moduleId": "c-c0-w0-v1-w160-refined",
+    "editorTranslation": {
+      "x": 220,
+      "y": -298
+    },
+    "researchOnly": true
+  },
+  "researchEvidence": {
+    "witnessCapabilities": [
+      "jump",
+      "move"
+    ],
+    "actionWord": [
+      "ground_jump"
+    ],
+    "quality": {
+      "id": "c-c0-w0-v1-w160-refined",
+      "combo": 0,
+      "word": [
+        "ground_jump"
+      ],
+      "capabilities": [
+        "jump",
+        "move"
+      ],
+      "original_shortcuts": 4,
+      "refined": true,
+      "remaining_shortcuts": 0,
+      "scores": {
+        "feedback/clean": {
+          "success": 1,
+          "trials": 1
+        },
+        "feedback/mild": {
+          "success": 20,
+          "trials": 20
+        },
+        "feedback/moderate": {
+          "success": 20,
+          "trials": 20
+        },
+        "fixed/clean": {
+          "success": 1,
+          "trials": 1
+        },
+        "fixed/mild": {
+          "success": 20,
+          "trials": 20
+        },
+        "fixed/moderate": {
+          "success": 20,
+          "trials": 20
+        }
+      }
+    },
+    "inputProgram": {
+      "schema": "pcg/candidate-module/v2",
+      "id": "c-c0-w0-v1-w160-refined",
+      "capabilities": [
+        "jump",
+        "move"
+      ],
+      "capability_contract": {
+        "schema": "pcg/capability-snapshot/v2",
+        "ids": [
+          "jump",
+          "move"
+        ],
+        "registry_version": 2,
+        "registry_sha256": "723571e6d31a1803edfa1586c668fdac6268465e28e607ec405687747b9d09cd",
+        "physics_source": "12f6cb006d7119598e3235f4ca4f7323e4c9d092"
+      },
+      "seed": 920103,
+      "word": [
+        "ground_jump"
+      ],
+      "platforms": [
+        [
+          -120,
+          438,
+          260,
+          60
+        ],
+        [
+          172.0,
+          534,
+          160,
+          72
+        ]
+      ],
+      "hazards": [
+        [
+          140,
+          674,
+          192.0,
+          24
+        ],
+        [
+          140,
+          408,
+          16,
+          24
+        ]
+      ],
+      "wall_platform_indices": [],
+      "hooks": [],
+      "spawn": [
+        80,
+        420
+      ],
+      "goal": [
+        196.0,
+        492,
+        112,
+        48
+      ],
+      "max_frames": 58,
+      "trace_all": false,
+      "settle_frames": 6,
+      "synthesis": {
+        "method": "typed_action_graph+real_motion",
+        "authored_modules": 0,
+        "landing_width": 160,
+        "clearance": 44,
+        "landing_probe_frame": 39,
+        "landing_center": [
+          252,
+          516
+        ],
+        "policy": "state_gates+router_feedback",
+        "counterexample_cells": [
+          [
+            140,
+            408,
+            16,
+            24
+          ]
+        ]
+      },
+      "combo_index": 0,
+      "one_way_platform_indices": [
+        1
+      ],
+      "actions": [
+        {
+          "frame": 5,
+          "type": "jump",
+          "direction": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 16,
+          "type": "jump_release",
+          "direction": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "axes": [
+        {
+          "frame": 0,
+          "value": 1.0
+        },
+        {
+          "frame": 39,
+          "value": 0.0
+        }
+      ],
+      "recorded_frames": [
+        {
+          "frame": 0,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 1,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 2,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 3,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 4,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 5,
+          "axis": 1.0,
+          "requested": [
+            {
+              "direction": [
+                0.0,
+                0.0
+              ],
+              "plan_index": 1,
+              "type": "jump"
+            }
+          ]
+        },
+        {
+          "frame": 6,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 7,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 8,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 9,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 10,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 11,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 12,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 13,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 14,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 15,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 16,
+          "axis": 1.0,
+          "requested": [
+            {
+              "direction": [
+                0.0,
+                0.0
+              ],
+              "plan_index": 2,
+              "type": "jump_release"
+            }
+          ]
+        },
+        {
+          "frame": 17,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 18,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 19,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 20,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 21,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 22,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 23,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 24,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 25,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 26,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 27,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 28,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 29,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 30,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 31,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 32,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 33,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 34,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 35,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 36,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 37,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 38,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 39,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 40,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 41,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 42,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 43,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 44,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 45,
+          "axis": 0.0,
+          "requested": []
+        }
+      ],
+      "title": "01 起跳",
+      "review_warnings": [],
+      "review_status": "awaiting_human_playtest",
+      "quality_evidence": {
+        "id": "c-c0-w0-v1-w160-refined",
+        "combo": 0,
+        "word": [
+          "ground_jump"
+        ],
+        "capabilities": [
+          "jump",
+          "move"
+        ],
+        "original_shortcuts": 4,
+        "refined": true,
+        "remaining_shortcuts": 0,
+        "scores": {
+          "feedback/clean": {
+            "success": 1,
+            "trials": 1
+          },
+          "feedback/mild": {
+            "success": 20,
+            "trials": 20
+          },
+          "feedback/moderate": {
+            "success": 20,
+            "trials": 20
+          },
+          "fixed/clean": {
+            "success": 1,
+            "trials": 1
+          },
+          "fixed/mild": {
+            "success": 20,
+            "trials": 20
+          },
+          "fixed/moderate": {
+            "success": 20,
+            "trials": 20
+          }
+        }
+      }
+    },
+    "validationScope": "real Motor + static whole-body sweeps; no human or production-consumer approval"
+  }
+}

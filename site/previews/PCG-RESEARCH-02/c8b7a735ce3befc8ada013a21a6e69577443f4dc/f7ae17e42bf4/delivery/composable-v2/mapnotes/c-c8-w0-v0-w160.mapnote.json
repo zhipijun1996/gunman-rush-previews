@@ -1,0 +1,809 @@
+{
+  "schema": "gunman-rush-level-sketch/v1",
+  "id": "c-c8-w0-v0-w160",
+  "title": "09 蹬墙",
+  "description": "能力组合生成研究候选；需真人试玩；修改几何或能力后验证收据失效。",
+  "constraints": "保留完整身体净空及真实资源恢复；能力必要性尚无完备证明。",
+  "objects": [
+    {
+      "id": "c-c8-w0-v0-w160-0",
+      "type": "terrain",
+      "x": 100,
+      "y": 408,
+      "w": 260,
+      "h": 60,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c8-w0-v0-w160-1",
+      "type": "terrain",
+      "x": 415,
+      "y": 140,
+      "w": 32,
+      "h": 650,
+      "rotation": 0,
+      "label": "",
+      "note": "可攀墙"
+    },
+    {
+      "id": "c-c8-w0-v0-w160-2",
+      "type": "terrain",
+      "x": 168.0,
+      "y": 304,
+      "w": 160,
+      "h": 72,
+      "rotation": 0,
+      "label": "",
+      "note": "单向落台"
+    },
+    {
+      "id": "c-c8-w0-v0-w160-3",
+      "type": "hazard",
+      "x": 360,
+      "y": 574,
+      "w": 80,
+      "h": 24,
+      "rotation": 0,
+      "label": "",
+      "note": "研究危险包络；未连接正式荆棘伤害消费者"
+    },
+    {
+      "id": "c-c8-w0-v0-w160-4",
+      "type": "entry",
+      "x": 288,
+      "y": 372,
+      "w": 24,
+      "h": 36,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c8-w0-v0-w160-5",
+      "type": "exit",
+      "x": 192.0,
+      "y": 262,
+      "w": 112,
+      "h": 48,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "c-c8-w0-v0-w160-6",
+      "type": "route",
+      "x": 220,
+      "y": -30,
+      "w": 0,
+      "h": 0,
+      "rotation": 0,
+      "label": "",
+      "note": "",
+      "points": [
+        {
+          "x": 304.3333435058594,
+          "y": 389.925231933594,
+          "action": "落地"
+        },
+        {
+          "x": 317.3333435058594,
+          "y": 389.92529296875,
+          "action": "落地"
+        },
+        {
+          "x": 330.333351135254,
+          "y": 389.92529296875,
+          "action": "落地"
+        },
+        {
+          "x": 343.333358764648,
+          "y": 389.92529296875,
+          "action": "落地"
+        },
+        {
+          "x": 356.333358764648,
+          "y": 389.92529296875,
+          "action": "落地"
+        },
+        {
+          "x": 369.33334350585903,
+          "y": 389.92529296875,
+          "action": "落地"
+        },
+        {
+          "x": 382.33332824706997,
+          "y": 392.091979980469,
+          "action": "空中"
+        },
+        {
+          "x": 395.333312988281,
+          "y": 400.758636474609,
+          "action": "空中"
+        },
+        {
+          "x": 402.92514038085903,
+          "y": 411.397521972656,
+          "action": "traversal"
+        },
+        {
+          "x": 397.25834655761696,
+          "y": 398.452728271484,
+          "action": "traversal, wall_jump"
+        },
+        {
+          "x": 380.258331298828,
+          "y": 356.452728271484,
+          "action": "空中"
+        },
+        {
+          "x": 363.258316040039,
+          "y": 320.952697753906,
+          "action": "空中"
+        },
+        {
+          "x": 353.258316040039,
+          "y": 300.897155761719,
+          "action": "traversal"
+        },
+        {
+          "x": 348.924987792969,
+          "y": 291.952697753906,
+          "action": "空中"
+        },
+        {
+          "x": 335.924980163574,
+          "y": 269.452697753906,
+          "action": "空中"
+        },
+        {
+          "x": 322.92497253418003,
+          "y": 253.452667236328,
+          "action": "空中"
+        },
+        {
+          "x": 309.9249649047852,
+          "y": 243.952667236328,
+          "action": "空中"
+        },
+        {
+          "x": 296.9249572753906,
+          "y": 240.952667236328,
+          "action": "空中"
+        },
+        {
+          "x": 283.9249534606934,
+          "y": 244.45263671875,
+          "action": "空中"
+        },
+        {
+          "x": 270.9249572753906,
+          "y": 254.45263671875,
+          "action": "空中"
+        },
+        {
+          "x": 257.9249610900879,
+          "y": 270.95263671875,
+          "action": "空中"
+        },
+        {
+          "x": 253.5916290283203,
+          "y": 285.98974609375,
+          "action": "落地"
+        },
+        {
+          "x": 253.5916290283203,
+          "y": 285.98974609375,
+          "action": "落地"
+        },
+        {
+          "x": 253.5916290283203,
+          "y": 285.98974609375,
+          "action": "落地"
+        }
+      ],
+      "duration": 1.1,
+      "mode": "once"
+    }
+  ],
+  "canvas": {
+    "width": 1600,
+    "height": 900,
+    "units": "world",
+    "positionPrecision": "exact"
+  },
+  "capabilityRequirements": {
+    "version": 1,
+    "status": "unspecified",
+    "allOf": [],
+    "anyOfGroups": [],
+    "note": "能力快照不是最低能力条件，见researchEvidence"
+  },
+  "difficulty": {
+    "version": 1,
+    "scale": "gunman-rush/module-difficulty/v1",
+    "score": null,
+    "note": "待真人校准"
+  },
+  "intent": {
+    "operation": "new_module"
+  },
+  "updatedAt": "2026-10-23T00:00:00Z",
+  "source": {
+    "repository": "https://github.com/zhipijun1996/gunman-rush",
+    "commit": "12f6cb006d7119598e3235f4ca4f7323e4c9d092",
+    "path": "pcg-research/composable",
+    "moduleId": "c-c8-w0-v0-w160",
+    "editorTranslation": {
+      "x": 220,
+      "y": -30
+    },
+    "researchOnly": true
+  },
+  "researchEvidence": {
+    "witnessCapabilities": [
+      "jump",
+      "move",
+      "wall_climb"
+    ],
+    "actionWord": [
+      "wall_contact",
+      "wall_jump"
+    ],
+    "quality": {
+      "id": "c-c8-w0-v0-w160",
+      "combo": 8,
+      "word": [
+        "wall_jump"
+      ],
+      "capabilities": [
+        "jump",
+        "move",
+        "wall_climb"
+      ],
+      "original_shortcuts": 0,
+      "refined": false,
+      "remaining_shortcuts": 0,
+      "scores": {
+        "feedback/clean": {
+          "success": 1,
+          "trials": 1
+        },
+        "feedback/mild": {
+          "success": 20,
+          "trials": 20
+        },
+        "feedback/moderate": {
+          "success": 20,
+          "trials": 20
+        },
+        "fixed/clean": {
+          "success": 1,
+          "trials": 1
+        },
+        "fixed/mild": {
+          "success": 14,
+          "trials": 20
+        },
+        "fixed/moderate": {
+          "success": 9,
+          "trials": 20
+        }
+      }
+    },
+    "inputProgram": {
+      "schema": "pcg/candidate-module/v2",
+      "id": "c-c8-w0-v0-w160",
+      "capabilities": [
+        "jump",
+        "move",
+        "wall_climb"
+      ],
+      "capability_contract": {
+        "schema": "pcg/capability-snapshot/v2",
+        "ids": [
+          "jump",
+          "move",
+          "wall_climb"
+        ],
+        "registry_version": 2,
+        "registry_sha256": "723571e6d31a1803edfa1586c668fdac6268465e28e607ec405687747b9d09cd",
+        "physics_source": "12f6cb006d7119598e3235f4ca4f7323e4c9d092"
+      },
+      "seed": 1000102,
+      "word": [
+        "wall_contact",
+        "wall_jump"
+      ],
+      "platforms": [
+        [
+          -120,
+          438,
+          260,
+          60
+        ],
+        [
+          195,
+          170,
+          32,
+          650
+        ],
+        [
+          -52.0,
+          334,
+          160,
+          72
+        ]
+      ],
+      "hazards": [
+        [
+          140,
+          604,
+          80,
+          24
+        ]
+      ],
+      "wall_platform_indices": [
+        1
+      ],
+      "hooks": [],
+      "spawn": [
+        80,
+        420
+      ],
+      "goal": [
+        -28.0,
+        292,
+        112,
+        48
+      ],
+      "max_frames": 78,
+      "trace_all": false,
+      "settle_frames": 6,
+      "synthesis": {
+        "method": "typed_action_graph+real_motion",
+        "authored_modules": 0,
+        "landing_width": 160,
+        "clearance": 44,
+        "landing_probe_frame": 59,
+        "landing_center": [
+          28,
+          316
+        ],
+        "policy": "state_gates+router_feedback"
+      },
+      "combo_index": 8,
+      "one_way_platform_indices": [
+        2
+      ],
+      "actions": [
+        {
+          "frame": 27,
+          "type": "jump",
+          "direction": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "frame": 36,
+          "type": "jump_release",
+          "direction": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "axes": [
+        {
+          "frame": 0,
+          "value": 1.0
+        },
+        {
+          "frame": 28,
+          "value": -1.0
+        },
+        {
+          "frame": 59,
+          "value": 0.0
+        }
+      ],
+      "recorded_frames": [
+        {
+          "frame": 0,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 1,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 2,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 3,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 4,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 5,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 6,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 7,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 8,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 9,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 10,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 11,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 12,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 13,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 14,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 15,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 16,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 17,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 18,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 19,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 20,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 21,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 22,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 23,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 24,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 25,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 26,
+          "axis": 1.0,
+          "requested": []
+        },
+        {
+          "frame": 27,
+          "axis": 1.0,
+          "requested": [
+            {
+              "direction": [
+                0.0,
+                0.0
+              ],
+              "plan_index": 2,
+              "type": "jump"
+            }
+          ]
+        },
+        {
+          "frame": 28,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 29,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 30,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 31,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 32,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 33,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 34,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 35,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 36,
+          "axis": -1.0,
+          "requested": [
+            {
+              "direction": [
+                0.0,
+                0.0
+              ],
+              "plan_index": 4,
+              "type": "jump_release"
+            }
+          ]
+        },
+        {
+          "frame": 37,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 38,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 39,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 40,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 41,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 42,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 43,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 44,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 45,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 46,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 47,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 48,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 49,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 50,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 51,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 52,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 53,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 54,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 55,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 56,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 57,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 58,
+          "axis": -1.0,
+          "requested": []
+        },
+        {
+          "frame": 59,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 60,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 61,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 62,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 63,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 64,
+          "axis": 0.0,
+          "requested": []
+        },
+        {
+          "frame": 65,
+          "axis": 0.0,
+          "requested": []
+        }
+      ],
+      "title": "09 蹬墙",
+      "review_warnings": [],
+      "review_status": "awaiting_human_playtest",
+      "quality_evidence": {
+        "id": "c-c8-w0-v0-w160",
+        "combo": 8,
+        "word": [
+          "wall_jump"
+        ],
+        "capabilities": [
+          "jump",
+          "move",
+          "wall_climb"
+        ],
+        "original_shortcuts": 0,
+        "refined": false,
+        "remaining_shortcuts": 0,
+        "scores": {
+          "feedback/clean": {
+            "success": 1,
+            "trials": 1
+          },
+          "feedback/mild": {
+            "success": 20,
+            "trials": 20
+          },
+          "feedback/moderate": {
+            "success": 20,
+            "trials": 20
+          },
+          "fixed/clean": {
+            "success": 1,
+            "trials": 1
+          },
+          "fixed/mild": {
+            "success": 14,
+            "trials": 20
+          },
+          "fixed/moderate": {
+            "success": 9,
+            "trials": 20
+          }
+        }
+      }
+    },
+    "validationScope": "real Motor + static whole-body sweeps; no human or production-consumer approval"
+  }
+}
