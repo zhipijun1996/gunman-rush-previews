@@ -1,0 +1,75 @@
+{
+  "schema": "pcg/immutable-overlay/v1",
+  "base": {
+    "path": "/workspace/pcg-research/delivery/composable-v2/web/index.pck",
+    "url": "/gunman-rush-previews/previews/PCG-RESEARCH-02/c8b7a735ce3befc8ada013a21a6e69577443f4dc/f7ae17e42bf4/index.f7ae17e42bf4.pck",
+    "bytes": 68213164,
+    "sha256": "f7ae17e42bf42d404a4435f6987277fa5a7b69866573af80e80207e79c64d27b"
+  },
+  "overlay": {
+    "bytes": 562432,
+    "sha256": "a5602bfd6b8d64d4f31b963abf1c9c84f73a5162e49ffda42446d9e924186c6f",
+    "entries": 10,
+    "pack": "overlay.a5602bfd6b8d.pck"
+  },
+  "main_scene": "res://main_v3.tscn",
+  "engine": {
+    "prefix": "/gunman-rush-previews/previews/PCG-RESEARCH-01/7c7b42e46e33c895d51741c1ca5d26a516568a27/8f8ded8ce59a/index",
+    "version": "4.7.2.stable.official.ed1daf0bf"
+  },
+  "files": {
+    ".godot/global_script_class_cache.cfg": {
+      "bytes": 79271,
+      "sha256": "c207d132f646dc5e1e06fb60936d555c4c03ba08c46f0c427ba1374b945d2121"
+    },
+    ".godot/uid_cache.bin": {
+      "bytes": 39065,
+      "sha256": "edb395252488f30f8b83bce5ac3edf28ce0d0efef4058f4d8af3869b8643b43c"
+    },
+    "dynamic_context.gd": {
+      "bytes": 6745,
+      "sha256": "340de0ef1fd510c18a8717b094a715f35951bbecdac0dfebda7ddcd728899808"
+    },
+    "lab_draw_v3.gd": {
+      "bytes": 1213,
+      "sha256": "ec54ec4404e5ebdd6796a3dac4f0dee0a0b707b561e5df0c531224fe986398b1"
+    },
+    "main_v3.gd": {
+      "bytes": 15078,
+      "sha256": "08dc055d8857b1ff1e4027b053ef0b627918a9a38910c32a8ed4e43d3bbf920e"
+    },
+    "main_v3.tscn": {
+      "bytes": 161,
+      "sha256": "765c69d3cf5dd315c264495acfac3ca8bd79c3494820ff6307b5ced598c947ce"
+    },
+    "modules_v3.json": {
+      "bytes": 417926,
+      "sha256": "22b7043233f516e90d72941792fce93a50386052d8a00a5ace4f030daba5065c"
+    },
+    "pcg_overlay_boot.gd": {
+      "bytes": 1522,
+      "sha256": "c6d8079fc7fe7d8b340397080501dfffd3f973aeb1b96daa9b4bc7b3fbe1a33e"
+    },
+    "pcg_overlay_boot.tscn": {
+      "bytes": 175,
+      "sha256": "6b1ac577caad04bd25291ed231bc8d6614043f5f8428306a5d17deb3726e2a0a"
+    },
+    "project.godot": {
+      "bytes": 478,
+      "sha256": "306395de662e5a9f00bb261f4c0434accf67c1a2920321515cfbdb722e6b0b5a"
+    }
+  },
+  "new_or_changed_from_full": [
+    "dynamic_context.gd",
+    "lab_draw_v3.gd",
+    "main_v3.gd",
+    "main_v3.tscn",
+    "modules_v3.json"
+  ],
+  "runtime_verified": true,
+  "limits": [
+    "Actual Chromium input witness checks passed for these 17 candidates; human fun/device approval unverified.",
+    "Frozen base/engine dependencies must also be available at their immutable URLs."
+  ],
+  "browser_evidence": "browser.json"
+}

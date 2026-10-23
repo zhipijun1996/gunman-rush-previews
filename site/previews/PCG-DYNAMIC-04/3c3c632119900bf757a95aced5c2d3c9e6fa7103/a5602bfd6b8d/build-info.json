@@ -1,0 +1,32 @@
+{
+  "schema": "pcg/dynamic-delivery/v3",
+  "source_commit": "3c3c632119900bf757a95aced5c2d3c9e6fa7103",
+  "game_source_commit": "12f6cb006d7119598e3235f4ca4f7323e4c9d092",
+  "build_id": "a5602bfd6b8d",
+  "scene": "res://main_v3.tscn",
+  "candidates": 17,
+  "dependencies": {
+    "/gunman-rush-previews/previews/PCG-RESEARCH-02/c8b7a735ce3befc8ada013a21a6e69577443f4dc/f7ae17e42bf4/index.f7ae17e42bf4.pck": {
+      "bytes": 68213164,
+      "sha256": "f7ae17e42bf42d404a4435f6987277fa5a7b69866573af80e80207e79c64d27b"
+    },
+    "/gunman-rush-previews/previews/PCG-RESEARCH-01/7c7b42e46e33c895d51741c1ca5d26a516568a27/8f8ded8ce59a/index.js": {
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+    },
+    "/gunman-rush-previews/previews/PCG-RESEARCH-01/7c7b42e46e33c895d51741c1ca5d26a516568a27/8f8ded8ce59a/index.wasm": {
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    }
+  },
+  "external_artifacts": {
+    "full_source_and_data": {
+      "url": "https://github.com/zhipijun1996/gunman-rush-previews/releases/download/pcg-dynamic-04/pcg-dynamic-04-source-and-data.zip",
+      "bytes": 28621271,
+      "sha256": "3a06e8e7785ba6259df4f9ece1846fff88a859376db7f808eb30b42916d77014",
+      "local_path": "/workspace/pcg-research/delivery/dynamic-v3/pcg-dynamic-04-source-and-data.zip",
+      "files": 483
+    }
+  },
+  "validation": "real-input browser replays; no human fun/device/production approval"
+}
