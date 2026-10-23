@@ -1,0 +1,16 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>失序之钟PCG研究</title><style>body{max-width:1080px;margin:30px auto;padding:0 20px;font:16px/1.8 system-ui,sans-serif;color:#172b3a}a{color:#1263a0}table{border-collapse:collapse;display:block;overflow:auto}td,th{border:1px solid #becbd3;padding:7px}pre{background:#edf2f5;padding:15px;overflow:auto}img{max-width:100%}</style><h1>真实物理实验适配边界</h1>
+<p>固定来源：<code>zhipijun1996/gunman-rush@12f6cb006d7119598e3235f4ca4f7323e4c9d092</code>，Godot <code>4.7.2.stable.official.ed1daf0bf</code>。</p>
+<p><code>source_provenance.json</code> 对提取的每个原文件保存 SHA-256。PlayerMotor、PlayerController、InputRouter、JumpAbility、ShootAbility、TraversalAbility、资源类、Definition 与配置均为原文件字节，未调整物理参数、动作次数、冷却或资源以迁就关卡。<code>extract_source.py</code> 以原玩家场景及类型/静态资源引用提取闭包；少数原代码有意使用的缺失路径（例如负例<code>missing-place-body.png</code>、离线<code>build/foundry/batch.json</code>）列于来源账本，实验不会执行这些路径。</p>
+<p>新增的 <code>runner.gd</code>、<code>main.gd</code>、<code>lab_draw.gd</code>、<code>main.tscn</code> 与最小项目配置是实验适配器，不属于原游戏正式生成器。</p>
+<ul>
+<li>每个case仅初次设置spawn，先4帧静止初始化；路途中不传送，不补资源，不变更运动参数。通过真实InputRouter提交动作，Controller.physics_tick使用固定60Hz，唯一位移仍在PlayerMotor。</li>
+<li>base只具有真实基础动作；<code>grapple</code> / <code>double_jump</code> / <code>all</code> 在起点通过真实TraversalAbility.grant授予所声明能力，不改PlayerTuning。正式主路线是否已授予此能力仍由正式消费者决定。</li>
+<li>平台是实际StaticBody2D/RectangleShape2D。危险物是独立的声明区域，用24×36完整身体前后位置的保守合并矩形检测逐帧扫掠；接触即失败。没有实例化正式荆棘伤害/回退/存档事务，不能用此证明正式危险策略。扫掠包络可能拒绝部分实际安全的斜线轨迹，不能将失败认作不可通关证明。</li>
+<li>钩点是原始GrappleAnchor Area2D，hang_enabled使用原挂点/弹起语义；勾到障碍、飞行、收回、拉近、悬挂/跳脱均由原TraversalAbility处理。</li>
+<li>使用原玩家场景，但入树前将CourierVisual.use_plains_v3=false，选择原SVG回退外观，移除纯PlayerFeedback节点以消除搜索中的声音对象；未更换身体形状、Motor或输入。此为调试图形，不是最终美术。</li>
+<li>worker以physics_tick直接回放动作，未生成持瞄输入，不评估AirFocus操作；手动场景调用原Controller._physics_process(delta)，保留真实瞄准慢时和时间精力行为。</li>
+<li>回放是存在一条见证输入的实测，不是完备动作规划，不能证明最小能力要求/必须使用某个动作。需要禁用动作消融、替代解搜索及真人操作进一步判断挑战设计质量。</li>
+<li><code>goal_grounded</code>默认true，目标检查角色中心进入出口区域且落地。<code>trace_all=true</code>保留完整预算，即使先到目标也继续检测后续危险。</li>
+</ul>
+<p>原资产许可原文在assets对应目录，额外来源清单见<code>asset_licenses_provenance.json</code>。Courier SVG的原来源声明在<code>assets/characters/courier/source/provenance.json</code>；美术原型不冒称新批准的视觉母版。</p>
+<p>原生可视化录制实测可用：Xorg dummy显示器<code>:99</code>，Mesa llvmpipe OpenGL 4.5；Godot原生<code>--write-movie</code>输出AVI后由ffmpeg压为MP4。<code>toolchain/xorg-dummy.conf</code>与xorg日志可复查。录制是逐帧真实Godot绘制和输入执行，不是静图拼接。它是离线固定帧率录像，不代表设备实时性能。</p></html>

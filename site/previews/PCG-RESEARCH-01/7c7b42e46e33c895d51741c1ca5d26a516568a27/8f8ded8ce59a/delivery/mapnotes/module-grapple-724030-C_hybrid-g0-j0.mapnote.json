@@ -1,0 +1,561 @@
+{
+  "schema": "gunman-rush-level-sketch/v1",
+  "id": "module-grapple-724030-C_hybrid-g0-j0",
+  "title": "module-grapple-724030-C_hybrid-g0-j0",
+  "description": "动作驱动程序生成研究候选；无完整预制Module。真人趣味/设备/正式伤害未验。",
+  "constraints": "请保留完整身体净空、入口资源、物理版本和动作恢复关系。修改后须重新真实验证。",
+  "capabilityRequirements": {
+    "version": 1,
+    "status": "unspecified",
+    "allOf": [],
+    "anyOfGroups": [],
+    "note": "最低能力条件未求解，不能把见证使用能力直接声明为必需能力。"
+  },
+  "difficulty": {
+    "version": 1,
+    "scale": "gunman-rush/module-difficulty/v1",
+    "score": null,
+    "note": "待真人校准，未把自动成功率换算为1–10分"
+  },
+  "intent": {
+    "operation": "new_module"
+  },
+  "canvas": {
+    "width": 1600,
+    "height": 900,
+    "units": "world",
+    "positionPrecision": "exact"
+  },
+  "objects": [
+    {
+      "id": "module-grapple-724030-C_hybrid-g0-j0-0",
+      "type": "terrain",
+      "x": 100,
+      "y": 478,
+      "w": 220,
+      "h": 60,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "module-grapple-724030-C_hybrid-g0-j0-1",
+      "type": "terrain",
+      "x": 512,
+      "y": 255,
+      "w": 64,
+      "h": 80,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "module-grapple-724030-C_hybrid-g0-j0-2",
+      "type": "terrain",
+      "x": 381,
+      "y": 140,
+      "w": 32,
+      "h": 36,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "module-grapple-724030-C_hybrid-g0-j0-3",
+      "type": "terrain",
+      "x": 435,
+      "y": 268,
+      "w": 32,
+      "h": 36,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "module-grapple-724030-C_hybrid-g0-j0-4",
+      "type": "hazard",
+      "x": 320,
+      "y": 640,
+      "w": 256,
+      "h": 40,
+      "rotation": 0,
+      "label": "",
+      "note": "精确静态危险包络；原型以全身扫掠验证，不等于正式伤害消费者"
+    },
+    {
+      "id": "module-grapple-724030-C_hybrid-g0-j0-5",
+      "type": "hazard",
+      "x": 381,
+      "y": 170,
+      "w": 32,
+      "h": 12,
+      "rotation": 0,
+      "label": "",
+      "note": "精确静态危险包络；原型以全身扫掠验证，不等于正式伤害消费者"
+    },
+    {
+      "id": "module-grapple-724030-C_hybrid-g0-j0-6",
+      "type": "hazard",
+      "x": 435,
+      "y": 262,
+      "w": 32,
+      "h": 12,
+      "rotation": 0,
+      "label": "",
+      "note": "精确静态危险包络；原型以全身扫掠验证，不等于正式伤害消费者"
+    },
+    {
+      "id": "module-grapple-724030-C_hybrid-g0-j0-7",
+      "type": "hookHang",
+      "x": 364,
+      "y": 269,
+      "w": 38,
+      "h": 38,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "module-grapple-724030-C_hybrid-g0-j0-8",
+      "type": "entry",
+      "x": 248,
+      "y": 442,
+      "w": 24,
+      "h": 36,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "module-grapple-724030-C_hybrid-g0-j0-9",
+      "type": "exit",
+      "x": 520,
+      "y": 212,
+      "w": 48,
+      "h": 45,
+      "rotation": 0,
+      "label": "",
+      "note": ""
+    },
+    {
+      "id": "module-grapple-724030-C_hybrid-g0-j0-10",
+      "type": "route",
+      "x": 180,
+      "y": 40,
+      "w": 0,
+      "h": 0,
+      "rotation": 0,
+      "label": "",
+      "note": "来自真实输入见证轨迹；编辑后原验证即失效",
+      "points": [
+        {
+          "x": 264.3333358764648,
+          "y": 459.925262451172,
+          "action": "落地"
+        },
+        {
+          "x": 277.3333358764648,
+          "y": 459.92529296875,
+          "action": "落地"
+        },
+        {
+          "x": 286.000450134277,
+          "y": 449.546447753906,
+          "action": "jump"
+        },
+        {
+          "x": 290.333786010742,
+          "y": 439.168670654297,
+          "action": "空中输入"
+        },
+        {
+          "x": 303.333793640137,
+          "y": 408.035339355469,
+          "action": "空中输入"
+        },
+        {
+          "x": 316.33378601074196,
+          "y": 377.624237060547,
+          "action": "traversal:hook_cast"
+        },
+        {
+          "x": 329.333770751953,
+          "y": 352.990875244141,
+          "action": "空中输入"
+        },
+        {
+          "x": 333.667098999023,
+          "y": 346.224212646484,
+          "action": "traversal:hook_fly"
+        },
+        {
+          "x": 342.333755493164,
+          "y": 334.857543945312,
+          "action": "空中输入"
+        },
+        {
+          "x": 351.00041198730503,
+          "y": 326.379760742188,
+          "action": "hook_contact; traversal:hook_pull"
+        },
+        {
+          "x": 360.344345092773,
+          "y": 318.831939697266,
+          "action": "traversal:hook_hang"
+        },
+        {
+          "x": 360.344345092773,
+          "y": 318.831939697266,
+          "action": "空中输入"
+        },
+        {
+          "x": 360.344345092773,
+          "y": 318.831939697266,
+          "action": "空中输入"
+        },
+        {
+          "x": 360.344345092773,
+          "y": 318.831939697266,
+          "action": "空中输入"
+        },
+        {
+          "x": 360.344345092773,
+          "y": 318.831939697266,
+          "action": "空中输入"
+        },
+        {
+          "x": 360.344345092773,
+          "y": 318.831939697266,
+          "action": "空中输入"
+        },
+        {
+          "x": 360.344345092773,
+          "y": 318.831939697266,
+          "action": "空中输入"
+        },
+        {
+          "x": 360.344345092773,
+          "y": 318.831939697266,
+          "action": "空中输入"
+        },
+        {
+          "x": 360.344345092773,
+          "y": 318.831939697266,
+          "action": "空中输入"
+        },
+        {
+          "x": 356.344345092773,
+          "y": 309.564147949219,
+          "action": "jump; traversal:hook_kick"
+        },
+        {
+          "x": 348.344345092773,
+          "y": 291.028579711914,
+          "action": "空中输入"
+        },
+        {
+          "x": 336.344345092773,
+          "y": 263.22525024414097,
+          "action": "空中输入"
+        },
+        {
+          "x": 333.844345092773,
+          "y": 244.834136962891,
+          "action": "traversal:free"
+        },
+        {
+          "x": 338.177673339844,
+          "y": 236.433029174805,
+          "action": "空中输入"
+        },
+        {
+          "x": 351.17765808105503,
+          "y": 222.51969909668,
+          "action": "空中输入"
+        },
+        {
+          "x": 364.17764282226597,
+          "y": 229.01969909668,
+          "action": "空中输入"
+        },
+        {
+          "x": 386.47404479980503,
+          "y": 228.964874267578,
+          "action": "shot"
+        },
+        {
+          "x": 404.437118530273,
+          "y": 225.298934936523,
+          "action": "空中输入"
+        },
+        {
+          "x": 458.326354980469,
+          "y": 214.301116943359,
+          "action": "空中输入"
+        },
+        {
+          "x": 512.215576171875,
+          "y": 203.303298950195,
+          "action": "空中输入"
+        },
+        {
+          "x": 528.067504882812,
+          "y": 201.836929321289,
+          "action": "空中输入"
+        },
+        {
+          "x": 541.0675354003911,
+          "y": 201.838165283203,
+          "action": "空中输入"
+        },
+        {
+          "x": 548.567565917969,
+          "y": 202.35319519043,
+          "action": "空中输入"
+        },
+        {
+          "x": 544.2342224121089,
+          "y": 205.904876708984,
+          "action": "空中输入"
+        },
+        {
+          "x": 544.2342224121089,
+          "y": 215.228607177734,
+          "action": "空中输入"
+        },
+        {
+          "x": 544.2342224121089,
+          "y": 231.045272827148,
+          "action": "空中输入"
+        },
+        {
+          "x": 544.2342224121089,
+          "y": 236.987945556641,
+          "action": "落地"
+        },
+        {
+          "x": 544.2342224121089,
+          "y": 236.987945556641,
+          "action": "落地"
+        },
+        {
+          "x": 544.2342224121089,
+          "y": 236.987945556641,
+          "action": "落地"
+        },
+        {
+          "x": 544.2342224121089,
+          "y": 236.987945556641,
+          "action": "落地"
+        },
+        {
+          "x": 544.2342224121089,
+          "y": 236.987945556641,
+          "action": "落地"
+        },
+        {
+          "x": 544.2342224121089,
+          "y": 236.987945556641,
+          "action": "落地"
+        },
+        {
+          "x": 544.2342224121089,
+          "y": 236.987945556641,
+          "action": "落地"
+        },
+        {
+          "x": 544.2342224121089,
+          "y": 236.987945556641,
+          "action": "落地"
+        }
+      ],
+      "duration": 1.8666666666666667,
+      "mode": "once"
+    }
+  ],
+  "updatedAt": "2026-10-23T00:00:00Z",
+  "source": {
+    "repository": "https://github.com/zhipijun1996/gunman-rush",
+    "commit": "12f6cb006d7119598e3235f4ca4f7323e4c9d092",
+    "path": "pcg-research/generated-candidate",
+    "moduleId": "module-grapple-724030-C_hybrid-g0-j0",
+    "method": "real_motor_trace_synthesis",
+    "editorTranslation": {
+      "x": 180,
+      "y": 40
+    },
+    "researchOnly": true
+  },
+  "researchEvidence": {
+    "witnessCapabilities": [
+      "shot_recoil",
+      "grapple"
+    ],
+    "inputProgram": {
+      "id": "module-grapple-724030-C_hybrid-g0-j0",
+      "seed": 724030,
+      "kind": "grapple",
+      "spawn": [
+        80,
+        420
+      ],
+      "platforms": [
+        [
+          -80,
+          438,
+          220,
+          60
+        ],
+        [
+          332,
+          215,
+          64,
+          80
+        ],
+        [
+          201,
+          100,
+          32,
+          36
+        ],
+        [
+          255,
+          228,
+          32,
+          36
+        ]
+      ],
+      "hazards": [
+        [
+          140,
+          600,
+          256,
+          40
+        ],
+        [
+          201,
+          130,
+          32,
+          12
+        ],
+        [
+          255,
+          222,
+          32,
+          12
+        ]
+      ],
+      "hooks": [
+        {
+          "x": 203,
+          "y": 248,
+          "kind": "hang"
+        }
+      ],
+      "goal": [
+        340,
+        172,
+        48,
+        45
+      ],
+      "actions": [
+        {
+          "frame": 5,
+          "type": "jump",
+          "direction": [
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 12,
+          "type": "grapple",
+          "direction": [
+            0.72,
+            -0.69
+          ]
+        },
+        {
+          "frame": 13,
+          "type": "jump_release",
+          "direction": [
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 46,
+          "type": "jump",
+          "direction": [
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 57,
+          "type": "jump_release",
+          "direction": [
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 62,
+          "type": "shoot_release",
+          "direction": [
+            -0.98,
+            0.2
+          ]
+        }
+      ],
+      "axes": [
+        {
+          "frame": 0,
+          "value": 1.0
+        },
+        {
+          "frame": 78,
+          "value": -1.0
+        },
+        {
+          "frame": 80,
+          "value": 0.0
+        }
+      ],
+      "max_frames": 112,
+      "trace_all": true,
+      "profile": "grapple",
+      "synthesis": {
+        "method": "trace_to_support_and_clearance",
+        "cp_sat": true,
+        "landing_frame": 88,
+        "landing_width": 64,
+        "clearance": 28,
+        "template_modules": 0
+      },
+      "strategy": "C_hybrid",
+      "title": "module-grapple-724030-C_hybrid-g0-j0"
+    },
+    "validation": {
+      "elapsed_ms": 12.509,
+      "failure_frame": -1,
+      "frames": [],
+      "goal_reached": true,
+      "grapples": 1,
+      "id": "module-grapple-724030-C_hybrid-g0-j0",
+      "initial_position": [
+        80.0,
+        420.0
+      ],
+      "jumps": 2,
+      "minimum_goal_distance": 2.49894642829895,
+      "ok": true,
+      "reason": "goal_reached",
+      "safe": true,
+      "shots": 1,
+      "ticks": 112
+    },
+    "trace_file": "results/deliverables/delivery-replay.output.json",
+    "validation_scope": "Static swept-body and real Motor witness only; edits invalidate receipt"
+  }
+}

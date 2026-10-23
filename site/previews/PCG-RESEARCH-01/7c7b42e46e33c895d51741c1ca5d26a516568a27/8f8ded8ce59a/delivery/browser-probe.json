@@ -1,0 +1,45 @@
+{
+  "records": [
+    {
+      "action": "loaded",
+      "state": {
+        "case_count": 6,
+        "events": {
+          "hook_cast": 0,
+          "hook_contact": 0,
+          "jump": 0,
+          "shot": 0
+        },
+        "finished": false,
+        "frame": 17,
+        "id": "continuous-recoil-0",
+        "mode": "manual",
+        "position": [
+          80,
+          420
+        ],
+        "reward_visited": false,
+        "safe": true,
+        "selected": 0,
+        "shot_charges": 1,
+        "status": "A/D \u79fb\u52a8 \u00b7 \u7a7a\u683c\u8df3 \u00b7 \u5de6\u952e\u677e\u5f00\u53cd\u51b2 \u00b7 E / \u53f3\u952e\u677e\u5f00\u94a9\u7d22 \u00b7 R \u91cd\u8bd5",
+        "traversal": "free"
+      }
+    }
+  ],
+  "events": [
+    {
+      "type": "log",
+      "text": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org"
+    },
+    {
+      "type": "log",
+      "text": "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL"
+    },
+    {
+      "type": "log",
+      "text": "Build configuration: Emscripten 4.0.20, single-threaded, no GDExtension support."
+    }
+  ],
+  "errors": []
+}

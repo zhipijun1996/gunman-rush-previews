@@ -1,0 +1,14 @@
+{
+  "research_source_commit": "7c7b42e46e33c895d51741c1ca5d26a516568a27",
+  "game_source_commit": "12f6cb006d7119598e3235f4ca4f7323e4c9d092",
+  "files": {
+    "prototype/trajectory_synth.py": "c05325142b2add6fb969f10794a1e5ac9710a7e190796630c49bee60b80da1a4",
+    "prototype/experiment.py": "76a6d1fa7f82eb900bee6c4459d0decf8d556e453afea21bb2cde14f433d95b2",
+    "prototype/evaluate_deliverables.py": "67ef2b4c1baeb1be4713bf93884c6501b319fc1f7e3ed4b78f6fc0a0607ef2f6",
+    "prototype/godot/runner.gd": "74bc25730717e92180a95ab40db05793a12fe78e1ebdf8a6a3907de5097f1a64",
+    "prototype/godot/main.gd": "68703bd5015e697bc49540f024bd0173b0e3bd40ea64d37eb3037a5adc656128",
+    "prototype/godot/lab_draw.gd": "989c0da4caffc9aa17aed8107fbbc73001962db3bfa2c93f5760a0b48710278d",
+    "prototype/godot/modules.json": "2614155db8eb11dbe18f47acf266398b5e6e58a175f350d058bbdd6076cdfa01",
+    "prototype/godot/export_presets.cfg": "7f8f791fbd9bb8123eb187a799f3f212a64692f460eb43a78a08ae161fb89790"
+  }
+}

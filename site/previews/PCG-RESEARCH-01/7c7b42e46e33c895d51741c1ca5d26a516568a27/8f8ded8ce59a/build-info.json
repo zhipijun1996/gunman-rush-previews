@@ -1,0 +1,10 @@
+{
+  "schema": "disordered-clock/research-export/v1",
+  "source_commit": "7c7b42e46e33c895d51741c1ca5d26a516568a27",
+  "game_source_commit": "12f6cb006d7119598e3235f4ca4f7323e4c9d092",
+  "build_id": "8f8ded8ce59a",
+  "pack": "index.8f8ded8ce59a.pck",
+  "pack_bytes": 68067452,
+  "scope": "standalone research adapter, original production physics; not a production game build",
+  "physics_hz": 60
+}

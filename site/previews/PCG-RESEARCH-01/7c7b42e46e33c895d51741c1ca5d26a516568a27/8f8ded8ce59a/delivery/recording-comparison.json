@@ -1,0 +1,44 @@
+[
+  {
+    "id": "continuous-recoil-0",
+    "same_tick_count": true,
+    "maximum_position_error": 0.0,
+    "reference_ok": true,
+    "movie_ok": true
+  },
+  {
+    "id": "continuous-recoil-1",
+    "same_tick_count": true,
+    "maximum_position_error": 0.0,
+    "reference_ok": true,
+    "movie_ok": true
+  },
+  {
+    "id": "continuous-recoil-2",
+    "same_tick_count": true,
+    "maximum_position_error": 0.0,
+    "reference_ok": true,
+    "movie_ok": true
+  },
+  {
+    "id": "module-grapple-724030-C_hybrid-g0-j0",
+    "same_tick_count": true,
+    "maximum_position_error": 0.0,
+    "reference_ok": true,
+    "movie_ok": true
+  },
+  {
+    "id": "multiroute-0-reward",
+    "same_tick_count": true,
+    "maximum_position_error": 0.0,
+    "reference_ok": true,
+    "movie_ok": true
+  },
+  {
+    "id": "multiroute-0-main",
+    "same_tick_count": true,
+    "maximum_position_error": 0.0,
+    "reference_ok": true,
+    "movie_ok": true
+  }
+]

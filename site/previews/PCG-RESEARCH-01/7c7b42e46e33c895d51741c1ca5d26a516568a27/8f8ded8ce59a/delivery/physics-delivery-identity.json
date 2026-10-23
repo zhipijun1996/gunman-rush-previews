@@ -1,0 +1,87 @@
+{
+  "source_commit": "12f6cb006d7119598e3235f4ca4f7323e4c9d092",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "scope": "research adapter; no production game modifications",
+  "files": {
+    "prototype/godot/runner.gd": {
+      "sha256": "74bc25730717e92180a95ab40db05793a12fe78e1ebdf8a6a3907de5097f1a64",
+      "bytes": 7973
+    },
+    "prototype/godot/main.gd": {
+      "sha256": "68703bd5015e697bc49540f024bd0173b0e3bd40ea64d37eb3037a5adc656128",
+      "bytes": 7790
+    },
+    "prototype/godot/lab_draw.gd": {
+      "sha256": "989c0da4caffc9aa17aed8107fbbc73001962db3bfa2c93f5760a0b48710278d",
+      "bytes": 2219
+    },
+    "prototype/godot/modules.json": {
+      "sha256": "2614155db8eb11dbe18f47acf266398b5e6e58a175f350d058bbdd6076cdfa01",
+      "bytes": 9460
+    },
+    "prototype/godot/project.godot": {
+      "sha256": "0c712295b065d705cbbb53d76ba6c499fd7d460c5369dfacde05c2f71d1bb29d",
+      "bytes": 573
+    },
+    "prototype/godot/main.tscn": {
+      "sha256": "d9a37a180014a50207cf3a43674aa39a6a28eea3fa7366f476718ea167838d0a",
+      "bytes": 151
+    },
+    "prototype/godot/source_provenance.json": {
+      "sha256": "93cd616fe66687b13395e5853118bed76a2e8cb6f0f2a784818ed6e9a80a8179",
+      "bytes": 104346
+    },
+    "delivery/modules.mp4": {
+      "sha256": "9484b6eac21a3c089417efdfe2c9cad98f9bb10c0c83028705aa7d1a7b55319f",
+      "bytes": 936649
+    },
+    "delivery/recording-results.json": {
+      "sha256": "9e7e98b7b160e0da38416963bd40238e467ef1f9db4595e7e5ca729668dce4a1",
+      "bytes": 269149
+    },
+    "delivery/recording-comparison.json": {
+      "sha256": "d69c2066384b7dfac4cca9ba7713bafe6a696bc6a430bd857926d1d7671ce714",
+      "bytes": 935
+    },
+    "delivery/browser-final.json": {
+      "sha256": "e73f312a1ddddf16b87f2f59a6194e62dc8df5d238d57bd763f61bd78ad41a33",
+      "bytes": 15533
+    },
+    "delivery/web/index.html": {
+      "sha256": "49c9c6b2daaebb1af3570b6d89195d41dcf077fa141ffc78b80bfa7dd6ca840c",
+      "bytes": 5465
+    },
+    "delivery/web/index.pck": {
+      "sha256": "98cd51909410f6f101d8c62e61de2a3c8f9280081de2926b8bd7be5f496c47d8",
+      "bytes": 164814028
+    },
+    "delivery/web/index.wasm": {
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+      "bytes": 39514754
+    },
+    "delivery/web/index.png": {
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+      "bytes": 21443
+    },
+    "delivery/web/index.audio.worklet.js": {
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+      "bytes": 7298
+    },
+    "delivery/web/index.icon.png": {
+      "sha256": "ad3c35ad0facf487c618204bd98db543034fc95224eadc7f08c7a9ff38d5b3b5",
+      "bytes": 5700
+    },
+    "delivery/web/index.audio.position.worklet.js": {
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+      "bytes": 2973
+    },
+    "delivery/web/index.apple-touch-icon.png": {
+      "sha256": "01d4f63e525941e06ce74f5187dad030d20a8d52a07ce365ae4e94af97a3b1f5",
+      "bytes": 11944
+    },
+    "delivery/web/index.js": {
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba",
+      "bytes": 279815
+    }
+  }
+}
