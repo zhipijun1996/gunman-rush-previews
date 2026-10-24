@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "task": "MAPGEN-GROWTH-01",
+  "source_commit": "0352e4cdbfb7b39d37a95c2cdd718bc8d2ba6cbe",
+  "source_repository": "zhipijun1996/map-edit",
+  "build_id": "60b9ad04ae26",
+  "seed": "map-growth-01",
+  "entry": "standalone-map-directed-loop",
+  "scene": "res://maploop/main.tscn",
+  "url": "https://zhipijun1996.github.io/gunman-rush-previews/previews/MAPGEN-GROWTH-01/0352e4cdbfb7b39d37a95c2cdd718bc8d2ba6cbe/60b9ad04ae26/",
+  "pack_verification": {
+    "scope": "exact PCK reconstruction for static Pages transport",
+    "source_commit": "0352e4cdbfb7b39d37a95c2cdd718bc8d2ba6cbe",
+    "build_id": "60b9ad04ae26",
+    "pack": "index.60b9ad04ae26.pck",
+    "pack_bytes": 12085416,
+    "pack_sha256": "60b9ad04ae26d92a18560304f2b53c608c54220ca768abbeabdabf8f1a41f4b5",
+    "reconstructed": false,
+    "failed": 0
+  },
+  "files": {
+    "all-routes.mp4": "fbb8fe28787a56cabc7f292ebe3d0faf264e96c2068bafadd3337731918e89ff",
+    "sample-03.mp4": "0fd76c4eeeb8f8b2a442ee9f6c14e1ef7bde240cf9bc11981e845699298f8751",
+    "whole-map.png": "d46a87124d7401f5c2741474e895223ebb7351a914529d816c7582751a84b471",
+    "sample-01.mp4": "f7f1e71e3aae8e5335a43cde5b9e1a1028d228432e8f7af5c7d5b2cf3a8e9454",
+    "overlay-manifest.json": "dd79525d5bc8280b77cc252dad8e555c9da9eba660195e1b5d6335cc8602920a",
+    "index.60b9ad04ae26.pck": "60b9ad04ae26d92a18560304f2b53c608c54220ca768abbeabdabf8f1a41f4b5",
+    "final-run-summary.json": "caf1f60e8b6ddc1637de8d40e20259a10f9038fc69b2e7380538ccb8074bbd5f",
+    "report.html": "cd691731000f47ebe53b34885cf63a5830cf7618b5498b73b777564c75a8d98e",
+    "build-info.json": "c5a90d7fdfeb34626a5722e73a5247b54bc3924d9944904abe60b05409b78c0f",
+    "index.cache-sw.js": "3d2c866cd86abbe539cfbd709ac91593c03d15deaf088f09acaa9abd92ac7377",
+    "browser-local-receipt.json": "51e6f993e8dda5d9a69681bc368975ea5dd1109af4e0b221d119b4b022768e69",
+    "manifest.json": "ee24eb63c06b82df5c37c6542556d07b0512c59da138bbb8e2de71abb78c5699",
+    "sample-02.mp4": "b526a6d7dd2767561843a809a1d466e5a30af28afdcbfa01b96c01535c2185df",
+    "index.html": "5eb065f4cdcb31c5abccb9a62f8fef4de32599f29c76ef25c6f7e72bb8fd3268"
+  },
+  "human_fun": "unverified",
+  "production_admitted": false
+}
