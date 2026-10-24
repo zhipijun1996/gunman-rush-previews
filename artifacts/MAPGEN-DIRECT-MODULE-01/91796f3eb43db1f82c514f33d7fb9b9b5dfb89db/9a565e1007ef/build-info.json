@@ -1,0 +1,7 @@
+{
+  "schema": "pcg/direct-module-public-build/v1",
+  "task": "MAPGEN-DIRECT-MODULE-01",
+  "source_commit": "91796f3eb43db1f82c514f33d7fb9b9b5dfb89db",
+  "build_id": "9a565e1007ef",
+  "scope": "27 canonical Modules directly touching, 39 seams, zero Map-created terrain; isolated candidate"
+}
