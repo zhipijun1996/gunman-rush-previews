@@ -1,0 +1,11 @@
+{
+  "schema": "pcg/r2-full-public-build/v1",
+  "task": "MAPGEN-R2-FULL-01",
+  "source_repository": "zhipijun1996/map-edit",
+  "source_commit": "d3e29ca31ba1dcaa304a9ccf745b3455d563cb73",
+  "build_id": "ea8109a49fe6",
+  "pack": "index.ea8109a49fe6.pck",
+  "pack_sha256": "ea8109a49fe64487daebca7c79a5e895b65a2663a0cd724280d0e123890a0638",
+  "pack_bytes": 12177028,
+  "scope": "Full original R2 map, real manual Godot consumer, technical candidate, no production or human fun approval"
+}
