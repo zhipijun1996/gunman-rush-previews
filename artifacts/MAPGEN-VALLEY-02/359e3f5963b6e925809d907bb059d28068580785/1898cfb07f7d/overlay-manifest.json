@@ -1,0 +1,374 @@
+{
+  "schema": "pcg/immutable-overlay/v1",
+  "base": {
+    "path": "/workspace/scratch/maploop-web-deps/base.pck",
+    "url": "https://zhipijun1996.github.io/gunman-rush-previews/previews/PCG-RESEARCH-02/c8b7a735ce3befc8ada013a21a6e69577443f4dc/f7ae17e42bf4/index.f7ae17e42bf4.pck",
+    "bytes": 68213164,
+    "sha256": "f7ae17e42bf42d404a4435f6987277fa5a7b69866573af80e80207e79c64d27b"
+  },
+  "overlay": {
+    "bytes": 19918024,
+    "sha256": "1898cfb07f7df2b8535862b496ae597609bc948f67586cd36c318fd896b1d5ee",
+    "entries": 70,
+    "pack": "overlay.1898cfb07f7d.pck"
+  },
+  "main_scene": "res://valley_complete/manual.tscn",
+  "engine": {
+    "prefix": "https://zhipijun1996.github.io/gunman-rush-previews/previews/PCG-RESEARCH-01/7c7b42e46e33c895d51741c1ca5d26a516568a27/8f8ded8ce59a/index",
+    "version": "4.7.2.stable.official.ed1daf0bf"
+  },
+  "files": {
+    ".godot/global_script_class_cache.cfg": {
+      "bytes": 79271,
+      "sha256": "c207d132f646dc5e1e06fb60936d555c4c03ba08c46f0c427ba1374b945d2121"
+    },
+    ".godot/imported/actions.png-39dec0b72f78d6ea854b94cc2fd62746.ctex": {
+      "bytes": 930874,
+      "sha256": "baba24796967894dbf0e61eca0122ff41274c9556fbba1ed29529d838e751b54"
+    },
+    ".godot/imported/bell.png-d3e0c20170f339387c8bfa3a1aa45468.ctex": {
+      "bytes": 2646,
+      "sha256": "639a8125f89b92fdfdb4e190772bc6ffd6b252f5bf352e09eef32860473c0a76"
+    },
+    ".godot/imported/carrier_fine.png-320222d2ce3ee571467e2b426ff91a1e.ctex": {
+      "bytes": 8300,
+      "sha256": "813f70a0117ea4042b6902cdff98279eaff19cd18d9fe561eb851a06f956dc88"
+    },
+    ".godot/imported/courier_actions.png-74414d767fdd3d18722fbb913b88e616.ctex": {
+      "bytes": 2010838,
+      "sha256": "623fd99c000d6433787a8a7808ef7287dcb98075f368838e436b883583bcabec"
+    },
+    ".godot/imported/idle_run.png-1cc5656ff9bca1638d602304d1c7eb37.ctex": {
+      "bytes": 1028910,
+      "sha256": "3b678857c2aea37c026c1e3fc7394c022c1f1f32f4c3e46affbbb6200adc18a7"
+    },
+    ".godot/imported/landmark_ridge_r2.png-476e2e6fc70915dbabb5453932f386f7.ctex": {
+      "bytes": 1203108,
+      "sha256": "40f643e891f9c25ae123f160274dcfa3a2270d73c85a0be2e5c169581e0ed02c"
+    },
+    ".godot/imported/morning_sky.png-742490b4f486b613c22f32f5d5ee686c.ctex": {
+      "bytes": 1030824,
+      "sha256": "3cc2e996b90722525a63b6ceff295b51496daaee2ed72227ae6dc9604af7df8b"
+    },
+    ".godot/imported/near.png-312b14b52339c3d518976796c49fa1e3.ctex": {
+      "bytes": 309964,
+      "sha256": "0b0d6aa99e27c2ebf294f5da3b32770de45803d11f7bd3bf8436f21a030d1aec"
+    },
+    ".godot/imported/quiet_meadow.png-245daa2105db36d2148b12fb5ab8e978.ctex": {
+      "bytes": 828512,
+      "sha256": "3aed4c0933dac2b8886dde3a073d7ba1405fadb37522d315ba98940240043fd6"
+    },
+    ".godot/imported/source.png-f6646211e7a09c275226dbf6e94668d4.ctex": {
+      "bytes": 18508,
+      "sha256": "714174a43aa015fc95ec6f5dc49c48fa57fec914eb148b8616c123afc6b60b79"
+    },
+    ".godot/imported/terrain.png-2532cd16988136c6fbb199802b295d96.ctex": {
+      "bytes": 39932,
+      "sha256": "72023dc4b7b7be95833a81bd5798c45d03e31dcc5971a25ef86fd352c28460df"
+    },
+    ".godot/imported/weapon.png-55f0115d31b926bf87f58b88c4bcb6bf.ctex": {
+      "bytes": 1039122,
+      "sha256": "a4c65f04d023923a2a84eae65e4cfb07fe729c742007c8d568fd4b2f48b7e139"
+    },
+    ".godot/uid_cache.bin": {
+      "bytes": 39065,
+      "sha256": "edb395252488f30f8b83bce5ac3edf28ce0d0efef4058f4d8af3869b8643b43c"
+    },
+    "assets/actor_actions/courier_actions.png": {
+      "bytes": 2529275,
+      "sha256": "591230127924cd32c083e3d5cf7b49861df638b468c0003c60061a75686c0866"
+    },
+    "assets/actor_actions/courier_actions.png.import": {
+      "bytes": 969,
+      "sha256": "60bef2ce7fb72896cae0567ee2774581c871e20767bac0ca780d559fe73b481f"
+    },
+    "assets/plains_v3/hero/actions.png": {
+      "bytes": 1202660,
+      "sha256": "fc2402b0ac38caf265ba6339d7a5c2a23ab711801b457d535a082f90120cf51c"
+    },
+    "assets/plains_v3/hero/actions.png.import": {
+      "bytes": 947,
+      "sha256": "e54ef307393e9e29f03c04ba357c3cc3cec4d408c422685fe6bbc904af285341"
+    },
+    "assets/plains_v3/hero/idle_run.png": {
+      "bytes": 1338118,
+      "sha256": "c581bf8cc0991865aa3eac64644e8a2bed850ff5336350c2ae00241afeb7d00f"
+    },
+    "assets/plains_v3/hero/idle_run.png.import": {
+      "bytes": 950,
+      "sha256": "18be9312c42117f073c7eb24c721a8261c1d634a9b7694c161bcda84b1cb804d"
+    },
+    "assets/plains_v3/hero/weapon.png": {
+      "bytes": 1425789,
+      "sha256": "0aa68be4e5398d97b9c16e72f04ed19b24ef8c21a7a582f2a3fd50987588657c"
+    },
+    "assets/plains_v3/hero/weapon.png.import": {
+      "bytes": 944,
+      "sha256": "9a6f69b949026a63a16b52975e2aa17951b04ff5daf19c59906a83e372c75cda"
+    },
+    "assets/underworld_plains/actors/bell.png": {
+      "bytes": 2520,
+      "sha256": "94162f8e2f0e112659885356908e114bec6bd11f6d5a31b7691fd53883e85ad2"
+    },
+    "assets/underworld_plains/actors/bell.png.import": {
+      "bytes": 948,
+      "sha256": "7d736b148099fa6cc52e559a1be8e9d462f604df7c670671891801ca52ef2f26"
+    },
+    "assets/underworld_plains/backgrounds/depth_frame_06/landmark_ridge_r2.png": {
+      "bytes": 1651398,
+      "sha256": "29c0812af64de5cf1299cecb7e8810d93bfd435b099a1434bca0cd12e475fc29"
+    },
+    "assets/underworld_plains/backgrounds/depth_frame_06/landmark_ridge_r2.png.import": {
+      "bytes": 1006,
+      "sha256": "4cf526c7e3b5ca33ae40a9d4d7f6e14f8ee39631bc10a9b8e0ccc653453a1e64"
+    },
+    "assets/underworld_plains/backgrounds/near.png": {
+      "bytes": 434467,
+      "sha256": "32ea3038c8388b4df3898e0803d02ca7ad76634d5745019cbde3057d66c6ccf2"
+    },
+    "assets/underworld_plains/backgrounds/near.png.import": {
+      "bytes": 953,
+      "sha256": "cedcd9f85c8d12aac487fce685d1d1524f85ebe2ce31888a4563f6b29e58d459"
+    },
+    "assets/underworld_plains/backgrounds/parallax_fine_space_05/morning_sky.png": {
+      "bytes": 1446665,
+      "sha256": "4af64f48f9e91400f080432d490fe2490faf7fb24afdf5b6501ef6e023e45ad7"
+    },
+    "assets/underworld_plains/backgrounds/parallax_fine_space_05/morning_sky.png.import": {
+      "bytes": 997,
+      "sha256": "634c3cbe879c2dc90d2e421751d0be5b876c0ba0865aabff584ca4b998f3b57f"
+    },
+    "assets/underworld_plains/backgrounds/spatial_rhythm_07/quiet_meadow.png": {
+      "bytes": 1097961,
+      "sha256": "b1a45ca95353cc56a533d877a1055fb6dd6a1380fc8a284a3f7dac9905c6545e"
+    },
+    "assets/underworld_plains/backgrounds/spatial_rhythm_07/quiet_meadow.png.import": {
+      "bytes": 994,
+      "sha256": "199224f67bc836a795135a367e378440fcb4cf3501f4fad59d129ade1ec44da1"
+    },
+    "assets/underworld_plains/mechanisms/carrier_fine.png": {
+      "bytes": 9866,
+      "sha256": "3176c1d319c216b418e695368dccaad74210563275ee77e7d58725805923be39"
+    },
+    "assets/underworld_plains/mechanisms/carrier_fine.png.import": {
+      "bytes": 976,
+      "sha256": "a1a1acc628c6fc711fbbcf3cd19ab7ab7db91f8a23ec24168ee93a01ae55f71f"
+    },
+    "assets/underworld_plains/terrain/fine_32/source.png": {
+      "bytes": 25017,
+      "sha256": "d08218cddd5b463a0ff033e3e5b1a260ed1280691d0b93d4565421c2f0f71431"
+    },
+    "assets/underworld_plains/terrain/fine_32/source.png.import": {
+      "bytes": 963,
+      "sha256": "8ffeadfb4dec638f99c58fa1af571c24045faa0e31e5da0d9472984ea58341e9"
+    },
+    "assets/underworld_plains/terrain/fine_32/terrain.png": {
+      "bytes": 51482,
+      "sha256": "267ba0fa45ec8c909d245d3d7a7b74aa98f464e9e6ac8bc1d671d180e35dd5de"
+    },
+    "assets/underworld_plains/terrain/fine_32/terrain.png.import": {
+      "bytes": 966,
+      "sha256": "96158b7a9067625bdcbe237ab3e3e049c7be98aa70af730edf62e713813e8511"
+    },
+    "direct_join/challenge_extra.gd": {
+      "bytes": 688,
+      "sha256": "fc5b0b5f3b0c5ed5a6776978b06aa67b97112f920ff2ba1e0e104f141c55a90f"
+    },
+    "modules_v3.json": {
+      "bytes": 18766,
+      "sha256": "69318be18295c7bae99ccb93e4dbd5fea236ae15e7a4572e36ab2fdb0ae52de9"
+    },
+    "open_valley/manual.gd": {
+      "bytes": 451,
+      "sha256": "30af7cb5ef77a48457c78885c08d4c569f1caa5b8d5ed7e1ab824d17c7376a81"
+    },
+    "open_valley/manual.tscn": {
+      "bytes": 151,
+      "sha256": "6d6a5e54814da9c682afec13cc93f98f229fa3607e695f9a559de05e00fd73ea"
+    },
+    "open_valley/mechanics.gd": {
+      "bytes": 1436,
+      "sha256": "68ef8d5d250a8ce0a335b9de381558f0653b832e8deb7ebe3b5b531926fea266"
+    },
+    "open_valley/presentation.gd": {
+      "bytes": 1477,
+      "sha256": "779a063d13a7ba05569e7065d349322939e3f6f8bbae3e33192f5a68affb84f3"
+    },
+    "pcg_overlay_boot.gd": {
+      "bytes": 1552,
+      "sha256": "6463db541a54cfece79ca990b7f82640018384cfdb2b3e4553aa9d92a76e2232"
+    },
+    "pcg_overlay_boot.tscn": {
+      "bytes": 175,
+      "sha256": "6b1ac577caad04bd25291ed231bc8d6614043f5f8428306a5d17deb3726e2a0a"
+    },
+    "project.godot": {
+      "bytes": 478,
+      "sha256": "306395de662e5a9f00bb261f4c0434accf67c1a2920321515cfbdb722e6b0b5a"
+    },
+    "r2/bell_extra.gd": {
+      "bytes": 2322,
+      "sha256": "9464fc082ddd5fee78ec070f8fb60acd3ebbfc222d0e4f3309a7e8fb92a2c309"
+    },
+    "r2/cases.json": {
+      "bytes": 18766,
+      "sha256": "69318be18295c7bae99ccb93e4dbd5fea236ae15e7a4572e36ab2fdb0ae52de9"
+    },
+    "r2/gate_world.gd": {
+      "bytes": 3795,
+      "sha256": "104e5e665f762b1aa944015a380b8841357cd476248a0aae23573e0e31c81803"
+    },
+    "r2/godot/r2_annotations.gd": {
+      "bytes": 976,
+      "sha256": "31eb086eee1d44560f9df313dd283f9f1cea1eb68eafca19412bc962b362934a"
+    },
+    "r2/godot/r2_camera.gd": {
+      "bytes": 340,
+      "sha256": "a812021c263d437007a6582a5c9c0bce99afd0129d0f0599641e24fe12a3b30c"
+    },
+    "r2/godot/r2_manual_scene.gd": {
+      "bytes": 14118,
+      "sha256": "98d498cc709a8dad9922815808ee3277f187d7e12965c332ad2e329d69e7f541"
+    },
+    "r2/godot/r2_manual_scene.tscn": {
+      "bytes": 165,
+      "sha256": "eff85379fb00957085e0197c4c6503ca839553094b793d6c05f793f9c1ef23b2"
+    },
+    "r2/runtime/capability_adapter.gd": {
+      "bytes": 2757,
+      "sha256": "992fe75175edf2df568e76050f38ac3577634ea525f713adef684d8811493b6d"
+    },
+    "r2/runtime/dynamic_context.gd": {
+      "bytes": 6745,
+      "sha256": "340de0ef1fd510c18a8717b094a715f35951bbecdac0dfebda7ddcd728899808"
+    },
+    "r2/runtime/lab_draw_v3.gd": {
+      "bytes": 1576,
+      "sha256": "2802d37a42ba014240ac9dc41a0d6cc2030dbf9aedf94781bb410739e973fb15"
+    },
+    "r2/runtime/main_plains.gd": {
+      "bytes": 16289,
+      "sha256": "eb1f5cd3f733ae3b91d86ebc8a2ab065d499b1fca8d70791d47cfd37b37d01fd"
+    },
+    "r2/runtime/plains_cells.gd": {
+      "bytes": 4627,
+      "sha256": "c3c840fd678f772a962b576a08a551517c502a537a1d745ec17d5365cd1c45e6"
+    },
+    "r2/runtime/plains_lifecycle.gd": {
+      "bytes": 1336,
+      "sha256": "37a45f9cbfa6717dffc67f27a69ac0279f8c3876485267b480f4ad53271efce5"
+    },
+    "r2/state_extra.gd": {
+      "bytes": 3961,
+      "sha256": "b064b54e6056bfc3bf46e26c709c4619f46522369b13b11eec6d82666c226ee4"
+    },
+    "resources/items/damage_blue.tres": {
+      "bytes": 703,
+      "sha256": "9b431fbd429c985a621d6aae5b917f872fd717a55aa3d3a63e98455b371255c7"
+    },
+    "valley_complete/baseline.gd": {
+      "bytes": 3233,
+      "sha256": "0014ec74ed886f0a5f67ce1f9c84f991683884f3f8f8fc26cd0cadeb5825febc"
+    },
+    "valley_complete/manual.gd": {
+      "bytes": 772,
+      "sha256": "bc8e9c0c1b6b88f635e3f38e1ead6a9a8842c0bcc63365430dc4a4ceb1e078b7"
+    },
+    "valley_complete/manual.tscn": {
+      "bytes": 155,
+      "sha256": "b556e6bcd59c86a43e79d5b265034924537e532d6661f026526f58d8166aad9f"
+    },
+    "valley_complete/mechanics.gd": {
+      "bytes": 3853,
+      "sha256": "8b342682e97120323d58a72610cf8c5511fc96a29f1c100049c44a7507052dab"
+    },
+    "valley_complete/pilot.gd": {
+      "bytes": 1070,
+      "sha256": "8661769affe6d7cff8ecb818a6fb32d39c4523f299847f3c2cde4696acd56a5b"
+    },
+    "valley_complete/presentation.gd": {
+      "bytes": 1150,
+      "sha256": "981837d3dc8079f3f47ca05fd9cdb412c550a25a03d669a266ac47a39ba5ab4d"
+    },
+    "valley_complete/runner.gd": {
+      "bytes": 356,
+      "sha256": "438d702ef0b59dcec7fc9b1dcc83ed8dbad1b4235b941a3714e027eb8130abaa"
+    },
+    "valley_complete/visual.gd": {
+      "bytes": 552,
+      "sha256": "eaaf62dbd288013d077a9fe481e8e6994917048cd5b052d3187dc84429ce001e"
+    }
+  },
+  "new_or_changed_from_full": [
+    ".godot/imported/actions.png-39dec0b72f78d6ea854b94cc2fd62746.ctex",
+    ".godot/imported/bell.png-d3e0c20170f339387c8bfa3a1aa45468.ctex",
+    ".godot/imported/carrier_fine.png-320222d2ce3ee571467e2b426ff91a1e.ctex",
+    ".godot/imported/courier_actions.png-74414d767fdd3d18722fbb913b88e616.ctex",
+    ".godot/imported/idle_run.png-1cc5656ff9bca1638d602304d1c7eb37.ctex",
+    ".godot/imported/landmark_ridge_r2.png-476e2e6fc70915dbabb5453932f386f7.ctex",
+    ".godot/imported/morning_sky.png-742490b4f486b613c22f32f5d5ee686c.ctex",
+    ".godot/imported/near.png-312b14b52339c3d518976796c49fa1e3.ctex",
+    ".godot/imported/quiet_meadow.png-245daa2105db36d2148b12fb5ab8e978.ctex",
+    ".godot/imported/source.png-f6646211e7a09c275226dbf6e94668d4.ctex",
+    ".godot/imported/terrain.png-2532cd16988136c6fbb199802b295d96.ctex",
+    ".godot/imported/weapon.png-55f0115d31b926bf87f58b88c4bcb6bf.ctex",
+    "assets/actor_actions/courier_actions.png",
+    "assets/actor_actions/courier_actions.png.import",
+    "assets/plains_v3/hero/actions.png",
+    "assets/plains_v3/hero/actions.png.import",
+    "assets/plains_v3/hero/idle_run.png",
+    "assets/plains_v3/hero/idle_run.png.import",
+    "assets/plains_v3/hero/weapon.png",
+    "assets/plains_v3/hero/weapon.png.import",
+    "assets/underworld_plains/actors/bell.png",
+    "assets/underworld_plains/actors/bell.png.import",
+    "assets/underworld_plains/backgrounds/depth_frame_06/landmark_ridge_r2.png",
+    "assets/underworld_plains/backgrounds/depth_frame_06/landmark_ridge_r2.png.import",
+    "assets/underworld_plains/backgrounds/near.png",
+    "assets/underworld_plains/backgrounds/near.png.import",
+    "assets/underworld_plains/backgrounds/parallax_fine_space_05/morning_sky.png",
+    "assets/underworld_plains/backgrounds/parallax_fine_space_05/morning_sky.png.import",
+    "assets/underworld_plains/backgrounds/spatial_rhythm_07/quiet_meadow.png",
+    "assets/underworld_plains/backgrounds/spatial_rhythm_07/quiet_meadow.png.import",
+    "assets/underworld_plains/mechanisms/carrier_fine.png",
+    "assets/underworld_plains/mechanisms/carrier_fine.png.import",
+    "assets/underworld_plains/terrain/fine_32/source.png",
+    "assets/underworld_plains/terrain/fine_32/source.png.import",
+    "assets/underworld_plains/terrain/fine_32/terrain.png",
+    "assets/underworld_plains/terrain/fine_32/terrain.png.import",
+    "direct_join/challenge_extra.gd",
+    "modules_v3.json",
+    "open_valley/manual.gd",
+    "open_valley/manual.tscn",
+    "open_valley/mechanics.gd",
+    "open_valley/presentation.gd",
+    "r2/bell_extra.gd",
+    "r2/cases.json",
+    "r2/gate_world.gd",
+    "r2/godot/r2_annotations.gd",
+    "r2/godot/r2_camera.gd",
+    "r2/godot/r2_manual_scene.gd",
+    "r2/godot/r2_manual_scene.tscn",
+    "r2/runtime/capability_adapter.gd",
+    "r2/runtime/dynamic_context.gd",
+    "r2/runtime/lab_draw_v3.gd",
+    "r2/runtime/main_plains.gd",
+    "r2/runtime/plains_cells.gd",
+    "r2/runtime/plains_lifecycle.gd",
+    "r2/state_extra.gd",
+    "resources/items/damage_blue.tres",
+    "valley_complete/baseline.gd",
+    "valley_complete/manual.gd",
+    "valley_complete/manual.tscn",
+    "valley_complete/mechanics.gd",
+    "valley_complete/pilot.gd",
+    "valley_complete/presentation.gd",
+    "valley_complete/runner.gd",
+    "valley_complete/visual.gd"
+  ],
+  "runtime_verified": false,
+  "limits": [
+    "Transport/pack directory verification only until real browser execution passes.",
+    "A base pack mount reuses assets/code; it is not an assertion of V3 gameplay quality."
+  ]
+}

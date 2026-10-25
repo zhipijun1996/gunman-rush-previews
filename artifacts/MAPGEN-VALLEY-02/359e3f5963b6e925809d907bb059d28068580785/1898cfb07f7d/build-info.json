@@ -1,0 +1,7 @@
+{
+  "schema": "pcg/direct-module-public-build/v1",
+  "task": "MAPGEN-VALLEY-02",
+  "source_commit": "359e3f5963b6e925809d907bb059d28068580785",
+  "build_id": "1898cfb07f7d",
+  "scope": "8 source-owned landforms, 3 treasure chests, aerial carrier parking, enemy refund relay and original shop, fixed small region"
+}
