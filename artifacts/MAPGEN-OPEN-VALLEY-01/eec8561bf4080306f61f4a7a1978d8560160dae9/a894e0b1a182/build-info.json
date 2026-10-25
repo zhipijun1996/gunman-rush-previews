@@ -1,0 +1,7 @@
+{
+  "schema": "pcg/direct-module-public-build/v1",
+  "task": "MAPGEN-OPEN-VALLEY-01",
+  "source_commit": "eec8561bf4080306f61f4a7a1978d8560160dae9",
+  "build_id": "a894e0b1a182",
+  "scope": "7 open landforms, 3 airborne bell-gate crossings on main, linked bell/carrier, isolated fixed grammar sample"
+}
