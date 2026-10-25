@@ -1,0 +1,8 @@
+{
+  "task": "MAPGEN-WOVEN-REGION-01",
+  "source_commit": "0008ea6c564088838a8aa55bdb9a162dd7da0cd3",
+  "build_id": "ed958626ff83",
+  "case_sha256": "2cc8a94fecbe2dcfc4bb1df67a5676cf56f950b43c465b3a63a24ca8ea370446",
+  "compiled_sha256": "c8b38730b98235bd627b5a88ed1aa6b164ebd3f09c9bfca6c5fa754ec998b7e2",
+  "scope": "One R2-driven 19-Macro whole map; 25 frozen + 13 warm + 4 paired real routes; 4 failed bypass counterfactuals; no Boss/campaign/human fun/production admission"
+}
