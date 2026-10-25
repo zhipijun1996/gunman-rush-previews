@@ -1,0 +1,979 @@
+{
+  "schema": "pcg/immutable-overlay/v1",
+  "base": {
+    "path": "/workspace/scratch/maploop-web-deps/base.pck",
+    "url": "https://zhipijun1996.github.io/gunman-rush-previews/previews/PCG-RESEARCH-02/c8b7a735ce3befc8ada013a21a6e69577443f4dc/f7ae17e42bf4/index.f7ae17e42bf4.pck",
+    "bytes": 68213164,
+    "sha256": "f7ae17e42bf42d404a4435f6987277fa5a7b69866573af80e80207e79c64d27b"
+  },
+  "overlay": {
+    "bytes": 28001596,
+    "sha256": "8ef189a5379ed23b97e6e0288fcd485676ca860cb533fdd16c146740bd63aad9",
+    "entries": 191,
+    "pack": "overlay.8ef189a5379e.pck"
+  },
+  "main_scene": "res://content_routes/manual.tscn",
+  "engine": {
+    "prefix": "https://zhipijun1996.github.io/gunman-rush-previews/previews/PCG-RESEARCH-01/7c7b42e46e33c895d51741c1ca5d26a516568a27/8f8ded8ce59a/index",
+    "version": "4.7.2.stable.official.ed1daf0bf"
+  },
+  "files": {
+    ".godot/global_script_class_cache.cfg": {
+      "bytes": 79271,
+      "sha256": "c207d132f646dc5e1e06fb60936d555c4c03ba08c46f0c427ba1374b945d2121"
+    },
+    ".godot/imported/actions.png-39dec0b72f78d6ea854b94cc2fd62746.ctex": {
+      "bytes": 930874,
+      "sha256": "baba24796967894dbf0e61eca0122ff41274c9556fbba1ed29529d838e751b54"
+    },
+    ".godot/imported/armour.ogg-d305f5fed9d0f157ee46c137aa3e6b9d.oggvorbisstr": {
+      "bytes": 8489,
+      "sha256": "9727b3f9d7306c70951d247039a4eab33d0315336b47de8d36e9353a85bd1020"
+    },
+    ".godot/imported/bell.ogg-7169bf2e90bdb7dca238b0763ba381b0.oggvorbisstr": {
+      "bytes": 5569,
+      "sha256": "3e666115b22ccad7cbaf4ea30a5e27d7b946dfabaf9c7f72b3554979acb903a9"
+    },
+    ".godot/imported/bell.png-d3e0c20170f339387c8bfa3a1aa45468.ctex": {
+      "bytes": 2646,
+      "sha256": "639a8125f89b92fdfdb4e190772bc6ffd6b252f5bf352e09eef32860473c0a76"
+    },
+    ".godot/imported/boss_impact.ogg-88f26ebb294803f1e53c73dea769e028.oggvorbisstr": {
+      "bytes": 7021,
+      "sha256": "5aed2bedb86a887f2fd92be0e76adc80456e8ad246bc7b0d5ec3c1fa936c2880"
+    },
+    ".godot/imported/carrier_fine.png-320222d2ce3ee571467e2b426ff91a1e.ctex": {
+      "bytes": 8300,
+      "sha256": "813f70a0117ea4042b6902cdff98279eaff19cd18d9fe561eb851a06f956dc88"
+    },
+    ".godot/imported/click.ogg-c79e2b90162fb598e4271f522cd3f5db.oggvorbisstr": {
+      "bytes": 5061,
+      "sha256": "62286b3b7b7341bf40285c081ddfbd61792ba3614e887dcaf4042cead6770dbb"
+    },
+    ".godot/imported/coin.ogg-c2cb636168321f75a515ccb6dd808735.oggvorbisstr": {
+      "bytes": 6857,
+      "sha256": "93a4b929412225f50404394c28cfe21653bac3520310d78e41593abd69479247"
+    },
+    ".godot/imported/confirm.ogg-c3f2d7196a6528ecbd4cae7beaaf8211.oggvorbisstr": {
+      "bytes": 15215,
+      "sha256": "237c2996af1eab4124ce17cf337b88c2925f15071124247b997f214b0973e98b"
+    },
+    ".godot/imported/core.ogg-1d990985672913b9f03c6ab89bf15e53.oggvorbisstr": {
+      "bytes": 7293,
+      "sha256": "209cd558f52c859ecbca7ae286671f173010f869ed28a4d8fead289ade4f3545"
+    },
+    ".godot/imported/courier_actions.png-74414d767fdd3d18722fbb913b88e616.ctex": {
+      "bytes": 2010838,
+      "sha256": "623fd99c000d6433787a8a7808ef7287dcb98075f368838e436b883583bcabec"
+    },
+    ".godot/imported/death.ogg-215768af002b7b38b58e2c7539b16e79.oggvorbisstr": {
+      "bytes": 7935,
+      "sha256": "54a76a5af53073e03639874aa3a32f35bffd4e7a2355a6bb3b6e589f33141e24"
+    },
+    ".godot/imported/denied.ogg-05bccc5d35ff81abcdc9be5bcb3bca5b.oggvorbisstr": {
+      "bytes": 8149,
+      "sha256": "24925d18e5b4662d3c992a847d6a1f3d8fe6fefe3592852801a7fb58ad35176b"
+    },
+    ".godot/imported/door.ogg-78489782817b02e5af3a2ecc3c48c9aa.oggvorbisstr": {
+      "bytes": 24313,
+      "sha256": "657ebd3d0656b2353b43ccbf844ad98925cc9cb5e066be2fb204a6a4334289a6"
+    },
+    ".godot/imported/enemy_defeat.ogg-03bef9aa1a4b343eb221a4d43db860e0.oggvorbisstr": {
+      "bytes": 6077,
+      "sha256": "e6af09063820c9870653305dde0ba431464df39d0c79a738e1f4511c5c1eb1f4"
+    },
+    ".godot/imported/enemy_shot.ogg-d6ee7132594a822c9018ab480b424bb5.oggvorbisstr": {
+      "bytes": 16443,
+      "sha256": "498bd5395c38200499fbdec8fb47f60d38298c611c1a6ab455d2c6bed417231c"
+    },
+    ".godot/imported/focus_end.ogg-a42a713d5e1a2684c599d803b45a4d4a.oggvorbisstr": {
+      "bytes": 6847,
+      "sha256": "7fceabad46217e1a28e5ed1ae831cdcb32f1f6669b6b3416f881d3b68c3838d2"
+    },
+    ".godot/imported/focus_start.ogg-6ab49d621746cee5649c8ea9dfe0d82e.oggvorbisstr": {
+      "bytes": 8263,
+      "sha256": "196a81a0b50e054022c3a7ff246ce6c418c5eec0ff86cd83ae2fe1f7f4659034"
+    },
+    ".godot/imported/forest_fruit.wav-6ed1ae441fa78f2045c93b0871156082.sample": {
+      "bytes": 3263,
+      "sha256": "1df4e109ca57adaf1eab549afd8b24ead3ce24c87348646f843b5b5423c80d37"
+    },
+    ".godot/imported/forest_web.wav-50ecd4518273de660f51cf7a32a1767b.sample": {
+      "bytes": 4703,
+      "sha256": "52402a278de70fdd1582711baba982fdc2cf8e7af1149352231ec85a2eed83bc"
+    },
+    ".godot/imported/forest_wind.wav-127694a750ef99a8d5a5edf7ddc6a773.sample": {
+      "bytes": 14671,
+      "sha256": "e278c7010bcaa25ea9e2a8dba9da32dc9bbf8dad7cfa8f1057d2ec3a7ea442b8"
+    },
+    ".godot/imported/hazard_surface_fine.png-bf2d4c376e2e73f47788284f16bcb786.ctex": {
+      "bytes": 1240,
+      "sha256": "dced2bbba45670aecce51f60dc214db8a39ac61fcb0c8f1a4ae5b6823d11af92"
+    },
+    ".godot/imported/heal.ogg-31ee22c18180d9f36db18fd9dd78896c.oggvorbisstr": {
+      "bytes": 10324,
+      "sha256": "1a114983907523e5794beef796ed2b20f1aa1eca7b7c1cfb15bbc4974ceaf1ea"
+    },
+    ".godot/imported/hurt.ogg-c04fa44b634a7cc12a169ce8a52a6a7f.oggvorbisstr": {
+      "bytes": 9669,
+      "sha256": "24a73ac6722941d6999cd3d97e462deac78ab91fd25cf603ee584cb25013e115"
+    },
+    ".godot/imported/idle_run.png-1cc5656ff9bca1638d602304d1c7eb37.ctex": {
+      "bytes": 1028910,
+      "sha256": "3b678857c2aea37c026c1e3fc7394c022c1f1f32f4c3e46affbbb6200adc18a7"
+    },
+    ".godot/imported/impact.ogg-715259bd920bf4adae70b10cb2d55164.oggvorbisstr": {
+      "bytes": 7125,
+      "sha256": "3779d9271d3211760330ba55fb477aa522de4c7d410843772f6547840221c797"
+    },
+    ".godot/imported/jump.ogg-2e12cec36ab62bfc5e24672bcd1f2871.oggvorbisstr": {
+      "bytes": 17567,
+      "sha256": "d49c3f43aadcc6e270bfde41bce8a93cc7197e3c326fd5e1950ed8f02bc3a0a3"
+    },
+    ".godot/imported/land.ogg-6e20554705a94c290c562977be3fe253.oggvorbisstr": {
+      "bytes": 9285,
+      "sha256": "d7e90e2abad18c19aff12b28102e4cac4a2e1ae6dfde30721075866544f084ef"
+    },
+    ".godot/imported/landmark_ridge_r2.png-476e2e6fc70915dbabb5453932f386f7.ctex": {
+      "bytes": 1203108,
+      "sha256": "40f643e891f9c25ae123f160274dcfa3a2270d73c85a0be2e5c169581e0ed02c"
+    },
+    ".godot/imported/morning_sky.png-742490b4f486b613c22f32f5d5ee686c.ctex": {
+      "bytes": 1030824,
+      "sha256": "3cc2e996b90722525a63b6ceff295b51496daaee2ed72227ae6dc9604af7df8b"
+    },
+    ".godot/imported/motion_source.png-b76a178d461c218c92c8af79c2fdc530.ctex": {
+      "bytes": 1482782,
+      "sha256": "4cde0c2db1219bfb277c9ff936543c65b0a3b326dad19ad9ae998082971ecb06"
+    },
+    ".godot/imported/near.png-312b14b52339c3d518976796c49fa1e3.ctex": {
+      "bytes": 309964,
+      "sha256": "0b0d6aa99e27c2ebf294f5da3b32770de45803d11f7bd3bf8436f21a030d1aec"
+    },
+    ".godot/imported/note.ogg-eb473667fea4e766fcff00edd95e3b2a.oggvorbisstr": {
+      "bytes": 6993,
+      "sha256": "1612bf5ed3798d7df68ff54f739255c51b282ab2a68b4294db3518e7dd3ea85c"
+    },
+    ".godot/imported/quiet_meadow.png-245daa2105db36d2148b12fb5ab8e978.ctex": {
+      "bytes": 828512,
+      "sha256": "3aed4c0933dac2b8886dde3a073d7ba1405fadb37522d315ba98940240043fd6"
+    },
+    ".godot/imported/roar.ogg-0598ffc1a40a968fbf85bcfcd5212256.oggvorbisstr": {
+      "bytes": 7433,
+      "sha256": "34f69e8ce7f461049234f599812793471249143ec8aa6f1fd707232828b7883c"
+    },
+    ".godot/imported/run_sheet.png-1e57ae0ca9a4153a0b820e556388312f.ctex": {
+      "bytes": 30580,
+      "sha256": "9ac9cff0867138352d66e9d9af6be1833f9ec43208d269842e710d15f3f64df2"
+    },
+    ".godot/imported/shot.ogg-bb9e42d74b7bdf87a142f266558c97ed.oggvorbisstr": {
+      "bytes": 9742,
+      "sha256": "18a078859c3233f7e130eb78902b967d7ee9d139e5838789bf72d7dfdc4b2f2c"
+    },
+    ".godot/imported/source.png-f6646211e7a09c275226dbf6e94668d4.ctex": {
+      "bytes": 18508,
+      "sha256": "714174a43aa015fc95ec6f5dc49c48fa57fec914eb148b8616c123afc6b60b79"
+    },
+    ".godot/imported/states_sheet.png-162cd5affce7e4513d214d3f06709f78.ctex": {
+      "bytes": 45328,
+      "sha256": "eac1d2f8cc490d3d7d1e52fabfbb0216551cc3ed38a419056537707a9f0de507"
+    },
+    ".godot/imported/step.ogg-495deffdca1cbd483e8e5f9b68b0e3b0.oggvorbisstr": {
+      "bytes": 9297,
+      "sha256": "fd819c8583c742981db5bd9f283234176a727a8042ad9a89eead926f5ca115e4"
+    },
+    ".godot/imported/terrain.png-2532cd16988136c6fbb199802b295d96.ctex": {
+      "bytes": 39932,
+      "sha256": "72023dc4b7b7be95833a81bd5798c45d03e31dcc5971a25ef86fd352c28460df"
+    },
+    ".godot/imported/victory.ogg-b6745ccadc54dbb8d5fe73802e6b6eac.oggvorbisstr": {
+      "bytes": 8202,
+      "sha256": "9938bcc4756929dcffd3a531408b11d30304b6ae8393200d7de6ec3557cfa77a"
+    },
+    ".godot/imported/warning.ogg-98d3044d3c934f44a6dcdef9971b145f.oggvorbisstr": {
+      "bytes": 14584,
+      "sha256": "99907957f24475507dcc5679b36782a081e5249ee9466393825cbb856921d40d"
+    },
+    ".godot/imported/weapon.png-55f0115d31b926bf87f58b88c4bcb6bf.ctex": {
+      "bytes": 1039122,
+      "sha256": "a4c65f04d023923a2a84eae65e4cfb07fe729c742007c8d568fd4b2f48b7e139"
+    },
+    ".godot/imported/weapon_families.png-a85cd3aa57f1e67d25ec0480daac089e.ctex": {
+      "bytes": 1716202,
+      "sha256": "fe5840d72dde6bca6bf3b9710c1d6b316efed0d0427b301b91f3d85ed72508d6"
+    },
+    ".godot/uid_cache.bin": {
+      "bytes": 39065,
+      "sha256": "edb395252488f30f8b83bce5ac3edf28ce0d0efef4058f4d8af3869b8643b43c"
+    },
+    "assets/actor_actions/courier_actions.png": {
+      "bytes": 2529275,
+      "sha256": "591230127924cd32c083e3d5cf7b49861df638b468c0003c60061a75686c0866"
+    },
+    "assets/actor_actions/courier_actions.png.import": {
+      "bytes": 969,
+      "sha256": "60bef2ce7fb72896cae0567ee2774581c871e20767bac0ca780d559fe73b481f"
+    },
+    "assets/actor_actions/weapon_families.png": {
+      "bytes": 2213842,
+      "sha256": "ae548550dfa2db4e5f3364471b4235167edf5596ff56c10d677c269d7d8ee857"
+    },
+    "assets/actor_actions/weapon_families.png.import": {
+      "bytes": 970,
+      "sha256": "6d911ec6c074f6e93ecc84946a2784500151bfe05b05714ba2b5d3e495165c43"
+    },
+    "assets/audio/kenney/armour.ogg": {
+      "bytes": 7651,
+      "sha256": "33b5e6e37c6e9d54e07bf5a89b12c76e879f40c1ea83cdd82714df1d6f9fec6d"
+    },
+    "assets/audio/kenney/armour.ogg.import": {
+      "bytes": 393,
+      "sha256": "fd599de9cc8c3a5abc4fedbd9c6d0337723f1980bbd98cfa6c1ace5ed8eba141"
+    },
+    "assets/audio/kenney/bell.ogg": {
+      "bytes": 4848,
+      "sha256": "d21d0f0b782445db579d11e2506b24cd1ac9d664ee33aeaf807761aa7b6fd710"
+    },
+    "assets/audio/kenney/bell.ogg.import": {
+      "bytes": 388,
+      "sha256": "63d233ebe4180e6de9db39a9c320294b7af99d3ad70a993014c4e5dd3ddd6a68"
+    },
+    "assets/audio/kenney/boss_impact.ogg": {
+      "bytes": 6233,
+      "sha256": "15ff82332f342c30e469215539e1cc57e11b221aa2cf7e11e811d313a9927f3d"
+    },
+    "assets/audio/kenney/boss_impact.ogg.import": {
+      "bytes": 409,
+      "sha256": "0176e8f5b4a84467ef97f3841be24e6eeb6a4813cce64cbdb18e05d0e9920b8a"
+    },
+    "assets/audio/kenney/click.ogg": {
+      "bytes": 4371,
+      "sha256": "2fa929138bc3a0f432696588f66eac94b8f6d463905ec8808c6461ce4b054292"
+    },
+    "assets/audio/kenney/click.ogg.import": {
+      "bytes": 391,
+      "sha256": "c3ce200454cc62b5587c9aa47a8aad58e66167003a0e0289f94d24bbc748e271"
+    },
+    "assets/audio/kenney/coin.ogg": {
+      "bytes": 6019,
+      "sha256": "f2f44effce087e47683f0fea05a71002bd8dca78fb10bf93d9f0b38d49f9590e"
+    },
+    "assets/audio/kenney/coin.ogg.import": {
+      "bytes": 388,
+      "sha256": "122d2db1b99d815e34148f6f9221373f2a5d3e5541537f537e7b836fc70f4745"
+    },
+    "assets/audio/kenney/confirm.ogg": {
+      "bytes": 14169,
+      "sha256": "33b17a9a9a2397c62b285c52c33a907fdffb476909c99e42dde603f6a7a8b12c"
+    },
+    "assets/audio/kenney/confirm.ogg.import": {
+      "bytes": 397,
+      "sha256": "3a8a7c906b762234b920f32de74b066f458b9bb7bc2150ac45d3fb791d90288c"
+    },
+    "assets/audio/kenney/core.ogg": {
+      "bytes": 6526,
+      "sha256": "d750cf88097d0c3e69920e6e14496e1444e1a9da01aa4cca8f5ec8cb44c57b4f"
+    },
+    "assets/audio/kenney/core.ogg.import": {
+      "bytes": 387,
+      "sha256": "eb3f3689cb33a45f7d927246cb70c45984b7c07f8757b94671fc1f2da5b8d526"
+    },
+    "assets/audio/kenney/death.ogg": {
+      "bytes": 7113,
+      "sha256": "d2d046cd0247045f8819905fc9719a7237ccbd590b3128ce58a61a81f50d208b"
+    },
+    "assets/audio/kenney/death.ogg.import": {
+      "bytes": 391,
+      "sha256": "b935b9909c3442311fd85807f98800ad820de4c9cbce1120e76a367ef3532317"
+    },
+    "assets/audio/kenney/denied.ogg": {
+      "bytes": 7373,
+      "sha256": "46e67425d16339772e8d328fb36a49426c9467418686e11beeb71ff84b0f6433"
+    },
+    "assets/audio/kenney/denied.ogg.import": {
+      "bytes": 393,
+      "sha256": "b1b5153e0ca914f388b4137af4f710a3bcdaa22f0d660f6001655c031ac07d59"
+    },
+    "assets/audio/kenney/door.ogg": {
+      "bytes": 22848,
+      "sha256": "4ab93bab96522d8eb109ff96dc57cb6765deb02448fe14c10472084be5bb2a0b"
+    },
+    "assets/audio/kenney/door.ogg.import": {
+      "bytes": 388,
+      "sha256": "e425a3d5f7ede0881ab4542e39791eeaaf31483ce9dbc14e66de4f5b11d33a67"
+    },
+    "assets/audio/kenney/enemy_defeat.ogg": {
+      "bytes": 5351,
+      "sha256": "7d3ba0bb5e60a11b5d3e558c141303dcf494256675fbf753c0d252d2cf0481e3"
+    },
+    "assets/audio/kenney/enemy_defeat.ogg.import": {
+      "bytes": 412,
+      "sha256": "ff07e506b800b476a9cef6bd1bd5e3396d7dd21c6d972ad650ef158905cce72b"
+    },
+    "assets/audio/kenney/enemy_shot.ogg": {
+      "bytes": 15532,
+      "sha256": "4cd96dc630bed9840c15f1dd2306da2cc56a4da26a5d3f1a03c5a7265ac5e54f"
+    },
+    "assets/audio/kenney/enemy_shot.ogg.import": {
+      "bytes": 406,
+      "sha256": "f641cb40589108b1f08ece932b8627003c05784758e08a4f2c621f3dc007788e"
+    },
+    "assets/audio/kenney/focus_end.ogg": {
+      "bytes": 6093,
+      "sha256": "0eaadbbc5c259cc89a1dfbb0c99b61ca07e08710d035cc9bfc805b68cb0bdc9e"
+    },
+    "assets/audio/kenney/focus_end.ogg.import": {
+      "bytes": 403,
+      "sha256": "c5dbab428a644fc9a4a17a5b541e61ad93386394d11564b92c749daf93b9b3f7"
+    },
+    "assets/audio/kenney/focus_start.ogg": {
+      "bytes": 7390,
+      "sha256": "4423d459fc15fdd8593a4584d71e272ec2e5f8bdc11b759db623fc613ffd957c"
+    },
+    "assets/audio/kenney/focus_start.ogg.import": {
+      "bytes": 409,
+      "sha256": "7f29c7074d0d2c71b861d813185041459d03c6171f66115071599701fc69e379"
+    },
+    "assets/audio/kenney/heal.ogg": {
+      "bytes": 9011,
+      "sha256": "8c361b624b560c0bc30ea3063b71212bc30caebf425c9df2481c13b25561485c"
+    },
+    "assets/audio/kenney/heal.ogg.import": {
+      "bytes": 388,
+      "sha256": "ccd9ab5e1433df4e5d45cc429e80f8070fb0cd9f95436e8bbc0233054f4219ae"
+    },
+    "assets/audio/kenney/hurt.ogg": {
+      "bytes": 8800,
+      "sha256": "486988aa2d6440ffc4c62a0e8ccf3c23673ba84424bd4723378d451b7255eb5c"
+    },
+    "assets/audio/kenney/hurt.ogg.import": {
+      "bytes": 387,
+      "sha256": "26cd1938b8729dc14442c4df4f363b78d848cfe87e99532969826f8a7f63eb6e"
+    },
+    "assets/audio/kenney/impact.ogg": {
+      "bytes": 6343,
+      "sha256": "eb45e35b4bed784d3f120de4afec4b0d6ac09d9e143cce8cfcb7d739e1b1f3c3"
+    },
+    "assets/audio/kenney/impact.ogg.import": {
+      "bytes": 393,
+      "sha256": "fc31dd500e31edf697ae8bade89d213f2e15452adef1bd6c351d39846bbef1a5"
+    },
+    "assets/audio/kenney/jump.ogg": {
+      "bytes": 16508,
+      "sha256": "ddb93a3671233f95da0e0b10367f082f7eb42fa6caaddcf776410aa8833c747d"
+    },
+    "assets/audio/kenney/jump.ogg.import": {
+      "bytes": 388,
+      "sha256": "21f9cc5eddb611c9b90af788a9988a707f14d5a9902f4e0a31183083bd2d352f"
+    },
+    "assets/audio/kenney/land.ogg": {
+      "bytes": 8290,
+      "sha256": "9d49497777405d78d7cf7f2888e28277f3a23192300cfd1d79d54876b20f479f"
+    },
+    "assets/audio/kenney/land.ogg.import": {
+      "bytes": 387,
+      "sha256": "7ebb770838ca0b2d6a023953e03669a3e0d5da6678b7365f7c159adf29b4be5b"
+    },
+    "assets/audio/kenney/note.ogg": {
+      "bytes": 6135,
+      "sha256": "cbc1c3c7ccf5d7903818144a4c3f5b2ed2385095792f29d8d7c76360ba4fa559"
+    },
+    "assets/audio/kenney/note.ogg.import": {
+      "bytes": 388,
+      "sha256": "cda705f671892ca810b688ac6973cd166d34dd5abd5bc3e30773f7718ec62b92"
+    },
+    "assets/audio/kenney/roar.ogg": {
+      "bytes": 6570,
+      "sha256": "49e7ca88743fca974bb8676ea138b751cfd8f9033b5e7af8736c2a215d6edbc1"
+    },
+    "assets/audio/kenney/roar.ogg.import": {
+      "bytes": 388,
+      "sha256": "6132a8885d237de4661ac58703d9c3e5c880ccbd5d7b34bcdb02fc05c5567ddf"
+    },
+    "assets/audio/kenney/shot.ogg": {
+      "bytes": 8524,
+      "sha256": "50470d64f9397855e5d9a334484da9c5232b3e0524c52f088b8a73822bd89f45"
+    },
+    "assets/audio/kenney/shot.ogg.import": {
+      "bytes": 388,
+      "sha256": "87b2ef1a5eb772ac888d1b58afe7dcf1aeeddb30e7a4cbbb4b2491689c840837"
+    },
+    "assets/audio/kenney/step.ogg": {
+      "bytes": 8313,
+      "sha256": "fb28781bd22b2eefdc14077f1adf5c94d7fe9c3a130194633b55f3e0d39d9f04"
+    },
+    "assets/audio/kenney/step.ogg.import": {
+      "bytes": 388,
+      "sha256": "af87a693982ccae19d973588241353a75f77d2daff63af83c1f1f7fa102327f0"
+    },
+    "assets/audio/kenney/victory.ogg": {
+      "bytes": 7035,
+      "sha256": "b4b3bc7420e71bfbec49a6ea13b8c12d76a5751cbdf063d8a8ac017c0b1e1d87"
+    },
+    "assets/audio/kenney/victory.ogg.import": {
+      "bytes": 396,
+      "sha256": "04aaa908c5b3e138763b1d554b9dae57224c56c7091414623ca821bb8a9a156b"
+    },
+    "assets/audio/kenney/warning.ogg": {
+      "bytes": 13615,
+      "sha256": "9851a69d0c613e13bceef08060ecc4148f098ef487927cbebe270d642398a3b3"
+    },
+    "assets/audio/kenney/warning.ogg.import": {
+      "bytes": 397,
+      "sha256": "8fb3c2f1112083e65f360d1938d483147f99ecafe4df36070a5221fab745ee0f"
+    },
+    "assets/forest_bible_v2/audio/forest_fruit.wav": {
+      "bytes": 14156,
+      "sha256": "3f4de8d8f8ee68cc17cebea6e62650a2588924091eb09983b1175128c46dcbfd"
+    },
+    "assets/forest_bible_v2/audio/forest_fruit.wav.import": {
+      "bytes": 522,
+      "sha256": "2d0acab44dee30bf0dbc17a64bac07159e6e28011d71343e26520eac1668d2cd"
+    },
+    "assets/forest_bible_v2/audio/forest_web.wav": {
+      "bytes": 21212,
+      "sha256": "664e4c147e9e80f5c12137d107a727e94d9ae9fd9d307d9811ac6a8c32e0c452"
+    },
+    "assets/forest_bible_v2/audio/forest_web.wav.import": {
+      "bytes": 516,
+      "sha256": "b8064e314dfc440c48a6beea2eb419518ed45c67cf1613a49f909c72b87dcf12"
+    },
+    "assets/forest_bible_v2/audio/forest_wind.wav": {
+      "bytes": 70604,
+      "sha256": "5a0174eaa84ad8ccc639ca700b825089bd86db629dfe38c24ed25a8974195b9a"
+    },
+    "assets/forest_bible_v2/audio/forest_wind.wav.import": {
+      "bytes": 520,
+      "sha256": "a33ba8cb2948fa962904b8744834c4989b70fc84d575094e66d0009725a7e454"
+    },
+    "assets/plains_v3/hero/actions.png": {
+      "bytes": 1202660,
+      "sha256": "fc2402b0ac38caf265ba6339d7a5c2a23ab711801b457d535a082f90120cf51c"
+    },
+    "assets/plains_v3/hero/actions.png.import": {
+      "bytes": 947,
+      "sha256": "e54ef307393e9e29f03c04ba357c3cc3cec4d408c422685fe6bbc904af285341"
+    },
+    "assets/plains_v3/hero/idle_run.png": {
+      "bytes": 1338118,
+      "sha256": "c581bf8cc0991865aa3eac64644e8a2bed850ff5336350c2ae00241afeb7d00f"
+    },
+    "assets/plains_v3/hero/idle_run.png.import": {
+      "bytes": 950,
+      "sha256": "18be9312c42117f073c7eb24c721a8261c1d634a9b7694c161bcda84b1cb804d"
+    },
+    "assets/plains_v3/hero/weapon.png": {
+      "bytes": 1425789,
+      "sha256": "0aa68be4e5398d97b9c16e72f04ed19b24ef8c21a7a582f2a3fd50987588657c"
+    },
+    "assets/plains_v3/hero/weapon.png.import": {
+      "bytes": 944,
+      "sha256": "9a6f69b949026a63a16b52975e2aa17951b04ff5daf19c59906a83e372c75cda"
+    },
+    "assets/player_presentation_01/motion_v1/motion_source.png": {
+      "bytes": 1789499,
+      "sha256": "d0a7d99429de680a0e3c19a55398bca836a43165e96f33712f00d4e5cf1d3280"
+    },
+    "assets/player_presentation_01/motion_v1/motion_source.png.import": {
+      "bytes": 983,
+      "sha256": "6af840e72ef7335059dc55519d31d418a21a4d83151b75c15b7506eaaba959f0"
+    },
+    "assets/underworld_plains/actors/bell.png": {
+      "bytes": 2520,
+      "sha256": "94162f8e2f0e112659885356908e114bec6bd11f6d5a31b7691fd53883e85ad2"
+    },
+    "assets/underworld_plains/actors/bell.png.import": {
+      "bytes": 948,
+      "sha256": "7d736b148099fa6cc52e559a1be8e9d462f604df7c670671891801ca52ef2f26"
+    },
+    "assets/underworld_plains/backgrounds/depth_frame_06/landmark_ridge_r2.png": {
+      "bytes": 1651398,
+      "sha256": "29c0812af64de5cf1299cecb7e8810d93bfd435b099a1434bca0cd12e475fc29"
+    },
+    "assets/underworld_plains/backgrounds/depth_frame_06/landmark_ridge_r2.png.import": {
+      "bytes": 1006,
+      "sha256": "4cf526c7e3b5ca33ae40a9d4d7f6e14f8ee39631bc10a9b8e0ccc653453a1e64"
+    },
+    "assets/underworld_plains/backgrounds/near.png": {
+      "bytes": 434467,
+      "sha256": "32ea3038c8388b4df3898e0803d02ca7ad76634d5745019cbde3057d66c6ccf2"
+    },
+    "assets/underworld_plains/backgrounds/near.png.import": {
+      "bytes": 953,
+      "sha256": "cedcd9f85c8d12aac487fce685d1d1524f85ebe2ce31888a4563f6b29e58d459"
+    },
+    "assets/underworld_plains/backgrounds/parallax_fine_space_05/morning_sky.png": {
+      "bytes": 1446665,
+      "sha256": "4af64f48f9e91400f080432d490fe2490faf7fb24afdf5b6501ef6e023e45ad7"
+    },
+    "assets/underworld_plains/backgrounds/parallax_fine_space_05/morning_sky.png.import": {
+      "bytes": 997,
+      "sha256": "634c3cbe879c2dc90d2e421751d0be5b876c0ba0865aabff584ca4b998f3b57f"
+    },
+    "assets/underworld_plains/backgrounds/spatial_rhythm_07/quiet_meadow.png": {
+      "bytes": 1097961,
+      "sha256": "b1a45ca95353cc56a533d877a1055fb6dd6a1380fc8a284a3f7dac9905c6545e"
+    },
+    "assets/underworld_plains/backgrounds/spatial_rhythm_07/quiet_meadow.png.import": {
+      "bytes": 994,
+      "sha256": "199224f67bc836a795135a367e378440fcb4cf3501f4fad59d129ade1ec44da1"
+    },
+    "assets/underworld_plains/hazards/hazard_fine_tileset.tres": {
+      "bytes": 379,
+      "sha256": "d6b81ae52fd77c187644a29f1b5b9c367156389eb7775e4738d71d59f39da42d"
+    },
+    "assets/underworld_plains/hazards/hazard_surface_fine.png": {
+      "bytes": 2961,
+      "sha256": "37bc77717fa0eea0bf4cb760af9a7f17c9d9454e2790a04d5c09b9e3e610dd2b"
+    },
+    "assets/underworld_plains/hazards/hazard_surface_fine.png.import": {
+      "bytes": 994,
+      "sha256": "0cdc0b618ec880224a839fe2072b8f2cb09391bb67f0e8ff798ec2946ce31f3e"
+    },
+    "assets/underworld_plains/mechanisms/carrier_fine.png": {
+      "bytes": 9866,
+      "sha256": "3176c1d319c216b418e695368dccaad74210563275ee77e7d58725805923be39"
+    },
+    "assets/underworld_plains/mechanisms/carrier_fine.png.import": {
+      "bytes": 976,
+      "sha256": "a1a1acc628c6fc711fbbcf3cd19ab7ab7db91f8a23ec24168ee93a01ae55f71f"
+    },
+    "assets/underworld_plains/player_animation/animation_build.json": {
+      "bytes": 11455,
+      "sha256": "65bb572735f8aead4a6b1e5ead2174b1dc784eb9d0ee8aeeafff6ac8d7eb49b3"
+    },
+    "assets/underworld_plains/player_animation/run_sheet.png": {
+      "bytes": 29918,
+      "sha256": "64fe86b6de951bd671f511509104b2639f528527741774dd2561547f7ec5dd27"
+    },
+    "assets/underworld_plains/player_animation/run_sheet.png.import": {
+      "bytes": 973,
+      "sha256": "e9daf63d77c0ddd51e57e0656511903486a3a34a1681cdf947b3082ad0ace81e"
+    },
+    "assets/underworld_plains/player_animation/states_sheet.png": {
+      "bytes": 44562,
+      "sha256": "01f6645fcedd24e14e06d56b6789ad0aa987ac0c75a63b39b0f16b40fe256744"
+    },
+    "assets/underworld_plains/player_animation/states_sheet.png.import": {
+      "bytes": 982,
+      "sha256": "224e54627052579493b11aaa2c9b40ddd8ddfef6494a6725d359548a96b98027"
+    },
+    "assets/underworld_plains/terrain/fine_32/source.png": {
+      "bytes": 25017,
+      "sha256": "d08218cddd5b463a0ff033e3e5b1a260ed1280691d0b93d4565421c2f0f71431"
+    },
+    "assets/underworld_plains/terrain/fine_32/source.png.import": {
+      "bytes": 963,
+      "sha256": "8ffeadfb4dec638f99c58fa1af571c24045faa0e31e5da0d9472984ea58341e9"
+    },
+    "assets/underworld_plains/terrain/fine_32/terrain.png": {
+      "bytes": 51482,
+      "sha256": "267ba0fa45ec8c909d245d3d7a7b74aa98f464e9e6ac8bc1d671d180e35dd5de"
+    },
+    "assets/underworld_plains/terrain/fine_32/terrain.png.import": {
+      "bytes": 966,
+      "sha256": "96158b7a9067625bdcbe237ab3e3e049c7be98aa70af730edf62e713813e8511"
+    },
+    "content_routes/manual.gd": {
+      "bytes": 258,
+      "sha256": "31f022a8899de119f46f95ce7d30d710e786267a3d26bfc2c940f5b6dae65171"
+    },
+    "content_routes/manual.tscn": {
+      "bytes": 160,
+      "sha256": "bd2855657e5fde1dfc4af5036085ab3a952e335af3831f897b79f5c9847f7103"
+    },
+    "direct_join/challenge_extra.gd": {
+      "bytes": 688,
+      "sha256": "fc5b0b5f3b0c5ed5a6776978b06aa67b97112f920ff2ba1e0e104f141c55a90f"
+    },
+    "modules_v3.json": {
+      "bytes": 40054,
+      "sha256": "9f3bba4abc7cd164d243ca9992e986a482038c43897546a544354e953c61cd1d"
+    },
+    "open_valley/manual.gd": {
+      "bytes": 451,
+      "sha256": "30af7cb5ef77a48457c78885c08d4c569f1caa5b8d5ed7e1ab824d17c7376a81"
+    },
+    "open_valley/manual.tscn": {
+      "bytes": 151,
+      "sha256": "6d6a5e54814da9c682afec13cc93f98f229fa3607e695f9a559de05e00fd73ea"
+    },
+    "open_valley/mechanics.gd": {
+      "bytes": 1436,
+      "sha256": "68ef8d5d250a8ce0a335b9de381558f0653b832e8deb7ebe3b5b531926fea266"
+    },
+    "open_valley/presentation.gd": {
+      "bytes": 1477,
+      "sha256": "779a063d13a7ba05569e7065d349322939e3f6f8bbae3e33192f5a68affb84f3"
+    },
+    "pcg_overlay_boot.gd": {
+      "bytes": 1550,
+      "sha256": "bfcc717529a651af97626b17c0a9a76303634ca46abad48af764714272b04fe4"
+    },
+    "pcg_overlay_boot.tscn": {
+      "bytes": 175,
+      "sha256": "6b1ac577caad04bd25291ed231bc8d6614043f5f8428306a5d17deb3726e2a0a"
+    },
+    "project.godot": {
+      "bytes": 478,
+      "sha256": "306395de662e5a9f00bb261f4c0434accf67c1a2920321515cfbdb722e6b0b5a"
+    },
+    "r2/bell_extra.gd": {
+      "bytes": 2322,
+      "sha256": "9464fc082ddd5fee78ec070f8fb60acd3ebbfc222d0e4f3309a7e8fb92a2c309"
+    },
+    "r2/cases.json": {
+      "bytes": 40054,
+      "sha256": "9f3bba4abc7cd164d243ca9992e986a482038c43897546a544354e953c61cd1d"
+    },
+    "r2/gate_world.gd": {
+      "bytes": 3795,
+      "sha256": "104e5e665f762b1aa944015a380b8841357cd476248a0aae23573e0e31c81803"
+    },
+    "r2/godot/r2_annotations.gd": {
+      "bytes": 976,
+      "sha256": "31eb086eee1d44560f9df313dd283f9f1cea1eb68eafca19412bc962b362934a"
+    },
+    "r2/godot/r2_camera.gd": {
+      "bytes": 340,
+      "sha256": "a812021c263d437007a6582a5c9c0bce99afd0129d0f0599641e24fe12a3b30c"
+    },
+    "r2/godot/r2_manual_scene.gd": {
+      "bytes": 14118,
+      "sha256": "98d498cc709a8dad9922815808ee3277f187d7e12965c332ad2e329d69e7f541"
+    },
+    "r2/godot/r2_manual_scene.tscn": {
+      "bytes": 165,
+      "sha256": "eff85379fb00957085e0197c4c6503ca839553094b793d6c05f793f9c1ef23b2"
+    },
+    "r2/runtime/capability_adapter.gd": {
+      "bytes": 2757,
+      "sha256": "992fe75175edf2df568e76050f38ac3577634ea525f713adef684d8811493b6d"
+    },
+    "r2/runtime/dynamic_context.gd": {
+      "bytes": 6745,
+      "sha256": "340de0ef1fd510c18a8717b094a715f35951bbecdac0dfebda7ddcd728899808"
+    },
+    "r2/runtime/lab_draw_v3.gd": {
+      "bytes": 1576,
+      "sha256": "2802d37a42ba014240ac9dc41a0d6cc2030dbf9aedf94781bb410739e973fb15"
+    },
+    "r2/runtime/main_plains.gd": {
+      "bytes": 16289,
+      "sha256": "eb1f5cd3f733ae3b91d86ebc8a2ab065d499b1fca8d70791d47cfd37b37d01fd"
+    },
+    "r2/runtime/plains_cells.gd": {
+      "bytes": 4627,
+      "sha256": "c3c840fd678f772a962b576a08a551517c502a537a1d745ec17d5365cd1c45e6"
+    },
+    "r2/runtime/plains_lifecycle.gd": {
+      "bytes": 1336,
+      "sha256": "37a45f9cbfa6717dffc67f27a69ac0279f8c3876485267b480f4ad53271efce5"
+    },
+    "r2/state_extra.gd": {
+      "bytes": 3961,
+      "sha256": "b064b54e6056bfc3bf46e26c709c4619f46522369b13b11eec6d82666c226ee4"
+    },
+    "resources/items/damage_blue.tres": {
+      "bytes": 703,
+      "sha256": "9b431fbd429c985a621d6aae5b917f872fd717a55aa3d3a63e98455b371255c7"
+    },
+    "resources/player_presentation_01/motion_v1.tres": {
+      "bytes": 237,
+      "sha256": "12893c8ff722a4a98f3a047ecdc00d9b6be2c809c0632e762c7df28cb86fb688"
+    },
+    "resources/player_presentation_01/weapon_feel_v1.tres": {
+      "bytes": 232,
+      "sha256": "a1df276ec98310b60265c7e7a0afbbdb1f34134167fe15d4822cf3818b26bcb1"
+    },
+    "scripts/art/plains_wood_platform_art.gd": {
+      "bytes": 1485,
+      "sha256": "45868836498f05f8b799506e2270f175d71ff38217489d2397f5c926c53c1310"
+    },
+    "scripts/art/player_presentation_runtime.gd": {
+      "bytes": 3917,
+      "sha256": "8d88e0506cbbca7866c5a6fc26f7436950ca91c27ea5db64c196004965575f91"
+    },
+    "scripts/dev/player_presentation_01/motion_visual.gd": {
+      "bytes": 9273,
+      "sha256": "8a52bedafc2fd083d40a4f56b4e34e05a3e90b45db1680b403f67be1a442cb1f"
+    },
+    "scripts/generation/module_moving_platform.gd": {
+      "bytes": 3305,
+      "sha256": "c3c3c7d068f5bcef692eabe4a2110aaa6308d4379623b09e652062f29c0f0fd5"
+    },
+    "scripts/underworld_plains/underworld_player.gd": {
+      "bytes": 8019,
+      "sha256": "6ed4b00e1058a9d16808df58295f63bc8900e70653aeccc66a6752fb08412127"
+    },
+    "scripts/underworld_plains/underworld_projectile_visual.gd": {
+      "bytes": 5552,
+      "sha256": "7e163ae414f921bc8addf463f924fda34c6708fe67465f2fae0dc5429bf96054"
+    },
+    "scripts/underworld_plains/underworld_terrain.gd": {
+      "bytes": 12575,
+      "sha256": "842fe139bf0882e1b53f0946eb918e3433e28531ce65033fa223ff722cffe95f"
+    },
+    "valley_complete/baseline.gd": {
+      "bytes": 3233,
+      "sha256": "0014ec74ed886f0a5f67ce1f9c84f991683884f3f8f8fc26cd0cadeb5825febc"
+    },
+    "valley_complete/formal_mechanics.gd": {
+      "bytes": 501,
+      "sha256": "54dd4ef7d5d2d25d4c04e984b006e531ecf7e768fa0ca2c6e52bee708f8d5b78"
+    },
+    "valley_complete/formal_style.gd": {
+      "bytes": 3032,
+      "sha256": "f61a8fab56434d05fabdf23f7a7b652f2bcaf2bb39d4f198c1f411a5e6dc3b34"
+    },
+    "valley_complete/manual.gd": {
+      "bytes": 772,
+      "sha256": "bc8e9c0c1b6b88f635e3f38e1ead6a9a8842c0bcc63365430dc4a4ceb1e078b7"
+    },
+    "valley_complete/manual.tscn": {
+      "bytes": 155,
+      "sha256": "b556e6bcd59c86a43e79d5b265034924537e532d6661f026526f58d8166aad9f"
+    },
+    "valley_complete/mechanics.gd": {
+      "bytes": 3853,
+      "sha256": "8b342682e97120323d58a72610cf8c5511fc96a29f1c100049c44a7507052dab"
+    },
+    "valley_complete/pilot.gd": {
+      "bytes": 1070,
+      "sha256": "8661769affe6d7cff8ecb818a6fb32d39c4523f299847f3c2cde4696acd56a5b"
+    },
+    "valley_complete/presentation.gd": {
+      "bytes": 1181,
+      "sha256": "0fa35f8c4591fd8d161a33df32a0db90a73996370aab364a5faa3debd927f9c2"
+    },
+    "valley_complete/rock_manual.gd": {
+      "bytes": 236,
+      "sha256": "44257708af91d69e00ea8216f7fff1500c7232e46f48225bb9b6863109afd43b"
+    },
+    "valley_complete/rock_manual.tscn": {
+      "bytes": 162,
+      "sha256": "e1d81aab4d9c842b1a147d99cba43d3a2959fef838e2ca8bbbaff07af08ae652"
+    },
+    "valley_complete/rock_mechanics.gd": {
+      "bytes": 894,
+      "sha256": "ea0c4171c1dd4f3d83624468f132dafe49980e36ca70a4b23ac54e3e90e91d12"
+    },
+    "valley_complete/rock_visual.gd": {
+      "bytes": 271,
+      "sha256": "13c901c86694523ba33ce78738e7eeea3a65c538479868a7ea1dc586c5cf006e"
+    },
+    "valley_complete/runner.gd": {
+      "bytes": 356,
+      "sha256": "438d702ef0b59dcec7fc9b1dcc83ed8dbad1b4235b941a3714e027eb8130abaa"
+    },
+    "valley_complete/visual.gd": {
+      "bytes": 552,
+      "sha256": "eaaf62dbd288013d077a9fe481e8e6994917048cd5b052d3187dc84429ce001e"
+    },
+    "woven_region/manual.gd": {
+      "bytes": 515,
+      "sha256": "c3f197f8fad9228116d81c280e7e8a7a0f1fb39ffff31157a71f96f61c6d8f1e"
+    },
+    "woven_region/manual.tscn": {
+      "bytes": 158,
+      "sha256": "efbd002630f4a3f43b1fe743f2160aaf3fbd59212c743e69b4844d5f61746332"
+    },
+    "woven_region/mechanics.gd": {
+      "bytes": 347,
+      "sha256": "2137f8a7795f9e35926d9df9d8ff827a68bfe6b8a45ba2917fa8b094fa36b9cb"
+    }
+  },
+  "new_or_changed_from_full": [
+    ".godot/imported/actions.png-39dec0b72f78d6ea854b94cc2fd62746.ctex",
+    ".godot/imported/armour.ogg-d305f5fed9d0f157ee46c137aa3e6b9d.oggvorbisstr",
+    ".godot/imported/bell.ogg-7169bf2e90bdb7dca238b0763ba381b0.oggvorbisstr",
+    ".godot/imported/bell.png-d3e0c20170f339387c8bfa3a1aa45468.ctex",
+    ".godot/imported/boss_impact.ogg-88f26ebb294803f1e53c73dea769e028.oggvorbisstr",
+    ".godot/imported/carrier_fine.png-320222d2ce3ee571467e2b426ff91a1e.ctex",
+    ".godot/imported/click.ogg-c79e2b90162fb598e4271f522cd3f5db.oggvorbisstr",
+    ".godot/imported/coin.ogg-c2cb636168321f75a515ccb6dd808735.oggvorbisstr",
+    ".godot/imported/confirm.ogg-c3f2d7196a6528ecbd4cae7beaaf8211.oggvorbisstr",
+    ".godot/imported/core.ogg-1d990985672913b9f03c6ab89bf15e53.oggvorbisstr",
+    ".godot/imported/courier_actions.png-74414d767fdd3d18722fbb913b88e616.ctex",
+    ".godot/imported/death.ogg-215768af002b7b38b58e2c7539b16e79.oggvorbisstr",
+    ".godot/imported/denied.ogg-05bccc5d35ff81abcdc9be5bcb3bca5b.oggvorbisstr",
+    ".godot/imported/door.ogg-78489782817b02e5af3a2ecc3c48c9aa.oggvorbisstr",
+    ".godot/imported/enemy_defeat.ogg-03bef9aa1a4b343eb221a4d43db860e0.oggvorbisstr",
+    ".godot/imported/enemy_shot.ogg-d6ee7132594a822c9018ab480b424bb5.oggvorbisstr",
+    ".godot/imported/focus_end.ogg-a42a713d5e1a2684c599d803b45a4d4a.oggvorbisstr",
+    ".godot/imported/focus_start.ogg-6ab49d621746cee5649c8ea9dfe0d82e.oggvorbisstr",
+    ".godot/imported/forest_fruit.wav-6ed1ae441fa78f2045c93b0871156082.sample",
+    ".godot/imported/forest_web.wav-50ecd4518273de660f51cf7a32a1767b.sample",
+    ".godot/imported/forest_wind.wav-127694a750ef99a8d5a5edf7ddc6a773.sample",
+    ".godot/imported/hazard_surface_fine.png-bf2d4c376e2e73f47788284f16bcb786.ctex",
+    ".godot/imported/heal.ogg-31ee22c18180d9f36db18fd9dd78896c.oggvorbisstr",
+    ".godot/imported/hurt.ogg-c04fa44b634a7cc12a169ce8a52a6a7f.oggvorbisstr",
+    ".godot/imported/idle_run.png-1cc5656ff9bca1638d602304d1c7eb37.ctex",
+    ".godot/imported/impact.ogg-715259bd920bf4adae70b10cb2d55164.oggvorbisstr",
+    ".godot/imported/jump.ogg-2e12cec36ab62bfc5e24672bcd1f2871.oggvorbisstr",
+    ".godot/imported/land.ogg-6e20554705a94c290c562977be3fe253.oggvorbisstr",
+    ".godot/imported/landmark_ridge_r2.png-476e2e6fc70915dbabb5453932f386f7.ctex",
+    ".godot/imported/morning_sky.png-742490b4f486b613c22f32f5d5ee686c.ctex",
+    ".godot/imported/motion_source.png-b76a178d461c218c92c8af79c2fdc530.ctex",
+    ".godot/imported/near.png-312b14b52339c3d518976796c49fa1e3.ctex",
+    ".godot/imported/note.ogg-eb473667fea4e766fcff00edd95e3b2a.oggvorbisstr",
+    ".godot/imported/quiet_meadow.png-245daa2105db36d2148b12fb5ab8e978.ctex",
+    ".godot/imported/roar.ogg-0598ffc1a40a968fbf85bcfcd5212256.oggvorbisstr",
+    ".godot/imported/run_sheet.png-1e57ae0ca9a4153a0b820e556388312f.ctex",
+    ".godot/imported/shot.ogg-bb9e42d74b7bdf87a142f266558c97ed.oggvorbisstr",
+    ".godot/imported/source.png-f6646211e7a09c275226dbf6e94668d4.ctex",
+    ".godot/imported/states_sheet.png-162cd5affce7e4513d214d3f06709f78.ctex",
+    ".godot/imported/step.ogg-495deffdca1cbd483e8e5f9b68b0e3b0.oggvorbisstr",
+    ".godot/imported/terrain.png-2532cd16988136c6fbb199802b295d96.ctex",
+    ".godot/imported/victory.ogg-b6745ccadc54dbb8d5fe73802e6b6eac.oggvorbisstr",
+    ".godot/imported/warning.ogg-98d3044d3c934f44a6dcdef9971b145f.oggvorbisstr",
+    ".godot/imported/weapon.png-55f0115d31b926bf87f58b88c4bcb6bf.ctex",
+    ".godot/imported/weapon_families.png-a85cd3aa57f1e67d25ec0480daac089e.ctex",
+    "assets/actor_actions/courier_actions.png",
+    "assets/actor_actions/courier_actions.png.import",
+    "assets/actor_actions/weapon_families.png",
+    "assets/actor_actions/weapon_families.png.import",
+    "assets/audio/kenney/armour.ogg",
+    "assets/audio/kenney/armour.ogg.import",
+    "assets/audio/kenney/bell.ogg",
+    "assets/audio/kenney/bell.ogg.import",
+    "assets/audio/kenney/boss_impact.ogg",
+    "assets/audio/kenney/boss_impact.ogg.import",
+    "assets/audio/kenney/click.ogg",
+    "assets/audio/kenney/click.ogg.import",
+    "assets/audio/kenney/coin.ogg",
+    "assets/audio/kenney/coin.ogg.import",
+    "assets/audio/kenney/confirm.ogg",
+    "assets/audio/kenney/confirm.ogg.import",
+    "assets/audio/kenney/core.ogg",
+    "assets/audio/kenney/core.ogg.import",
+    "assets/audio/kenney/death.ogg",
+    "assets/audio/kenney/death.ogg.import",
+    "assets/audio/kenney/denied.ogg",
+    "assets/audio/kenney/denied.ogg.import",
+    "assets/audio/kenney/door.ogg",
+    "assets/audio/kenney/door.ogg.import",
+    "assets/audio/kenney/enemy_defeat.ogg",
+    "assets/audio/kenney/enemy_defeat.ogg.import",
+    "assets/audio/kenney/enemy_shot.ogg",
+    "assets/audio/kenney/enemy_shot.ogg.import",
+    "assets/audio/kenney/focus_end.ogg",
+    "assets/audio/kenney/focus_end.ogg.import",
+    "assets/audio/kenney/focus_start.ogg",
+    "assets/audio/kenney/focus_start.ogg.import",
+    "assets/audio/kenney/heal.ogg",
+    "assets/audio/kenney/heal.ogg.import",
+    "assets/audio/kenney/hurt.ogg",
+    "assets/audio/kenney/hurt.ogg.import",
+    "assets/audio/kenney/impact.ogg",
+    "assets/audio/kenney/impact.ogg.import",
+    "assets/audio/kenney/jump.ogg",
+    "assets/audio/kenney/jump.ogg.import",
+    "assets/audio/kenney/land.ogg",
+    "assets/audio/kenney/land.ogg.import",
+    "assets/audio/kenney/note.ogg",
+    "assets/audio/kenney/note.ogg.import",
+    "assets/audio/kenney/roar.ogg",
+    "assets/audio/kenney/roar.ogg.import",
+    "assets/audio/kenney/shot.ogg",
+    "assets/audio/kenney/shot.ogg.import",
+    "assets/audio/kenney/step.ogg",
+    "assets/audio/kenney/step.ogg.import",
+    "assets/audio/kenney/victory.ogg",
+    "assets/audio/kenney/victory.ogg.import",
+    "assets/audio/kenney/warning.ogg",
+    "assets/audio/kenney/warning.ogg.import",
+    "assets/forest_bible_v2/audio/forest_fruit.wav",
+    "assets/forest_bible_v2/audio/forest_fruit.wav.import",
+    "assets/forest_bible_v2/audio/forest_web.wav",
+    "assets/forest_bible_v2/audio/forest_web.wav.import",
+    "assets/forest_bible_v2/audio/forest_wind.wav",
+    "assets/forest_bible_v2/audio/forest_wind.wav.import",
+    "assets/plains_v3/hero/actions.png",
+    "assets/plains_v3/hero/actions.png.import",
+    "assets/plains_v3/hero/idle_run.png",
+    "assets/plains_v3/hero/idle_run.png.import",
+    "assets/plains_v3/hero/weapon.png",
+    "assets/plains_v3/hero/weapon.png.import",
+    "assets/player_presentation_01/motion_v1/motion_source.png",
+    "assets/player_presentation_01/motion_v1/motion_source.png.import",
+    "assets/underworld_plains/actors/bell.png",
+    "assets/underworld_plains/actors/bell.png.import",
+    "assets/underworld_plains/backgrounds/depth_frame_06/landmark_ridge_r2.png",
+    "assets/underworld_plains/backgrounds/depth_frame_06/landmark_ridge_r2.png.import",
+    "assets/underworld_plains/backgrounds/near.png",
+    "assets/underworld_plains/backgrounds/near.png.import",
+    "assets/underworld_plains/backgrounds/parallax_fine_space_05/morning_sky.png",
+    "assets/underworld_plains/backgrounds/parallax_fine_space_05/morning_sky.png.import",
+    "assets/underworld_plains/backgrounds/spatial_rhythm_07/quiet_meadow.png",
+    "assets/underworld_plains/backgrounds/spatial_rhythm_07/quiet_meadow.png.import",
+    "assets/underworld_plains/hazards/hazard_fine_tileset.tres",
+    "assets/underworld_plains/hazards/hazard_surface_fine.png",
+    "assets/underworld_plains/hazards/hazard_surface_fine.png.import",
+    "assets/underworld_plains/mechanisms/carrier_fine.png",
+    "assets/underworld_plains/mechanisms/carrier_fine.png.import",
+    "assets/underworld_plains/player_animation/animation_build.json",
+    "assets/underworld_plains/player_animation/run_sheet.png",
+    "assets/underworld_plains/player_animation/run_sheet.png.import",
+    "assets/underworld_plains/player_animation/states_sheet.png",
+    "assets/underworld_plains/player_animation/states_sheet.png.import",
+    "assets/underworld_plains/terrain/fine_32/source.png",
+    "assets/underworld_plains/terrain/fine_32/source.png.import",
+    "assets/underworld_plains/terrain/fine_32/terrain.png",
+    "assets/underworld_plains/terrain/fine_32/terrain.png.import",
+    "content_routes/manual.gd",
+    "content_routes/manual.tscn",
+    "direct_join/challenge_extra.gd",
+    "modules_v3.json",
+    "open_valley/manual.gd",
+    "open_valley/manual.tscn",
+    "open_valley/mechanics.gd",
+    "open_valley/presentation.gd",
+    "r2/bell_extra.gd",
+    "r2/cases.json",
+    "r2/gate_world.gd",
+    "r2/godot/r2_annotations.gd",
+    "r2/godot/r2_camera.gd",
+    "r2/godot/r2_manual_scene.gd",
+    "r2/godot/r2_manual_scene.tscn",
+    "r2/runtime/capability_adapter.gd",
+    "r2/runtime/dynamic_context.gd",
+    "r2/runtime/lab_draw_v3.gd",
+    "r2/runtime/main_plains.gd",
+    "r2/runtime/plains_cells.gd",
+    "r2/runtime/plains_lifecycle.gd",
+    "r2/state_extra.gd",
+    "resources/items/damage_blue.tres",
+    "resources/player_presentation_01/motion_v1.tres",
+    "resources/player_presentation_01/weapon_feel_v1.tres",
+    "scripts/art/plains_wood_platform_art.gd",
+    "scripts/art/player_presentation_runtime.gd",
+    "scripts/dev/player_presentation_01/motion_visual.gd",
+    "scripts/generation/module_moving_platform.gd",
+    "scripts/underworld_plains/underworld_player.gd",
+    "scripts/underworld_plains/underworld_projectile_visual.gd",
+    "scripts/underworld_plains/underworld_terrain.gd",
+    "valley_complete/baseline.gd",
+    "valley_complete/formal_mechanics.gd",
+    "valley_complete/formal_style.gd",
+    "valley_complete/manual.gd",
+    "valley_complete/manual.tscn",
+    "valley_complete/mechanics.gd",
+    "valley_complete/pilot.gd",
+    "valley_complete/presentation.gd",
+    "valley_complete/rock_manual.gd",
+    "valley_complete/rock_manual.tscn",
+    "valley_complete/rock_mechanics.gd",
+    "valley_complete/rock_visual.gd",
+    "valley_complete/runner.gd",
+    "valley_complete/visual.gd",
+    "woven_region/manual.gd",
+    "woven_region/manual.tscn",
+    "woven_region/mechanics.gd"
+  ],
+  "runtime_verified": false,
+  "limits": [
+    "Transport/pack directory verification only until real browser execution passes.",
+    "A base pack mount reuses assets/code; it is not an assertion of V3 gameplay quality."
+  ]
+}

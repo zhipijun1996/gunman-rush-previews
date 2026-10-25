@@ -1,0 +1,7 @@
+{
+  "task": "MAPGEN-CONTENT-ROUTES-01",
+  "source_commit": "66ffedd34ec349333d5e3e4728c9aa28ddef6213",
+  "build_id": "8ef189a5379e",
+  "report_sha256": "0ee145a4ece1081eb712950270f1f7061e89202ba0bfc7467a70c0bf2f4e1f83",
+  "scope": "Same 19-Macro topology, four content revisions, 21 actual full-map policies, 8 independent perturbations, 50 declared directions; human fun unapproved"
+}
