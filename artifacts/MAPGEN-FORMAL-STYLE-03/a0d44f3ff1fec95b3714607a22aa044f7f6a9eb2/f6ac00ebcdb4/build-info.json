@@ -1,0 +1,7 @@
+{
+  "schema": "pcg/direct-module-public-build/v1",
+  "task": "MAPGEN-FORMAL-STYLE-03",
+  "source_commit": "a0d44f3ff1fec95b3714607a22aa044f7f6a9eb2",
+  "build_id": "f6ac00ebcdb4",
+  "scope": "Formal avatar and carrier correction in regression map; larger region designs remain unembedded and not playable"
+}
