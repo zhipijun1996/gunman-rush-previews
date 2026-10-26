@@ -1,0 +1,9 @@
+{
+  "task": "MAPGEN-SAME-GRAPH-01",
+  "implementation_commit": "b979f938076fe8467c2460de635c4c9b6b1e0596",
+  "build_id": "f74e31da5983",
+  "source_cases_sha256": "33fba81864af89304a4284708dcfe9f7326111f0b97eaddf339f2c901e105126",
+  "scope": "One identical Exploration graph drives7 different landform Macros and7 direct seams;11/11 whole-map checks include6 fresh perturbations. Two main paths merge; optional needle reward returns. No full regional scale, Boss or human fun admission.",
+  "human_playtests": 0,
+  "production_admitted": false
+}

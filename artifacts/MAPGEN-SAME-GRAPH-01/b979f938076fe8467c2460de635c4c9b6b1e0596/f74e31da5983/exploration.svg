@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 570"><rect width="960" height="570" fill="#101a2b"/><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#cad7e9"/></marker></defs><text x="24" y="32" fill="white" font-size="20">同一张职责图 · 仅逻辑排版，不是物理位置</text>
+<path d="M90,190 L310,80" stroke="#60cfff" stroke-width="3" marker-end="url(#arrow)"/><text x="208.0" y="125.0" fill="#60cfff" font-size="14">e0 →</text>
+<path d="M310,80 L540,80" stroke="#60cfff" stroke-width="3" marker-end="url(#arrow)"/><text x="433.0" y="70.0" fill="#60cfff" font-size="14">e1 →</text>
+<path d="M540,80 L790,190" stroke="#60cfff" stroke-width="3" marker-end="url(#arrow)"/><text x="673.0" y="125.0" fill="#60cfff" font-size="14">e2 →</text>
+<path d="M90,190 L310,300" stroke="#72eab4" stroke-width="3" marker-end="url(#arrow)"/><text x="208.0" y="235.0" fill="#72eab4" font-size="14">e3 ↔</text>
+<path d="M310,300 L540,300" stroke="#72eab4" stroke-width="3" marker-end="url(#arrow)"/><text x="433.0" y="290.0" fill="#72eab4" font-size="14">e4 ↔</text>
+<path d="M540,300 L790,190" stroke="#72eab4" stroke-width="3" marker-end="url(#arrow)"/><text x="673.0" y="235.0" fill="#72eab4" font-size="14">e5 ↔</text>
+<path d="M310,300 L310,480" stroke="#ffc35c" stroke-width="3" marker-end="url(#arrow)"/><text x="318.0" y="380.0" fill="#ffc35c" font-size="14">e6 ↔</text>
+<rect x="25" y="165" width="130" height="52" rx="10" fill="#24405b" stroke="#b1c5dc"/><text x="90" y="186" fill="white" text-anchor="middle" font-size="16">start</text><text x="90" y="205" fill="#b2c4d8" text-anchor="middle" font-size="11">split-cliff</text>
+<rect x="245" y="55" width="130" height="52" rx="10" fill="#24405b" stroke="#b1c5dc"/><text x="310" y="76" fill="white" text-anchor="middle" font-size="16">rise</text><text x="310" y="95" fill="#b2c4d8" text-anchor="middle" font-size="11">rising-shoulder</text>
+<rect x="475" y="55" width="130" height="52" rx="10" fill="#24405b" stroke="#b1c5dc"/><text x="540" y="76" fill="white" text-anchor="middle" font-size="16">ridge</text><text x="540" y="95" fill="#b2c4d8" text-anchor="middle" font-size="11">existing-timed-ridge</text>
+<rect x="245" y="275" width="130" height="52" rx="10" fill="#24405b" stroke="#b1c5dc"/><text x="310" y="296" fill="white" text-anchor="middle" font-size="16">cliff</text><text x="310" y="315" fill="#b2c4d8" text-anchor="middle" font-size="11">braking-cliff</text>
+<rect x="475" y="275" width="130" height="52" rx="10" fill="#24405b" stroke="#b1c5dc"/><text x="540" y="296" fill="white" text-anchor="middle" font-size="16">switchback</text><text x="540" y="315" fill="#b2c4d8" text-anchor="middle" font-size="11">switchback</text>
+<rect x="725" y="165" width="130" height="52" rx="10" fill="#24405b" stroke="#b1c5dc"/><text x="790" y="186" fill="white" text-anchor="middle" font-size="16">landmark</text><text x="790" y="205" fill="#b2c4d8" text-anchor="middle" font-size="11">landmark-bowl</text>
+<rect x="245" y="455" width="130" height="52" rx="10" fill="#24405b" stroke="#b1c5dc"/><text x="310" y="476" fill="white" text-anchor="middle" font-size="16">cache</text><text x="310" y="495" fill="#b2c4d8" text-anchor="middle" font-size="11">needle-cache-foldback</text>
+</svg>

@@ -1,0 +1,2836 @@
+{
+  "scope": "Actual consecutive boundary-plane crossings in this frozen map only; unobserved pairs UNKNOWN, no universal entry/exit ranges, no production admission",
+  "modules": {
+    "start": {
+      "contentVersion": "sha256:7c9e4406eabe1538c00df6b51c9295589a62cbe0985c93de5bcf34ea11acaa2e",
+      "relations": [
+        {
+          "from": "e0",
+          "to": "e3",
+          "status": "UNKNOWN",
+          "witnesses": []
+        },
+        {
+          "from": "e3",
+          "to": "e0",
+          "status": "UNKNOWN",
+          "witnesses": []
+        }
+      ]
+    },
+    "rise": {
+      "contentVersion": "sha256:ba58932efcc5f33c7967f138e2f13fd9a3e9f536bc0b04785724565240a674eb",
+      "relations": [
+        {
+          "from": "e0",
+          "to": "e1",
+          "status": "observed_in_concrete_map",
+          "witnesses": [
+            {
+              "case": "full-region-upper-main",
+              "entry": {
+                "frame": 175,
+                "tangent": -306.075958251953,
+                "aperture_ok": true,
+                "before": {
+                  "x": -0.596328973770142,
+                  "y": -306.075958251953,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 2.98333333333333
+                },
+                "after": {
+                  "x": 3.73700451850891,
+                  "y": -306.075958251953,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 2.99999999999999
+                }
+              },
+              "exit": {
+                "frame": 374,
+                "tangent": -562.075988769531,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.47705078125,
+                  "y": -562.075988769531,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.29999999999998
+                },
+                "after": {
+                  "x": 643.810363769531,
+                  "y": -562.075988769531,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.31666666666665
+                }
+              }
+            },
+            {
+              "case": "full-region-cross-route-loop",
+              "entry": {
+                "frame": 175,
+                "tangent": -306.075958251953,
+                "aperture_ok": true,
+                "before": {
+                  "x": -0.596328973770142,
+                  "y": -306.075958251953,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 2.98333333333333
+                },
+                "after": {
+                  "x": 3.73700451850891,
+                  "y": -306.075958251953,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 2.99999999999999
+                }
+              },
+              "exit": {
+                "frame": 374,
+                "tangent": -562.075988769531,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.47705078125,
+                  "y": -562.075988769531,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.29999999999998
+                },
+                "after": {
+                  "x": 643.810363769531,
+                  "y": -562.075988769531,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.31666666666665
+                }
+              }
+            },
+            {
+              "case": "full-region-all-declared-directions",
+              "entry": {
+                "frame": 175,
+                "tangent": -306.075958251953,
+                "aperture_ok": true,
+                "before": {
+                  "x": -0.596328973770142,
+                  "y": -306.075958251953,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 2.98333333333333
+                },
+                "after": {
+                  "x": 3.73700451850891,
+                  "y": -306.075958251953,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 2.99999999999999
+                }
+              },
+              "exit": {
+                "frame": 374,
+                "tangent": -562.075988769531,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.47705078125,
+                  "y": -562.075988769531,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.29999999999998
+                },
+                "after": {
+                  "x": 643.810363769531,
+                  "y": -562.075988769531,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.31666666666665
+                }
+              }
+            },
+            {
+              "case": "full-region-upper-main-held-0",
+              "entry": {
+                "frame": 178,
+                "tangent": -306.075958251953,
+                "aperture_ok": true,
+                "before": {
+                  "x": -0.506694197654724,
+                  "y": -306.075958251953,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 3.03333333333333
+                },
+                "after": {
+                  "x": 3.82663917541504,
+                  "y": -306.075958251953,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 3.04999999999999
+                }
+              },
+              "exit": {
+                "frame": 379,
+                "tangent": -562.075988769531,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.476989746094,
+                  "y": -562.075988769531,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.38333333333332
+                },
+                "after": {
+                  "x": 643.810302734375,
+                  "y": -562.075988769531,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.39999999999998
+                }
+              }
+            },
+            {
+              "case": "full-region-upper-main-held-1",
+              "entry": {
+                "frame": 178,
+                "tangent": -306.075958251953,
+                "aperture_ok": true,
+                "before": {
+                  "x": -0.529165506362915,
+                  "y": -306.075958251953,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 3.03333333333333
+                },
+                "after": {
+                  "x": 3.80416798591614,
+                  "y": -306.075958251953,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 3.04999999999999
+                }
+              },
+              "exit": {
+                "frame": 379,
+                "tangent": -562.075988769531,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.476989746094,
+                  "y": -562.075988769531,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.38333333333332
+                },
+                "after": {
+                  "x": 643.810302734375,
+                  "y": -562.075988769531,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.39999999999998
+                }
+              }
+            }
+          ]
+        },
+        {
+          "from": "e1",
+          "to": "e0",
+          "status": "UNKNOWN",
+          "witnesses": []
+        }
+      ]
+    },
+    "ridge": {
+      "contentVersion": "sha256:e2d25e669c4492a001bf6a26260436779489fe8e6f67bf8e7322d673f8c706f4",
+      "relations": [
+        {
+          "from": "e1",
+          "to": "e2",
+          "status": "observed_in_concrete_map",
+          "witnesses": [
+            {
+              "case": "full-region-upper-main",
+              "entry": {
+                "frame": 374,
+                "tangent": -562.075988769531,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.47705078125,
+                  "y": -562.075988769531,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.29999999999998
+                },
+                "after": {
+                  "x": 643.810363769531,
+                  "y": -562.075988769531,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.31666666666665
+                }
+              },
+              "exit": {
+                "frame": 557,
+                "tangent": -562.075988769531,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1407.39489746094,
+                  "y": -562.075988769531,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 9.35000000000004
+                },
+                "after": {
+                  "x": 1411.72827148438,
+                  "y": -562.075988769531,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 9.36666666666671
+                }
+              }
+            },
+            {
+              "case": "full-region-cross-route-loop",
+              "entry": {
+                "frame": 374,
+                "tangent": -562.075988769531,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.47705078125,
+                  "y": -562.075988769531,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.29999999999998
+                },
+                "after": {
+                  "x": 643.810363769531,
+                  "y": -562.075988769531,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.31666666666665
+                }
+              },
+              "exit": {
+                "frame": 557,
+                "tangent": -562.075988769531,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1407.39489746094,
+                  "y": -562.075988769531,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 9.35000000000004
+                },
+                "after": {
+                  "x": 1411.72827148438,
+                  "y": -562.075988769531,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 9.36666666666671
+                }
+              }
+            },
+            {
+              "case": "full-region-all-declared-directions",
+              "entry": {
+                "frame": 374,
+                "tangent": -562.075988769531,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.47705078125,
+                  "y": -562.075988769531,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.29999999999998
+                },
+                "after": {
+                  "x": 643.810363769531,
+                  "y": -562.075988769531,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.31666666666665
+                }
+              },
+              "exit": {
+                "frame": 557,
+                "tangent": -562.075988769531,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1407.39489746094,
+                  "y": -562.075988769531,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 9.35000000000004
+                },
+                "after": {
+                  "x": 1411.72827148438,
+                  "y": -562.075988769531,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 9.36666666666671
+                }
+              }
+            },
+            {
+              "case": "full-region-upper-main-held-0",
+              "entry": {
+                "frame": 379,
+                "tangent": -562.075988769531,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.476989746094,
+                  "y": -562.075988769531,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.38333333333332
+                },
+                "after": {
+                  "x": 643.810302734375,
+                  "y": -562.075988769531,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.39999999999998
+                }
+              },
+              "exit": {
+                "frame": 565,
+                "tangent": -562.075988769531,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1407.48474121094,
+                  "y": -562.075988769531,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 9.48333333333338
+                },
+                "after": {
+                  "x": 1411.81811523438,
+                  "y": -562.075988769531,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 9.50000000000005
+                }
+              }
+            },
+            {
+              "case": "full-region-upper-main-held-1",
+              "entry": {
+                "frame": 379,
+                "tangent": -562.075988769531,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.476989746094,
+                  "y": -562.075988769531,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.38333333333332
+                },
+                "after": {
+                  "x": 643.810302734375,
+                  "y": -562.075988769531,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.39999999999998
+                }
+              },
+              "exit": {
+                "frame": 563,
+                "tangent": -562.075988769531,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1407.4169921875,
+                  "y": -562.075988769531,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 9.45000000000005
+                },
+                "after": {
+                  "x": 1411.75036621094,
+                  "y": -562.075988769531,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 9.46666666666672
+                }
+              }
+            }
+          ]
+        },
+        {
+          "from": "e2",
+          "to": "e1",
+          "status": "UNKNOWN",
+          "witnesses": []
+        }
+      ]
+    },
+    "cliff": {
+      "contentVersion": "sha256:873e41363ddf9211b1fd25d1a92f2e030649eceb66a1f22e1bf473fe0453c8d3",
+      "relations": [
+        {
+          "from": "e3",
+          "to": "e4",
+          "status": "observed_in_concrete_map",
+          "witnesses": [
+            {
+              "case": "full-region-lower-main",
+              "entry": {
+                "frame": 121,
+                "tangent": 333.924041748047,
+                "aperture_ok": true,
+                "before": {
+                  "x": -0.54506778717041,
+                  "y": 333.924041748047,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 2.08333333333333
+                },
+                "after": {
+                  "x": 3.78826570510864,
+                  "y": 333.924041748047,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 2.1
+                }
+              },
+              "exit": {
+                "frame": 397,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.460815429688,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.68333333333331
+                },
+                "after": {
+                  "x": 643.794128417969,
+                  "y": 589.924011230469,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.69999999999998
+                }
+              }
+            },
+            {
+              "case": "full-region-cross-route-loop",
+              "entry": {
+                "frame": 1622,
+                "tangent": 333.924041748047,
+                "aperture_ok": true,
+                "before": {
+                  "x": -0.543348550796509,
+                  "y": 333.924041748047,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 27.0999999999997
+                },
+                "after": {
+                  "x": 3.78998494148254,
+                  "y": 333.924041748047,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 27.1166666666664
+                }
+              },
+              "exit": {
+                "frame": 1898,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.460815429688,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 31.6999999999995
+                },
+                "after": {
+                  "x": 643.794128417969,
+                  "y": 589.924011230469,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 31.7166666666661
+                }
+              }
+            },
+            {
+              "case": "full-region-all-declared-directions",
+              "entry": {
+                "frame": 1622,
+                "tangent": 333.924041748047,
+                "aperture_ok": true,
+                "before": {
+                  "x": -0.543348550796509,
+                  "y": 333.924041748047,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 27.0999999999997
+                },
+                "after": {
+                  "x": 3.78998494148254,
+                  "y": 333.924041748047,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 27.1166666666664
+                }
+              },
+              "exit": {
+                "frame": 1898,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.460815429688,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 31.6999999999995
+                },
+                "after": {
+                  "x": 643.794128417969,
+                  "y": 589.924011230469,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 31.7166666666661
+                }
+              }
+            },
+            {
+              "case": "full-region-lower-main-held-0",
+              "entry": {
+                "frame": 121,
+                "tangent": 333.924041748047,
+                "aperture_ok": true,
+                "before": {
+                  "x": -0.54506778717041,
+                  "y": 333.924041748047,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 2.08333333333333
+                },
+                "after": {
+                  "x": 3.78826570510864,
+                  "y": 333.924041748047,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 2.1
+                }
+              },
+              "exit": {
+                "frame": 398,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.384704589844,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.69999999999998
+                },
+                "after": {
+                  "x": 643.718017578125,
+                  "y": 589.924011230469,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.71666666666665
+                }
+              }
+            },
+            {
+              "case": "full-region-lower-main-held-1",
+              "entry": {
+                "frame": 121,
+                "tangent": 333.924041748047,
+                "aperture_ok": true,
+                "before": {
+                  "x": -0.54506778717041,
+                  "y": 333.924041748047,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 2.08333333333333
+                },
+                "after": {
+                  "x": 3.78826570510864,
+                  "y": 333.924041748047,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 2.1
+                }
+              },
+              "exit": {
+                "frame": 400,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.456970214844,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.73333333333331
+                },
+                "after": {
+                  "x": 643.790283203125,
+                  "y": 589.924011230469,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.74999999999998
+                }
+              }
+            }
+          ]
+        },
+        {
+          "from": "e3",
+          "to": "e6",
+          "status": "observed_in_concrete_map",
+          "witnesses": [
+            {
+              "case": "full-region-reward-foldback",
+              "entry": {
+                "frame": 121,
+                "tangent": 333.924041748047,
+                "aperture_ok": true,
+                "before": {
+                  "x": -0.54506778717041,
+                  "y": 333.924041748047,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 2.08333333333333
+                },
+                "after": {
+                  "x": 3.78826570510864,
+                  "y": 333.924041748047,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 2.1
+                }
+              },
+              "exit": {
+                "frame": 468,
+                "tangent": 1229.92407226562,
+                "aperture_ok": true,
+                "before": {
+                  "x": 0.637786388397217,
+                  "y": 1229.92407226562,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 7.86666666666664
+                },
+                "after": {
+                  "x": -3.69554710388184,
+                  "y": 1229.92407226562,
+                  "vx": -260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 7.88333333333331
+                }
+              }
+            },
+            {
+              "case": "full-region-reward-foldback-held-0",
+              "entry": {
+                "frame": 121,
+                "tangent": 333.924041748047,
+                "aperture_ok": true,
+                "before": {
+                  "x": -0.54506778717041,
+                  "y": 333.924041748047,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 2.08333333333333
+                },
+                "after": {
+                  "x": 3.78826570510864,
+                  "y": 333.924041748047,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 2.1
+                }
+              },
+              "exit": {
+                "frame": 466,
+                "tangent": 1229.92407226562,
+                "aperture_ok": true,
+                "before": {
+                  "x": 0.637786388397217,
+                  "y": 1229.92407226562,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 7.83333333333331
+                },
+                "after": {
+                  "x": -3.69554710388184,
+                  "y": 1229.92407226562,
+                  "vx": -260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 7.84999999999998
+                }
+              }
+            },
+            {
+              "case": "full-region-reward-foldback-held-1",
+              "entry": {
+                "frame": 121,
+                "tangent": 333.924041748047,
+                "aperture_ok": true,
+                "before": {
+                  "x": -0.54506778717041,
+                  "y": 333.924041748047,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 2.08333333333333
+                },
+                "after": {
+                  "x": 3.78826570510864,
+                  "y": 333.924041748047,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 2.1
+                }
+              },
+              "exit": {
+                "frame": 469,
+                "tangent": 1229.92407226562,
+                "aperture_ok": true,
+                "before": {
+                  "x": 0.637786388397217,
+                  "y": 1229.92407226562,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 7.88333333333331
+                },
+                "after": {
+                  "x": -3.69554710388184,
+                  "y": 1229.92407226562,
+                  "vx": -260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 7.89999999999998
+                }
+              }
+            }
+          ]
+        },
+        {
+          "from": "e4",
+          "to": "e3",
+          "status": "observed_in_concrete_map",
+          "witnesses": [
+            {
+              "case": "full-region-cross-route-loop",
+              "entry": {
+                "frame": 1109,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 640.53076171875,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 18.5500000000002
+                },
+                "after": {
+                  "x": 636.197448730469,
+                  "y": 589.924011230469,
+                  "vx": -260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 18.5666666666669
+                }
+              },
+              "exit": {
+                "frame": 1400,
+                "tangent": 333.924041748047,
+                "aperture_ok": true,
+                "before": {
+                  "x": 0.5979323387146,
+                  "y": 333.924041748047,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 23.4
+                },
+                "after": {
+                  "x": -3.73540115356445,
+                  "y": 333.924041748047,
+                  "vx": -260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 23.4166666666666
+                }
+              }
+            },
+            {
+              "case": "full-region-all-declared-directions",
+              "entry": {
+                "frame": 1109,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 640.53076171875,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 18.5500000000002
+                },
+                "after": {
+                  "x": 636.197448730469,
+                  "y": 589.924011230469,
+                  "vx": -260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 18.5666666666669
+                }
+              },
+              "exit": {
+                "frame": 1400,
+                "tangent": 333.924041748047,
+                "aperture_ok": true,
+                "before": {
+                  "x": 0.5979323387146,
+                  "y": 333.924041748047,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 23.4
+                },
+                "after": {
+                  "x": -3.73540115356445,
+                  "y": 333.924041748047,
+                  "vx": -260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 23.4166666666666
+                }
+              }
+            }
+          ]
+        },
+        {
+          "from": "e4",
+          "to": "e6",
+          "status": "observed_in_concrete_map",
+          "witnesses": [
+            {
+              "case": "full-region-all-declared-directions",
+              "entry": {
+                "frame": 2798,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 640.53076171875,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 46.6999999999986
+                },
+                "after": {
+                  "x": 636.197448730469,
+                  "y": 589.924011230469,
+                  "vx": -260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 46.7166666666653
+                }
+              },
+              "exit": {
+                "frame": 3368,
+                "tangent": 1229.92407226562,
+                "aperture_ok": true,
+                "before": {
+                  "x": 0.637786388397217,
+                  "y": 1229.92407226562,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 56.1999999999981
+                },
+                "after": {
+                  "x": -3.69554710388184,
+                  "y": 1229.92407226562,
+                  "vx": -260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 56.2166666666648
+                }
+              }
+            }
+          ]
+        },
+        {
+          "from": "e6",
+          "to": "e3",
+          "status": "UNKNOWN",
+          "witnesses": []
+        },
+        {
+          "from": "e6",
+          "to": "e4",
+          "status": "observed_in_concrete_map",
+          "witnesses": [
+            {
+              "case": "full-region-reward-foldback",
+              "entry": {
+                "frame": 711,
+                "tangent": 1229.92407226562,
+                "aperture_ok": true,
+                "before": {
+                  "x": -0.589910864830017,
+                  "y": 1229.92407226562,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 11.9166666666668
+                },
+                "after": {
+                  "x": 3.74342274665833,
+                  "y": 1229.92407226562,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 11.9333333333335
+                }
+              },
+              "exit": {
+                "frame": 1308,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.338073730469,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 21.8666666666667
+                },
+                "after": {
+                  "x": 643.67138671875,
+                  "y": 589.924011230469,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 21.8833333333334
+                }
+              }
+            },
+            {
+              "case": "full-region-all-declared-directions",
+              "entry": {
+                "frame": 3611,
+                "tangent": 1229.92407226562,
+                "aperture_ok": true,
+                "before": {
+                  "x": -0.589910864830017,
+                  "y": 1229.92407226562,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 60.2499999999979
+                },
+                "after": {
+                  "x": 3.74342274665833,
+                  "y": 1229.92407226562,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 60.2666666666645
+                }
+              },
+              "exit": {
+                "frame": 4208,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.338073730469,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 70.1999999999973
+                },
+                "after": {
+                  "x": 643.67138671875,
+                  "y": 589.924011230469,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 70.216666666664
+                }
+              }
+            },
+            {
+              "case": "full-region-reward-foldback-held-0",
+              "entry": {
+                "frame": 709,
+                "tangent": 1229.92407226562,
+                "aperture_ok": true,
+                "before": {
+                  "x": -0.558802127838135,
+                  "y": 1229.92407226562,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 11.8833333333335
+                },
+                "after": {
+                  "x": 3.77453136444092,
+                  "y": 1229.92407226562,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 11.9000000000002
+                }
+              },
+              "exit": {
+                "frame": 1279,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.487915039062,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 21.3833333333334
+                },
+                "after": {
+                  "x": 643.821228027344,
+                  "y": 589.924011230469,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 21.4000000000001
+                }
+              }
+            },
+            {
+              "case": "full-region-reward-foldback-held-1",
+              "entry": {
+                "frame": 712,
+                "tangent": 1229.92407226562,
+                "aperture_ok": true,
+                "before": {
+                  "x": -0.617863655090332,
+                  "y": 1229.92407226562,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 11.9333333333335
+                },
+                "after": {
+                  "x": 3.71546983718872,
+                  "y": 1229.92407226562,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 11.9500000000002
+                }
+              },
+              "exit": {
+                "frame": 1320,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.491882324219,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 22.0666666666667
+                },
+                "after": {
+                  "x": 643.8251953125,
+                  "y": 589.924011230469,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 22.0833333333334
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "switchback": {
+      "contentVersion": "sha256:140e62a1adc71da74b1fd028ec8453a391f3df2049af694ce64265cdfd2ea22d",
+      "relations": [
+        {
+          "from": "e4",
+          "to": "e5",
+          "status": "observed_in_concrete_map",
+          "witnesses": [
+            {
+              "case": "full-region-lower-main",
+              "entry": {
+                "frame": 397,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.460815429688,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.68333333333331
+                },
+                "after": {
+                  "x": 643.794128417969,
+                  "y": 589.924011230469,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.69999999999998
+                }
+              },
+              "exit": {
+                "frame": 705,
+                "tangent": 77.9240188598633,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1407.47338867188,
+                  "y": 77.9240188598633,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 11.8166666666668
+                },
+                "after": {
+                  "x": 1411.80676269531,
+                  "y": 77.9240188598633,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 11.8333333333335
+                }
+              }
+            },
+            {
+              "case": "full-region-reward-foldback",
+              "entry": {
+                "frame": 1308,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.338073730469,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 21.8666666666667
+                },
+                "after": {
+                  "x": 643.67138671875,
+                  "y": 589.924011230469,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 21.8833333333334
+                }
+              },
+              "exit": {
+                "frame": 1616,
+                "tangent": 77.9240188598633,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1407.47326660156,
+                  "y": 77.9240188598633,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 26.9999999999997
+                },
+                "after": {
+                  "x": 1411.806640625,
+                  "y": 77.9240188598633,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 27.0166666666664
+                }
+              }
+            },
+            {
+              "case": "full-region-cross-route-loop",
+              "entry": {
+                "frame": 1898,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.460815429688,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 31.6999999999995
+                },
+                "after": {
+                  "x": 643.794128417969,
+                  "y": 589.924011230469,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 31.7166666666661
+                }
+              },
+              "exit": {
+                "frame": 2206,
+                "tangent": 77.9240188598633,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1407.47338867188,
+                  "y": 77.9240188598633,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 36.8333333333325
+                },
+                "after": {
+                  "x": 1411.80676269531,
+                  "y": 77.9240188598633,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 36.8499999999992
+                }
+              }
+            },
+            {
+              "case": "full-region-all-declared-directions",
+              "entry": {
+                "frame": 1898,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.460815429688,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 31.6999999999995
+                },
+                "after": {
+                  "x": 643.794128417969,
+                  "y": 589.924011230469,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 31.7166666666661
+                }
+              },
+              "exit": {
+                "frame": 2206,
+                "tangent": 77.9240188598633,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1407.47338867188,
+                  "y": 77.9240188598633,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 36.8333333333325
+                },
+                "after": {
+                  "x": 1411.80676269531,
+                  "y": 77.9240188598633,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 36.8499999999992
+                }
+              }
+            },
+            {
+              "case": "full-region-all-declared-directions",
+              "entry": {
+                "frame": 4208,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.338073730469,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 70.1999999999973
+                },
+                "after": {
+                  "x": 643.67138671875,
+                  "y": 589.924011230469,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 70.216666666664
+                }
+              },
+              "exit": {
+                "frame": 4516,
+                "tangent": 77.9240188598633,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1407.47326660156,
+                  "y": 77.9240188598633,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 75.3333333333303
+                },
+                "after": {
+                  "x": 1411.806640625,
+                  "y": 77.9240188598633,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 75.349999999997
+                }
+              }
+            },
+            {
+              "case": "full-region-lower-main-held-0",
+              "entry": {
+                "frame": 398,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.384704589844,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.69999999999998
+                },
+                "after": {
+                  "x": 643.718017578125,
+                  "y": 589.924011230469,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.71666666666665
+                }
+              },
+              "exit": {
+                "frame": 709,
+                "tangent": 77.9240188598633,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1407.34509277344,
+                  "y": 77.9240188598633,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 11.8833333333335
+                },
+                "after": {
+                  "x": 1411.67846679688,
+                  "y": 77.9240188598633,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 11.9000000000002
+                }
+              }
+            },
+            {
+              "case": "full-region-lower-main-held-1",
+              "entry": {
+                "frame": 400,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.456970214844,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.73333333333331
+                },
+                "after": {
+                  "x": 643.790283203125,
+                  "y": 589.924011230469,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 6.74999999999998
+                }
+              },
+              "exit": {
+                "frame": 716,
+                "tangent": 77.9240188598633,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1407.42590332031,
+                  "y": 77.9240188598633,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 12.0000000000002
+                },
+                "after": {
+                  "x": 1411.75927734375,
+                  "y": 77.9240188598633,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 12.0166666666668
+                }
+              }
+            },
+            {
+              "case": "full-region-reward-foldback-held-0",
+              "entry": {
+                "frame": 1279,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.487915039062,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 21.3833333333334
+                },
+                "after": {
+                  "x": 643.821228027344,
+                  "y": 589.924011230469,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 21.4000000000001
+                }
+              },
+              "exit": {
+                "frame": 1575,
+                "tangent": 77.9240188598633,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1407.4072265625,
+                  "y": 77.9240188598633,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 26.3166666666665
+                },
+                "after": {
+                  "x": 1411.74060058594,
+                  "y": 77.9240188598633,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 26.3333333333331
+                }
+              }
+            },
+            {
+              "case": "full-region-reward-foldback-held-1",
+              "entry": {
+                "frame": 1320,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 639.491882324219,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 22.0666666666667
+                },
+                "after": {
+                  "x": 643.8251953125,
+                  "y": 589.924011230469,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 22.0833333333334
+                }
+              },
+              "exit": {
+                "frame": 1631,
+                "tangent": 77.9240188598633,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1407.34948730469,
+                  "y": 77.9240188598633,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 27.2499999999997
+                },
+                "after": {
+                  "x": 1411.68286132812,
+                  "y": 77.9240188598633,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 27.2666666666664
+                }
+              }
+            }
+          ]
+        },
+        {
+          "from": "e5",
+          "to": "e4",
+          "status": "observed_in_concrete_map",
+          "witnesses": [
+            {
+              "case": "full-region-cross-route-loop",
+              "entry": {
+                "frame": 810,
+                "tangent": 77.9240188598633,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1408.50793457031,
+                  "y": 77.9240188598633,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 13.5666666666669
+                },
+                "after": {
+                  "x": 1404.17456054688,
+                  "y": 77.9240188598633,
+                  "vx": -260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 13.5833333333336
+                }
+              },
+              "exit": {
+                "frame": 1109,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 640.53076171875,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 18.5500000000002
+                },
+                "after": {
+                  "x": 636.197448730469,
+                  "y": 589.924011230469,
+                  "vx": -260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 18.5666666666669
+                }
+              }
+            },
+            {
+              "case": "full-region-all-declared-directions",
+              "entry": {
+                "frame": 810,
+                "tangent": 77.9240188598633,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1408.50793457031,
+                  "y": 77.9240188598633,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 13.5666666666669
+                },
+                "after": {
+                  "x": 1404.17456054688,
+                  "y": 77.9240188598633,
+                  "vx": -260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 13.5833333333336
+                }
+              },
+              "exit": {
+                "frame": 1109,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 640.53076171875,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 18.5500000000002
+                },
+                "after": {
+                  "x": 636.197448730469,
+                  "y": 589.924011230469,
+                  "vx": -260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 18.5666666666669
+                }
+              }
+            },
+            {
+              "case": "full-region-all-declared-directions",
+              "entry": {
+                "frame": 2499,
+                "tangent": 77.9240188598633,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1408.50866699219,
+                  "y": 77.9240188598633,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 41.7166666666656
+                },
+                "after": {
+                  "x": 1404.17529296875,
+                  "y": 77.9240188598633,
+                  "vx": -260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 41.7333333333322
+                }
+              },
+              "exit": {
+                "frame": 2798,
+                "tangent": 589.924011230469,
+                "aperture_ok": true,
+                "before": {
+                  "x": 640.53076171875,
+                  "y": 589.924011230469,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 46.6999999999986
+                },
+                "after": {
+                  "x": 636.197448730469,
+                  "y": 589.924011230469,
+                  "vx": -260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 46.7166666666653
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "landmark": {
+      "contentVersion": "sha256:8383c082f18c7bf92a573a593bc38a3a70cc856dd091556330cdc8525ef1fdd3",
+      "relations": [
+        {
+          "from": "e2",
+          "to": "e5",
+          "status": "observed_in_concrete_map",
+          "witnesses": [
+            {
+              "case": "full-region-cross-route-loop",
+              "entry": {
+                "frame": 557,
+                "tangent": -562.075988769531,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1407.39489746094,
+                  "y": -562.075988769531,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 9.35000000000004
+                },
+                "after": {
+                  "x": 1411.72827148438,
+                  "y": -562.075988769531,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 9.36666666666671
+                }
+              },
+              "exit": {
+                "frame": 810,
+                "tangent": 77.9240188598633,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1408.50793457031,
+                  "y": 77.9240188598633,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 13.5666666666669
+                },
+                "after": {
+                  "x": 1404.17456054688,
+                  "y": 77.9240188598633,
+                  "vx": -260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 13.5833333333336
+                }
+              }
+            },
+            {
+              "case": "full-region-all-declared-directions",
+              "entry": {
+                "frame": 557,
+                "tangent": -562.075988769531,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1407.39489746094,
+                  "y": -562.075988769531,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 9.35000000000004
+                },
+                "after": {
+                  "x": 1411.72827148438,
+                  "y": -562.075988769531,
+                  "vx": 260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 9.36666666666671
+                }
+              },
+              "exit": {
+                "frame": 810,
+                "tangent": 77.9240188598633,
+                "aperture_ok": true,
+                "before": {
+                  "x": 1408.50793457031,
+                  "y": 77.9240188598633,
+                  "vx": 0.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 13.5666666666669
+                },
+                "after": {
+                  "x": 1404.17456054688,
+                  "y": 77.9240188598633,
+                  "vx": -260.0,
+                  "vy": 0.0,
+                  "grounded": true,
+                  "shot_charges": 1,
+                  "shot_cooldown": 0.0,
+                  "jumps_used": 0,
+                  "energy": 100.0,
+                  "hp": 5.0,
+                  "traversal_state": "free",
+                  "module_clock": 13.5833333333336
+                }
+              }
+            }
+          ]
+        },
+        {
+          "from": "e5",
+          "to": "e2",
+          "status": "UNKNOWN",
+          "witnesses": []
+        }
+      ]
+    },
+    "cache": {
+      "contentVersion": "sha256:91f892ef123314c3b162e9b55d6190a729953a181411b34906b4caa6fac42482",
+      "relations": []
+    }
+  }
+}
