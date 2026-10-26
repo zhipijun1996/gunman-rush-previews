@@ -1,0 +1,126 @@
+{
+  "schema": "pcg/direct-module-catalog/v1",
+  "modules": [
+    {
+      "nodeId": "L0",
+      "id": "generated-direct-L0",
+      "contentVersion": "sha256:2540e2029ad851b8018229f59fe76bf5e4971a123c42977ad1ae1f32f417d73e",
+      "file": "generated-direct-L0.mapnote.json",
+      "sha256": "02bdb53762cd4a32c600e1330fd919338a1d7de509847763ce6838c09c66d349",
+      "rawPayloadVersion": "sha256:1d92b67e3a2cf86e8eb2cc4d00a6e18e259836f64f9c482bac50f77e30157322",
+      "physics": "UNKNOWN until explicit instance validation",
+      "productionAdmitted": false
+    },
+    {
+      "nodeId": "R0",
+      "id": "generated-direct-R0",
+      "contentVersion": "sha256:77d995c6e24cdda1d9ddf2422d90e2cacf180ba4443a4ee25b2c47f0231848e7",
+      "file": "generated-direct-R0.mapnote.json",
+      "sha256": "7ebfb4615397e342e13ad9e584a980bce3d7ac25de5eec7f3df1410fbf3d3424",
+      "rawPayloadVersion": "sha256:1d92b67e3a2cf86e8eb2cc4d00a6e18e259836f64f9c482bac50f77e30157322",
+      "physics": "UNKNOWN until explicit instance validation",
+      "productionAdmitted": false
+    },
+    {
+      "nodeId": "L1",
+      "id": "generated-direct-L1",
+      "contentVersion": "sha256:ff3f566d1a3e7dad4b4beef1eb33eac951d10921ef2a6caee12cb2243ed08159",
+      "file": "generated-direct-L1.mapnote.json",
+      "sha256": "32a3cd590482dc3d39cd470b95d1890be52a4acead82b3ac0e2acf754e18f61b",
+      "rawPayloadVersion": "sha256:1d92b67e3a2cf86e8eb2cc4d00a6e18e259836f64f9c482bac50f77e30157322",
+      "physics": "UNKNOWN until explicit instance validation",
+      "productionAdmitted": false
+    },
+    {
+      "nodeId": "R1",
+      "id": "generated-direct-R1",
+      "contentVersion": "sha256:23c9cc0437e3df392138f8cd6d6409ee3c78b8f4b84614add18f17e463d824df",
+      "file": "generated-direct-R1.mapnote.json",
+      "sha256": "309b8e4813b79f5c367680435190b72792937dd913398db54d797f9fb0c94e91",
+      "rawPayloadVersion": "sha256:1d92b67e3a2cf86e8eb2cc4d00a6e18e259836f64f9c482bac50f77e30157322",
+      "physics": "UNKNOWN until explicit instance validation",
+      "productionAdmitted": false
+    },
+    {
+      "nodeId": "L2",
+      "id": "generated-direct-L2",
+      "contentVersion": "sha256:056cf90dbc516fb4aeb5458cdbc9574df90452a51d4d5e12dbd6c67c4564d78a",
+      "file": "generated-direct-L2.mapnote.json",
+      "sha256": "0a752d03244d9b127e4c92c22064c23e3cff9404fc0c501b5115bb2f6b046632",
+      "rawPayloadVersion": "sha256:1d92b67e3a2cf86e8eb2cc4d00a6e18e259836f64f9c482bac50f77e30157322",
+      "physics": "UNKNOWN until explicit instance validation",
+      "productionAdmitted": false
+    },
+    {
+      "nodeId": "R2",
+      "id": "generated-direct-R2",
+      "contentVersion": "sha256:50c8a37890003ebeef2a41215637985b562a1f3766c4c38172311d23b31c788e",
+      "file": "generated-direct-R2.mapnote.json",
+      "sha256": "0e80adda975f1649ad59a03e543f163792ccb70dee9ce33f5882c9329c688061",
+      "rawPayloadVersion": "sha256:1d92b67e3a2cf86e8eb2cc4d00a6e18e259836f64f9c482bac50f77e30157322",
+      "physics": "UNKNOWN until explicit instance validation",
+      "productionAdmitted": false
+    },
+    {
+      "nodeId": "C0a",
+      "id": "generated-direct-C0a",
+      "contentVersion": "sha256:23086dcc9e2ad989964ec9731561fdc2674d917119a80a67bc901791d5083cd0",
+      "file": "generated-direct-C0a.mapnote.json",
+      "sha256": "0f6d50040a863851393ff8e8c60b4f360821527242f0fcb3b8409d923b7c201f",
+      "rawPayloadVersion": "sha256:e9e3d8d1b4b38807cead592fe83f828c219e30122d663ff176b7d804f12b1760",
+      "physics": "UNKNOWN until explicit instance validation",
+      "productionAdmitted": false
+    },
+    {
+      "nodeId": "C0b",
+      "id": "generated-direct-C0b",
+      "contentVersion": "sha256:50f6793c04160b4a4efc4ae289b954f6b2603a787d8837c16f247fc8c20c2041",
+      "file": "generated-direct-C0b.mapnote.json",
+      "sha256": "53e65e1bf4786e170e372d145a37b995b3c69a0ea9e47c00e2280a1134f482fa",
+      "rawPayloadVersion": "sha256:a79ef3fb8dd16e77e21e25d07ea7b2a4d58ecf02219b8f4b3f2509a66b9ab46b",
+      "physics": "UNKNOWN until explicit instance validation",
+      "productionAdmitted": false
+    },
+    {
+      "nodeId": "C1a",
+      "id": "generated-direct-C1a",
+      "contentVersion": "sha256:f5a3b8398b9159844aebe361c9d0a0407355c1acbdbcda5c51d0bad9a00c67ec",
+      "file": "generated-direct-C1a.mapnote.json",
+      "sha256": "579899f4758fb76c504fe1941314a3fa30e160ab7ead7ef0465dfa205cbabca1",
+      "rawPayloadVersion": "sha256:235313847df8ecc0f1ed286630e5466bee23f35e18b27909a9e214e47943ce93",
+      "physics": "UNKNOWN until explicit instance validation",
+      "productionAdmitted": false
+    },
+    {
+      "nodeId": "C1b",
+      "id": "generated-direct-C1b",
+      "contentVersion": "sha256:856fcbf0ece6774efeb8994e62814b8846a077762971dfee1a5118aa94547b73",
+      "file": "generated-direct-C1b.mapnote.json",
+      "sha256": "52e0bfb2e279216e4071c1b612808c188b485c55fd5568d49bd54269cfade1ef",
+      "rawPayloadVersion": "sha256:fed0030d380c113066be71612748eb37bec3edf6925206105be514454f8e04f1",
+      "physics": "UNKNOWN until explicit instance validation",
+      "productionAdmitted": false
+    },
+    {
+      "nodeId": "C2a",
+      "id": "generated-direct-C2a",
+      "contentVersion": "sha256:1fc95a4a92f93a759e735687cea22d7f61c7236054e3dc8cfb60bf80c2a21d07",
+      "file": "generated-direct-C2a.mapnote.json",
+      "sha256": "333d951c22eeb45d83408f1a810b62e8f3ed596cff3f7320efc3ee5acafa3e5b",
+      "rawPayloadVersion": "sha256:a6d8da087889cc579d17923553dec0ba245833c950103aa6b0f24199fd558c12",
+      "physics": "UNKNOWN until explicit instance validation",
+      "productionAdmitted": false
+    },
+    {
+      "nodeId": "C2b",
+      "id": "generated-direct-C2b",
+      "contentVersion": "sha256:a968275a8cb5dc644e09c4cc8217dcf01bd57c5319bdb1f7c4a1484a19d03734",
+      "file": "generated-direct-C2b.mapnote.json",
+      "sha256": "d127a5ca3523d14cbc124864efafbe2442467079636760c573308c577bbb27b9",
+      "rawPayloadVersion": "sha256:847e4ceb1c4a77123d394bceb311efd556c05603161c24e9d415eaffda5021b3",
+      "physics": "UNKNOWN until explicit instance validation",
+      "productionAdmitted": false
+    }
+  ],
+  "scope": "Canonical existing Module outputs; no global terrain source and no generic assembly admission"
+}

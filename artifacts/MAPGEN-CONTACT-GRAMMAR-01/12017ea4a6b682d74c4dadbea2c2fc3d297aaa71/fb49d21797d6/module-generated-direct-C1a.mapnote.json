@@ -1,0 +1,660 @@
+{
+  "schema": "gunman-rush-level-sketch/v1",
+  "id": "generated-direct-C1a",
+  "title": "风谷地形 · C1a",
+  "description": "独立Module完整几何；Map只作刚性摆放，接缝无填充。当前为隔离实验候选，通用状态关系未知。",
+  "constraints": "UNKNOWN不得作为有效地图接口。",
+  "canvas": {
+    "width": 592,
+    "height": 454,
+    "origin": [
+      0,
+      0
+    ],
+    "units": "godot_world_unit",
+    "positionPrecision": "exact"
+  },
+  "objects": [
+    {
+      "id": "generated-direct-C1a/platform-0",
+      "type": "terrain",
+      "x": 368,
+      "y": 438,
+      "w": 200,
+      "h": 64,
+      "rotation": 0,
+      "label": "",
+      "note": "",
+      "sourceIndex": 0,
+      "wallClimbable": false
+    },
+    {
+      "id": "generated-direct-C1a/platform-1",
+      "type": "terrain",
+      "x": 0,
+      "y": 438,
+      "w": 148,
+      "h": 64,
+      "rotation": 0,
+      "label": "",
+      "note": "",
+      "sourceIndex": 1,
+      "wallClimbable": false
+    },
+    {
+      "id": "generated-direct-C1a/platform-2",
+      "type": "terrain",
+      "x": 108,
+      "y": 80,
+      "w": 240,
+      "h": 200,
+      "rotation": 0,
+      "label": "",
+      "note": "",
+      "sourceIndex": 2,
+      "wallClimbable": false
+    },
+    {
+      "id": "generated-direct-C1a/platform-3",
+      "type": "terrain",
+      "x": 178,
+      "y": 444,
+      "w": 150,
+      "h": 90,
+      "rotation": 0,
+      "label": "",
+      "note": "",
+      "sourceIndex": 3,
+      "wallClimbable": false
+    },
+    {
+      "id": "generated-direct-C1a/thorn-0",
+      "type": "spike",
+      "x": 108,
+      "y": 280,
+      "w": 240,
+      "h": 12,
+      "rotation": 180,
+      "label": "",
+      "note": "原碰撞危险面",
+      "hostId": "generated-direct-C1a/platform-2",
+      "sourceId": "upper-slot"
+    },
+    {
+      "id": "generated-direct-C1a/thorn-1",
+      "type": "spike",
+      "x": 178,
+      "y": 432,
+      "w": 150,
+      "h": 12,
+      "rotation": 0,
+      "label": "",
+      "note": "原碰撞危险面",
+      "hostId": "generated-direct-C1a/platform-3",
+      "sourceId": "lower-slot"
+    },
+    {
+      "id": "generated-direct-C1a/port-e7",
+      "type": "entry",
+      "x": 556,
+      "y": 402,
+      "w": 24,
+      "h": 36,
+      "rotation": 0,
+      "label": "e7",
+      "note": "接触面上的角色中心点"
+    },
+    {
+      "id": "generated-direct-C1a/port-e8",
+      "type": "exit",
+      "x": -12,
+      "y": 402,
+      "w": 24,
+      "h": 36,
+      "rotation": 0,
+      "label": "e8",
+      "note": "接触面上的角色中心点"
+    }
+  ],
+  "updatedAt": "2026-10-26T11:56:19.113Z",
+  "intent": {
+    "operation": "new_module"
+  },
+  "capabilityRequirements": {
+    "version": 1,
+    "status": "partial",
+    "allOf": [
+      "jump",
+      "shot_recoil"
+    ],
+    "anyOfGroups": [],
+    "note": "保留真实测试能力配置；最低必要条件和可替代能力尚未完整验证。"
+  },
+  "difficulty": {
+    "version": 1,
+    "scale": "gunman-rush/module-difficulty/v1",
+    "score": null,
+    "note": ""
+  },
+  "source": {
+    "repository": "zhipijun1996/map-edit",
+    "commit": "fe857a7eef064fdbef861acb853d410ea32fd170",
+    "path": "pcg/map_directed/catalog_feed/reentrant_fixture.py",
+    "moduleId": "generated-direct-C1a",
+    "kind": "generated",
+    "category": "平原",
+    "method": "actual_flight_and_pressure_relations",
+    "arguments": [],
+    "integration": {
+      "isIntegrated": false,
+      "usage": "not_integrated",
+      "label": "未接入 · 研究候选",
+      "reason": "生成与回放证据未写回正式游戏地图消费者。",
+      "checkedCommit": "fe857a7eef064fdbef861acb853d410ea32fd170",
+      "evidence": [],
+      "verification": "research_output_only"
+    }
+  },
+  "generationContract": {
+    "version": 1,
+    "kind": "module",
+    "contentVersion": "sha256:f5a3b8398b9159844aebe361c9d0a0407355c1acbdbcda5c51d0bad9a00c67ec",
+    "seed": {
+      "status": "not_used",
+      "value": null,
+      "reason": "Deterministic demand materialization"
+    },
+    "generation": {
+      "source": {
+        "cases": {
+          "path": "pcg/results/contact-grammar-evaluation-2-v3/module-library/source.json",
+          "sha256": "ba34481befbf129e4e34a78d6d1623a76267ffdc250019ad4569e6e9ad149319"
+        },
+        "run": "UNKNOWN",
+        "sourceCaseId": "thorn-slot-0-clean-0",
+        "moduleSha256": "UNKNOWN",
+        "physicsSourceCommit": "UNKNOWN",
+        "sourceManifestSha256": "UNKNOWN"
+      },
+      "parameters": {
+        "producerArguments": {
+          "request": "reentrant-core/C1a",
+          "producerSha256": "922b607a36c6052bd78c24a8506e3a85aef08dff6921d643c3020a23e19a8ed9",
+          "rawPayloadVersion": "sha256:235313847df8ecc0f1ed286630e5466bee23f35e18b27909a9e214e47943ce93"
+        },
+        "family": "thorn-slot",
+        "controlPlan": [
+          {
+            "op": "axis",
+            "trigger": {
+              "after": 0
+            },
+            "value": 1
+          },
+          {
+            "op": "wait",
+            "trigger": {
+              "dynamic": {
+                "kind": "actor_x",
+                "direction": "gte",
+                "value": 205
+              },
+              "timeout": 180
+            }
+          },
+          {
+            "op": "jump",
+            "trigger": {
+              "after": 0
+            }
+          },
+          {
+            "op": "jump_release",
+            "trigger": {
+              "after": 8
+            }
+          },
+          {
+            "op": "shoot",
+            "trigger": {
+              "after": 8
+            },
+            "direction": [
+              -0.9886859966642595,
+              0.15
+            ]
+          },
+          {
+            "op": "settle",
+            "trigger": {
+              "after": 6
+            },
+            "target_x": 565,
+            "deadband": 4
+          }
+        ],
+        "challengeRequirements": "UNKNOWN",
+        "synthesis": "UNKNOWN",
+        "moduleSourceVersion": "sha256:235313847df8ecc0f1ed286630e5466bee23f35e18b27909a9e214e47943ce93",
+        "policyBinding": {
+          "sha256": "b2ff1f37a440aba0c02b60f1241593ffc8edad6981b521f98a2471e8f7c6e5f7",
+          "scope": "A policy is a calibration candidate, not inferred physics"
+        }
+      }
+    },
+    "designStatus": "declared",
+    "space": {
+      "units": "godot_world_unit",
+      "axes": {
+        "x": "right",
+        "y": "down"
+      },
+      "localOrigin": [
+        0,
+        0
+      ],
+      "actorBody": {
+        "shape": "rectangle",
+        "size": [
+          24,
+          36
+        ],
+        "source": {
+          "path": "pcg/prototype/godot/scenes/player/player.tscn",
+          "sha256": "75ea76ff43b9b8cb3410096d01bfde92c678c56bd31ea3cf6a0bfd438fd9acd8"
+        }
+      },
+      "bounds": {
+        "x": -12,
+        "y": 80,
+        "w": 592,
+        "h": 454
+      },
+      "boundsCoverage": "known geometry + sampled body sweep; unknown activity may extend beyond this bound",
+      "occupancy": {
+        "status": "partial",
+        "objectIds": [
+          "generated-direct-C1a/platform-0",
+          "generated-direct-C1a/platform-1",
+          "generated-direct-C1a/platform-2",
+          "generated-direct-C1a/platform-3",
+          "generated-direct-C1a/thorn-0",
+          "generated-direct-C1a/thorn-1"
+        ],
+        "regions": [],
+        "coverage": "known cells; full action and projectile reservations UNKNOWN"
+      },
+      "actionClearance": {
+        "status": "UNKNOWN",
+        "regions": [],
+        "coverage": "UNKNOWN",
+        "unverified": [
+          "all allowed entry states",
+          "alternative policies",
+          "unobserved projectile paths"
+        ]
+      },
+      "dynamicEnvelopes": [],
+      "seams": [
+        {
+          "id": "seam-e7",
+          "portId": "e7",
+          "region": {
+            "x": 520,
+            "y": 356,
+            "w": 96,
+            "h": 128
+          },
+          "status": "source_derived",
+          "allowedOverlap": [
+            "actor_body",
+            "touching_floor_faces"
+          ]
+        },
+        {
+          "id": "seam-e8",
+          "portId": "e8",
+          "region": {
+            "x": -48,
+            "y": 356,
+            "w": 96,
+            "h": 128
+          },
+          "status": "source_derived",
+          "allowedOverlap": [
+            "actor_body",
+            "touching_floor_faces"
+          ]
+        }
+      ],
+      "transforms": [
+        {
+          "id": "identity",
+          "translation": [
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "rotation": 0,
+          "mirrorX": false,
+          "status": "UNKNOWN",
+          "validationIds": []
+        },
+        {
+          "id": "translation",
+          "translation": [
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "rotation": 0,
+          "mirrorX": false,
+          "status": "UNKNOWN",
+          "validationIds": [],
+          "note": "任意平移尚未验证；本项不是自由平移许可"
+        },
+        {
+          "id": "mirror-x",
+          "translation": [
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "rotation": 0,
+          "mirrorX": true,
+          "status": "UNKNOWN",
+          "validationIds": []
+        },
+        {
+          "id": "rotate-90",
+          "translation": [
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "rotation": 90,
+          "mirrorX": false,
+          "status": "UNKNOWN",
+          "validationIds": []
+        },
+        {
+          "id": "scale-2",
+          "translation": [
+            0,
+            0
+          ],
+          "scale": [
+            2,
+            2
+          ],
+          "rotation": 0,
+          "mirrorX": false,
+          "status": "UNKNOWN",
+          "validationIds": []
+        }
+      ]
+    },
+    "ports": [
+      {
+        "id": "e7",
+        "objectId": "generated-direct-C1a/port-e7",
+        "position": [
+          568,
+          420
+        ],
+        "normal": [
+          1,
+          0
+        ],
+        "connection": {
+          "status": "source_derived",
+          "region": {
+            "x": 520,
+            "y": 356,
+            "w": 96,
+            "h": 128
+          }
+        },
+        "support": {
+          "objectId": "generated-direct-C1a/platform-0",
+          "face": "top",
+          "status": "source_derived"
+        },
+        "motion": {
+          "ingress": {
+            "directions": "UNKNOWN",
+            "modes": "UNKNOWN"
+          },
+          "egress": {
+            "directions": "UNKNOWN",
+            "modes": "UNKNOWN"
+          }
+        },
+        "preconditions": {
+          "ingress": {
+            "capabilityRequirements": {
+              "version": 1,
+              "status": "unspecified",
+              "allOf": [],
+              "anyOfGroups": [],
+              "note": ""
+            },
+            "equipment": "UNKNOWN",
+            "grounded": "UNKNOWN",
+            "velocity": "UNKNOWN",
+            "remainingJumps": "UNKNOWN",
+            "airShots": "UNKNOWN",
+            "stamina": "UNKNOWN",
+            "health": "UNKNOWN",
+            "shotCooldown": "UNKNOWN",
+            "traversalState": "UNKNOWN",
+            "mechanisms": "UNKNOWN",
+            "phase": "UNKNOWN",
+            "recoveryConditions": "UNKNOWN"
+          },
+          "egress": {
+            "capabilityRequirements": {
+              "version": 1,
+              "status": "unspecified",
+              "allOf": [],
+              "anyOfGroups": [],
+              "note": ""
+            },
+            "equipment": "UNKNOWN",
+            "grounded": "UNKNOWN",
+            "velocity": "UNKNOWN",
+            "remainingJumps": "UNKNOWN",
+            "airShots": "UNKNOWN",
+            "stamina": "UNKNOWN",
+            "health": "UNKNOWN",
+            "shotCooldown": "UNKNOWN",
+            "traversalState": "UNKNOWN",
+            "mechanisms": "UNKNOWN",
+            "phase": "UNKNOWN",
+            "recoveryConditions": "UNKNOWN"
+          }
+        },
+        "seamIds": [
+          "seam-e7"
+        ],
+        "routeRoles": []
+      },
+      {
+        "id": "e8",
+        "objectId": "generated-direct-C1a/port-e8",
+        "position": [
+          0,
+          420
+        ],
+        "normal": [
+          -1,
+          0
+        ],
+        "connection": {
+          "status": "source_derived",
+          "region": {
+            "x": -48,
+            "y": 356,
+            "w": 96,
+            "h": 128
+          }
+        },
+        "support": {
+          "objectId": "generated-direct-C1a/platform-1",
+          "face": "top",
+          "status": "source_derived"
+        },
+        "motion": {
+          "ingress": {
+            "directions": "UNKNOWN",
+            "modes": "UNKNOWN"
+          },
+          "egress": {
+            "directions": "UNKNOWN",
+            "modes": "UNKNOWN"
+          }
+        },
+        "preconditions": {
+          "ingress": {
+            "capabilityRequirements": {
+              "version": 1,
+              "status": "unspecified",
+              "allOf": [],
+              "anyOfGroups": [],
+              "note": ""
+            },
+            "equipment": "UNKNOWN",
+            "grounded": "UNKNOWN",
+            "velocity": "UNKNOWN",
+            "remainingJumps": "UNKNOWN",
+            "airShots": "UNKNOWN",
+            "stamina": "UNKNOWN",
+            "health": "UNKNOWN",
+            "shotCooldown": "UNKNOWN",
+            "traversalState": "UNKNOWN",
+            "mechanisms": "UNKNOWN",
+            "phase": "UNKNOWN",
+            "recoveryConditions": "UNKNOWN"
+          },
+          "egress": {
+            "capabilityRequirements": {
+              "version": 1,
+              "status": "unspecified",
+              "allOf": [],
+              "anyOfGroups": [],
+              "note": ""
+            },
+            "equipment": "UNKNOWN",
+            "grounded": "UNKNOWN",
+            "velocity": "UNKNOWN",
+            "remainingJumps": "UNKNOWN",
+            "airShots": "UNKNOWN",
+            "stamina": "UNKNOWN",
+            "health": "UNKNOWN",
+            "shotCooldown": "UNKNOWN",
+            "traversalState": "UNKNOWN",
+            "mechanisms": "UNKNOWN",
+            "phase": "UNKNOWN",
+            "recoveryConditions": "UNKNOWN"
+          }
+        },
+        "seamIds": [
+          "seam-e8"
+        ],
+        "routeRoles": []
+      }
+    ],
+    "relations": [
+      {
+        "from": "e7",
+        "to": "e8",
+        "status": "UNKNOWN",
+        "routeIds": [],
+        "conditions": "UNKNOWN",
+        "note": "Actual whole-map instance evidence is separate; no universal independent relation inferred"
+      },
+      {
+        "from": "e8",
+        "to": "e7",
+        "status": "UNKNOWN",
+        "routeIds": [],
+        "conditions": "UNKNOWN",
+        "note": "Actual whole-map instance evidence is separate; no universal independent relation inferred"
+      }
+    ],
+    "routes": [],
+    "unlocks": [],
+    "composition": {
+      "components": [],
+      "connections": [],
+      "exports": [],
+      "cells": [
+        {
+          "id": "generated-direct-C1a/platform-0",
+          "contentVersion": "sha256:ef80de192fb226049b70fe30a77ec1ffa4e2ad956306b67060e2f50c9bfe91e6",
+          "objectIds": [
+            "generated-direct-C1a/platform-0"
+          ]
+        },
+        {
+          "id": "generated-direct-C1a/platform-1",
+          "contentVersion": "sha256:228e8c868a63060aa2be54fcf821b3c449ba8e2aa3e17bd896d5754c3fbf52f6",
+          "objectIds": [
+            "generated-direct-C1a/platform-1"
+          ]
+        },
+        {
+          "id": "generated-direct-C1a/platform-2",
+          "contentVersion": "sha256:8fc8a9360787b852022feaa59b8236f89a0c0f948d5cf07c93047688c0aa6fcb",
+          "objectIds": [
+            "generated-direct-C1a/platform-2"
+          ]
+        },
+        {
+          "id": "generated-direct-C1a/platform-3",
+          "contentVersion": "sha256:77c21be806e57f027f071ba23d0fe8af0a92683ce6f25e3e32e80dee67158322",
+          "objectIds": [
+            "generated-direct-C1a/platform-3"
+          ]
+        },
+        {
+          "id": "generated-direct-C1a/thorn-0",
+          "contentVersion": "sha256:4e298e88bde50ece8dd9ec941ff221846cac4c837a50406dac5f7b136e9aa7a3",
+          "objectIds": [
+            "generated-direct-C1a/thorn-0"
+          ]
+        },
+        {
+          "id": "generated-direct-C1a/thorn-1",
+          "contentVersion": "sha256:0865a0d37e917e3649948e89077ae3a9b846c016fed5597c1b65840abf699b38",
+          "objectIds": [
+            "generated-direct-C1a/thorn-1"
+          ]
+        }
+      ]
+    },
+    "validations": [],
+    "visualization": {
+      "path": "generated-direct-C1a.svg",
+      "contentVersion": "sha256:f5a3b8398b9159844aebe361c9d0a0407355c1acbdbcda5c51d0bad9a00c67ec"
+    },
+    "staticChecks": {
+      "result": "pass",
+      "contentVersion": "sha256:f5a3b8398b9159844aebe361c9d0a0407355c1acbdbcda5c51d0bad9a00c67ec",
+      "method": "existing Module schema + exact object payload + explicit contact ports",
+      "scope": "Structure/source only; actual joining physics recorded against the complete Map instance"
+    }
+  }
+}

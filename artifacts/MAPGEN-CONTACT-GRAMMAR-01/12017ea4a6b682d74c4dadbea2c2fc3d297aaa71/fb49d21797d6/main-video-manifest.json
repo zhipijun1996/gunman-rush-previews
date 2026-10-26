@@ -1,0 +1,51 @@
+{
+  "schema": "pcg/full-r2-native-video/v1",
+  "case_id": "full-region-main",
+  "file": "full-route.mp4",
+  "bytes": 4333774,
+  "sha256": "1be770ea99490b6675f59b7421d34bb625ce3fe272313ea50ba7b4c1c9652bd7",
+  "duration": 13.966667,
+  "physics_hz": 60,
+  "playback_speed": 1,
+  "resolution": [
+    1280,
+    720
+  ],
+  "native_trace_sha256": "f57329193d56668b7292e6fbc99cf5974d2152e51ec03514dc7a0efbdb419fb5",
+  "comparison": {
+    "native_exit_code": 0,
+    "reference_frames": 773,
+    "native_frames": 773,
+    "mismatches": [],
+    "passed": true,
+    "fields": [
+      "frame",
+      "x",
+      "y",
+      "vx",
+      "vy",
+      "grounded",
+      "axis",
+      "requested",
+      "shot_charges",
+      "shot_cooldown",
+      "jumps_used",
+      "energy",
+      "hp",
+      "traversal_state",
+      "real_velocity",
+      "normal_velocity",
+      "module_clock",
+      "moving_platforms",
+      "saws",
+      "support_id",
+      "goal_stable_frames",
+      "plains",
+      "plains_events_delta",
+      "player_damage_delta"
+    ]
+  },
+  "scope": "Complete real route at normal speed; boot/warmup and one final second retained, read-only full-map minimap",
+  "human_fun": "unverified",
+  "human_playtests": 0
+}
