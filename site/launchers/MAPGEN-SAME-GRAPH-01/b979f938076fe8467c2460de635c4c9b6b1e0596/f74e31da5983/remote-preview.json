@@ -1,0 +1,67 @@
+{
+  "task": "MAPGEN-SAME-GRAPH-01",
+  "implementation_commit": "b979f938076fe8467c2460de635c4c9b6b1e0596",
+  "url": "https://zhipijun1996.github.io/gunman-rush-previews/launchers/MAPGEN-SAME-GRAPH-01/b979f938076fe8467c2460de635c4c9b6b1e0596/f74e31da5983/",
+  "asset_base": "https://raw.githubusercontent.com/zhipijun1996/gunman-rush-previews/4225f13f7cdce3834f7348e7b822aaebad901113/artifacts/MAPGEN-SAME-GRAPH-01/b979f938076fe8467c2460de635c4c9b6b1e0596/f74e31da5983",
+  "asset_commit": "4225f13f7cdce3834f7348e7b822aaebad901113",
+  "files": {
+    "block-shapes.svg": {
+      "bytes": 23192,
+      "sha256": "c20afcc1bfbc2ab0e206736f445845241adb618542ba8db68275e0bb4266d836"
+    },
+    "build-info.json": {
+      "bytes": 545,
+      "sha256": "93d63e5dfb5601e471b968f50d5097cc2467804f13cd4f09e9a43a042bfac8c4"
+    },
+    "correspondence.json": {
+      "bytes": 4074,
+      "sha256": "f466b44d8732e6fa6dbb1eec69f7843626f01558ef0fc9201baf512e3639bbff"
+    },
+    "exploration.svg": {
+      "bytes": 3334,
+      "sha256": "b2eca8be8b50a9ab51a5376ce8998013832bc55910fd11386239eaa8df14037d"
+    },
+    "index.f74e31da5983.pck": {
+      "bytes": 36692072,
+      "sha256": "f74e31da5983f87e1e6fdaaccb124436367f53de35d56a500246b0f3bcba04d7"
+    },
+    "lower.mp4": {
+      "bytes": 5845313,
+      "sha256": "9c1a79c16650458e3bdcc56779741b31d006c3bd0c07188a2fadb8f0cbdf267b"
+    },
+    "measured-world.svg": {
+      "bytes": 15621,
+      "sha256": "35c83304a5379f851cfd0212761ed045bbc0ab4509132a862742ca95879cddde"
+    },
+    "overlay-manifest.json": {
+      "bytes": 3766,
+      "sha256": "02d7eb08bb793f0e5867c55163419bbdd23d3791265880b529105d518c6f611c"
+    },
+    "results.json": {
+      "bytes": 11109,
+      "sha256": "99da6ac493971af52646cdfd19c9da44ed05b410b9de939c1c479552d9b72886"
+    },
+    "reward.mp4": {
+      "bytes": 12456744,
+      "sha256": "da94a8d9ed5830ea81c2b5b21c9974378ce45404a3875e09f987097ad2ae64b9"
+    },
+    "transition-matrix.json": {
+      "bytes": 95989,
+      "sha256": "8837eacac175afc05b3287a1b515332a522a47ee6632cf37188e1b0efb202851"
+    },
+    "upper.mp4": {
+      "bytes": 4688206,
+      "sha256": "e3d111f555abdb3b031b145878707e20ec6c0649b35eb529e5f95cc9d77f67ca"
+    },
+    "video-manifest.json": {
+      "bytes": 4426,
+      "sha256": "c8f6dcac87d312ee1e3bf8225f6ef900e535263cc421936bb37d56522ed9d8f4"
+    },
+    "whole-map.png": {
+      "bytes": 1556707,
+      "sha256": "d63f8ac6fd0cd5ba2ef5927901e71bf86c9ea8d629bde7805b90314bd921a760"
+    }
+  },
+  "human_playtests": 0,
+  "production_admitted": false
+}
