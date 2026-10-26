@@ -1,0 +1,3682 @@
+{
+  "schema": "pcg/current-library-map-experiment/v2",
+  "source_commit": "734399fa1b04fb27794d8c73cb77c58ed1fd4574",
+  "latest_main": "54d0cfc494936bb74bd9912324a840285212b995",
+  "library_source": "6de70fb0482e38f31048253dcd78bf2c0f62dbfa",
+  "source_versions": 94,
+  "source_routes_passed": 121,
+  "plains_selected": 82,
+  "source_adapter_candidates": 50,
+  "unique_versions_placed": 21,
+  "records": [
+    {
+      "seed": "catalog94-eval-0",
+      "physics": "pcg/results/catalog94-evaluation-0-v1",
+      "geometry": "pcg/results/catalog94-evaluation-0-v1",
+      "modules": 16,
+      "distinct_source_versions": 13,
+      "versions": [
+        "sha256:04a93aeaf9d4c19f132097e52e97faecda0da4b15b35539ee4be69598ca03c58",
+        "sha256:167dcb6ec336cd7ff659febe66b44a3daabfe79922a9ddca5c041e62e28d114e",
+        "sha256:2c5246ef3fbb352dbc46090e0627b6154fb6eba98576eba4d365fa1484864ef9",
+        "sha256:33a31084073ef8a2fa5c04a10fc18964ef40caaacb1945eece09475879b1bf52",
+        "sha256:577021d1f4e0cbc095633b1d9961cd7ddfe638f0b4ee7bc3852b0981c758e992",
+        "sha256:5d5af8cc87208d7d3711a9d15a8d3b92b472df612e04cbf6674598f203663482",
+        "sha256:747d7f54552a19296df32b51ac2bd86a8cb6fbd91b06bd46d309348958437ae4",
+        "sha256:a1af6569a708c5bae497eb50853abc6a488b993b802d75bd9597cae9769e3d06",
+        "sha256:aa4aa60a36d6d93d4eed0bb03d8be85b6c70579f19e65b453093364c3eef99d9",
+        "sha256:c5825cd704759634c00a9277ce0f94c9948d70d6c8bfd2c09b55b73d3c1399a8",
+        "sha256:d111648359a582cf23082401d12276881fa995b8b310970ca15ed15316ba091e",
+        "sha256:de3f1cb2b2456022c4d4b0e3a884fa0b7ef6ae3bcc2e3ff02d09335bf061f577",
+        "sha256:e90dfa359fd066b3280e0bebdb0fca7735e210c5c66ab8467c896fdceb48bb13"
+      ],
+      "module_titles": [
+        {
+          "node": "F0",
+          "version": "sha256:e90dfa359fd066b3280e0bebdb0fca7735e210c5c66ab8467c896fdceb48bb13",
+          "title": "单发弹药高低路线 · 接口 1"
+        },
+        {
+          "node": "J0",
+          "version": "sha256:04a93aeaf9d4c19f132097e52e97faecda0da4b15b35539ee4be69598ca03c58",
+          "title": "门后双宝箱 · 连续返回 Macro / 1"
+        },
+        {
+          "node": "hi0-0",
+          "version": "sha256:33a31084073ef8a2fa5c04a10fc18964ef40caaacb1945eece09475879b1bf52",
+          "title": "穿过移动挡板的射击窗口 / 接口2"
+        },
+        {
+          "node": "hi0-1",
+          "version": "sha256:a1af6569a708c5bae497eb50853abc6a488b993b802d75bd9597cae9769e3d06",
+          "title": "在避险岛换乘同台 / 接口1"
+        },
+        {
+          "node": "hi0-2",
+          "version": "sha256:2c5246ef3fbb352dbc46090e0627b6154fb6eba98576eba4d365fa1484864ef9",
+          "title": "保留活体供电 · 远/低接口"
+        },
+        {
+          "node": "lo0-0",
+          "version": "sha256:5d5af8cc87208d7d3711a9d15a8d3b92b472df612e04cbf6674598f203663482",
+          "title": "先备第一铃，再跃短门"
+        },
+        {
+          "node": "lo0-1",
+          "version": "sha256:de3f1cb2b2456022c4d4b0e3a884fa0b7ef6ae3bcc2e3ff02d09335bf061f577",
+          "title": "弹丸穿运动射线窗"
+        },
+        {
+          "node": "lo0-2",
+          "version": "sha256:c5825cd704759634c00a9277ce0f94c9948d70d6c8bfd2c09b55b73d3c1399a8",
+          "title": "尖刺空槽反冲 · 接口 1"
+        },
+        {
+          "node": "F1",
+          "version": "sha256:e90dfa359fd066b3280e0bebdb0fca7735e210c5c66ab8467c896fdceb48bb13",
+          "title": "单发弹药高低路线 · 接口 1"
+        },
+        {
+          "node": "J1",
+          "version": "sha256:167dcb6ec336cd7ff659febe66b44a3daabfe79922a9ddca5c041e62e28d114e",
+          "title": "门后双宝箱 · 连续返回 Macro / 0"
+        },
+        {
+          "node": "hi1-0",
+          "version": "sha256:33a31084073ef8a2fa5c04a10fc18964ef40caaacb1945eece09475879b1bf52",
+          "title": "穿过移动挡板的射击窗口 / 接口2"
+        },
+        {
+          "node": "hi1-1",
+          "version": "sha256:577021d1f4e0cbc095633b1d9961cd7ddfe638f0b4ee7bc3852b0981c758e992",
+          "title": "先去东侧看清，开门后向西 · 接口1"
+        },
+        {
+          "node": "hi1-2",
+          "version": "sha256:aa4aa60a36d6d93d4eed0bb03d8be85b6c70579f19e65b453093364c3eef99d9",
+          "title": "尖刺空槽反冲 · 适配 1"
+        },
+        {
+          "node": "lo1-0",
+          "version": "sha256:747d7f54552a19296df32b51ac2bd86a8cb6fbd91b06bd46d309348958437ae4",
+          "title": "借敌人真实发射开短门"
+        },
+        {
+          "node": "lo1-1",
+          "version": "sha256:d111648359a582cf23082401d12276881fa995b8b310970ca15ed15316ba091e",
+          "title": "离台避险重接同台"
+        },
+        {
+          "node": "lo1-2",
+          "version": "sha256:c5825cd704759634c00a9277ce0f94c9948d70d6c8bfd2c09b55b73d3c1399a8",
+          "title": "尖刺空槽反冲 · 接口 1"
+        }
+      ],
+      "latches": 9,
+      "carriers": 5,
+      "saws": 2,
+      "enemies": 2,
+      "world_bounds": [
+        -3896,
+        -884,
+        7768,
+        2060
+      ],
+      "search_seconds": 0.011047759999200935,
+      "search_expansions": 299,
+      "search_attempts": 1,
+      "audit": {
+        "schema": "pcg/direct-module-assembly-audit/v1",
+        "modules": 16,
+        "seams": 17,
+        "map_created_terrain_objects": 0,
+        "omitted_module_objects": 0,
+        "orphan_platforms": 0,
+        "port_gaps": 0,
+        "undeclared_inter_module_solid_overlaps": 0,
+        "all_instance_geometry_exact": true,
+        "unique_platforms": 60,
+        "module_source_platforms": 62,
+        "shared_landing_duplicates_deduplicated": 2,
+        "geometry_sha256": "0b59b0c73ebfe8e64519ac2490fb9202b0b8cd22954ddbd3f0c15edd67935fee",
+        "scope": "Exact source/shape/static-envelope audit; not actual physical traversal or fun"
+      },
+      "routes": [
+        {
+          "id": "full-region-lo-lo",
+          "ok": true,
+          "reason": "r2_policy_complete",
+          "ticks": 2480,
+          "shots": 11,
+          "airborne_shots": 10,
+          "player_health": 5.0,
+          "actual_chests": 6,
+          "actual_coins": 60,
+          "stationary_grounded_fraction": 0.3439516129032258,
+          "failure": {}
+        },
+        {
+          "id": "full-region-lo-hi",
+          "ok": false,
+          "reason": "leg_frame_budget",
+          "ticks": 1740,
+          "shots": 8,
+          "airborne_shots": 7,
+          "player_health": 5.0,
+          "actual_chests": 6,
+          "actual_coins": 68,
+          "stationary_grounded_fraction": 0.3867816091954023,
+          "failure": {
+            "actual": {
+              "air_shots": 1,
+              "dynamic": {
+                "actor_epoch": 1,
+                "damage_commits": 0,
+                "damage_submissions": 0,
+                "dead": false,
+                "hazard_contacts": [],
+                "lifetime_active": true,
+                "module_clock": 29.0666666666663,
+                "moving_platforms": [
+                  {
+                    "id": "hi0-0/ray-shutter",
+                    "phase": 0.376344086021387,
+                    "physics_velocity": [
+                      0.0,
+                      228.572372436523
+                    ],
+                    "position": [
+                      -3588.0,
+                      408.571441650391
+                    ]
+                  },
+                  {
+                    "id": "hi0-1/carrier",
+                    "phase": 0.824561403508723,
+                    "physics_velocity": [
+                      -292.3095703125,
+                      0.0
+                    ],
+                    "position": [
+                      -2369.38452148438,
+                      448.0
+                    ]
+                  },
+                  {
+                    "id": "lo0-1/ray-shutter",
+                    "phase": 0.376344086021387,
+                    "physics_velocity": [
+                      0.0,
+                      228.570541381836
+                    ],
+                    "position": [
+                      -2108.0,
+                      890.571411132812
+                    ]
+                  },
+                  {
+                    "id": "hi1-0/ray-shutter",
+                    "phase": 0.376344086021387,
+                    "physics_velocity": [
+                      0.0,
+                      228.572372436523
+                    ],
+                    "position": [
+                      324.0,
+                      220.571441650391
+                    ]
+                  },
+                  {
+                    "id": "lo1-1/carrier",
+                    "phase": 0.824561403508723,
+                    "physics_velocity": [
+                      -292.3095703125,
+                      0.0
+                    ],
+                    "position": [
+                      1750.61535644531,
+                      722.0
+                    ]
+                  }
+                ],
+                "platform_velocity": [
+                  0.0,
+                  0.0
+                ],
+                "returns": 0,
+                "saws": [
+                  {
+                    "id": "hi0-1/transport-interdict",
+                    "phase": 0.0833333333332167,
+                    "position": [
+                      -2314.0,
+                      429.427947998047
+                    ],
+                    "touching": false
+                  },
+                  {
+                    "id": "lo1-1/transport-interdict",
+                    "phase": 0.0833333333332167,
+                    "position": [
+                      1806.0,
+                      703.427917480469
+                    ],
+                    "touching": false
+                  }
+                ],
+                "static_contacts": [],
+                "support_id": ""
+              },
+              "frame": 1739,
+              "grounded": true,
+              "health": 5.0,
+              "jumps_used": 0,
+              "normal_velocity": [
+                0.0,
+                43.3333320617676
+              ],
+              "position": [
+                1093.99084472656,
+                231.99821472168
+              ],
+              "real_velocity": [
+                0.0,
+                4.4512939453125
+              ],
+              "shot_cooldown": 0.0,
+              "stamina": 100.0,
+              "traversal_state": "free",
+              "velocity": [
+                0.0,
+                0.0
+              ]
+            },
+            "edge_id": "1-hi-1",
+            "expected_target": {
+              "grounded": true,
+              "id": "catalog-template/source-entry",
+              "position": [
+                1496.0,
+                232.0
+              ],
+              "region": [
+                1489.0,
+                228.0,
+                14.0,
+                8.0
+              ],
+              "stable_ticks": 6.0,
+              "support_indices": [
+                43.0
+              ]
+            },
+            "frame": 1739,
+            "leg_id": "006-1-hi-1-004",
+            "leg_index": 33,
+            "reason": "leg_frame_budget"
+          }
+        },
+        {
+          "id": "full-region-hi-lo",
+          "ok": false,
+          "reason": "outside_declared_map_bounds",
+          "ticks": 1483,
+          "shots": 8,
+          "airborne_shots": 8,
+          "player_health": 5.0,
+          "actual_chests": 5,
+          "actual_coins": 54,
+          "stationary_grounded_fraction": 0.29669588671611596,
+          "failure": {
+            "frame": 1482,
+            "leg_id": "005-1-lo-0-000",
+            "position": [
+              609.591857910156,
+              1188.8212890625
+            ],
+            "reason": "outside_declared_map_bounds"
+          }
+        },
+        {
+          "id": "full-region-hi-hi",
+          "ok": false,
+          "reason": "leg_frame_budget",
+          "ticks": 1926,
+          "shots": 9,
+          "airborne_shots": 9,
+          "player_health": 5.0,
+          "actual_chests": 8,
+          "actual_coins": 90,
+          "stationary_grounded_fraction": 0.4179646936656282,
+          "failure": {
+            "actual": {
+              "air_shots": 1,
+              "dynamic": {
+                "actor_epoch": 1,
+                "damage_commits": 1,
+                "damage_submissions": 1,
+                "dead": false,
+                "hazard_contacts": [],
+                "lifetime_active": true,
+                "module_clock": 32.1666666666661,
+                "moving_platforms": [
+                  {
+                    "id": "hi0-0/ray-shutter",
+                    "phase": 0.376344086021332,
+                    "physics_velocity": [
+                      0.0,
+                      228.572372436523
+                    ],
+                    "position": [
+                      -3588.0,
+                      408.571441650391
+                    ]
+                  },
+                  {
+                    "id": "hi0-1/carrier",
+                    "phase": 0.232456140350806,
+                    "physics_velocity": [
+                      292.3095703125,
+                      0.0
+                    ],
+                    "position": [
+                      -2603.23071289062,
+                      448.0
+                    ]
+                  },
+                  {
+                    "id": "lo0-1/ray-shutter",
+                    "phase": 0.376344086021332,
+                    "physics_velocity": [
+                      0.0,
+                      228.570541381836
+                    ],
+                    "position": [
+                      -2108.0,
+                      890.571411132812
+                    ]
+                  },
+                  {
+                    "id": "hi1-0/ray-shutter",
+                    "phase": 0.376344086021332,
+                    "physics_velocity": [
+                      0.0,
+                      228.572372436523
+                    ],
+                    "position": [
+                      324.0,
+                      220.571441650391
+                    ]
+                  },
+                  {
+                    "id": "lo1-1/carrier",
+                    "phase": 0.232456140350806,
+                    "physics_velocity": [
+                      292.3095703125,
+                      0.0
+                    ],
+                    "position": [
+                      1516.76928710938,
+                      722.0
+                    ]
+                  }
+                ],
+                "platform_velocity": [
+                  0.0,
+                  0.0
+                ],
+                "returns": 0,
+                "saws": [
+                  {
+                    "id": "hi0-1/transport-interdict",
+                    "phase": 0.0520833333331634,
+                    "position": [
+                      -2314.0,
+                      425.805694580078
+                    ],
+                    "touching": false
+                  },
+                  {
+                    "id": "lo1-1/transport-interdict",
+                    "phase": 0.0520833333331634,
+                    "position": [
+                      1806.0,
+                      699.8056640625
+                    ],
+                    "touching": false
+                  }
+                ],
+                "static_contacts": [],
+                "support_id": ""
+              },
+              "frame": 1925,
+              "grounded": true,
+              "health": 5.0,
+              "jumps_used": 0,
+              "normal_velocity": [
+                0.0,
+                43.3333320617676
+              ],
+              "position": [
+                1093.99084472656,
+                231.99821472168
+              ],
+              "real_velocity": [
+                0.0,
+                4.4512939453125
+              ],
+              "shot_cooldown": 0.0,
+              "stamina": 100.0,
+              "traversal_state": "free",
+              "velocity": [
+                0.0,
+                0.0
+              ]
+            },
+            "edge_id": "1-hi-1",
+            "expected_target": {
+              "grounded": true,
+              "id": "catalog-template/source-entry",
+              "position": [
+                1496.0,
+                232.0
+              ],
+              "region": [
+                1489.0,
+                228.0,
+                14.0,
+                8.0
+              ],
+              "stable_ticks": 6.0,
+              "support_indices": [
+                43.0
+              ]
+            },
+            "frame": 1925,
+            "leg_id": "006-1-hi-1-004",
+            "leg_index": 31,
+            "reason": "leg_frame_budget"
+          }
+        }
+      ],
+      "passed": 1,
+      "total": 4,
+      "directed_seams_completed": [
+        [
+          "0-hi-0",
+          "F0",
+          "hi0-0"
+        ],
+        [
+          "0-hi-1",
+          "hi0-0",
+          "hi0-1"
+        ],
+        [
+          "0-hi-2",
+          "hi0-1",
+          "hi0-2"
+        ],
+        [
+          "0-hi-3",
+          "hi0-2",
+          "J0"
+        ],
+        [
+          "0-lo-0",
+          "F0",
+          "lo0-0"
+        ],
+        [
+          "0-lo-1",
+          "lo0-0",
+          "lo0-1"
+        ],
+        [
+          "0-lo-2",
+          "lo0-1",
+          "lo0-2"
+        ],
+        [
+          "0-lo-3",
+          "lo0-2",
+          "J0"
+        ],
+        [
+          "1-hi-0",
+          "F1",
+          "hi1-0"
+        ],
+        [
+          "1-lo-0",
+          "F1",
+          "lo1-0"
+        ],
+        [
+          "1-lo-1",
+          "lo1-0",
+          "lo1-1"
+        ],
+        [
+          "1-lo-2",
+          "lo1-1",
+          "lo1-2"
+        ],
+        [
+          "1-lo-3",
+          "lo1-2",
+          "J1"
+        ],
+        [
+          "between",
+          "J0",
+          "F1"
+        ]
+      ],
+      "scope": "Real continuous whole-world finite policies; failures do not prove impossibility"
+    },
+    {
+      "seed": "catalog94-eval-1",
+      "physics": "pcg/results/catalog94-evaluation-1-v1",
+      "geometry": "pcg/results/catalog94-evaluation-1-v1",
+      "modules": 16,
+      "distinct_source_versions": 13,
+      "versions": [
+        "sha256:04a93aeaf9d4c19f132097e52e97faecda0da4b15b35539ee4be69598ca03c58",
+        "sha256:167dcb6ec336cd7ff659febe66b44a3daabfe79922a9ddca5c041e62e28d114e",
+        "sha256:33a31084073ef8a2fa5c04a10fc18964ef40caaacb1945eece09475879b1bf52",
+        "sha256:5d5af8cc87208d7d3711a9d15a8d3b92b472df612e04cbf6674598f203663482",
+        "sha256:610b9bbe8efe8cb0d3eb2b169f2b4be33cf0f543b9a4cbf227788295176802fa",
+        "sha256:79769580e6f6e55768697e01f0cec4df91c588de9a4990bbedd3b7b5b4fee8d7",
+        "sha256:851be7661e7c931976999bad1aa9d819e7712142880d23c11394a381b67b7d37",
+        "sha256:8c90c97e8fc15b43794c44d61bb64ed65be62df73b2c185be0285e94facc9a4a",
+        "sha256:aa4aa60a36d6d93d4eed0bb03d8be85b6c70579f19e65b453093364c3eef99d9",
+        "sha256:bee87fe2de0bb251e57eca7f0eedf828bd232a7e4c365c0249c83c23f7208dff",
+        "sha256:c5825cd704759634c00a9277ce0f94c9948d70d6c8bfd2c09b55b73d3c1399a8",
+        "sha256:de3f1cb2b2456022c4d4b0e3a884fa0b7ef6ae3bcc2e3ff02d09335bf061f577",
+        "sha256:e90dfa359fd066b3280e0bebdb0fca7735e210c5c66ab8467c896fdceb48bb13"
+      ],
+      "module_titles": [
+        {
+          "node": "F0",
+          "version": "sha256:e90dfa359fd066b3280e0bebdb0fca7735e210c5c66ab8467c896fdceb48bb13",
+          "title": "单发弹药高低路线 · 接口 1"
+        },
+        {
+          "node": "J0",
+          "version": "sha256:04a93aeaf9d4c19f132097e52e97faecda0da4b15b35539ee4be69598ca03c58",
+          "title": "门后双宝箱 · 连续返回 Macro / 1"
+        },
+        {
+          "node": "hi0-0",
+          "version": "sha256:33a31084073ef8a2fa5c04a10fc18964ef40caaacb1945eece09475879b1bf52",
+          "title": "穿过移动挡板的射击窗口 / 接口2"
+        },
+        {
+          "node": "hi0-1",
+          "version": "sha256:5d5af8cc87208d7d3711a9d15a8d3b92b472df612e04cbf6674598f203663482",
+          "title": "先备第一铃，再跃短门"
+        },
+        {
+          "node": "hi0-2",
+          "version": "sha256:610b9bbe8efe8cb0d3eb2b169f2b4be33cf0f543b9a4cbf227788295176802fa",
+          "title": "保留活体供电 · 近接口"
+        },
+        {
+          "node": "lo0-0",
+          "version": "sha256:bee87fe2de0bb251e57eca7f0eedf828bd232a7e4c365c0249c83c23f7208dff",
+          "title": "引敌开门 · 远/低接口"
+        },
+        {
+          "node": "lo0-1",
+          "version": "sha256:8c90c97e8fc15b43794c44d61bb64ed65be62df73b2c185be0285e94facc9a4a",
+          "title": "反冲穿越短时门 · 接口 1"
+        },
+        {
+          "node": "lo0-2",
+          "version": "sha256:c5825cd704759634c00a9277ce0f94c9948d70d6c8bfd2c09b55b73d3c1399a8",
+          "title": "尖刺空槽反冲 · 接口 1"
+        },
+        {
+          "node": "F1",
+          "version": "sha256:e90dfa359fd066b3280e0bebdb0fca7735e210c5c66ab8467c896fdceb48bb13",
+          "title": "单发弹药高低路线 · 接口 1"
+        },
+        {
+          "node": "J1",
+          "version": "sha256:167dcb6ec336cd7ff659febe66b44a3daabfe79922a9ddca5c041e62e28d114e",
+          "title": "门后双宝箱 · 连续返回 Macro / 0"
+        },
+        {
+          "node": "hi1-0",
+          "version": "sha256:de3f1cb2b2456022c4d4b0e3a884fa0b7ef6ae3bcc2e3ff02d09335bf061f577",
+          "title": "弹丸穿运动射线窗"
+        },
+        {
+          "node": "hi1-1",
+          "version": "sha256:851be7661e7c931976999bad1aa9d819e7712142880d23c11394a381b67b7d37",
+          "title": "活敌压区维持门"
+        },
+        {
+          "node": "hi1-2",
+          "version": "sha256:aa4aa60a36d6d93d4eed0bb03d8be85b6c70579f19e65b453093364c3eef99d9",
+          "title": "尖刺空槽反冲 · 适配 1"
+        },
+        {
+          "node": "lo1-0",
+          "version": "sha256:bee87fe2de0bb251e57eca7f0eedf828bd232a7e4c365c0249c83c23f7208dff",
+          "title": "引敌开门 · 远/低接口"
+        },
+        {
+          "node": "lo1-1",
+          "version": "sha256:8c90c97e8fc15b43794c44d61bb64ed65be62df73b2c185be0285e94facc9a4a",
+          "title": "反冲穿越短时门 · 接口 1"
+        },
+        {
+          "node": "lo1-2",
+          "version": "sha256:79769580e6f6e55768697e01f0cec4df91c588de9a4990bbedd3b7b5b4fee8d7",
+          "title": "落地补枪：水平接力"
+        }
+      ],
+      "latches": 11,
+      "carriers": 2,
+      "saws": 0,
+      "enemies": 4,
+      "world_bounds": [
+        -3568,
+        -204,
+        7360,
+        1380
+      ],
+      "search_seconds": 0.017321871000604006,
+      "search_expansions": 1188,
+      "search_attempts": 1,
+      "audit": {
+        "schema": "pcg/direct-module-assembly-audit/v1",
+        "modules": 16,
+        "seams": 17,
+        "map_created_terrain_objects": 0,
+        "omitted_module_objects": 0,
+        "orphan_platforms": 0,
+        "port_gaps": 0,
+        "undeclared_inter_module_solid_overlaps": 0,
+        "all_instance_geometry_exact": true,
+        "unique_platforms": 62,
+        "module_source_platforms": 64,
+        "shared_landing_duplicates_deduplicated": 2,
+        "geometry_sha256": "9d5964edd9f8e78fc881621e5d23e001f6a37beaa9b1831542f4ff16b6969df4",
+        "scope": "Exact source/shape/static-envelope audit; not actual physical traversal or fun"
+      },
+      "routes": [
+        {
+          "id": "full-region-lo-lo",
+          "ok": true,
+          "reason": "r2_policy_complete",
+          "ticks": 1918,
+          "shots": 9,
+          "airborne_shots": 9,
+          "player_health": 5.0,
+          "actual_chests": 6,
+          "actual_coins": 68,
+          "stationary_grounded_fraction": 0.20229405630865485,
+          "failure": {}
+        },
+        {
+          "id": "full-region-lo-hi",
+          "ok": true,
+          "reason": "r2_policy_complete",
+          "ticks": 2152,
+          "shots": 10,
+          "airborne_shots": 10,
+          "player_health": 5.0,
+          "actual_chests": 8,
+          "actual_coins": 86,
+          "stationary_grounded_fraction": 0.2555762081784387,
+          "failure": {}
+        },
+        {
+          "id": "full-region-hi-lo",
+          "ok": true,
+          "reason": "r2_policy_complete",
+          "ticks": 2030,
+          "shots": 12,
+          "airborne_shots": 11,
+          "player_health": 5.0,
+          "actual_chests": 8,
+          "actual_coins": 94,
+          "stationary_grounded_fraction": 0.21724137931034482,
+          "failure": {}
+        },
+        {
+          "id": "full-region-hi-hi",
+          "ok": true,
+          "reason": "r2_policy_complete",
+          "ticks": 2152,
+          "shots": 13,
+          "airborne_shots": 12,
+          "player_health": 5.0,
+          "actual_chests": 10,
+          "actual_coins": 112,
+          "stationary_grounded_fraction": 0.23187732342007436,
+          "failure": {}
+        }
+      ],
+      "passed": 4,
+      "total": 4,
+      "directed_seams_completed": [
+        [
+          "0-hi-0",
+          "F0",
+          "hi0-0"
+        ],
+        [
+          "0-hi-1",
+          "hi0-0",
+          "hi0-1"
+        ],
+        [
+          "0-hi-2",
+          "hi0-1",
+          "hi0-2"
+        ],
+        [
+          "0-hi-3",
+          "hi0-2",
+          "J0"
+        ],
+        [
+          "0-lo-0",
+          "F0",
+          "lo0-0"
+        ],
+        [
+          "0-lo-1",
+          "lo0-0",
+          "lo0-1"
+        ],
+        [
+          "0-lo-2",
+          "lo0-1",
+          "lo0-2"
+        ],
+        [
+          "0-lo-3",
+          "lo0-2",
+          "J0"
+        ],
+        [
+          "1-hi-0",
+          "F1",
+          "hi1-0"
+        ],
+        [
+          "1-hi-1",
+          "hi1-0",
+          "hi1-1"
+        ],
+        [
+          "1-hi-2",
+          "hi1-1",
+          "hi1-2"
+        ],
+        [
+          "1-hi-3",
+          "hi1-2",
+          "J1"
+        ],
+        [
+          "1-lo-0",
+          "F1",
+          "lo1-0"
+        ],
+        [
+          "1-lo-1",
+          "lo1-0",
+          "lo1-1"
+        ],
+        [
+          "1-lo-2",
+          "lo1-1",
+          "lo1-2"
+        ],
+        [
+          "1-lo-3",
+          "lo1-2",
+          "J1"
+        ],
+        [
+          "between",
+          "J0",
+          "F1"
+        ]
+      ],
+      "scope": "Real continuous whole-world finite policies; failures do not prove impossibility"
+    },
+    {
+      "seed": "catalog94-eval-2",
+      "physics": "pcg/results/catalog94-evaluation-2-v1-replay",
+      "geometry": "pcg/results/catalog94-evaluation-2-v1",
+      "modules": 16,
+      "distinct_source_versions": 12,
+      "versions": [
+        "sha256:04a93aeaf9d4c19f132097e52e97faecda0da4b15b35539ee4be69598ca03c58",
+        "sha256:167dcb6ec336cd7ff659febe66b44a3daabfe79922a9ddca5c041e62e28d114e",
+        "sha256:2c5246ef3fbb352dbc46090e0627b6154fb6eba98576eba4d365fa1484864ef9",
+        "sha256:3c1c616527925c9cad825e6e15afeb69649423733ee7d5fa3a57e6de2c7133d3",
+        "sha256:47a74c8bf9487f1fd05592152dd78e93312ff9785b9f229ae1aa7909e9dc8618",
+        "sha256:5d5af8cc87208d7d3711a9d15a8d3b92b472df612e04cbf6674598f203663482",
+        "sha256:747d7f54552a19296df32b51ac2bd86a8cb6fbd91b06bd46d309348958437ae4",
+        "sha256:8c90c97e8fc15b43794c44d61bb64ed65be62df73b2c185be0285e94facc9a4a",
+        "sha256:aa4aa60a36d6d93d4eed0bb03d8be85b6c70579f19e65b453093364c3eef99d9",
+        "sha256:de3f1cb2b2456022c4d4b0e3a884fa0b7ef6ae3bcc2e3ff02d09335bf061f577",
+        "sha256:e53e91571f0d510282fe3242c7547937f97a29487140e028ae19561c1c0a2629",
+        "sha256:e90dfa359fd066b3280e0bebdb0fca7735e210c5c66ab8467c896fdceb48bb13"
+      ],
+      "module_titles": [
+        {
+          "node": "F0",
+          "version": "sha256:e90dfa359fd066b3280e0bebdb0fca7735e210c5c66ab8467c896fdceb48bb13",
+          "title": "单发弹药高低路线 · 接口 1"
+        },
+        {
+          "node": "J0",
+          "version": "sha256:04a93aeaf9d4c19f132097e52e97faecda0da4b15b35539ee4be69598ca03c58",
+          "title": "门后双宝箱 · 连续返回 Macro / 1"
+        },
+        {
+          "node": "hi0-0",
+          "version": "sha256:de3f1cb2b2456022c4d4b0e3a884fa0b7ef6ae3bcc2e3ff02d09335bf061f577",
+          "title": "弹丸穿运动射线窗"
+        },
+        {
+          "node": "hi0-1",
+          "version": "sha256:47a74c8bf9487f1fd05592152dd78e93312ff9785b9f229ae1aa7909e9dc8618",
+          "title": "引敌开门 · 近接口"
+        },
+        {
+          "node": "hi0-2",
+          "version": "sha256:2c5246ef3fbb352dbc46090e0627b6154fb6eba98576eba4d365fa1484864ef9",
+          "title": "保留活体供电 · 远/低接口"
+        },
+        {
+          "node": "lo0-0",
+          "version": "sha256:e53e91571f0d510282fe3242c7547937f97a29487140e028ae19561c1c0a2629",
+          "title": "低射界开锁后回升落位 · 接口1"
+        },
+        {
+          "node": "lo0-1",
+          "version": "sha256:5d5af8cc87208d7d3711a9d15a8d3b92b472df612e04cbf6674598f203663482",
+          "title": "先备第一铃，再跃短门"
+        },
+        {
+          "node": "lo0-2",
+          "version": "sha256:3c1c616527925c9cad825e6e15afeb69649423733ee7d5fa3a57e6de2c7133d3",
+          "title": "命中回充两枪上岸 · 接口 2"
+        },
+        {
+          "node": "F1",
+          "version": "sha256:e90dfa359fd066b3280e0bebdb0fca7735e210c5c66ab8467c896fdceb48bb13",
+          "title": "单发弹药高低路线 · 接口 1"
+        },
+        {
+          "node": "J1",
+          "version": "sha256:167dcb6ec336cd7ff659febe66b44a3daabfe79922a9ddca5c041e62e28d114e",
+          "title": "门后双宝箱 · 连续返回 Macro / 0"
+        },
+        {
+          "node": "hi1-0",
+          "version": "sha256:de3f1cb2b2456022c4d4b0e3a884fa0b7ef6ae3bcc2e3ff02d09335bf061f577",
+          "title": "弹丸穿运动射线窗"
+        },
+        {
+          "node": "hi1-1",
+          "version": "sha256:8c90c97e8fc15b43794c44d61bb64ed65be62df73b2c185be0285e94facc9a4a",
+          "title": "反冲穿越短时门 · 接口 1"
+        },
+        {
+          "node": "hi1-2",
+          "version": "sha256:47a74c8bf9487f1fd05592152dd78e93312ff9785b9f229ae1aa7909e9dc8618",
+          "title": "引敌开门 · 近接口"
+        },
+        {
+          "node": "lo1-0",
+          "version": "sha256:747d7f54552a19296df32b51ac2bd86a8cb6fbd91b06bd46d309348958437ae4",
+          "title": "借敌人真实发射开短门"
+        },
+        {
+          "node": "lo1-1",
+          "version": "sha256:5d5af8cc87208d7d3711a9d15a8d3b92b472df612e04cbf6674598f203663482",
+          "title": "先备第一铃，再跃短门"
+        },
+        {
+          "node": "lo1-2",
+          "version": "sha256:aa4aa60a36d6d93d4eed0bb03d8be85b6c70579f19e65b453093364c3eef99d9",
+          "title": "尖刺空槽反冲 · 适配 1"
+        }
+      ],
+      "latches": 12,
+      "carriers": 2,
+      "saws": 0,
+      "enemies": 5,
+      "world_bounds": [
+        -3216,
+        -204,
+        6776,
+        1660
+      ],
+      "search_seconds": 0.012618525997822871,
+      "search_expansions": 358,
+      "search_attempts": 1,
+      "audit": {
+        "schema": "pcg/direct-module-assembly-audit/v1",
+        "modules": 16,
+        "seams": 17,
+        "map_created_terrain_objects": 0,
+        "omitted_module_objects": 0,
+        "orphan_platforms": 0,
+        "port_gaps": 0,
+        "undeclared_inter_module_solid_overlaps": 0,
+        "all_instance_geometry_exact": true,
+        "unique_platforms": 57,
+        "module_source_platforms": 59,
+        "shared_landing_duplicates_deduplicated": 2,
+        "geometry_sha256": "87a87737f9a9469080fcfcefee8f185b9afbc05459eea456a79a6b0e55db90a4",
+        "scope": "Exact source/shape/static-envelope audit; not actual physical traversal or fun"
+      },
+      "routes": [
+        {
+          "id": "full-region-lo-lo",
+          "ok": false,
+          "reason": "real_damage_or_hazard",
+          "ticks": 575,
+          "shots": 4,
+          "airborne_shots": 3,
+          "player_health": 4.0,
+          "actual_chests": 2,
+          "actual_coins": 26,
+          "stationary_grounded_fraction": 0.1582608695652174,
+          "failure": {
+            "frame": 574,
+            "leg_id": "002-0-lo-2-004",
+            "position": [
+              -1064.91967773438,
+              1241.92529296875
+            ],
+            "reason": "real_damage_or_hazard"
+          }
+        },
+        {
+          "id": "full-region-lo-hi",
+          "ok": false,
+          "reason": "real_damage_or_hazard",
+          "ticks": 575,
+          "shots": 4,
+          "airborne_shots": 3,
+          "player_health": 4.0,
+          "actual_chests": 2,
+          "actual_coins": 26,
+          "stationary_grounded_fraction": 0.1582608695652174,
+          "failure": {
+            "frame": 574,
+            "leg_id": "002-0-lo-2-004",
+            "position": [
+              -1064.91967773438,
+              1241.92529296875
+            ],
+            "reason": "real_damage_or_hazard"
+          }
+        },
+        {
+          "id": "full-region-hi-lo",
+          "ok": true,
+          "reason": "r2_policy_complete",
+          "ticks": 1968,
+          "shots": 10,
+          "airborne_shots": 9,
+          "player_health": 5.0,
+          "actual_chests": 8,
+          "actual_coins": 90,
+          "stationary_grounded_fraction": 0.23526422764227642,
+          "failure": {}
+        },
+        {
+          "id": "full-region-hi-hi",
+          "ok": true,
+          "reason": "r2_policy_complete",
+          "ticks": 2137,
+          "shots": 9,
+          "airborne_shots": 9,
+          "player_health": 5.0,
+          "actual_chests": 10,
+          "actual_coins": 116,
+          "stationary_grounded_fraction": 0.2760879737950398,
+          "failure": {}
+        }
+      ],
+      "passed": 2,
+      "total": 4,
+      "directed_seams_completed": [
+        [
+          "0-hi-0",
+          "F0",
+          "hi0-0"
+        ],
+        [
+          "0-hi-1",
+          "hi0-0",
+          "hi0-1"
+        ],
+        [
+          "0-hi-2",
+          "hi0-1",
+          "hi0-2"
+        ],
+        [
+          "0-hi-3",
+          "hi0-2",
+          "J0"
+        ],
+        [
+          "0-lo-0",
+          "F0",
+          "lo0-0"
+        ],
+        [
+          "0-lo-1",
+          "lo0-0",
+          "lo0-1"
+        ],
+        [
+          "1-hi-0",
+          "F1",
+          "hi1-0"
+        ],
+        [
+          "1-hi-1",
+          "hi1-0",
+          "hi1-1"
+        ],
+        [
+          "1-hi-2",
+          "hi1-1",
+          "hi1-2"
+        ],
+        [
+          "1-hi-3",
+          "hi1-2",
+          "J1"
+        ],
+        [
+          "1-lo-0",
+          "F1",
+          "lo1-0"
+        ],
+        [
+          "1-lo-1",
+          "lo1-0",
+          "lo1-1"
+        ],
+        [
+          "1-lo-2",
+          "lo1-1",
+          "lo1-2"
+        ],
+        [
+          "1-lo-3",
+          "lo1-2",
+          "J1"
+        ],
+        [
+          "between",
+          "J0",
+          "F1"
+        ]
+      ],
+      "scope": "Real continuous whole-world finite policies; failures do not prove impossibility"
+    }
+  ],
+  "total_passed": 7,
+  "total_routes": 12,
+  "fully_passed_maps": 1,
+  "inventory": {
+    "rows": [
+      {
+        "version": "sha256:01c1569a6399b48d2b657b710181b9acd58eea9f583cc8f5b77be749034540a6",
+        "title": "落地补枪：抬升接力",
+        "family": "landing-reload-relay",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -12,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:027935f4f6f887d69854e1b4894bc77ce1436fdbb5a125fa635c74ec10afe857",
+        "title": "过檐刹入：深侧袋",
+        "family": "brake-under-ledge",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "foldback_exit_requires_directional_macro_envelope",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:04a93aeaf9d4c19f132097e52e97faecda0da4b15b35539ee4be69598ca03c58",
+        "title": "门后双宝箱 · 连续返回 Macro / 1",
+        "family": "gate-brake-return",
+        "ports": 3,
+        "routes": 4,
+        "selected": true,
+        "selected_reason": "local_macro_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "ordered_multiport_relations_need_role_specific_composition",
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-0",
+          "catalog94-eval-1",
+          "catalog94-eval-2"
+        ]
+      },
+      {
+        "version": "sha256:08aed42071a32fe5eab6004cffb6158b56bb000895d78e9b6eeb0f53d4bfd4b5",
+        "title": "R2紧凑钟台 · 固定版本独立留出",
+        "family": "bell_lift",
+        "ports": 2,
+        "routes": 1,
+        "selected": false,
+        "selected_reason": "curation_required",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "excluded_by_plains_profile",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:0bdf37eeca235865474eef2d0b3440014edca4382ef1bbdc876fea8c0c6211f7",
+        "title": "柱底救回：宽转折",
+        "family": "under-column-escape",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 390,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:0c9656cb57d1988a558869ce0ca24681e015ed43e37b2d0bde216bd323b333eb",
+        "title": "短门取宝与下层分流 · 3口 · 接口1",
+        "family": "timed-cache",
+        "ports": 3,
+        "routes": 3,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "ordered_multiport_relations_need_role_specific_composition",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:0e52e3732ffbae67d01f6636592f765a9a145ef6fc85787fdd287e2000a90976",
+        "title": "清敌身露射铃",
+        "family": "enemy-clear-sightline",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "capability_compatible_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_entry_rear_wall_requires_different_ingress",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:106e4362c8388feceff422dc98e9c5105569c546ff8f284f6d822fc75d7517a0",
+        "title": "单枪投资高奖或低路 · 4口 · 接口2",
+        "family": "one-shot-two-routes",
+        "ports": 4,
+        "routes": 3,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "ordered_multiport_relations_need_role_specific_composition",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:11c4b82f4c8c6db4d59f60d146c5dedab615e2654290bdd6e51ab52e95ac8aff",
+        "title": "踏空贴墙反蹬",
+        "family": "step-off-wall-return",
+        "ports": 2,
+        "routes": 1,
+        "selected": false,
+        "selected_reason": "reserved_for_later_abilities",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "excluded_by_plains_profile",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:1215efd08c9ed9db84393b1da9d3e2f70836d397d68838fc13053123d29a1f2f",
+        "title": "自动弹钩后改轨",
+        "family": "grapple-bounce-brake",
+        "ports": 2,
+        "routes": 1,
+        "selected": false,
+        "selected_reason": "reserved_for_later_abilities",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "excluded_by_plains_profile",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:12ca61f568f3fae222e73f137638d0f19dec00a3a1881f68292188294ab3c9bd",
+        "title": "低射界开锁后回升落位 · 接口2",
+        "family": "low-ray-recoil-return",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 390,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:167dcb6ec336cd7ff659febe66b44a3daabfe79922a9ddca5c041e62e28d114e",
+        "title": "门后双宝箱 · 连续返回 Macro / 0",
+        "family": "gate-brake-return",
+        "ports": 3,
+        "routes": 4,
+        "selected": true,
+        "selected_reason": "local_macro_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "ordered_multiport_relations_need_role_specific_composition",
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-0",
+          "catalog94-eval-1",
+          "catalog94-eval-2"
+        ]
+      },
+      {
+        "version": "sha256:16ac1de2691c91b7622413e4838b63d6d0f361963f58c73164119ecc7d529906",
+        "title": "空中回充返身 · 接口 2",
+        "family": "air-refund",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "foldback_exit_requires_directional_macro_envelope",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:1e2a5ff03ebba05e0984aeec0dcf6ba0647fb8e6bce99394159ea8cd526daaaf",
+        "title": "命中回充登高或西侧撤离 · 4口 · 接口2",
+        "family": "air-refund",
+        "ports": 4,
+        "routes": 3,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "ordered_multiport_relations_need_role_specific_composition",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:21029b907d05a8cc45163abf0dfc3abe7a5e6d34ce7fa76b7327cfaa77d55001",
+        "title": "岩沿下反冲入槽 · 接口 2",
+        "family": "brake-under-ledge",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "foldback_exit_requires_directional_macro_envelope",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:23510fdcf52daa7193868c711655b90f79a7c443673ad2d35d00fee2c90f39f0",
+        "title": "先守门再运人的载台 / 接口2",
+        "family": "carrier-dual-service",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -10,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:26544bbf5c94d81a45bc1953800c97cbe0a62a42f0971aa1b0a59e67094972b0",
+        "title": "击铃追赶移动载台 · 接口 1",
+        "family": "chase-landing",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -150,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:2a1efc95dcbb794926fd9e1d515b29f4cc7ee1a7936f96eb8d3e6178397a930d",
+        "title": "窄道：较高接收岸",
+        "family": "thorn-slot",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -10,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:2c5246ef3fbb352dbc46090e0627b6154fb6eba98576eba4d365fa1484864ef9",
+        "title": "保留活体供电 · 远/低接口",
+        "family": "enemy-sensor-hold",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-0",
+          "catalog94-eval-2"
+        ]
+      },
+      {
+        "version": "sha256:2e69026fb65a79c09aa2b0ac25d2bac5161087107dc9605dd861a79ef06d3c0f",
+        "title": "清除吸弹射界 · 近接口",
+        "family": "enemy-clear-sightline",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_entry_rear_wall_requires_different_ingress",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:30216efd77d3bd97053083cf15b85a158b656099cac84f694b6dc6eb685f89f9",
+        "title": "刹入侧袋与下层分流 · 3口 · 接口1",
+        "family": "brake-under-ledge",
+        "ports": 3,
+        "routes": 3,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "ordered_multiport_relations_need_role_specific_composition",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:331f331fdce3d4f0cfc997c577ac934bed74af7cddade5135984a5108b2515f1",
+        "title": "两台相会转乘",
+        "family": "carrier-rendezvous",
+        "ports": 2,
+        "routes": 1,
+        "selected": false,
+        "selected_reason": "pacing_held",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "excluded_by_plains_profile",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:33a31084073ef8a2fa5c04a10fc18964ef40caaacb1945eece09475879b1bf52",
+        "title": "穿过移动挡板的射击窗口 / 接口2",
+        "family": "moving-ray-window",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-0",
+          "catalog94-eval-1"
+        ]
+      },
+      {
+        "version": "sha256:35a76f5584c914dd5701edf175fffbaa89b28a19c8c072d6e711b52c620da659",
+        "title": "可见双目标有序事务",
+        "family": "ordered-target-transaction",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "capability_compatible_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -148,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:3c1c616527925c9cad825e6e15afeb69649423733ee7d5fa3a57e6de2c7133d3",
+        "title": "命中回充两枪上岸 · 接口 2",
+        "family": "air-refund",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -340,
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-2"
+        ]
+      },
+      {
+        "version": "sha256:3db49838ae459fffab4cc1fbac4e438a08e00ae059f4c919ecdf3a6c290f128c",
+        "title": "周期危险择时离挂",
+        "family": "grapple-hazard-window",
+        "ports": 2,
+        "routes": 1,
+        "selected": false,
+        "selected_reason": "reserved_for_later_abilities",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "excluded_by_plains_profile",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:416535f94907122261a970283fe180b5e054ec7c67d0fc6dc2d3341a7ed0af32",
+        "title": "把回充枪投给高处短门",
+        "family": "refill-short-gate",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -320,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:46296acaa278c9c654fd133af7fa61fc81345ed573e93aa7a9b5fc98618d30e5",
+        "title": "击退腾出落位 · 远/低接口",
+        "family": "enemy-displace-landing",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_goal_inside_live_enemy_exit_contact_requires_new_recipe",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:46e54910a60c094f69192bb95446cf810d90fb2d1644be13ea97e3aeb1c5dd80",
+        "title": "开门与过檐刹入侧袋（可分步组合） · 接口2",
+        "family": "brake-gate-catch",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "foldback_exit_requires_directional_macro_envelope",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:47a74c8bf9487f1fd05592152dd78e93312ff9785b9f229ae1aa7909e9dc8618",
+        "title": "引敌开门 · 近接口",
+        "family": "enemy-attack-relay",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-2"
+        ]
+      },
+      {
+        "version": "sha256:490a5f1478c34f1040d2c01dfdb2e7ad3fc09dc7bd3b7a70641ff6a0f37280ad",
+        "title": "反冲穿越短时门 · 接口 2",
+        "family": "timed-cache",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -10,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:4aa99b6f4b965abdc989a217006a99a8239a734979d772e4faf59b77a2310bda",
+        "title": "命中回充两枪上岸 · 接口 1",
+        "family": "air-refund",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -320,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:577021d1f4e0cbc095633b1d9961cd7ddfe638f0b4ee7bc3852b0981c758e992",
+        "title": "先去东侧看清，开门后向西 · 接口1",
+        "family": "sightline-backtrack",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-0"
+        ]
+      },
+      {
+        "version": "sha256:5d5af8cc87208d7d3711a9d15a8d3b92b472df612e04cbf6674598f203663482",
+        "title": "先备第一铃，再跃短门",
+        "family": "prepared-air-sequence",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-0",
+          "catalog94-eval-1",
+          "catalog94-eval-2"
+        ]
+      },
+      {
+        "version": "sha256:610b9bbe8efe8cb0d3eb2b169f2b4be33cf0f543b9a4cbf227788295176802fa",
+        "title": "保留活体供电 · 近接口",
+        "family": "enemy-sensor-hold",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-1"
+        ]
+      },
+      {
+        "version": "sha256:615eeddd311680917d6696d0a9c37a29edc6ca84050b54fa247aa316023deb78",
+        "title": "开门与过檐刹入侧袋（可分步组合） · 接口1",
+        "family": "brake-gate-catch",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "foldback_exit_requires_directional_macro_envelope",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:671c68bdd229e6e8a00f53907cf749a9a44769704b9f2c03f842b04e0cbed26b",
+        "title": "岩沿下反冲入槽 · 适配 1",
+        "family": "brake-under-ledge",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "foldback_exit_requires_directional_macro_envelope",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:6a036fea58d4deb9859817c38f5c2fd377c48fd9328ed8709c7cd63d7cf08339",
+        "title": "短门取宝与下层分流 · 4口 · 接口2",
+        "family": "timed-cache",
+        "ports": 4,
+        "routes": 3,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "ordered_multiport_relations_need_role_specific_composition",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:6a586b10102ea2ee318d8419afe9228207688eb28f697e39087daf790239a1e7",
+        "title": "触环恢复二跳",
+        "family": "grapple-jump-refill",
+        "ports": 2,
+        "routes": 1,
+        "selected": false,
+        "selected_reason": "reserved_for_later_abilities",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "excluded_by_plains_profile",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:6b9d2d9858dbb646b119182e597096264618d7e907588f6ee63ac99545016b63",
+        "title": "击铃追赶移动载台 · 接口 2",
+        "family": "chase-landing",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -150,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:6d96e4e0357cce34df80c8af7af83bf71b82b6e32bfe4245b73b1370e619446e",
+        "title": "撤掉脚下桥，承诺进入下层 · 接口1",
+        "family": "trapdoor-commit",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 340,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:708a6dd6002a8db604e732f418d733eec70fb9c4e0055b5208e47ef31076a0a3",
+        "title": "探身开锁再折返",
+        "family": "sightline-backtrack",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "capability_compatible_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:747d7f54552a19296df32b51ac2bd86a8cb6fbd91b06bd46d309348958437ae4",
+        "title": "借敌人真实发射开短门",
+        "family": "enemy-attack-relay",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "capability_compatible_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-0",
+          "catalog94-eval-2"
+        ]
+      },
+      {
+        "version": "sha256:79769580e6f6e55768697e01f0cec4df91c588de9a4990bbedd3b7b5b4fee8d7",
+        "title": "落地补枪：水平接力",
+        "family": "landing-reload-relay",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-1"
+        ]
+      },
+      {
+        "version": "sha256:7acc4cdfa042dedb338ace59d782444bf4a2fa12fccd88397e8bd42c1c489a51",
+        "title": "穿过移动挡板的射击窗口 / 接口1",
+        "family": "moving-ray-window",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:7aef28e0dbe7327991dff45b91c499673002d5af60ecf4b83e18765fa99d030b",
+        "title": "保留二跳越低檐",
+        "family": "late-air-rise",
+        "ports": 2,
+        "routes": 1,
+        "selected": false,
+        "selected_reason": "reserved_for_later_abilities",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "excluded_by_plains_profile",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:7bf07d9995b15b58a84a045c6d251891a472f5521c1cfa19dff87caa823ab269",
+        "title": "撤掉脚下桥，承诺进入下层 · 接口2",
+        "family": "trapdoor-commit",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 220,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:7c06b9a528bb98997869a603c3e8454253e8119112e54c57acdb86a287b9a66f",
+        "title": "空中回充返身 · 接口 1",
+        "family": "air-refund",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "foldback_exit_requires_directional_macro_envelope",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:851be7661e7c931976999bad1aa9d819e7712142880d23c11394a381b67b7d37",
+        "title": "活敌压区维持门",
+        "family": "enemy-sensor-hold",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "capability_compatible_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-1"
+        ]
+      },
+      {
+        "version": "sha256:881c3c38531a177fdd0008ef8007b07db1b2595a6a04346f8d4d2ef3c40aa565",
+        "title": "击退腾出落位 · 近接口",
+        "family": "enemy-displace-landing",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_goal_inside_live_enemy_exit_contact_requires_new_recipe",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:89300bb54eb562fd3b8b1633744130f011adc11d98833e16375d1f582cb8085a",
+        "title": "空中挂停主动跃出",
+        "family": "grapple-anchor-gap",
+        "ports": 2,
+        "routes": 1,
+        "selected": false,
+        "selected_reason": "reserved_for_later_abilities",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "excluded_by_plains_profile",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:89cc9ca617c8ebb042a28569c3eed5468c3afad843d9964cde1c19b46e855d2e",
+        "title": "尖刺空槽反冲 · 接口 2",
+        "family": "thorn-slot",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -20,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:8c90c97e8fc15b43794c44d61bb64ed65be62df73b2c185be0285e94facc9a4a",
+        "title": "反冲穿越短时门 · 接口 1",
+        "family": "timed-cache",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-1",
+          "catalog94-eval-2"
+        ]
+      },
+      {
+        "version": "sha256:8e0ad37d208f3f69a020c44fd746a90f14ce46727d6e561b627af7eaea1423ce",
+        "title": "单发弹药高低路线 · 接口 2",
+        "family": "one-shot-two-routes",
+        "ports": 3,
+        "routes": 2,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "ordered_multiport_relations_need_role_specific_composition",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:8f308dc1ea1a66bc67b5014410c8df6053941eb95b0434dfea4c3a81fccc4003",
+        "title": "先备第一铃，再跃短门",
+        "family": "prepared-air-sequence",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -10,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:934403a04df43b5dddad97a2cfbe55388c5ea0ed4ca79316d0cbcd5bf064e2d2",
+        "title": "反向击铃借墙折返",
+        "family": "bell-wall-rebound",
+        "ports": 2,
+        "routes": 1,
+        "selected": false,
+        "selected_reason": "reserved_for_later_abilities",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "excluded_by_plains_profile",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:9bd1cff9a906b2b2b0b50acad9fe7fa1d2de013b16be3047ffdf1f7d1f0e97d3",
+        "title": "先留进度，再把第二枪送对铃 · 接口2",
+        "family": "ordered-target-transaction",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -128,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:9c2b5f3c74249c2be731653de04c85d039aa1bb306eaccc2eb83f95f753491f1",
+        "title": "岩沿下反冲入槽 · 适配 2",
+        "family": "brake-under-ledge",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "foldback_exit_requires_directional_macro_envelope",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:a1af6569a708c5bae497eb50853abc6a488b993b802d75bd9597cae9769e3d06",
+        "title": "在避险岛换乘同台 / 接口1",
+        "family": "evacuate-rejoin",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-0"
+        ]
+      },
+      {
+        "version": "sha256:a8b3f205807da9b0bc08d76ffa3c62fbfb99033bf0abe941c6e371a41754f8e6",
+        "title": "追台取宝或下层通行 / 3口",
+        "family": "chase-landing",
+        "ports": 3,
+        "routes": 2,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "ordered_multiport_relations_need_role_specific_composition",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:aa4aa60a36d6d93d4eed0bb03d8be85b6c70579f19e65b453093364c3eef99d9",
+        "title": "尖刺空槽反冲 · 适配 1",
+        "family": "thorn-slot",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-0",
+          "catalog94-eval-1",
+          "catalog94-eval-2"
+        ]
+      },
+      {
+        "version": "sha256:ab5d60871a3261241a2057352c88a469f988728f8b94a92728b7a0da0336d345",
+        "title": "尖刺窄道与低路分叉 · 3口 · 接口1",
+        "family": "thorn-slot",
+        "ports": 3,
+        "routes": 2,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "ordered_multiport_relations_need_role_specific_composition",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:af3cbd68127b56feade6ee52052fec1013ef93dc874fea6a04863a1ad4d78ce1",
+        "title": "命中回充登高或西侧撤离 · 3口 · 接口1",
+        "family": "air-refund",
+        "ports": 3,
+        "routes": 3,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "ordered_multiport_relations_need_role_specific_composition",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:b0a994d20b21700fbe3c3159f7bdda5467b19838d3adfb623058c116268413d0",
+        "title": "先压门再取回载台",
+        "family": "carrier-dual-service",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "capability_compatible_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:b4634207ffe04d75ab5fb4308714818158cc5b9e26f6c97c8340cf3752f5b3b4",
+        "title": "撤桥自坠",
+        "family": "trapdoor-commit",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "capability_compatible_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 280,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:b901a01e430991b5940a3049bb92c1d7f8bc771dcf6f7f54ca5bbad437082267",
+        "title": "缓降高度预算择窗",
+        "family": "wall-slide-launch-window",
+        "ports": 2,
+        "routes": 1,
+        "selected": false,
+        "selected_reason": "reserved_for_later_abilities",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "excluded_by_plains_profile",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:bc83b615bdf93076fabda8a7bd136dc9a6897aba94b2c43bfd1d4125813adba5",
+        "title": "单枪投资高奖或低路 · 3口 · 接口1",
+        "family": "one-shot-two-routes",
+        "ports": 3,
+        "routes": 3,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "ordered_multiport_relations_need_role_specific_composition",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:bee87fe2de0bb251e57eca7f0eedf828bd232a7e4c365c0249c83c23f7208dff",
+        "title": "引敌开门 · 远/低接口",
+        "family": "enemy-attack-relay",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-1"
+        ]
+      },
+      {
+        "version": "sha256:bf2761ddec8c00c3ba67ca5493f71ad02cb0873c9cfd42deb679083de3013bfc",
+        "title": "追台后登上窄岸 / 接口2",
+        "family": "chase-landing",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -154,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:bfb0e2996b1a898f933de777ca6f4fb8f05d4a04e591a6d2b939469e1619f469",
+        "title": "追台后登上窄岸 / 接口1",
+        "family": "chase-landing",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -150,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:c039ba1584292368b14ab7c033d27f1ccd3830f6c56018d522cfb545995cddd2",
+        "title": "先留进度，再把第二枪送对铃 · 接口1",
+        "family": "ordered-target-transaction",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -158,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:c3268da6f09ca7e32e2399d60639efbc75a538824c0d60805a92716f6a524ca3",
+        "title": "刹入侧袋与下层分流 · 4口 · 接口2",
+        "family": "brake-under-ledge",
+        "ports": 4,
+        "routes": 3,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "ordered_multiport_relations_need_role_specific_composition",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:c5825cd704759634c00a9277ce0f94c9948d70d6c8bfd2c09b55b73d3c1399a8",
+        "title": "尖刺空槽反冲 · 接口 1",
+        "family": "thorn-slot",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-0",
+          "catalog94-eval-1"
+        ]
+      },
+      {
+        "version": "sha256:c99a287ae8fc72dd79ca2b14a7f3584c2f0ee66d426c99b039900adaf0d5504e",
+        "title": "窄道：宽出口岸",
+        "family": "thorn-slot",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 4,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:ca4aa8bdf05b7e5ac7e587aee258adf983c95b5c47e56c56e4ed88b914f4b547",
+        "title": "岩沿下反冲入槽 · 接口 1",
+        "family": "brake-under-ledge",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "foldback_exit_requires_directional_macro_envelope",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:cd678ae924a90d8b3a34ab7ba1f4e8e516e7e5a59b4d21584d8f25b95bd92808",
+        "title": "Map需求补缺：100wu钟台",
+        "family": "bell_lift",
+        "ports": 2,
+        "routes": 1,
+        "selected": false,
+        "selected_reason": "curation_required",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "excluded_by_plains_profile",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:d111648359a582cf23082401d12276881fa995b8b310970ca15ed15316ba091e",
+        "title": "离台避险重接同台",
+        "family": "evacuate-rejoin",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "capability_compatible_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-0"
+        ]
+      },
+      {
+        "version": "sha256:d5fe842b15c1b85d978230799de0058e58c2f290258eaf5068e03352ed493607",
+        "title": "击退腾出落位",
+        "family": "enemy-displace-landing",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "capability_compatible_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_goal_inside_live_enemy_exit_contact_requires_new_recipe",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:d65bc5715ce9ec73bfe8f6b88ee17381519d97484528b3e98f9e9147cb9d1884",
+        "title": "击铃追赶移动载台 · Map 适配",
+        "family": "chase-landing",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "foldback_exit_requires_directional_macro_envelope",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:d8c58bc54db2e649a9a24313f070be1d31cf177b54ca5e53316dd603255be625",
+        "title": "过檐刹入：短侧袋",
+        "family": "brake-under-ledge",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "foldback_exit_requires_directional_macro_envelope",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:d9391ea2ff89eea50c4c7d9c7c357e4172063dc71b5b6e85e4b8319c27994870",
+        "title": "尖刺窄道与低路分叉 · 3口 · 接口2",
+        "family": "thorn-slot",
+        "ports": 3,
+        "routes": 2,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "ordered_multiport_relations_need_role_specific_composition",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:dbb99f259703c1910659c2bb1d5a58b008824cf77f95f708c0d8ca118893518f",
+        "title": "先守门再运人的载台 / 接口1",
+        "family": "carrier-dual-service",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:de3f1cb2b2456022c4d4b0e3a884fa0b7ef6ae3bcc2e3ff02d09335bf061f577",
+        "title": "弹丸穿运动射线窗",
+        "family": "moving-ray-window",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "capability_compatible_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-0",
+          "catalog94-eval-1",
+          "catalog94-eval-2"
+        ]
+      },
+      {
+        "version": "sha256:e1aed107d2df1af781c1b3fdf8f2409d5d6093973ae967a186e2a8995484d888",
+        "title": "跟锯穿廊掉层",
+        "family": "saw-pursuit",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "capability_compatible_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 127,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:e49f2d38b96ea2813057f24f1f6aab11b40d3c6da6a20b007681ed61c6284a20",
+        "title": "清除吸弹射界 · 远/低接口",
+        "family": "enemy-clear-sightline",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_entry_rear_wall_requires_different_ingress",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:e53e91571f0d510282fe3242c7547937f97a29487140e028ae19561c1c0a2629",
+        "title": "低射界开锁后回升落位 · 接口1",
+        "family": "low-ray-recoil-return",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 340,
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-2"
+        ]
+      },
+      {
+        "version": "sha256:e90dfa359fd066b3280e0bebdb0fca7735e210c5c66ab8467c896fdceb48bb13",
+        "title": "单发弹药高低路线 · 接口 1",
+        "family": "one-shot-two-routes",
+        "ports": 3,
+        "routes": 2,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "ordered_multiport_relations_need_role_specific_composition",
+        "placed_in_current_three_maps": true,
+        "used_in_map_seeds": [
+          "catalog94-eval-0",
+          "catalog94-eval-1",
+          "catalog94-eval-2"
+        ]
+      },
+      {
+        "version": "sha256:ebfdac3d0305ad37fd402338fab879df54461776d65e0a1b6c3d340eb044633a",
+        "title": "先去东侧看清，开门后向西 · 接口2",
+        "family": "sightline-backtrack",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 0,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:f485c275bafdb2b85460b091553f1a5a3705f3dafd13627f637886c989a0aa9d",
+        "title": "双壁绕刺越顶",
+        "family": "switchback-wall-ascent",
+        "ports": 2,
+        "routes": 1,
+        "selected": false,
+        "selected_reason": "reserved_for_later_abilities",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "excluded_by_plains_profile",
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:f5d535499ccfe4f89325f5e6ce36d2b0886eca0a0c897b652a1a9c986d4edfc0",
+        "title": "把回充枪投给高处短门",
+        "family": "refill-short-gate",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -340,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:f678fdeefc8b2b6663b80249d10d110eb99386bca47a96b60c025034d9cea3ab",
+        "title": "柱底救回：低侧岸",
+        "family": "under-column-escape",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": 360,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:fa1ab9221e4c254370bb56fa7f09bd1e5c364e46ddac8c1be739a31634f49afb",
+        "title": "补给把你推离目标",
+        "family": "adverse-refund-reversal",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -320,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:fad52f5cc43e7d4d98e4cb5d5ff0aab6e9c4e4e711530118153de3af60f6dc55",
+        "title": "补给把你推离目标",
+        "family": "adverse-refund-reversal",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "version_bound_published_candidate_batch",
+        "batch": "plains50-v1",
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -310,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      },
+      {
+        "version": "sha256:fad73947ee6c41eb643dd746b7dc680039dfc038159d22ffbe5a6da35bcaa2bf",
+        "title": "尖刺空槽反冲 · 适配 2",
+        "family": "thorn-slot",
+        "ports": 2,
+        "routes": 1,
+        "selected": true,
+        "selected_reason": "original_recoil_rule_candidate",
+        "batch": null,
+        "missing_original_evidence": [],
+        "adapter": "source_owned_exterior_candidate",
+        "dy": -8,
+        "placed_in_current_three_maps": false,
+        "used_in_map_seeds": []
+      }
+    ],
+    "counts": {
+      "source_owned_exterior_candidate": 50,
+      "foldback_exit_requires_directional_macro_envelope": 11,
+      "ordered_multiport_relations_need_role_specific_composition": 15,
+      "excluded_by_plains_profile": 12,
+      "source_entry_rear_wall_requires_different_ingress": 3,
+      "source_goal_inside_live_enemy_exit_contact_requires_new_recipe": 3
+    },
+    "source_versions": 94,
+    "plains_selected": 82,
+    "original_evidence_missing": 0,
+    "scope": "All current immutable library versions read; adapter candidate is not whole-map, fun or production admission"
+  },
+  "previous44": {
+    "versions": 44,
+    "source_passed": 52,
+    "unique_versions_placed": 12,
+    "records": [
+      {
+        "seed": "catalog-eval-0",
+        "routes": [
+          {
+            "id": "full-region-lo-lo",
+            "ok": false,
+            "reason": "outside_declared_map_bounds",
+            "ticks": 1668,
+            "shots": 6,
+            "airborne_shots": 6,
+            "player_health": 5.0,
+            "actual_chests": 3,
+            "actual_coins": 28,
+            "stationary_grounded_fraction": 0.29856115107913667,
+            "failure": {
+              "frame": 1667,
+              "leg_id": "005-1-lo-0-000",
+              "position": [
+                605.258544921875,
+                1188.8212890625
+              ],
+              "reason": "outside_declared_map_bounds"
+            }
+          },
+          {
+            "id": "full-region-lo-hi",
+            "ok": true,
+            "reason": "r2_policy_complete",
+            "ticks": 2928,
+            "shots": 13,
+            "airborne_shots": 10,
+            "player_health": 5.0,
+            "actual_chests": 8,
+            "actual_coins": 82,
+            "stationary_grounded_fraction": 0.2814207650273224,
+            "failure": {}
+          },
+          {
+            "id": "full-region-hi-lo",
+            "ok": true,
+            "reason": "r2_policy_complete",
+            "ticks": 2817,
+            "shots": 13,
+            "airborne_shots": 10,
+            "player_health": 5.0,
+            "actual_chests": 8,
+            "actual_coins": 78,
+            "stationary_grounded_fraction": 0.2499112531061413,
+            "failure": {}
+          },
+          {
+            "id": "full-region-hi-hi",
+            "ok": true,
+            "reason": "r2_policy_complete",
+            "ticks": 2928,
+            "shots": 16,
+            "airborne_shots": 10,
+            "player_health": 5.0,
+            "actual_chests": 10,
+            "actual_coins": 104,
+            "stationary_grounded_fraction": 0.2455601092896175,
+            "failure": {}
+          }
+        ],
+        "passed": 3,
+        "total": 4,
+        "directed_seams_completed": [
+          [
+            "0-hi-0",
+            "F0",
+            "hi0-0"
+          ],
+          [
+            "0-hi-1",
+            "hi0-0",
+            "hi0-1"
+          ],
+          [
+            "0-hi-2",
+            "hi0-1",
+            "hi0-2"
+          ],
+          [
+            "0-hi-3",
+            "hi0-2",
+            "J0"
+          ],
+          [
+            "0-lo-0",
+            "F0",
+            "lo0-0"
+          ],
+          [
+            "0-lo-1",
+            "lo0-0",
+            "lo0-1"
+          ],
+          [
+            "0-lo-2",
+            "lo0-1",
+            "lo0-2"
+          ],
+          [
+            "0-lo-3",
+            "lo0-2",
+            "J0"
+          ],
+          [
+            "1-hi-0",
+            "F1",
+            "hi1-0"
+          ],
+          [
+            "1-hi-1",
+            "hi1-0",
+            "hi1-1"
+          ],
+          [
+            "1-hi-2",
+            "hi1-1",
+            "hi1-2"
+          ],
+          [
+            "1-hi-3",
+            "hi1-2",
+            "J1"
+          ],
+          [
+            "1-lo-0",
+            "F1",
+            "lo1-0"
+          ],
+          [
+            "1-lo-1",
+            "lo1-0",
+            "lo1-1"
+          ],
+          [
+            "1-lo-2",
+            "lo1-1",
+            "lo1-2"
+          ],
+          [
+            "1-lo-3",
+            "lo1-2",
+            "J1"
+          ],
+          [
+            "between",
+            "J0",
+            "F1"
+          ]
+        ],
+        "scope": "Real continuous whole-world finite policies; failures do not prove impossibility"
+      },
+      {
+        "seed": "catalog-eval-1",
+        "routes": [
+          {
+            "id": "full-region-lo-lo",
+            "ok": false,
+            "reason": "outside_declared_map_bounds",
+            "ticks": 1667,
+            "shots": 6,
+            "airborne_shots": 6,
+            "player_health": 5.0,
+            "actual_chests": 3,
+            "actual_coins": 28,
+            "stationary_grounded_fraction": 0.31073785242951407,
+            "failure": {
+              "frame": 1666,
+              "leg_id": "005-1-lo-0-000",
+              "position": [
+                605.258544921875,
+                1188.8212890625
+              ],
+              "reason": "outside_declared_map_bounds"
+            }
+          },
+          {
+            "id": "full-region-lo-hi",
+            "ok": false,
+            "reason": "leg_frame_budget",
+            "ticks": 2116,
+            "shots": 7,
+            "airborne_shots": 7,
+            "player_health": 5.0,
+            "actual_chests": 6,
+            "actual_coins": 64,
+            "stationary_grounded_fraction": 0.4224952741020794,
+            "failure": {
+              "actual": {
+                "air_shots": 1,
+                "dynamic": {
+                  "actor_epoch": 1,
+                  "damage_commits": 0,
+                  "damage_submissions": 0,
+                  "dead": false,
+                  "hazard_contacts": [],
+                  "lifetime_active": true,
+                  "module_clock": 35.3333333333326,
+                  "moving_platforms": [
+                    {
+                      "id": "hi0-0/ray-shutter",
+                      "phase": 0.397849462365359,
+                      "physics_velocity": [
+                        0.0,
+                        228.570541381836
+                      ],
+                      "position": [
+                        -4260.0,
+                        423.809509277344
+                      ]
+                    },
+                    {
+                      "id": "hi0-1/key-carrier",
+                      "phase": 0.774774774774677,
+                      "physics_velocity": [
+                        0.0,
+                        0.0
+                      ],
+                      "position": [
+                        -3252.0,
+                        448.0
+                      ]
+                    },
+                    {
+                      "id": "lo0-2/carrier",
+                      "phase": 0.649122807017449,
+                      "physics_velocity": [
+                        0.0,
+                        0.0
+                      ],
+                      "position": [
+                        -1172.0,
+                        930.0
+                      ]
+                    },
+                    {
+                      "id": "hi1-0/ray-shutter",
+                      "phase": 0.397849462365359,
+                      "physics_velocity": [
+                        0.0,
+                        228.57145690918
+                      ],
+                      "position": [
+                        324.0,
+                        235.809524536133
+                      ]
+                    }
+                  ],
+                  "platform_velocity": [
+                    0.0,
+                    0.0
+                  ],
+                  "returns": 0,
+                  "saws": [
+                    {
+                      "id": "lo0-2/transport-interdict",
+                      "phase": 0.0416666666664405,
+                      "position": [
+                        -1482.0,
+                        906.54150390625
+                      ],
+                      "touching": false
+                    }
+                  ],
+                  "static_contacts": [],
+                  "support_id": ""
+                },
+                "frame": 2115,
+                "grounded": true,
+                "health": 5.0,
+                "jumps_used": 0,
+                "normal_velocity": [
+                  0.0,
+                  173.33332824707
+                ],
+                "position": [
+                  1069.99084472656,
+                  231.99821472168
+                ],
+                "real_velocity": [
+                  0.0,
+                  0.0
+                ],
+                "shot_cooldown": 0.0,
+                "stamina": 100.0,
+                "traversal_state": "free",
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              },
+              "edge_id": "1-hi-1",
+              "expected_target": {
+                "grounded": true,
+                "id": "catalog-template/source-entry",
+                "position": [
+                  1472.0,
+                  232.0
+                ],
+                "region": [
+                  1465.0,
+                  228.0,
+                  14.0,
+                  8.0
+                ],
+                "stable_ticks": 6.0,
+                "support_indices": [
+                  42.0
+                ]
+              },
+              "frame": 2115,
+              "leg_id": "006-1-hi-1-004",
+              "leg_index": 33,
+              "reason": "leg_frame_budget"
+            }
+          },
+          {
+            "id": "full-region-hi-lo",
+            "ok": true,
+            "reason": "r2_policy_complete",
+            "ticks": 2395,
+            "shots": 13,
+            "airborne_shots": 10,
+            "player_health": 5.0,
+            "actual_chests": 8,
+            "actual_coins": 86,
+            "stationary_grounded_fraction": 0.23423799582463464,
+            "failure": {}
+          },
+          {
+            "id": "full-region-hi-hi",
+            "ok": false,
+            "reason": "leg_frame_budget",
+            "ticks": 2116,
+            "shots": 11,
+            "airborne_shots": 8,
+            "player_health": 5.0,
+            "actual_chests": 8,
+            "actual_coins": 90,
+            "stationary_grounded_fraction": 0.3638941398865784,
+            "failure": {
+              "actual": {
+                "air_shots": 1,
+                "dynamic": {
+                  "actor_epoch": 1,
+                  "damage_commits": 1,
+                  "damage_submissions": 1,
+                  "dead": false,
+                  "hazard_contacts": [],
+                  "lifetime_active": true,
+                  "module_clock": 35.3333333333326,
+                  "moving_platforms": [
+                    {
+                      "id": "hi0-0/ray-shutter",
+                      "phase": 0.397849462365359,
+                      "physics_velocity": [
+                        0.0,
+                        228.570541381836
+                      ],
+                      "position": [
+                        -4260.0,
+                        423.809509277344
+                      ]
+                    },
+                    {
+                      "id": "hi0-1/key-carrier",
+                      "phase": 0.774774774774677,
+                      "physics_velocity": [
+                        343.740203857422,
+                        0.0
+                      ],
+                      "position": [
+                        -2306.6875,
+                        448.0
+                      ]
+                    },
+                    {
+                      "id": "lo0-2/carrier",
+                      "phase": 0.649122807017449,
+                      "physics_velocity": [
+                        0.0,
+                        0.0
+                      ],
+                      "position": [
+                        -1172.0,
+                        930.0
+                      ]
+                    },
+                    {
+                      "id": "hi1-0/ray-shutter",
+                      "phase": 0.397849462365359,
+                      "physics_velocity": [
+                        0.0,
+                        228.57145690918
+                      ],
+                      "position": [
+                        324.0,
+                        235.809524536133
+                      ]
+                    }
+                  ],
+                  "platform_velocity": [
+                    0.0,
+                    0.0
+                  ],
+                  "returns": 0,
+                  "saws": [
+                    {
+                      "id": "lo0-2/transport-interdict",
+                      "phase": 0.0416666666664405,
+                      "position": [
+                        -1482.0,
+                        906.54150390625
+                      ],
+                      "touching": false
+                    }
+                  ],
+                  "static_contacts": [],
+                  "support_id": ""
+                },
+                "frame": 2115,
+                "grounded": true,
+                "health": 5.0,
+                "jumps_used": 0,
+                "normal_velocity": [
+                  0.0,
+                  173.33332824707
+                ],
+                "position": [
+                  1069.99084472656,
+                  231.99821472168
+                ],
+                "real_velocity": [
+                  0.0,
+                  0.0
+                ],
+                "shot_cooldown": 0.0,
+                "stamina": 100.0,
+                "traversal_state": "free",
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              },
+              "edge_id": "1-hi-1",
+              "expected_target": {
+                "grounded": true,
+                "id": "catalog-template/source-entry",
+                "position": [
+                  1472.0,
+                  232.0
+                ],
+                "region": [
+                  1465.0,
+                  228.0,
+                  14.0,
+                  8.0
+                ],
+                "stable_ticks": 6.0,
+                "support_indices": [
+                  42.0
+                ]
+              },
+              "frame": 2115,
+              "leg_id": "006-1-hi-1-004",
+              "leg_index": 31,
+              "reason": "leg_frame_budget"
+            }
+          }
+        ],
+        "passed": 1,
+        "total": 4,
+        "directed_seams_completed": [
+          [
+            "0-hi-0",
+            "F0",
+            "hi0-0"
+          ],
+          [
+            "0-hi-1",
+            "hi0-0",
+            "hi0-1"
+          ],
+          [
+            "0-hi-2",
+            "hi0-1",
+            "hi0-2"
+          ],
+          [
+            "0-hi-3",
+            "hi0-2",
+            "J0"
+          ],
+          [
+            "0-lo-0",
+            "F0",
+            "lo0-0"
+          ],
+          [
+            "0-lo-1",
+            "lo0-0",
+            "lo0-1"
+          ],
+          [
+            "0-lo-2",
+            "lo0-1",
+            "lo0-2"
+          ],
+          [
+            "0-lo-3",
+            "lo0-2",
+            "J0"
+          ],
+          [
+            "1-hi-0",
+            "F1",
+            "hi1-0"
+          ],
+          [
+            "1-lo-0",
+            "F1",
+            "lo1-0"
+          ],
+          [
+            "1-lo-1",
+            "lo1-0",
+            "lo1-1"
+          ],
+          [
+            "1-lo-2",
+            "lo1-1",
+            "lo1-2"
+          ],
+          [
+            "1-lo-3",
+            "lo1-2",
+            "J1"
+          ],
+          [
+            "between",
+            "J0",
+            "F1"
+          ]
+        ],
+        "scope": "Real continuous whole-world finite policies; failures do not prove impossibility"
+      },
+      {
+        "seed": "catalog-eval-2",
+        "routes": [
+          {
+            "id": "full-region-lo-lo",
+            "ok": false,
+            "reason": "outside_declared_map_bounds",
+            "ticks": 1662,
+            "shots": 6,
+            "airborne_shots": 6,
+            "player_health": 5.0,
+            "actual_chests": 3,
+            "actual_coins": 32,
+            "stationary_grounded_fraction": 0.29362214199759323,
+            "failure": {
+              "frame": 1661,
+              "leg_id": "005-1-lo-0-000",
+              "position": [
+                583.591979980469,
+                1122.15441894531
+              ],
+              "reason": "outside_declared_map_bounds"
+            }
+          },
+          {
+            "id": "full-region-lo-hi",
+            "ok": false,
+            "reason": "leg_frame_budget",
+            "ticks": 2116,
+            "shots": 7,
+            "airborne_shots": 7,
+            "player_health": 5.0,
+            "actual_chests": 6,
+            "actual_coins": 68,
+            "stationary_grounded_fraction": 0.40831758034026466,
+            "failure": {
+              "actual": {
+                "air_shots": 1,
+                "dynamic": {
+                  "actor_epoch": 1,
+                  "damage_commits": 0,
+                  "damage_submissions": 0,
+                  "dead": false,
+                  "hazard_contacts": [],
+                  "lifetime_active": true,
+                  "module_clock": 35.3333333333326,
+                  "moving_platforms": [
+                    {
+                      "id": "hi0-0/ray-shutter",
+                      "phase": 0.397849462365359,
+                      "physics_velocity": [
+                        0.0,
+                        228.570541381836
+                      ],
+                      "position": [
+                        -4380.0,
+                        423.809509277344
+                      ]
+                    },
+                    {
+                      "id": "hi0-2/key-carrier",
+                      "phase": 0.774774774774677,
+                      "physics_velocity": [
+                        0.0,
+                        0.0
+                      ],
+                      "position": [
+                        -2468.0,
+                        448.0
+                      ]
+                    },
+                    {
+                      "id": "lo0-2/carrier",
+                      "phase": 0.649122807017449,
+                      "physics_velocity": [
+                        0.0,
+                        0.0
+                      ],
+                      "position": [
+                        -1172.0,
+                        930.0
+                      ]
+                    },
+                    {
+                      "id": "hi1-0/ray-shutter",
+                      "phase": 0.397849462365359,
+                      "physics_velocity": [
+                        0.0,
+                        228.57145690918
+                      ],
+                      "position": [
+                        324.0,
+                        235.809524536133
+                      ]
+                    },
+                    {
+                      "id": "lo1-2/carrier",
+                      "phase": 0.649122807017449,
+                      "physics_velocity": [
+                        0.0,
+                        0.0
+                      ],
+                      "position": [
+                        2676.0,
+                        722.0
+                      ]
+                    }
+                  ],
+                  "platform_velocity": [
+                    0.0,
+                    0.0
+                  ],
+                  "returns": 0,
+                  "saws": [
+                    {
+                      "id": "lo0-2/transport-interdict",
+                      "phase": 0.0416666666664405,
+                      "position": [
+                        -1482.0,
+                        906.54150390625
+                      ],
+                      "touching": false
+                    },
+                    {
+                      "id": "lo1-2/transport-interdict",
+                      "phase": 0.0416666666664405,
+                      "position": [
+                        2366.0,
+                        698.54150390625
+                      ],
+                      "touching": false
+                    }
+                  ],
+                  "static_contacts": [],
+                  "support_id": ""
+                },
+                "frame": 2115,
+                "grounded": true,
+                "health": 5.0,
+                "jumps_used": 0,
+                "normal_velocity": [
+                  0.0,
+                  173.33332824707
+                ],
+                "position": [
+                  1069.99084472656,
+                  231.99821472168
+                ],
+                "real_velocity": [
+                  0.0,
+                  0.0
+                ],
+                "shot_cooldown": 0.0,
+                "stamina": 100.0,
+                "traversal_state": "free",
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              },
+              "edge_id": "1-hi-1",
+              "expected_target": {
+                "grounded": true,
+                "id": "catalog-template/source-entry",
+                "position": [
+                  1472.0,
+                  232.0
+                ],
+                "region": [
+                  1465.0,
+                  228.0,
+                  14.0,
+                  8.0
+                ],
+                "stable_ticks": 6.0,
+                "support_indices": [
+                  43.0
+                ]
+              },
+              "frame": 2115,
+              "leg_id": "006-1-hi-1-004",
+              "leg_index": 33,
+              "reason": "leg_frame_budget"
+            }
+          },
+          {
+            "id": "full-region-hi-lo",
+            "ok": true,
+            "reason": "r2_policy_complete",
+            "ticks": 2800,
+            "shots": 13,
+            "airborne_shots": 10,
+            "player_health": 5.0,
+            "actual_chests": 8,
+            "actual_coins": 78,
+            "stationary_grounded_fraction": 0.3225,
+            "failure": {}
+          },
+          {
+            "id": "full-region-hi-hi",
+            "ok": false,
+            "reason": "leg_frame_budget",
+            "ticks": 2116,
+            "shots": 10,
+            "airborne_shots": 7,
+            "player_health": 5.0,
+            "actual_chests": 8,
+            "actual_coins": 86,
+            "stationary_grounded_fraction": 0.3653119092627599,
+            "failure": {
+              "actual": {
+                "air_shots": 1,
+                "dynamic": {
+                  "actor_epoch": 1,
+                  "damage_commits": 0,
+                  "damage_submissions": 0,
+                  "dead": false,
+                  "hazard_contacts": [],
+                  "lifetime_active": true,
+                  "module_clock": 35.3333333333326,
+                  "moving_platforms": [
+                    {
+                      "id": "hi0-0/ray-shutter",
+                      "phase": 0.397849462365359,
+                      "physics_velocity": [
+                        0.0,
+                        228.570541381836
+                      ],
+                      "position": [
+                        -4380.0,
+                        423.809509277344
+                      ]
+                    },
+                    {
+                      "id": "hi0-2/key-carrier",
+                      "phase": 0.774774774774677,
+                      "physics_velocity": [
+                        -343.769500732422,
+                        0.0
+                      ],
+                      "position": [
+                        -2376.33349609375,
+                        448.0
+                      ]
+                    },
+                    {
+                      "id": "lo0-2/carrier",
+                      "phase": 0.649122807017449,
+                      "physics_velocity": [
+                        0.0,
+                        0.0
+                      ],
+                      "position": [
+                        -1172.0,
+                        930.0
+                      ]
+                    },
+                    {
+                      "id": "hi1-0/ray-shutter",
+                      "phase": 0.397849462365359,
+                      "physics_velocity": [
+                        0.0,
+                        228.57145690918
+                      ],
+                      "position": [
+                        324.0,
+                        235.809524536133
+                      ]
+                    },
+                    {
+                      "id": "lo1-2/carrier",
+                      "phase": 0.649122807017449,
+                      "physics_velocity": [
+                        0.0,
+                        0.0
+                      ],
+                      "position": [
+                        2676.0,
+                        722.0
+                      ]
+                    }
+                  ],
+                  "platform_velocity": [
+                    0.0,
+                    0.0
+                  ],
+                  "returns": 0,
+                  "saws": [
+                    {
+                      "id": "lo0-2/transport-interdict",
+                      "phase": 0.0416666666664405,
+                      "position": [
+                        -1482.0,
+                        906.54150390625
+                      ],
+                      "touching": false
+                    },
+                    {
+                      "id": "lo1-2/transport-interdict",
+                      "phase": 0.0416666666664405,
+                      "position": [
+                        2366.0,
+                        698.54150390625
+                      ],
+                      "touching": false
+                    }
+                  ],
+                  "static_contacts": [],
+                  "support_id": ""
+                },
+                "frame": 2115,
+                "grounded": true,
+                "health": 5.0,
+                "jumps_used": 0,
+                "normal_velocity": [
+                  0.0,
+                  173.33332824707
+                ],
+                "position": [
+                  1069.99084472656,
+                  231.99821472168
+                ],
+                "real_velocity": [
+                  0.0,
+                  0.0
+                ],
+                "shot_cooldown": 0.0,
+                "stamina": 100.0,
+                "traversal_state": "free",
+                "velocity": [
+                  0.0,
+                  0.0
+                ]
+              },
+              "edge_id": "1-hi-1",
+              "expected_target": {
+                "grounded": true,
+                "id": "catalog-template/source-entry",
+                "position": [
+                  1472.0,
+                  232.0
+                ],
+                "region": [
+                  1465.0,
+                  228.0,
+                  14.0,
+                  8.0
+                ],
+                "stable_ticks": 6.0,
+                "support_indices": [
+                  43.0
+                ]
+              },
+              "frame": 2115,
+              "leg_id": "006-1-hi-1-004",
+              "leg_index": 31,
+              "reason": "leg_frame_budget"
+            }
+          }
+        ],
+        "passed": 1,
+        "total": 4,
+        "directed_seams_completed": [
+          [
+            "0-hi-0",
+            "F0",
+            "hi0-0"
+          ],
+          [
+            "0-hi-1",
+            "hi0-0",
+            "hi0-1"
+          ],
+          [
+            "0-hi-2",
+            "hi0-1",
+            "hi0-2"
+          ],
+          [
+            "0-hi-3",
+            "hi0-2",
+            "J0"
+          ],
+          [
+            "0-lo-0",
+            "F0",
+            "lo0-0"
+          ],
+          [
+            "0-lo-1",
+            "lo0-0",
+            "lo0-1"
+          ],
+          [
+            "0-lo-2",
+            "lo0-1",
+            "lo0-2"
+          ],
+          [
+            "0-lo-3",
+            "lo0-2",
+            "J0"
+          ],
+          [
+            "1-hi-0",
+            "F1",
+            "hi1-0"
+          ],
+          [
+            "1-lo-0",
+            "F1",
+            "lo1-0"
+          ],
+          [
+            "1-lo-1",
+            "lo1-0",
+            "lo1-1"
+          ],
+          [
+            "1-lo-2",
+            "lo1-1",
+            "lo1-2"
+          ],
+          [
+            "1-lo-3",
+            "lo1-2",
+            "J1"
+          ],
+          [
+            "between",
+            "J0",
+            "F1"
+          ]
+        ],
+        "scope": "Real continuous whole-world finite policies; failures do not prove impossibility"
+      }
+    ],
+    "total_passed": 5
+  },
+  "movies": [
+    {
+      "schema": "pcg/full-r2-native-video/v1",
+      "case_id": "full-region-hi-hi",
+      "file": "latest94-route.mp4",
+      "bytes": 12532724,
+      "sha256": "902b920cd886fb91b4123f5817b3837d6dc0815a2b4a2095a5ca6fbf816cd691",
+      "duration": 36.95,
+      "physics_hz": 60,
+      "playback_speed": 1,
+      "resolution": [
+        1280,
+        720
+      ],
+      "native_trace_sha256": "0dcb99e774d3bc32caad9b7aa11e85a63744325c366aba5793a03bda4244578b",
+      "comparison": {
+        "native_exit_code": 0,
+        "reference_frames": 2152,
+        "native_frames": 2152,
+        "mismatches": [],
+        "passed": true,
+        "fields": [
+          "frame",
+          "x",
+          "y",
+          "vx",
+          "vy",
+          "grounded",
+          "axis",
+          "requested",
+          "shot_charges",
+          "shot_cooldown",
+          "jumps_used",
+          "energy",
+          "hp",
+          "traversal_state",
+          "real_velocity",
+          "normal_velocity",
+          "module_clock",
+          "moving_platforms",
+          "saws",
+          "support_id",
+          "goal_stable_frames",
+          "plains",
+          "plains_events_delta",
+          "player_damage_delta"
+        ]
+      },
+      "scope": "Complete real route at normal speed; boot/warmup and one final second retained, read-only full-map minimap",
+      "human_fun": "unverified",
+      "human_playtests": 0
+    },
+    {
+      "schema": "pcg/full-r2-native-video/v1",
+      "case_id": "full-region-hi-hi",
+      "file": "prior44-route.mp4",
+      "bytes": 21759469,
+      "sha256": "a5cc94033241fba37ebc652812970a413de5edcd8bfd84a10646603147b6c268",
+      "duration": 49.883333,
+      "physics_hz": 60,
+      "playback_speed": 1,
+      "native_trace_sha256": "9562a61f25d9e801a2116886d42b8d705e1f70efbd1b1c27f812edf87110b472",
+      "comparison": {
+        "native_exit_code": 0,
+        "reference_frames": 2928,
+        "native_frames": 2928,
+        "mismatches": [],
+        "passed": true,
+        "fields": [
+          "frame",
+          "x",
+          "y",
+          "vx",
+          "vy",
+          "grounded",
+          "axis",
+          "requested",
+          "shot_charges",
+          "shot_cooldown",
+          "jumps_used",
+          "energy",
+          "hp",
+          "traversal_state",
+          "real_velocity",
+          "normal_velocity",
+          "module_clock",
+          "moving_platforms",
+          "saws",
+          "support_id",
+          "goal_stable_frames",
+          "plains",
+          "plains_events_delta",
+          "player_damage_delta"
+        ]
+      },
+      "scope": "Complete real route at normal speed; boot/warmup and one final second retained, read-only full-map minimap",
+      "human_fun": "unverified",
+      "human_playtests": 0
+    }
+  ],
+  "production_admitted": false,
+  "human_fun": "unreviewed",
+  "stable_superiority_proved": false,
+  "holdout": "NOT_RUN: nominal whole-map failures already block admission",
+  "topology": "Fixed two directed split/rejoin diamonds, 16 nodes and 17 seams; no new topology diversity claim",
+  "seed2_replay": "Original run interrupted by frozen-source guard after recorder-only change; same compiled geometry and Seed rerun in full, original outputs kept",
+  "scope": "Library growth integration experiment. Source, exterior-adapter and whole-map success are distinct. New content and safeguards differ, so this is not a controlled algorithm superiority comparison"
+}

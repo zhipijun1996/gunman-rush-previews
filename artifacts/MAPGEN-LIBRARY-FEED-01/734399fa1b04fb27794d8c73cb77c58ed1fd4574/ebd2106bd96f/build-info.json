@@ -1,0 +1,11 @@
+{
+  "task": "MAPGEN-LIBRARY-FEED-01",
+  "source_commit": "734399fa1b04fb27794d8c73cb77c58ed1fd4574",
+  "library_versions": 94,
+  "source_routes": 121,
+  "whole_map_routes": 12,
+  "passed": 7,
+  "unique_parent_versions": 21,
+  "production_admitted": false,
+  "human_fun": "unreviewed"
+}
