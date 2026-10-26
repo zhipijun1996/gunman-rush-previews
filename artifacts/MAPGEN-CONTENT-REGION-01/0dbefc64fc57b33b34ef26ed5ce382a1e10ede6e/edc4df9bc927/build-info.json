@@ -1,0 +1,9 @@
+{
+  "task": "MAPGEN-CONTENT-REGION-01",
+  "implementation_commit": "0dbefc64fc57b33b34ef26ed5ce382a1e10ede6e",
+  "build_id": "edc4df9bc927",
+  "source_cases_sha256": "d00bd06cc26751889518f24a3bc136c8bbbdf7054dcf0d9b81f23391dcc8bd67",
+  "scope": "43 real modules, 47 direct seams, five serial split/rejoin stages, three reward foldbacks; 4 nominal + 6 fresh input tests; 40/94 parent versions scoped qualified; not mesh, 7-10-minute region, Boss, human fun or production approval",
+  "human_playtests": 0,
+  "production_admitted": false
+}

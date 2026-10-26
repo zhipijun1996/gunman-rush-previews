@@ -1,0 +1,48 @@
+{
+  "overlay": {
+    "bytes": 36687304,
+    "sha256": "edc4df9bc92793c432cd8859f51dc29017ee87f30f242e2236702886850ce8e3",
+    "entries": 215,
+    "pack": "overlay.edc4df9bc927.pck"
+  },
+  "base": {
+    "path": "/workspace/scratch/maploop-web-deps/base.pck",
+    "url": "https://zhipijun1996.github.io/gunman-rush-previews/previews/PCG-RESEARCH-02/c8b7a735ce3befc8ada013a21a6e69577443f4dc/f7ae17e42bf4/index.f7ae17e42bf4.pck",
+    "bytes": 68213164,
+    "sha256": "f7ae17e42bf42d404a4435f6987277fa5a7b69866573af80e80207e79c64d27b"
+  },
+  "parent": {
+    "archive": "shape-search-results-v1",
+    "path": "results/shape-search-web-transport-v2/overlay.3b09aef68f37.pck",
+    "sha256": "3b09aef68f375fa2e023ca48221a21733c3bb99872092c258c6e40d8ae29f070"
+  },
+  "source_files": {
+    "map_directed/catalog_feed/manual.gd": "deab7f088388304cefbefed5a77be284633b774658090fbbe3416e83417d5f2c",
+    "map_directed/catalog_feed/binding.gd": "a979b08e24dc248d5c9a0dfbedc465affe7cf8f763d4edaf33d1778832b9f96d",
+    "prototype/creative_batches/enemy_world/world_cells_binding_v1.gd": "762f9171799e6a74fe885c278fa24f4138590702d764ee1c23f816d4c38a07c0",
+    "prototype/creative_batches/occupancy/binding_v1.gd": "406a5a579fb0a9a05f28ab2309b052831480891b935f99a312b3aa4413f8e3da",
+    "prototype/creative_batches/occupancy/occupancy_latch_v1.gd": "8d18bb2873a3bb40ac659acbe40a3eea0e1bcfc8bf8a0355143a0a19885539c8",
+    "prototype/creative_batches/enemy_world/attack_relay_v1.gd": "fcce8395ed0c6b765c147cb687ab9da5ed90de18df9b7cd58865cc065af32a8a",
+    "prototype/creative_batches/enemy_world/guard_charger_v1.tres": "b8a44cd25ee62c409aea335dfcdd0667de32b445a4d50cfe213dfd20e2b8a4ee",
+    "prototype/creative_batches/machinery/dock_binding_v11.gd": "2f820c4f142d4c35c38c6c587983dec7c27e4e389f81ec82f73ef60a14b88c52",
+    "prototype/creative_batches/machinery/dock_latch_v11.gd": "d3f22c377c2b2248e0a46469c2024bec93cab82701c81b8ab40f13967f38ac23",
+    "prototype/creative_batches/plains50_new_relations/sliding_support_v1.gd": "b5e47436a15353110e0ac06a608631ab5bf91b8204bc1d3c9fd975b08913c4b5",
+    "map_directed/catalog_feed/manual.tscn": "1a7872eee9e59407b76e3bea60c8fe9e8a6ac4908b20d3312b97988d1a3fe4d9",
+    "map_directed/catalog_feed/extra.gd": "d53611f6c42b148bc86a1e366988e6f54b92fdc4c9a06a090b1d2dca889e12ec",
+    "prototype/workshop/mechanics.gd": "71ca553f1cd27ed7bdc1eeb796999dd51d6d25d302b410a8e3c196b2d5008325",
+    "map_directed/shape_search/presentation.gd": "2e1010e7ef24af6538271e00b1f355b401215866b2d10c3f7a2d14e1dce11ed5",
+    "map_directed/valley_complete/presentation.gd": "0fa35f8c4591fd8d161a33df32a0db90a73996370aab364a5faa3debd927f9c2",
+    "map_directed/valley_complete/formal_style.gd": "f61a8fab56434d05fabdf23f7a7b652f2bcaf2bb39d4f198c1f411a5e6dc3b34",
+    "map_directed/catalog_feed/manual_extra.gd": "a1d3d38f5d63cf36c61f93ed0546eda8ac78fa6d6c57d244cc29944e93abb687",
+    "map_directed/r2_full/state_extra.gd": "b064b54e6056bfc3bf46e26c709c4619f46522369b13b11eec6d82666c226ee4",
+    "map_directed/r2_full/gate_world.gd": "104e5e665f762b1aa944015a380b8841357cd476248a0aae23573e0e31c81803",
+    "assets/underworld_plains/hazards/hazard_fine_tileset.tres": "d6b81ae52fd77c187644a29f1b5b9c367156389eb7775e4738d71d59f39da42d",
+    "assets/underworld_plains/hazards/hazard_surface_fine.png.import": "0cdc0b618ec880224a839fe2072b8f2cb09391bb67f0e8ff798ec2946ce31f3e",
+    ".godot/imported/hazard_surface_fine.png-bf2d4c376e2e73f47788284f16bcb786.ctex": "dced2bbba45670aecce51f60dc214db8a39ac61fcb0c8f1a4ae5b6823d11af92"
+  },
+  "cases_source": "pcg/results/content-domains-region-scale-v1/cases.json",
+  "cases_sha256": "d00bd06cc26751889518f24a3bc136c8bbbdf7054dcf0d9b81f23391dcc8bd67",
+  "byte_verified": true,
+  "manual": true,
+  "production_admitted": false
+}
