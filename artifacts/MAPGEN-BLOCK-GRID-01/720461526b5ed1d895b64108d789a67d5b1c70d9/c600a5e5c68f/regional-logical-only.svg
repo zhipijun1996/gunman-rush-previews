@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-114 -100 197 180">
+<rect x="-114" y="-100" width="197" height="180" fill="#101a2b"/>
+<path d="M-38,6 L-43,-9" stroke="#607d9b" stroke-width=".5"><title>e0: regional_route</title></path>
+<path d="M-38,6 L-39,19" stroke="#607d9b" stroke-width=".5"><title>e1: regional_route</title></path>
+<path d="M17,20 L3,31" stroke="#607d9b" stroke-width=".5"><title>e2: regional_route</title></path>
+<path d="M17,20 L27,10" stroke="#607d9b" stroke-width=".5"><title>e3: regional_route</title></path>
+<path d="M44,-7 L46,7" stroke="#607d9b" stroke-width=".5"><title>e4: regional_route</title></path>
+<path d="M44,-7 L24,-9" stroke="#607d9b" stroke-width=".5"><title>e5: regional_route</title></path>
+<path d="M-43,-9 L-26,-10" stroke="#607d9b" stroke-width=".5"><title>e6: regional_route</title></path>
+<path d="M-26,-10 L-24,-26" stroke="#607d9b" stroke-width=".5"><title>e7: regional_route</title></path>
+<path d="M46,7 L37,22" stroke="#607d9b" stroke-width=".5"><title>e8: regional_route</title></path>
+<path d="M3,31 L2,12" stroke="#607d9b" stroke-width=".5"><title>e9: regional_route</title></path>
+<path d="M-5,-13 L5,-22" stroke="#607d9b" stroke-width=".5"><title>e10: regional_route</title></path>
+<path d="M-5,-13 L-7,-27" stroke="#607d9b" stroke-width=".5"><title>e11: regional_route</title></path>
+<path d="M-20,16 L-11,1" stroke="#607d9b" stroke-width=".5"><title>e12: regional_route</title></path>
+<path d="M-20,16 L-39,19" stroke="#607d9b" stroke-width=".5"><title>e13: regional_route</title></path>
+<path d="M28,-26 L24,-9" stroke="#607d9b" stroke-width=".5"><title>e14: regional_route</title></path>
+<path d="M28,-26 L5,-22" stroke="#607d9b" stroke-width=".5"><title>e15: regional_route</title></path>
+<path d="M2,12 L-11,1" stroke="#607d9b" stroke-width=".5"><title>e16: regional_route</title></path>
+<path d="M24,-9 L15,3" stroke="#607d9b" stroke-width=".5"><title>e17: regional_route</title></path>
+<path d="M15,3 L27,10" stroke="#607d9b" stroke-width=".5"><title>e18: regional_route</title></path>
+<path d="M-24,-26 L-7,-27" stroke="#607d9b" stroke-width=".5"><title>e19: regional_route</title></path>
+<path d="M37,22 L27,10" stroke="#607d9b" stroke-width=".5"><title>e20: regional_route</title></path>
+<path d="M5,-22 L-7,-27" stroke="#607d9b" stroke-width=".5"><title>e21: regional_route</title></path>
+<path d="M-24,-26 L-36,-39" stroke="#607d9b" stroke-width=".5"><title>e22: boss_gate</title></path>
+<path d="M-39,19 L-71,19" stroke="#607d9b" stroke-width=".5"><title>e23: reward_challenge</title></path>
+<path d="M-71,19 L-95,18" stroke="#607d9b" stroke-width=".5"><title>e24: reward_challenge</title></path>
+<path d="M-95,18 L-104,14" stroke="#607d9b" stroke-width=".5"><title>e25: reward_challenge</title></path>
+<path d="M-104,14 L-97,8" stroke="#607d9b" stroke-width=".5"><title>e26: reward_challenge</title></path>
+<path d="M-97,8 L-74,0" stroke="#607d9b" stroke-width=".5"><title>e27: reward_challenge</title></path>
+<path d="M-39,19 L-56,14" stroke="#607d9b" stroke-width=".5"><title>e28: reward_challenge</title></path>
+<path d="M-56,14 L-64,8" stroke="#607d9b" stroke-width=".5"><title>e29: reward_challenge</title></path>
+<path d="M-64,8 L-58,0" stroke="#607d9b" stroke-width=".5"><title>e30: reward_challenge</title></path>
+<path d="M-58,0 L-39,19" stroke="#e7ae51" stroke-width=".5"><title>e31: return_shortcut</title></path>
+<path d="M28,-26 L44,-32" stroke="#607d9b" stroke-width=".5"><title>e32: hidden_route</title></path>
+<path d="M44,-32 L54,-31" stroke="#607d9b" stroke-width=".5"><title>e33: reward_challenge</title></path>
+<path d="M54,-31 L52,-22" stroke="#607d9b" stroke-width=".5"><title>e34: reward_challenge</title></path>
+<path d="M52,-22 L44,-7" stroke="#607d9b" stroke-width=".5"><title>e35: reward_challenge</title></path>
+<path d="M-7,-27 L0,-59" stroke="#607d9b" stroke-width=".5"><title>e36: reward_challenge</title></path>
+<path d="M0,-59 L6,-82" stroke="#607d9b" stroke-width=".5"><title>e37: reward_challenge</title></path>
+<path d="M6,-82 L12,-90" stroke="#607d9b" stroke-width=".5"><title>e38: reward_challenge</title></path>
+<path d="M12,-90 L18,-82" stroke="#607d9b" stroke-width=".5"><title>e39: reward_challenge</title></path>
+<path d="M18,-82 L23,-58" stroke="#607d9b" stroke-width=".5"><title>e40: reward_challenge</title></path>
+<path d="M3,31 L-13,56" stroke="#607d9b" stroke-width=".5"><title>e41: reward_challenge</title></path>
+<path d="M-13,56 L-26,70" stroke="#607d9b" stroke-width=".5"><title>e42: reward_challenge</title></path>
+<path d="M-26,70 L-35,68" stroke="#607d9b" stroke-width=".5"><title>e43: reward_challenge</title></path>
+<path d="M-35,68 L-38,49" stroke="#607d9b" stroke-width=".5"><title>e44: reward_challenge</title></path>
+<path d="M-38,49 L3,31" stroke="#e7ae51" stroke-width=".5"><title>e45: return_shortcut</title></path>
+<path d="M28,-26 L58,-43" stroke="#607d9b" stroke-width=".5"><title>e46: hidden_route</title></path>
+<path d="M58,-43 L73,-47" stroke="#607d9b" stroke-width=".5"><title>e47: reward_challenge</title></path>
+<path d="M73,-47 L66,-34" stroke="#607d9b" stroke-width=".5"><title>e48: reward_challenge</title></path>
+<path d="M66,-34 L44,-7" stroke="#607d9b" stroke-width=".5"><title>e49: reward_challenge</title></path>
+<circle cx="-38" cy="6" r="1.5" fill="#38bdf8"/><text x="-36" y="6" fill="white" font-size="2.2">r0</text>
+<circle cx="17" cy="20" r="1.5" fill="#38bdf8"/><text x="19" y="20" fill="white" font-size="2.2">r1</text>
+<circle cx="44" cy="-7" r="1.5" fill="#38bdf8"/><text x="46" y="-7" fill="white" font-size="2.2">r2</text>
+<circle cx="-43" cy="-9" r="1.5" fill="#38bdf8"/><text x="-41" y="-9" fill="white" font-size="2.2">r3</text>
+<circle cx="-26" cy="-10" r="1.5" fill="#38bdf8"/><text x="-24" y="-10" fill="white" font-size="2.2">r4</text>
+<circle cx="46" cy="7" r="1.5" fill="#38bdf8"/><text x="48" y="7" fill="white" font-size="2.2">r5</text>
+<circle cx="3" cy="31" r="1.5" fill="#38bdf8"/><text x="5" y="31" fill="white" font-size="2.2">r6</text>
+<circle cx="-5" cy="-13" r="1.5" fill="#38bdf8"/><text x="-3" y="-13" fill="white" font-size="2.2">r7</text>
+<circle cx="-20" cy="16" r="1.5" fill="#38bdf8"/><text x="-18" y="16" fill="white" font-size="2.2">r8</text>
+<circle cx="28" cy="-26" r="1.5" fill="#38bdf8"/><text x="30" y="-26" fill="white" font-size="2.2">r9</text>
+<circle cx="2" cy="12" r="1.5" fill="#38bdf8"/><text x="4" y="12" fill="white" font-size="2.2">r10</text>
+<circle cx="24" cy="-9" r="1.5" fill="#38bdf8"/><text x="26" y="-9" fill="white" font-size="2.2">r11</text>
+<circle cx="-11" cy="1" r="1.5" fill="#38bdf8"/><text x="-9" y="1" fill="white" font-size="2.2">r12</text>
+<circle cx="15" cy="3" r="1.5" fill="#38bdf8"/><text x="17" y="3" fill="white" font-size="2.2">r13</text>
+<circle cx="-24" cy="-26" r="1.5" fill="#38bdf8"/><text x="-22" y="-26" fill="white" font-size="2.2">r14</text>
+<circle cx="37" cy="22" r="1.5" fill="#38bdf8"/><text x="39" y="22" fill="white" font-size="2.2">r15</text>
+<circle cx="5" cy="-22" r="1.5" fill="#38bdf8"/><text x="7" y="-22" fill="white" font-size="2.2">r16</text>
+<circle cx="27" cy="10" r="1.5" fill="#38bdf8"/><text x="29" y="10" fill="white" font-size="2.2">r17</text>
+<circle cx="-7" cy="-27" r="1.5" fill="#38bdf8"/><text x="-5" y="-27" fill="white" font-size="2.2">r18</text>
+<circle cx="-39" cy="19" r="1.5" fill="#38bdf8"/><text x="-37" y="19" fill="white" font-size="2.2">r19</text>
+<circle cx="-36" cy="-39" r="1.5" fill="#fb7185"/><text x="-34" y="-39" fill="white" font-size="2.2">boss</text>
+<circle cx="-71" cy="19" r="1.5" fill="#38bdf8"/><text x="-69" y="19" fill="white" font-size="2.2">exp0_0</text>
+<circle cx="-95" cy="18" r="1.5" fill="#38bdf8"/><text x="-93" y="18" fill="white" font-size="2.2">exp0_1</text>
+<circle cx="-104" cy="14" r="1.5" fill="#38bdf8"/><text x="-102" y="14" fill="white" font-size="2.2">exp0_2</text>
+<circle cx="-97" cy="8" r="1.5" fill="#38bdf8"/><text x="-95" y="8" fill="white" font-size="2.2">exp0_3</text>
+<circle cx="-74" cy="0" r="1.5" fill="#f4c95d"/><text x="-72" y="0" fill="white" font-size="2.2">exp0_4</text>
+<circle cx="-56" cy="14" r="1.5" fill="#38bdf8"/><text x="-54" y="14" fill="white" font-size="2.2">exp1_0</text>
+<circle cx="-64" cy="8" r="1.5" fill="#38bdf8"/><text x="-62" y="8" fill="white" font-size="2.2">exp1_1</text>
+<circle cx="-58" cy="0" r="1.5" fill="#f4c95d"/><text x="-56" y="0" fill="white" font-size="2.2">exp1_2</text>
+<circle cx="44" cy="-32" r="1.5" fill="#38bdf8"/><text x="46" y="-32" fill="white" font-size="2.2">exp2_0</text>
+<circle cx="54" cy="-31" r="1.5" fill="#38bdf8"/><text x="56" y="-31" fill="white" font-size="2.2">exp2_1</text>
+<circle cx="52" cy="-22" r="1.5" fill="#f4c95d"/><text x="54" y="-22" fill="white" font-size="2.2">exp2_2</text>
+<circle cx="0" cy="-59" r="1.5" fill="#38bdf8"/><text x="2" y="-59" fill="white" font-size="2.2">exp3_0</text>
+<circle cx="6" cy="-82" r="1.5" fill="#38bdf8"/><text x="8" y="-82" fill="white" font-size="2.2">exp3_1</text>
+<circle cx="12" cy="-90" r="1.5" fill="#38bdf8"/><text x="14" y="-90" fill="white" font-size="2.2">exp3_2</text>
+<circle cx="18" cy="-82" r="1.5" fill="#38bdf8"/><text x="20" y="-82" fill="white" font-size="2.2">exp3_3</text>
+<circle cx="23" cy="-58" r="1.5" fill="#f4c95d"/><text x="25" y="-58" fill="white" font-size="2.2">exp3_4</text>
+<circle cx="-13" cy="56" r="1.5" fill="#38bdf8"/><text x="-11" y="56" fill="white" font-size="2.2">exp4_0</text>
+<circle cx="-26" cy="70" r="1.5" fill="#38bdf8"/><text x="-24" y="70" fill="white" font-size="2.2">exp4_1</text>
+<circle cx="-35" cy="68" r="1.5" fill="#38bdf8"/><text x="-33" y="68" fill="white" font-size="2.2">exp4_2</text>
+<circle cx="-38" cy="49" r="1.5" fill="#f4c95d"/><text x="-36" y="49" fill="white" font-size="2.2">exp4_3</text>
+<circle cx="58" cy="-43" r="1.5" fill="#38bdf8"/><text x="60" y="-43" fill="white" font-size="2.2">exp5_0</text>
+<circle cx="73" cy="-47" r="1.5" fill="#38bdf8"/><text x="75" y="-47" fill="white" font-size="2.2">exp5_1</text>
+<circle cx="66" cy="-34" r="1.5" fill="#f4c95d"/><text x="68" y="-34" fill="white" font-size="2.2">exp5_2</text>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "task": "MAPGEN-BLOCK-GRID-01",
+  "implementation_commit": "720461526b5ed1d895b64108d789a67d5b1c70d9",
+  "build_id": "c600a5e5c68f",
+  "source_cases_sha256": "5a9ccbf66399abf826dec5e6d7cb279ce5dc7f96d03c2cf91f2e5f75930b99dc",
+  "scope": "3 bounded Block128 maps, 33 whole-map checks plus 5 exact-demand warm reruns; 44-node regional design remains logical only",
+  "human_playtests": 0,
+  "production_admitted": false
+}
