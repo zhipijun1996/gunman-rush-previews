@@ -1,0 +1,17 @@
+<!doctype html><html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>PCG overlay packaging proof</title>
+<style>html,body{margin:0;background:#0e141c;color:#d7e5ef;width:100%;height:100%;overflow:hidden}canvas{width:100%;height:100%;display:block}#loading{position:fixed;bottom:4px;left:8px;font:12px monospace;background:#122432;padding:4px}</style>
+<canvas id="canvas" width="1280" height="720" tabindex="0"></canvas><div id="loading">Loading byte-verified immutable base and independent overlay...</div>
+<script src="https://zhipijun1996.github.io/gunman-rush-previews/previews/PCG-RESEARCH-01/7c7b42e46e33c895d51741c1ca5d26a516568a27/8f8ded8ce59a/index.js"></script><script>
+const config={"executable": "https://zhipijun1996.github.io/gunman-rush-previews/previews/PCG-RESEARCH-01/7c7b42e46e33c895d51741c1ca5d26a516568a27/8f8ded8ce59a/index", "mainPack": "index.3b09aef68f37.pck", "canvasResizePolicy": 2, "focusCanvas": true, "fileSizes": {"index.3b09aef68f37.pck": 36548568, "https://zhipijun1996.github.io/gunman-rush-previews/previews/PCG-RESEARCH-02/c8b7a735ce3befc8ada013a21a6e69577443f4dc/f7ae17e42bf4/index.f7ae17e42bf4.pck": 68213164, "https://zhipijun1996.github.io/gunman-rush-previews/previews/PCG-RESEARCH-01/7c7b42e46e33c895d51741c1ca5d26a516568a27/8f8ded8ce59a/index.wasm": 39514754}, "args": [], "gdextensionLibs": [], "ensureCrossOriginIsolationHeaders": false};
+const engine=new Engine(config);
+window.__overlayTransport={base:"https://zhipijun1996.github.io/gunman-rush-previews/previews/PCG-RESEARCH-02/c8b7a735ce3befc8ada013a21a6e69577443f4dc/f7ae17e42bf4/index.f7ae17e42bf4.pck",pack:"index.3b09aef68f37.pck",stage:'loading'};
+async function loadExactPack(){
+ const response=await fetch("https://raw.githubusercontent.com/zhipijun1996/gunman-rush-previews/5355d1e18587dacae30f0325682dac9a75363569/artifacts/MAPGEN-REAL-SHAPE-01/6479908b4c57ab8bfa18775a7dd453ca9e5c8ab2/3b09aef68f37/index.3b09aef68f37.pck");if(!response.ok)throw Error('Map pack HTTP '+response.status);
+ const bytes=await response.arrayBuffer();
+ const digest=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))).map(x=>x.toString(16).padStart(2,'0')).join('');
+ if(bytes.byteLength!==36548568||digest!=="3b09aef68f375fa2e023ca48221a21733c3bb99872092c258c6e40d8ae29f070")throw Error('Map pack identity mismatch');
+ window.__overlayTransport.external_pack_verified={url:"https://raw.githubusercontent.com/zhipijun1996/gunman-rush-previews/5355d1e18587dacae30f0325682dac9a75363569/artifacts/MAPGEN-REAL-SHAPE-01/6479908b4c57ab8bfa18775a7dd453ca9e5c8ab2/3b09aef68f37/index.3b09aef68f37.pck",bytes:bytes.byteLength,sha256:digest};
+ return engine.preloadFile(bytes,config.mainPack);
+}
+Promise.all([engine.init(config.executable),engine.preloadFile("https://zhipijun1996.github.io/gunman-rush-previews/previews/PCG-RESEARCH-02/c8b7a735ce3befc8ada013a21a6e69577443f4dc/f7ae17e42bf4/index.f7ae17e42bf4.pck",'/base.pck'),loadExactPack()]).then(()=>engine.start({args:['--main-pack',config.mainPack,...config.args]})).then(()=>{window.__overlayTransport.stage='engine_started';document.getElementById('loading').textContent='Packaging proof only · frozen base + independent overlay';}).catch(error=>{window.__overlayTransport.error=String(error);document.getElementById('loading').textContent=String(error);console.error(error);});
+</script></html>
