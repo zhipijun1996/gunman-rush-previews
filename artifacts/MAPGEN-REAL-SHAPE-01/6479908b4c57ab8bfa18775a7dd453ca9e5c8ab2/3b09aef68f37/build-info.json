@@ -1,0 +1,9 @@
+{
+  "task": "MAPGEN-REAL-SHAPE-01",
+  "algorithm_source_commit": "6479908b4c57ab8bfa18775a7dd453ca9e5c8ab2",
+  "build_id": "3b09aef68f37",
+  "report_sha256": "4219a7d495d6b964670c14015b4d58d6e5f134686d970c9c8c36f4d78c55c4e9",
+  "scope": "Five fixed-topology eight-Macro maps; real shape/action CSP; 30 nominal + 30 perturbed routes and 60 paired old-layout routes; full failures retained; no stable superiority claim",
+  "production_admitted": false,
+  "human_fun": "unreviewed"
+}
