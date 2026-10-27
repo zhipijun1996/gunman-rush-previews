@@ -1,0 +1,10 @@
+{
+  "task": "MAPGEN-GRAPH-MAP-01",
+  "source_commit": "9174ee9c4819291250aa08aef12b20ee8a43e921",
+  "build_id": "69123cedd3b9",
+  "scope": "22 Macro / 24 actual Module components; real whole Map, not full regional or stable multi-Seed acceptance",
+  "physics": "10/10 plus9 finite reverse probes",
+  "independent_seed_audit": "0/3 spatial feasible within budget",
+  "human_fun": "UNREVIEWED",
+  "production_admitted": false
+}
